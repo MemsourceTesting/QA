@@ -1,4 +1,8 @@
 en_us:
+  survey:
+get_started: "Get started"
+subtitle: "Tell us a bit about yourself and help us improve your travel experience"
+title: "Your <strong>AirHelp<i>+</i></strong> Membership is active"
   accepted_after_legal_action: "Accepted after legal action"
   accepted_by_airhelp: "Being processed"
   accepted_by_airline: "Awaiting compensation from airline"
