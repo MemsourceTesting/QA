@@ -2108,6 +2108,10 @@ en_us:
       membership_confirmation_info: "For the next 12 months, eligible claims will be fully compensated. Whether you have experienced a flight delay, flight cancellation, or have been denied boarding, AirHelp+ has you covered."
       now_only: "Now only <s>%{normal_price}</s> <strong>%{discount_price}</strong>!"
       something_special: "We have something special for you"
+      survey:
+get_started: "Get started"
+subtitle: "Tell us a bit about yourself and help us improve your travel experience"
+title: "Your <strong>AirHelp<i>+</i></strong> Membership is active"
     airhelp_legal_fee: "Legal Action Fee"
     airhelp_recommends_bank_transfer: "AirHelp recommends choosing the <b>bank transfer option</b> to avoid any unwanted fees. This way your money is sent locally, so you won’t be charged any Foreign Exchange (FX) or processing fees. Estimated fees are based on average compensation."
     airhelp_service_fee: "Service Fee"
