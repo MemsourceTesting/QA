@@ -2,11 +2,11 @@ en_us:
   accepted_after_legal_action: "Accepted after legal action"
   accepted_by_airhelp: "Being processed"
   accepted_by_airline: "Awaiting compensation from airline"
-  accepted_late_by_airline: "Awaiting compensation from airline"
+  accepted_late_by_airline: "UPDATED FOR CONTI JOB"
   activerecord:
     attributes:
       cheque_details:
-        cheque_details_documents: "Check details documents"
+        cheque_details_documents: "UPDATED FOR CONTI JOB"
       user:
         email: email
         password: password
