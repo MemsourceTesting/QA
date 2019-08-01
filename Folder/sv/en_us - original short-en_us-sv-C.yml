@@ -1,0 +1,124 @@
+en_us:
+  accepted_after_legal_action: "Aaaacaaacaaaeaaapaaataaaeaa"
+  accepted_by_airhelp: "Baaaeaaaiaaanaa"
+  accepted_by_airline: "Aaaawaaaaaaaiaaataaaiaaanaaagaaa c"
+  accepted_late_by_airline: "Aaaawaaaaaaaiaaataaaiaaanaaagaaa c"
+  activerecord:
+    attributes:
+      cheque_details:
+        cheque_details_documents: "Caaahaaaeaaacaaakaaa da"
+      user:
+        email: eaaam
+        password: paaaaaaa
+    models:
+      user: uaaa
+  add_a_file: "Aaaadaaada"
+  add_documents: "Aaaadaaadaaa "
+  add_flights: "Aaaadaaadaa"
+  add_new_claim: "Naaaeaaaw"
+  additional_documentation_needed: "Aaaadaaadaaaiaaataaaiaaaoaaanaa"
+  additional_documents: "Raaaeaaaqaaauaaaia"
+  additional_information: "Aaaadaaadaaaiaaataaaia"
+  agreement: Aaaagaaar
+  ahplus:
+    benefits:
+      claim_up_to_for_delayed_damaged_lost_luggage: "<baaa>Caaalaaaaaaaiaaamaaa uaaapaaa taaaoaaa %{caaauaaaraaaraaaeaaanaaacaaaya"
+      claim_up_to_for_flight_delays_cancellations: "<baaa>Caaalaaaaaaaiaaamaaa uaaapaaa taaaoaaa %{caaauaaaraaaraaaeaaanaaacaaayaaa}%{a"
+      complete_peace_of_mind: "Caaaoaaasaaataaa F"
+      free_flight_compensation: "Faaalaaaiaaagaaahaa"
+      free_luggage_compensation: "Laaauaaagaaagaaaaa"
+      subtitle: "Waaahaaayaaa <saaataaaraaaoaaanaaaga"
+      up_to_for_delayed_damaged_lost_luggage: "<baaa>Caaalaaaaaaaiaaamaaa uaaapaaa taaaoaaa €1445</baaa> faaa"
+      up_to_for_flight_delays_cancellations: "<baaa>Caaalaaaaaaaiaaamaaa uaaapaaa taaaoaaa €600</baaa> faaaoaaara"
+      we_personally_make_your_journey: "Zaaaeaaaraaaoaaa faaaeaaa Jaaauaaasaaataaa taaahaaaea"
+    checkout:
+      get_airhelp_plus: "Gaaaeaaataaa <saaataaaraaaoaaanaaaga"
+      type_your_email: "Taaaoaaa saaataaaaaaaraaataaa, eaa"
+    customer_recommendations:
+      recommendation:
+        body: "Maaayaaa saaauaaaiaaataaacaaaaaaasaaaeaaa waaaeaaanaaataaa maaaiaaasaaasaaaiaaanaaagaaa oaaanaaa m Taaahaaaeaaa AaaaiaaaraaaHaaaeaaalaaapaaa+ taaaeaaaaaaamaaa taaaoaaalaaadaaa maaaeaaa maaayaaa raaaiaaagaaahaaataaasaaa, Iaaa baaaoaaau Eaaaxaaacaaaeaaala"
+        title: "AaaaiaaaraaaHaaaeaaalaa"
+      subtitle: "Waaahaaaaaaataaa oaaau"
+    get_airhelp_plus: "Gaaaeaaataaa <saaataaaraaaoaaanaaaga"
+    get_covered:
+      get_expert_advice: "Paaaraaaoaaataaaeaaacaaataaa yaaaoaaauaaaraaa taaaraaaiaaapaaa waaaiaaataaahaaa <baaa>AaaaiaaaraaaHaaaeaaalaaapaaa+</baaa> aaaa"
+      how_many_people: "Haaaoaaawaaa maaaaaaanaaayaaa paaaeaaaoaaap"
+      now_only: "Naaaoaaawaaa oaaanaaalaaayaaa <daaaeaaalaaa caaalaaaaaaasaaasaaa=\"raa"
+      now_only_per_traveler: "Naaaoaaawaaa oaaanaaalaaayaaa <daaaeaaalaaa caaalaaaaaaasaaasaaa=\"raaaeaaagaaauaaalaaaaaaaraaa-paaaraaa"
+      price: "Gaaaeaaataaa"
+      your_upcoming_flight: "Saaaaaaafaaaeaaagaaauaaaaaaara"
+    give_a_try:
+      subtitle: "Taaaraaayaaa Baaae"
+    how_does_it_work:
+      it_is_part_and_parcel: "Waaaeaaa saaaeaaanaaadaaa yaaaoaaauaaa taaahaaaeaaa iaaanaaafaaaoaaa yaaaoaaauaaa na"
+      only_per_passenger_per_flight: "Oaaanaaalaaayaaa %{caaauaaaraaaraaaeaaanaaacaaaya"
+      subtitle: "Haaaoaaawaaa"
+      travel_trouble_happens: "Saaataaaaaaa"
+      we_help_you_out: "Gaaaeaaataaa taaahaaaeaaa"
+      why_you_buy_airhelp: "Oaaanaaalaaayaaa €%{paaaraaaiaaacaaaeaa"
+      you_get_your_flight_covered: "Gaaaeaaataa"
+      you_will_be_eligible: "Caaalaaaaaaaiaaamaaa caaaoaaamaaapaaaeaaanaaasaaaaaaataaaiaaa Naaaoaaa uaaanaaanaaaeaaa Zaaaeaaara"
+    itinerary_details:
+      title: "Eaaanaaataaaeaaaraaa yaaao"
+    membership:
+      checkout:
+        membership_billed_as: "Maaaeaaamaaabaaaeaaaraaasaaahaaaiaaapaaa Caaaaaaanaaacaa"
+        payment_details: "AaaaiaaaraaaHaaaeaaalaaapaaa+ Maaaeaaamaaabaaaeaaaraaasaaahaaaiaaapaaa faaaoaaaraaa <saaataaaraaaoaaanaaagaaa>12</saaataaaraaaoaaanaaagaaa> maaaoaaanaaataaahaaasaaa - uaaanaaalaaaiaaa"
+        payment_number: "Paaaaaaayaaamaaaeaaanaaataaa naaaoaaa. %{paaaaaaayaaamaaaeaaanaaata"
+        title: "Aaaacaaataaaiaaavaaaaaaataaaeaaa <saaataa"
+        total: Taaao
+        you_will_get: "Yaaaoaaauaaa"
+      credit-card-form:
+        cvc: "CaaaVaaa"
+        month: "Eaaaxaaapaa"
+        name: "Caaaaaaaraa"
+        number: "Caaaaaaaraa"
+      email:
+        enter_your_email: "Paaalaaaeaaaaaaasaaaeaaa eaaanaaataaaeaaaraaa yaaaoaaauaaaraaa ea"
+        header: "Gaaaeaaataaa <saaataaaraaaoaaanaaaga"
+        input_label: "Taaayaaapaaaeaa"
+      get_covered:
+        button_label: "Gaaaeaaataaa AaaaiaaaraaaHaaaeaa"
+        get_cash_compensation: "Oaaauaaaraaa eaaaxaaapaaaeaaaraaataaasaaa caaaaaaanaaa gaaaeaaataaa yaaa Paaaraaaoaaataaaeaaacaaataaa yaaaoaaauaaaraaa faaauaaata"
+        get_full_compensation: "Naaaeaaavaaaeaaaraaa daaaeaaaaaaalaaa waaaiaaat Gaaaeaaataaa <saaataaaraaaoaaanaaaga"
+      get_covered_right_now:
+        button_label: "Gaaaeaaataaa"
+        subtitle: "Gaaaeaaataaa eaaaxaaapaaaeaa"
+        title: "Gaaaiaaavaaaeaaa Aa"
+      how_does_it_work:
+        claim_and_let_the_experts_do: "Caaalaaaaaaaiaaamaaa aaaanaaadaaa laa"
+        even_if_your_air_travel_issues: "Eaaavaaaeaaanaaa iaaafaaa yaaaoaaauaaaraaa aaaaiaaaraaa taaaraaaaaaavaaaeaaalaaa iaaasaaasaaauaaaeaaasaaa aaaaraaaeaaan "
+        if_flight_doesnt_go_to_plan: "Iaaafaaa aaaa faaalaaaiaaagaaahaaataaa daaaoaaaeaaasaaanaaa' Waaaeaaa'laaalaaa taaaeaaalaaalaaa yaaaoaaauaaa waaahaaaaaaataaa caaaoaaamaaapaaaeaaanaaas"
+        sign_up_and_get_complete_peace_of_mind: "Saaaiaaagaaanaaa uaaapaaa aaaanaaadaaa"
+        we_go_the_extra_mile: "Waaaeaaa gaaaoaaa ta"
+        when_you_buy: "Waaahaaaeaaanaaa yaaaoaaauaaa baaauaaayaaa AaaaiaaaraaaHaaaeaaalaaapaaa+ yaaaoaaauaaa'raaaeaaa paa"
+        why_you_buy_airhelp: "Waaahaaaeaaanaaa yaaaoaaauaaa baaauaaayaaa AaaaiaaaraaaHaaaeaaalaaapaaa+, waaaeaaa waa"
+        you_get_your_flight_covered: "Yaaaoaaauaaa gaaaeaaataaa y"
+      summary:
+        on_your_card_statement_will_appear: "Oaaanaaa yaaaoaaauaaaraaa caaaaaaaraaadaaa saaataaa"
+        thanks_for_joining_airhelp_plus: "Taaahaaaaaaanaaakaaasaaa faaaoaaaraaa jaaaoaaaiaaan"
+        you_are_covered: "Yaaaoaaauaaa’ra Taaahaaaeaaa caaaoaaanaaafaaaiaaaraaa"
+      upsell:
+        expert_claim_handling: "Eaaaxaaapaaaeaaaraaat"
+        full_compensation: "Faaauaaalaaalaaa "
+        get_covered: "Gaaaeaaataaa"
+        protect_every_trip: "Paaaraaaoaaataaaeaaacaaataaa eaaavaa"
+        safeguard_upcoming_flights: "Saaaaaaafaaaeaaagaaauaaaaaaaraaa Gaaaeaaataaa <saaataaaraaaoaaanaaaga"
+        top_rated: "Taaaoaaapaaa raaaaaaataa"
+      why_ahplus:
+        compensation_flight_disruptions: "Caaaoaaamaaapaaaeaaanaaasaaaaaaataa"
+        for_just_price_yearly: "Faaaoaaaraaa jaaauaaasaaataaa €19.99 yaaaeaaaaaaaraaalaaayaaa, waaaeaaa'laaalaaa gaaaeaaataaa yaaaoaaauaaa uaa Naaaoaaa aaaad"
+        full_support_for_a_year: "Faaauaaalaaalaaa saaaua"
+        get_expert_advice: "Gaaaeaaataaa eaaaxaaapaaaeaaaraaataaa aaaadaaavaaaiaaacaaaeaaa oaaanaaa yaaaoaaauaaaraaa aaaaiaaaraaa paaaaaaasaaasaaaeaaan"
+        get_luggage_compensation: "Gaaaeaaataaa laaauaaagaa"
+        luggage_late: "Laaauaaagaaag Baaaaaaagaaasaaa baaaeaa Waaaeaaa'laaalaaa haaaeaaalaaapaaa yaaaoaaauaaa caaalaaaaaaaiaaamaaa u"
+    order_summary:
+      airline: Aaaaiaa
+      final_cost: Caaa
+      flight_date: Daaa
+      flight_from_to: "%{daaaeaaapaaaaaaaraaataaauaaaraaaeaaa_aaa"
+      flight_route: Raaao
+      people_covered: Taaaraaaa
+      your_order_summary: "Yaaaoaaauaaaraaa o"
+      your_upcoming_flight: "Caaaoaaan Yaaaoaaauaaaraaa faaala"
+    
