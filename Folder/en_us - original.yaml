@@ -1,8 +1,8 @@
 en_us:
-  accepted_after_legal_action: "Accepted after legal action"
-  accepted_by_airhelp: "Being processed"
-  accepted_by_airline: "Awaiting compensation from airline"
-  accepted_late_by_airline: "Awaiting compensation from airline"
+  accepted_after_legal_action: "PDATED FOR CONTINUOUS JOB"
+  accepted_by_airhelp: "PDATED FOR CONTINUOUS JOB"
+  accepted_by_airline: "PDATED FOR CONTINUOUS JOB"
+  accepted_late_by_airline: "PDATED FOR CONTINUOUS JOB"
   activerecord:
     attributes:
       cheque_details:
@@ -37,12 +37,12 @@ en_us:
     customer_recommendations:
       recommendation:
         body: "My suitcase went missing on my flight to Paris and I had no suit for my meeting a few hours later. The AirHelp+ team told me my rights, I bought a brand new suit – that the airline later paid for – and still got to my meeting on time. Excellent service."
-        title: "AirHelp+ saved the day!"
-      subtitle: "What our customers say"
+        title: "UPDATED FOR CONTINUOUS JOB"
+      subtitle: "PDATED FOR CONTINUOUS JOB"
     get_airhelp_plus: "Get <strong>AirHelp<i>+</i></strong>"
     get_covered:
       get_expert_advice: "Protect your trip with <b>AirHelp+</b> and get expert advice, personal assistance and cash compensation if anything goes wrong."
-      how_many_people: "How many people do you want to get covered?"
+      how_many_people: "PDATED FOR CONTINUOUS JOB?"
       now_only: "Now only <del class=\"regular-price\">€20</del> €%{price} per traveler!"
       now_only_per_traveler: "Now only <del class=\"regular-price\">%{currency}%{regular_price}</del> %{currency}%{price} per traveler!"
       price: "Get AirHelp+"
