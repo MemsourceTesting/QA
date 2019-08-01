@@ -2,7 +2,7 @@ en_us:
   accepted_after_legal_action: "Accepted after legal action"
   accepted_by_airhelp: "Being processed"
   accepted_by_airline: "Awaiting compensation from airline"
-  accepted_late_by_airline: "Awaiting compensation from airline"
+  accepted_late_by_airline: "Awaiting compensation from airline UPDATED TO SEE THE CHANGES!!!"
   activerecord:
     attributes:
       cheque_details:
