@@ -2,7 +2,7 @@ en_us:
   accepted_after_legal_action: "Aaaacaaacaaaeaaapaaataaaeaa"
   accepted_by_airhelp: "Baaaeaaaiaaanaa"
   accepted_by_airline: "Aaaawaaaaaaaiaaataaaiaaanaaagaaa c"
-  accepted_late_by_airline: "Aaaawaaaaaaaiaaataaaiaaanaaagaaa c"
+  accepted_late_by_airline: "Awaiting compensation from airline UPDATED FOR CONTINUOUS JOB"
   activerecord:
     attributes:
       cheque_details:
