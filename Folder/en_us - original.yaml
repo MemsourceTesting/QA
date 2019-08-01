@@ -12,7 +12,7 @@ en_us:
         password: password
     models:
       user: user
-  add_a_file: "Add a file"
+  add_a_file: "Add a file UPDATED TEXT FOR CONTINUOUS JOB"
   add_documents: "Add documents"
   add_flights: "Add flights"
   add_new_claim: "New claim"
