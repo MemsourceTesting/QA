@@ -1,7 +1,7 @@
 en_us:
-  accepted_after_legal_action: "Accepted after legal action"
-  accepted_by_airhelp: "Being processed"
-  accepted_by_airline: "Awaiting compensation from airline"
+  accepted_after_legal_action: "UPDATED FOR CONTINUOUS JOB"
+  accepted_by_airhelp: "UPDATED FOR CONTI JOB"
+  accepted_by_airline: "UPDATED FOR CONTI JOB"
   accepted_late_by_airline: "Awaiting compensation from airline"
   activerecord:
     attributes:
