@@ -1,3 +1,4 @@
 A new file
 Second line
 A change
+Line 4
