@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><translationObjectFile fileType="I18NDICTIONARY" sourcePath="/apps/i18n/fr.json">
   <translationObjectProperties>
-    <property isMultiValue="false" nodePath="/apps/i18n/fr.json" propertyName="Login as representative">Login as representative</property>
+    <property isMultiValue="false" nodePath="/apps/i18n/fr.json" propertyName="Login as representative">Login as representative UPDATED STRING FOR CJ</property>
     <property isMultiValue="false" nodePath="/apps/i18n/fr.json" propertyName="You are also eligible for the following services:">You are also eligible for the following services:</property>
     <property isMultiValue="false" nodePath="/apps/i18n/fr.json" propertyName="Congratulations ! Your  ((Thank you with user name))">Congratulations ! Your </property>
     <property isMultiValue="false" nodePath="/apps/i18n/fr.json" propertyName="&amp;copy; {0} Geometrixx.Gov | All Rights Reserved">&amp;copy; {0} Geometrixx.Gov | All Rights Reserved</property>
