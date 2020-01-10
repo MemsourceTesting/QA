@@ -14,7 +14,7 @@ msgstr ""
 "Language: cs\n"
 
 #: anaconda.py:409
-msgid "Unable to create PID file"
+msgid "Unable to create PID file EDITED STRING FOR CJ UPDATE"
 msgstr ""
 
 #: anaconda.py:410
