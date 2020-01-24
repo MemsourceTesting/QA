@@ -1,2 +1,3 @@
 A new test file
 Line two
+Line 3
