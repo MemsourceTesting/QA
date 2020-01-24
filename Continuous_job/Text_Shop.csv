@@ -1,4 +1,5 @@
 "Key","SourceString","Length","Comment"
+"UI_Season_info_bandle_title","シーズン{season_num} {bundle_name}","20","シーズン {season_num}ニンジャラパスティアセット{pass_name}:ニンジャラパスティアセット商品名※シーズンのパス紹介＆購入画面タイトル abcd abcd"
 "UI_Season_info_bandle_title","シーズン{season_num} {bundle_name}","20","シーズン {season_num}ニンジャラパスティアセット{pass_name}:ニンジャラパスティアセット商品名※シーズンのパス紹介＆購入画面タイトル"
 "UI_Season_info_bpass_index","{now_page} / {all_page}","10","説明が何ページ目かを示す. 現在のページ/ページ総数"
 "UI_Season_info_detail_title","{=label:Text_Common.UI_Common_word_ninjalapass}内容紹介","20","ニンジャラパス内容紹介※シーズンの内容紹介サブタイトル"
