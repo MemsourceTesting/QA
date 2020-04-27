@@ -9,12 +9,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Let’s make the web multilingual."
+msgid "Let’s make the web multilingual. upd1"
 msgstr "Machen wir das Internet mehrsprachig."
 
-msgid "We connect developers and translators around the globe "
+msgid "We connect developers and translators around the globe upd1 "
 "on Lingohub for a fantastic localization experience."
-msgstr "Wir verbinden Entwickler mit Übersetzern weltweit "
+msgstr "Wir verbinden Entwickler mit Übersetzern weltweit upd1 "
 "auf Lingohub für ein fantastisches Lokalisierungs-Erlebnis."
 
 msgid "Welcome back, %1$s! Your last visit was on %2$s"
