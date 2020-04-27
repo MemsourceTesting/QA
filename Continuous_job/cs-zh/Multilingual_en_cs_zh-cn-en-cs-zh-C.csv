@@ -1,0 +1,10 @@
+ID,en,cs,zh-CN,limit,note
+
+1,Start of a Game,Preklad cs 1 potvrzeno,Cina preklad potvrzeno 1,30,At the beginning
+
+2,Game {name} Over,Update {name} ms 2 cs nepotvrzeno cs,ZH {name} cina Over nepotvrzeno cina,40,Displayed at the end
+
+seg3,Progress,,,30,
+
+segkey1,Lets add another segment,,,50,Context note
+
