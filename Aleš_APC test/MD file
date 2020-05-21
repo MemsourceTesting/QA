@@ -1,0 +1,7 @@
+
+2\.  If the package does not exist setup local repository to install the package. Refer to: [ Creating a Local Repository and Sharing With Offline Systems  ](https://access.redhat.com/videos/3407281)
+
+(Skip step 2 if the package subscription-manager already exist).
+~~~    
+[root@localhost ~]# yum install subscription-manager
+~~~         
