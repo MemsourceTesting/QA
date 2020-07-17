@@ -1,5 +1,4 @@
 {
-    "errorCode": "ResourceNotFound EDITED STRING",
     "errorDescription": "The object referenced by the field \"vendor\" and value \"IdReference(id:string)\" was not found.",
     "status": "ACCEPTED"
 }
