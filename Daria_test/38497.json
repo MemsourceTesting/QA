@@ -1,4 +1,5 @@
 {
     "errorCode": "403",
-    "errorDescription": "Access denied"
+    "errorDescription": "Access denied",
+    "projectName": "CJ-Old version of translation is pulled from the Git connector"
 }
