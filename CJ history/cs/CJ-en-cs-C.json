@@ -1,14 +1,14 @@
 {
 "list": {
-		"id": "1",
-		"value": "text 1 pro překlad."
+		"id": "1 edited",
+		"value": "text 1 pro překlad edited"
 	},
 "text": {
-		"id": "2",
-		"value": "text 2 pro překlad."
+		"id": "2 edited",
+		"value": "text 2 pro překlad edited"
 	},
 "menu": {
-		"id": "3",
-		"value": "text 3 pro překlad."
+		"id": "3 edited",
+		"value": "text 3 pro překlad edited"
 	     }
 }
