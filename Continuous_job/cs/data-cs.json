@@ -1,7 +1,12 @@
 {
    "root":[
       {
-         "title":"text k překladu 1",
+         "title":"text pro madafaka 1",
+         "note":"poznámka pro text 1",
+         "length":13
+      },
+      {
+         "title":"text pro madafaka 1",
          "note":"poznámka pro text 1",
          "length":13
       },
@@ -11,7 +16,7 @@
          "length":16
       },
       {
-         "description":"text pro překlad 3, černobílý",
+         "description":"text pro madafakan 3, černobílý",
          "note":"poznámka pro text 3",
          "length":17
       }
