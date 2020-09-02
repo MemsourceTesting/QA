@@ -1,0 +1,21 @@
+{
+   "root":[
+      {
+         "title":"texte à traduire 1",
+         "note":"note pour le texte 1",
+         "length":13
+      },
+      {
+         "description":"texte à traduire 2",
+         "note":"ceci est une toute nouvelle note mise à jour pour le texte 2",
+         "length":16
+      },
+      {
+         "description":"texte à traduire 3",
+         "note":"note pour le texte 3",
+         "note":"une autre note pour le texte 3",
+         "note":"3e note pour le texte 3",
+         "length":17
+      }
+   ]
+}
