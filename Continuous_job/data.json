@@ -16,6 +16,11 @@
          "note":"another note for text 3",
          "note":"3rd note for text 3",
          "length":17
+      },
+      {
+         "description":"text for translation 2",
+         "note":"this is a brand new updated note for text 2",
+         "length":16
       }
    ]
 }
