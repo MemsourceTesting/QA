@@ -1,9 +1,9 @@
 {
     "user": {
         "userName": "Daria_qa",
-        "firstName": "Daria - first name",
-        "lastName": "Toshcheva - last name",
-        "role": "ADMIN",
+        "firstName": "Daria",
+        "lastName": "Toshcheva",
+        "role": "PROJECT MANAGER",
         "email": "daria.toshcheva@memsource.com",
         "timeZone": "Europe/London"
     }
