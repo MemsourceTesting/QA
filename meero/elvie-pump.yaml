@@ -1,7 +1,7 @@
 product: 19e4995d-a0c0-4dde-aa2c-2474b0e57db8
 components:
   -
-    type: product_thanos
+    type: product_thanos avegers
     classes: another product
     show_thumbnails: true
     show_ratings: true
@@ -11,8 +11,8 @@ components:
       Fits in your bra, and your life.  
       No tubes. No wires. No noise.
     tertiary_text: |
-      2 year warranty.  
-      Free shipping.  
+      12 year warranty.
+      Free gouching. 
       From £62.25/month at 0% APR with PayPal Credit.  
       <a class="underline font-bold" href="#" data-target="#insurance" data-toggle="modal">FSA/HSA funds accepted (US only).</a>
     text_position: right
