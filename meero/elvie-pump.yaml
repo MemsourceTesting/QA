@@ -2,12 +2,12 @@ product: 19e4995d-a0c0-4dde-aa2c-2474b0e57db8
 components:
   -
     type: product_thanos
-    classes: bg-overlap-b
+    classes: another product
     show_thumbnails: true
     show_ratings: true
     main_text: '<h1 itemprop="name" class="m-0">Elvie Pump</h1>'
     secondary_text: |
-      The world’s first silent wearable breast pump.  
+      The bigest product in he world.  
       Fits in your bra, and your life.  
       No tubes. No wires. No noise.
     tertiary_text: |
