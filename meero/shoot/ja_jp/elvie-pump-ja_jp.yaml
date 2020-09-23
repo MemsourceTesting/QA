@@ -1,8 +1,8 @@
-product: "19e4995d-a0c0-4dde-aa2c-2474b0e57db8"
+product: update by Aleš in Revision step
 components:
   -
-    type: product_hero
-    classes: "bg-overlap-b"
+    type: update by Aleš in Revision step
+    classes: update by Aleš in Revision step
     show_thumbnails: true
     show_ratings: true
     main_text: '<h1 itemprop="name" class="m-0">エルビーポンプ</h1>'
@@ -17,7 +17,7 @@ components:
         <a class="underline font-bold" href="#" data-target="#insurance" data-toggle="modal">FSA / HSA資金が受け入れられました（米国のみ）。</a>
     text_position: 正しい
     text_colour: 闇
-    product: "19e4995d-a0c0-4dde-aa2c-2474b0e57db8"
+    product: update by Aleš in Revision step
     heights: '300,600'
     content_classes: 'lg：w-4 / 5'
     slides:
