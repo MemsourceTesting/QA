@@ -1,7 +1,7 @@
 product: 19e4995d-a0c0-4dde-aa2c-2474b0e57db8
 components:
   -
-    type: product_hero
+    type: product_master
     classes: bg-overlap-b
     show_thumbnails: true
     show_ratings: true
