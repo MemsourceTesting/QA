@@ -1,8 +1,8 @@
-product: update by Aleš in Revision step
+product: "19e4995d-a0c0-4dde-aa2c-2474b0e57db8"
 components:
   -
-    type: update by Aleš in Revision step
-    classes: update by Aleš in Revision step
+    type: product_hero
+    classes: "बीजी-ओवरलैप-बी"
     show_thumbnails: true
     show_ratings: true
     main_text: '<h1 itemprop="name" class="m-0">एल्वी पंप</h1>'
@@ -17,7 +17,7 @@ components:
         <a class="underline font-bold" href="#" data-target="#insurance" data-toggle="modal">एफएसए/एचएसए फंड स्वीकार किए जाते हैं (केवल यूएस)।</a>
     text_position: दाएँ
     text_colour: अंधेरा
-    product: update by Aleš in Revision step
+    product: "19e4995d-a0c0-4dde-aa2c-2474b0e57db8"
     heights: '300,600'
     content_classes: 'एलजी: w-4/5'
     slides:
