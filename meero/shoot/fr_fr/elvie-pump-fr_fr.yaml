@@ -1,4 +1,4 @@
-product: update by Aleš in Revision step
+product: second update by Aleš in Revision step
 components:
   -
     type: update by Aleš in Revision step
@@ -17,7 +17,7 @@ components:
         <a class="underline font-bold" href="#" data-target="#insurance" data-toggle="modal">Fonds FSA / HSA acceptés (États-Unis uniquement).</a>
     text_position: droite
     text_colour: sombre
-    product: update by Aleš in Revision step
+    product: second update by Aleš in Revision step
     heights: '300 600'
     content_classes: 'lg: w-4/5'
     slides:
