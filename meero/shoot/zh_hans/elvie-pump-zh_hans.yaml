@@ -1,8 +1,8 @@
-product: update by Aleš in Revision step
+product: 美国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共
 components:
   -
-    type: update by Aleš in Revision step
-    classes: update by Aleš in Revision step
+    type: 产品 _ 英雄
+    classes: bg 重叠 b
     show_thumbnails: true
     show_ratings: true
     main_text: '<h1 itemprop="name" class="m-0">艾尔维泵</h1>'
@@ -17,7 +17,7 @@ components:
         <a class="underline font-bold" href="#" data-target="#insurance" data-toggle="modal">接受 FSA /HSA 资金（仅限美国）。</a>
     text_position: 对
     text_colour: 黑暗
-    product: update by Aleš in Revision step
+    product: 美国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共和国人民共
     heights: '300,600'
     content_classes: 'lg-4 月 5 日'
     slides:
