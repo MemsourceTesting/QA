@@ -1,0 +1,525 @@
+{
+  "projectName": "#40717 Exported analysis has TM/MT/NT counts summed together",
+  "dateCreated": "2020-09-04T11:26:09+0000",
+  "analyseLanguageParts": [
+    {
+      "sourceLang": "en",
+      "targetLang": "de",
+      "data": {
+        "contextMatch": {
+          "segments": 5.0,
+          "words": 68.0,
+          "characters": 301.0,
+          "normalizedPages": 0.20222223,
+          "percent": 11.785095,
+          "editingTime": 0.0
+        },
+        "repetitions": {
+          "segments": 0.0,
+          "words": 0.0,
+          "characters": 0.0,
+          "normalizedPages": 0.0,
+          "percent": 0.0,
+          "editingTime": 0.0
+        },
+        "match100": {
+          "segments": {
+            "sum": 3.0,
+            "tm": 0.0,
+            "mt": 3.0,
+            "nt": 0.0
+          },
+          "words": {
+            "sum": 22.0,
+            "tm": 0.0,
+            "mt": 22.0,
+            "nt": 0.0
+          },
+          "characters": {
+            "sum": 90.0,
+            "tm": 0.0,
+            "mt": 90.0,
+            "nt": 0.0
+          },
+          "normalizedPages": {
+            "sum": 0.060555555,
+            "tm": 0.0,
+            "mt": 0.060555555,
+            "nt": 0.0
+          },
+          "percent": {
+            "sum": 3.812825,
+            "tm": 0.0,
+            "mt": 3.812825,
+            "nt": 0.0
+          },
+          "editingTime": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          }
+        },
+        "match95": {
+          "segments": {
+            "sum": 1.0,
+            "tm": 0.0,
+            "mt": 1.0,
+            "nt": 0.0
+          },
+          "words": {
+            "sum": 7.0,
+            "tm": 0.0,
+            "mt": 7.0,
+            "nt": 0.0
+          },
+          "characters": {
+            "sum": 31.0,
+            "tm": 0.0,
+            "mt": 31.0,
+            "nt": 0.0
+          },
+          "normalizedPages": {
+            "sum": 0.020555556,
+            "tm": 0.0,
+            "mt": 0.020555556,
+            "nt": 0.0
+          },
+          "percent": {
+            "sum": 1.2131716,
+            "tm": 0.0,
+            "mt": 1.2131716,
+            "nt": 0.0
+          },
+          "editingTime": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          }
+        },
+        "match85": {
+          "segments": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "words": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "characters": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "normalizedPages": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "percent": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "editingTime": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          }
+        },
+        "match75": {
+          "segments": {
+            "sum": 35.0,
+            "tm": 2.0,
+            "mt": 33.0,
+            "nt": 0.0
+          },
+          "words": {
+            "sum": 405.0,
+            "tm": 35.0,
+            "mt": 370.0,
+            "nt": 0.0
+          },
+          "characters": {
+            "sum": 1793.0,
+            "tm": 150.0,
+            "mt": 1643.0,
+            "nt": 0.0
+          },
+          "normalizedPages": {
+            "sum": 1.20166667,
+            "tm": 0.10166667,
+            "mt": 1.1,
+            "nt": 0.0
+          },
+          "percent": {
+            "sum": 70.190638,
+            "tm": 6.065858,
+            "mt": 64.12478,
+            "nt": 0.0
+          },
+          "editingTime": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          }
+        },
+        "match50": {
+          "segments": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "words": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "characters": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "normalizedPages": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "percent": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "editingTime": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          }
+        },
+        "match0": {
+          "segments": {
+            "sum": 6.0,
+            "tm": 6.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "words": {
+            "sum": 75.0,
+            "tm": 75.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "characters": {
+            "sum": 331.0,
+            "tm": 331.0,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "normalizedPages": {
+            "sum": 0.22222222,
+            "tm": 0.22222222,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "percent": {
+            "sum": 12.998266,
+            "tm": 12.998266,
+            "mt": 0.0,
+            "nt": 0.0
+          },
+          "editingTime": {
+            "sum": 0.0,
+            "tm": 0.0,
+            "mt": 0.0,
+            "nt": 0.0
+          }
+        },
+        "total": {
+          "segments": 50.0,
+          "words": 577.0,
+          "characters": 2546.0,
+          "normalizedPages": 1.7072222,
+          "percent": 100.0,
+          "editingTime": 0.0
+        },
+        "charsPerWords": 4.412478336221837
+      },
+      "jobs": [
+        {
+          "fileName": "Example.txt",
+          "data": {
+            "contextMatch": {
+              "segments": 5.0,
+              "words": 68.0,
+              "characters": 301.0,
+              "normalizedPages": 0.20222223,
+              "percent": 11.785095,
+              "editingTime": 0.0
+            },
+            "repetitions": {
+              "segments": 0.0,
+              "words": 0.0,
+              "characters": 0.0,
+              "normalizedPages": 0.0,
+              "percent": 0.0,
+              "editingTime": 0.0
+            },
+            "match100": {
+              "segments": {
+                "sum": 3.0,
+                "tm": 0.0,
+                "mt": 3.0,
+                "nt": 0.0
+              },
+              "words": {
+                "sum": 22.0,
+                "tm": 0.0,
+                "mt": 22.0,
+                "nt": 0.0
+              },
+              "characters": {
+                "sum": 90.0,
+                "tm": 0.0,
+                "mt": 90.0,
+                "nt": 0.0
+              },
+              "normalizedPages": {
+                "sum": 0.060555555,
+                "tm": 0.0,
+                "mt": 0.060555555,
+                "nt": 0.0
+              },
+              "percent": {
+                "sum": 3.812825,
+                "tm": 0.0,
+                "mt": 3.812825,
+                "nt": 0.0
+              },
+              "editingTime": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              }
+            },
+            "match95": {
+              "segments": {
+                "sum": 1.0,
+                "tm": 0.0,
+                "mt": 1.0,
+                "nt": 0.0
+              },
+              "words": {
+                "sum": 7.0,
+                "tm": 0.0,
+                "mt": 7.0,
+                "nt": 0.0
+              },
+              "characters": {
+                "sum": 31.0,
+                "tm": 0.0,
+                "mt": 31.0,
+                "nt": 0.0
+              },
+              "normalizedPages": {
+                "sum": 0.020555556,
+                "tm": 0.0,
+                "mt": 0.020555556,
+                "nt": 0.0
+              },
+              "percent": {
+                "sum": 1.2131716,
+                "tm": 0.0,
+                "mt": 1.2131716,
+                "nt": 0.0
+              },
+              "editingTime": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              }
+            },
+            "match85": {
+              "segments": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "words": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "characters": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "normalizedPages": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "percent": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "editingTime": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              }
+            },
+            "match75": {
+              "segments": {
+                "sum": 35.0,
+                "tm": 2.0,
+                "mt": 33.0,
+                "nt": 0.0
+              },
+              "words": {
+                "sum": 405.0,
+                "tm": 35.0,
+                "mt": 370.0,
+                "nt": 0.0
+              },
+              "characters": {
+                "sum": 1793.0,
+                "tm": 150.0,
+                "mt": 1643.0,
+                "nt": 0.0
+              },
+              "normalizedPages": {
+                "sum": 1.20166667,
+                "tm": 0.10166667,
+                "mt": 1.1,
+                "nt": 0.0
+              },
+              "percent": {
+                "sum": 70.190638,
+                "tm": 6.065858,
+                "mt": 64.12478,
+                "nt": 0.0
+              },
+              "editingTime": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              }
+            },
+            "match50": {
+              "segments": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "words": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "characters": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "normalizedPages": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "percent": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "editingTime": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              }
+            },
+            "match0": {
+              "segments": {
+                "sum": 6.0,
+                "tm": 6.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "words": {
+                "sum": 75.0,
+                "tm": 75.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "characters": {
+                "sum": 331.0,
+                "tm": 331.0,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "normalizedPages": {
+                "sum": 0.22222222,
+                "tm": 0.22222222,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "percent": {
+                "sum": 12.998266,
+                "tm": 12.998266,
+                "mt": 0.0,
+                "nt": 0.0
+              },
+              "editingTime": {
+                "sum": 0.0,
+                "tm": 0.0,
+                "mt": 0.0,
+                "nt": 0.0
+              }
+            },
+            "total": {
+              "segments": 50.0,
+              "words": 577.0,
+              "characters": 2546.0,
+              "normalizedPages": 1.7072222,
+              "percent": 100.0,
+              "editingTime": 0.0
+            },
+            "charsPerWords": 4.412478336221837
+          }
+        }
+      ]
+    }
+  ]
+}
