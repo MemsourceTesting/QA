@@ -1,10 +1,10 @@
 {
-  "platform": "",
-  "version": "",
+  "platform": "memsource",
+  "version": "aktualizace",
   "files": [
     {
-      "location": "",
-      "extractLocation": "",
+      "location": "aktualizace",
+      "extractLocation": "aktualizace",
       "hash": "",
       "size": 68577287,
       "status": "",
