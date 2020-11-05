@@ -13,11 +13,7 @@
    <title>Bat</title>
 </book>
 <book id="04">
-   <author>Me</author>
-   <title>New book</title>
-</book>
-<book id="05">
-   <author>Me</author>
+   <author>Mee</author>
    <title>Added book</title>
 </book>     
 </library>
