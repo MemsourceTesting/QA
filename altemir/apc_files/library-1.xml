@@ -15,5 +15,9 @@
 <book id="04">
    <author>Me</author>
    <title>New book</title>
-</book>   
+</book>
+<book id="05">
+   <author>Me</author>
+   <title>Added book</title>
+</book>     
 </library>
