@@ -12,4 +12,8 @@
    <author>Joe Nesbo</author>
    <title>Bat</title>
 </book>
+<book id="04">
+   <author>Me</author>
+   <title>New book</title>
+</book>   
 </library>
