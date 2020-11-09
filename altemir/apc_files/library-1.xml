@@ -12,12 +12,4 @@
    <author>Joe Nesbo</author>
    <title>Bat</title>
 </book>
-<book id="04">
-   <author>He</author>
-   <title>Added book</title>
-</book>
-<book id="05">
-   <author>Mark</author>
-   <title>New book</title>
-</book>
 </library>
