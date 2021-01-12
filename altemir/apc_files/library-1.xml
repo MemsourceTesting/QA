@@ -16,4 +16,8 @@
    <author>Dr. Who</author>
    <title>Man</title>
 </book>
+<book id="05">
+   <author>Author</author>
+   <title>Man</title>
+</book>
 </library>
