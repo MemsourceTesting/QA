@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ic__notifications_fragment_title">Notification Settings</string>
+    <string name="ic__notifications_fragment_title_sales">Sales &amp; Promotions</string>
+    <string name="ic__notifications_fragment_updateorders_rowtitle">When there is an update to your order…</string>
+    <string name="ic__notifications_fragment_push_rowtitle">Send a push notification</string>
+    <string name="ic__notifications_fragment_sms_rowtitle">Send an SMS message</string>
+    <string name="ic__notifications_fragment_call_rowtitle">Call before checkout</string>
+    <string name="ic__notifications_fragment_call_rowsubtitle">We\'ll only call if there are pending changes</string>
+    <string name="ic__notifications_fragment_marketing_push_rowtitle">Send push notifications</string>
+
+    <string name="ic__notifications_fragment_text_saved">Preference was saved</string>
+    <string name="ic__notifications_fragment_text_failed_to_save">Failed to update preference! Please try again.</string>
+
+    <string name="ic__notifications_fragment_callorderprefsaved">Order call preference was saved</string>
+    <string name="ic__notifications_fragment_pushpreferencesaved">Push preference was saved</string>
+    <string name="ic__notifications_fragment_smspreferencesaved">SMS preference was saved</string>
+
+    <string name="ic__notifications_fragment_callorderupdatefailed">Order call notification preference not saved.  Please try again.</string>
+    <string name="ic__notifications_fragment_pushupdatefailed">Push notification preference not saved.  Please try again.</string>
+    <string name="ic__notifications_fragment_smsupdatefailed">SMS notification preference not saved.  Please try again.</string>
+
+    <string name="ic__notifications_channel_name_order_updates">Order Updates</string>
+    <string name="ic__notifications_channel_name_sales_and_promotions">Sales &amp; Promotions</string>
+    <string name="ic__notifications_channel_name_announcements">Announcements</string>
+    <string name="ic__notifications_channel_name_location_sharing">Location Sharing</string>
+    <string name="ic__notifications_title_announcements">New Announcements</string>
+</resources>
