@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ic__notifications_fragment_title">First segment, latest update.</string>
-    <string name="ic__notifications_fragment_title_sales">Sales &amp; second segment, latest update.</string>
+    <string name="ic__notifications_fragment_title">First segment, new update baby.</string>
+    <string name="ic__notifications_fragment_title_sales">Sales &amp; second segment, latest update baby.</string>
     <string name="ic__notifications_fragment_updateorders_rowtitle">When there is an update to your order…</string>
     <string name="ic__notifications_fragment_push_rowtitle">Send a push notification</string>
     <string name="ic__notifications_fragment_sms_rowtitle">Send an SMS message</string>
