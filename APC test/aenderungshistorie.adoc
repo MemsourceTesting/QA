@@ -1,4 +1,4 @@
-= Änderungen nachvollziehen
+= Änderungen this is the change done in GitHub remote folder
 :lang: de
 include::{includedir}/_header.adoc[]
 :keywords: Änderungshistorie, Historie, Datenhistorie, Aufbewahrungspflicht, Aufzeichnungspflicht, Archiv, Datenarchiv, Daten-Archiv, Audit-Log, Auditlog, Audit Log, Audit Trail, Audit-Trail, Audittrail, Audit-Protokoll, Audit Protokoll, Audit-Protokolle, Audit Protokolle, Änderung, Änderungen, Löschung, Änderungsaufzeichnung, Änderungsaufzeichnungen, 10 Jahre, 11 Jahre, Aufbewahrung, aufbewahren, Log-Datei, Log-Dateien, GoBD, GoBD-konform, GoBD-Konformität, IDW PS 880
