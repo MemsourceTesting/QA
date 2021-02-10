@@ -1,0 +1,870 @@
+# LANGUAGE translation of PROJECT
+# Copyright (c) YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-05-13 15:10+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: /en-OC/traceability/29f9a5aacc/claim
+msgid "Trace me back"
+msgstr "Trace me back"
+
+#: /en-OC/admin/modules?render=overlay
+msgid "Email"
+msgstr "Email"
+
+#: /en-OC/gazette
+msgid "Topic"
+msgstr "Topic"
+
+#: /en-OC/traceability/a6a80c378e
+msgid "Trace me back to the farmer communities"
+msgstr "Trace this chocolate back to the farmer communities"
+
+#: /en-OC
+msgid "Choose your language"
+msgstr "Choose your region"
+
+#: /en-OC/traceability/a6a80c378e
+msgid "Trace me back from bean to bar in belgium"
+msgstr "Trace me back from bean to bar in belgium"
+
+#: /en-OC/traceability/a6a80c378e
+msgctxt "traceability"
+msgid "Production date:"
+msgstr "Production date:"
+
+#: /en-OC/traceability/a6a80c378e
+msgctxt "traceability"
+msgid "Best before:"
+msgstr "Best before:"
+
+#: /en-OC/traceability/a6a80c378e/bean2bar
+msgid "map"
+msgstr "To the farmer communities "
+
+#: /en-OC/traceability/a6a80c378e/bean2bar
+msgid "bean 2 bar"
+msgstr "From bean to bar in Belgium"
+
+#: /en-OC/traceability/a6a80c378e/bean2bar
+msgid "For this @recipe with pack code"
+msgstr "For this @recipe with batch code"
+
+#: /en-OC/admin/modules/list/confirm?render=overlay
+msgid "- All -"
+msgstr "- All -"
+
+#: /en-OC/traceability/a6a80c378e/map
+msgctxt "callebaut:traceability"
+msgid "Who grew the cocoa beans for this chocolate"
+msgstr "Who grew and traded the cocoa beans for your chocolate"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: /en-OC/admin/modules/list/confirm
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: /nl-BE/contact
+msgid "Bakery"
+msgstr "Bakery"
+
+#: /nl-BE/contact
+msgid "Pastry"
+msgstr "Pastry"
+
+#: /en-OC/news-events
+msgid "Load more"
+msgstr "Load more"
+
+#: /en-OC/product-search/list?categories%5B%5D=3&categories%5B%5D=7
+msgid "@count products found"
+msgstr "@count products found"
+
+#: /en-OC/product-search/block?categories%5B%5D=155&certifications%5B%5D=halal
+msgid "list view"
+msgstr "List view"
+
+#: /en-OC/product-search/block?categories%5B%5D=155&certifications%5B%5D=halal
+msgid "block view"
+msgstr "Block view"
+
+#: /en-OC/products/chd-h8047kmbnv/kumabo
+msgid "Back to map"
+msgstr "Back to map"
+
+#: /nl-BE/contact
+msgid "Confectionery"
+msgstr "Confectionery"
+
+#: /en-OC/product-search/block?categories%5B%5D=155&certifications%5B%5D=halal
+msgid "All products"
+msgstr "All ingredients"
+
+#: /en-OC
+msgid "View all"
+msgstr "View all"
+
+#: /nl-BE/contact
+msgid "Catering"
+msgstr "Catering"
+
+#: /nl-BE/contact
+msgid "Students"
+msgstr "Student"
+
+#: /nl-BE/contact
+msgid "Ice Cream Producer"
+msgstr "Ice Cream Producer"
+
+#: /en-OC/admin/config/system/callebaut-custom?render=overlay
+msgid "Language"
+msgstr "Language"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Polish"
+msgstr "Polski"
+
+#: /nl-BE/contact
+msgid "Others"
+msgstr "Others"
+
+#: /en-OC/product-search/block?categories%5B%5D=3&cacao_percentage%5Bmin%5D=75&cacao_percentage%5Bmax%5D=100&fat_percentage%5Bmin%5D=0&fat_percentage%5Bmax%5D=100&milk_percentage%5Bmin%5D=0&milk_percentage%5Bmax%5D=29
+msgid "keywords / recipe N°"
+msgstr "Keywords / recipe N°"
+
+#: /en-OC/products/80-20-44nv/power-80
+msgid "Tutorials with @product_title"
+msgstr "Videos with @product_title"
+
+#: /en-OC/product-search/list?keywords=&cacao_percentage%5Bmin%5D=65&cacao_percentage%5Bmax%5D=100&fat_percentage%5Bmin%5D=0&fat_percentage%5Bmax%5D=100&milk_percentage%5Bmin%5D=0&milk_percentage%5Bmax%5D=29
+msgid "Fluidity"
+msgstr "Fluidity"
+
+#: /en-OC/product-search/list?keywords=&cacao_percentage%5Bmin%5D=65&cacao_percentage%5Bmax%5D=100&fat_percentage%5Bmin%5D=0&fat_percentage%5Bmax%5D=100&milk_percentage%5Bmin%5D=0&milk_percentage%5Bmax%5D=29
+msgid "low fluidity"
+msgstr "Low fluidity"
+
+#: /en-OC/chocolate-cocoa-nuts?category_level_1=30
+msgid "No products found."
+msgstr "No products found."
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "Nut type"
+msgstr "Nut type"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Russian"
+msgstr "Русский"
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "Almond"
+msgstr "Almond"
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "Hazelnut"
+msgstr "Hazelnuts"
+
+#: /de-DE/admin/modules
+msgid "This is shown just above the submit button on the newsletter form."
+msgstr ""
+"By clicking Send, I accept to receive newsletters and agree to the "
+"Barry Callebaut <a "
+"href=\"https://www.callebaut.com/en-OC/privacy-and-cookie-policy\" "
+"target=\"_blank\">Privacy and Cookie Policy</a> and the <a "
+"href=\"https://www.callebaut.com/en-OC/terms-use\" "
+"target=\"_blank\">Terms of Use</a>."
+
+#: /en-OC/admin/config/system/callebaut-custom?render=overlay
+msgid "Country"
+msgstr "Country"
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "Pistachio"
+msgstr "Pistachios"
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "Very low fluidity"
+msgstr "Very low fluidity"
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "Standard fluidity"
+msgstr "Standard fluidity"
+
+#: /en-OC/admin/modules/list/confirm
+msgid "United Kingdom"
+msgstr "United Kingdom - Ireland"
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "High fluidity"
+msgstr "High fluidity"
+
+#: /en-OC/product-category-search/3?keywords=&categories[0]=11&cacao_percentage[min]=0&cacao_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29
+msgid "Very high fluidity"
+msgstr "Very high fluidity"
+
+#: /en-OC/admin/modules/list/confirm
+msgid "Ghana"
+msgstr "Ghana"
+
+#: /en-OC/product-search/block?keywords=&categories[0]=3&certifications[0]=halal&chocolatetype[0]=Dark&fat_percentage[min]=0&fat_percentage[max]=100&milk_percentage[min]=0&milk_percentage[max]=29&fluidity[0]=2&fluidity[1]=3
+msgid "Available in"
+msgstr "Available in"
+
+#: /en-OC/products/CHD-P65ALTOBIO
+msgid "Taste profile"
+msgstr "Taste profile"
+
+#: /en-OC/products/811NV
+msgid "Pairing tips"
+msgstr "Pairing tips"
+
+#: /en-OC/admin/structure/features
+msgid "Activity"
+msgstr "Activity"
+
+#: /en-OC/products/811NV
+msgid "Composition"
+msgstr "Composition"
+
+#: /en-OC/products/811NV
+msgid "Applications"
+msgstr "Applications"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: /en-OC/admin/structure/features
+msgid "Phone"
+msgstr "Phone"
+
+#: /en-OC
+msgid "Are you looking for"
+msgstr "Are you looking for"
+
+#: /en-OC/admin/modules/list/confirm
+msgid "Ivory Coast"
+msgstr "Ivory Coast"
+
+#: /en-OC/api/traceability/6b40d8e319/map/popup/Port/Tema%20Port
+msgid "Antwerp Port - Belgium"
+msgstr "Antwerp Port - Belgium"
+
+#: /en-OC/admin/modules?render=overlay
+msgid "Other"
+msgstr "Other"
+
+#: /en-OC/products/ncb/pale-hazelnut-cream
+msgid "Start typing here"
+msgstr "Start typing here"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Calories"
+msgstr "Calories"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Energetic value"
+msgstr "Energetic value"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Fat"
+msgstr "Fat"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Saturated fat"
+msgstr "Saturated fat"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Carbohydrates"
+msgstr "Carbohydrates"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Sugars"
+msgstr "Sugars"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Protein"
+msgstr "Protein"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Salt"
+msgstr "Salt"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Dietary claims"
+msgstr "Dietary claims"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Certificates"
+msgstr "Certificates"
+
+#: /en-OC/callebaut-productdb-compare/comparison/30?products[0]=811NVhotchocolate&products[1]=70-30-42NV&products[2]=60-40-41NV
+msgid "Print comparison"
+msgstr "Print comparison"
+
+#: /en-OC/traceability/6b40d8e319/claim
+msgid "Nutritional info"
+msgstr "Nutrition facts"
+
+#: /en-OC/chocolate-cocoa-nuts/80-20-44nv/power-80
+msgid "Where to find?"
+msgstr "Where to find Callebaut?"
+
+#: /en-OC/store-locator/select-customer-type?popup=true
+msgid "Where to find Callebaut products?"
+msgstr "Where to find Callebaut products?"
+
+#: /en-OC/admin/modules?render=overlay
+msgid "Type"
+msgstr "Type"
+
+#: /en-OC/store-locator/select-customer-type?popup=true
+msgid "I am a professional"
+msgstr "I am a professional"
+
+#: /en-OC/store-locator/select-customer-type?popup=true
+msgid "I am a hobby chef"
+msgstr "I am a hobby chef"
+
+#: /en-OC/store-locator/hobby/offline?popup=true
+msgid "Store locator"
+msgstr "Store locator"
+
+#: /en-OC/store-locator/hobby/offline?popup=true
+msgid "Buy online"
+msgstr "Buy online"
+
+#: /en-OC/store-locator/hobby/offline?popup=true
+msgid "Use my current location"
+msgstr "Use my current location"
+
+#: /en-OC
+msgid "Chinese"
+msgstr "中文"
+
+#: /en-OC/products/base-krem/creme-la-carte-basic
+msgid "How to use"
+msgstr "How to use"
+
+#: /en-OC/product-search/list
+msgid "Color"
+msgstr "Color"
+
+#: /fr-FR/products/811NV
+msgid "@count[] months"
+msgstr "@count[] months"
+
+#: /en-OC/recipe-filter
+msgid "fill in the desired quantity and recalculate"
+msgstr "Fill in the desired quantity and recalculate"
+
+#: /en-OC/products/811NV; sites/callebaut2015.devel2.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/www.callebaut.com/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/callebaut2015/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/callebaut2019-test.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/callebaut2019/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js
+msgid "Add to comparison"
+msgstr "Add to comparison"
+
+#: /en-OC/products/811NV; sites/callebaut2015.devel2.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/www.callebaut.com/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/callebaut2015/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/callebaut2019-test.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/callebaut2019/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js
+msgid "Add to favorites"
+msgstr "Add to favorites"
+
+#: /en-OC
+msgid "Join our mailing list"
+msgstr "Join our mailing list"
+
+#: /en-OC/products/811NV
+msgid "Share"
+msgstr "Share"
+
+#: /en-OC/products/TestChocolateShellsCups
+msgid "Packaging type"
+msgstr "Packaging type"
+
+#: /en-OC/products/811NV
+msgid "Print"
+msgstr "Print"
+
+#: /it-IT/cioccolato-cacao-nocciole/60-40-38nv/60-40-38
+msgid "Traceability - Bean to Bar"
+msgstr "Traceability - Bean to Bar"
+
+#: /it-IT/cioccolato-cacao-nocciole/60-40-38nv/60-40-38
+msgid "Traceability - Location"
+msgstr "Traceability - Location"
+
+#: /en-OC/product-search/block
+msgid "View more"
+msgstr "View more"
+
+#: sites/callebaut2015.devel2.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/www.callebaut.com/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/callebaut2015/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/callebaut2019-test.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js; sites/callebaut2019/modules/custom/callebaut_productdb/modules/callebaut_productdb_favorites/js/callebaut-productdb-favorites.js
+msgid "Remove from favorites"
+msgstr "Remove from favorites"
+
+#: /en-OC/news-events/new-chocolate-stars
+msgid "Related articles"
+msgstr "Related articles"
+
+#: /it-IT/cioccolato-cacao-nocciole/60-40-38nv/60-40-38
+msgid "Traceability - Sustainability Claims"
+msgstr "Traceability - Sustainability Claims"
+
+#: /it-IT/cioccolato-cacao-nocciole/60-40-38nv/60-40-38
+msgid "Traceability - Tell me more"
+msgstr "Traceability - Tell me more"
+
+#: /en-OC/admin/config/system/callebaut-productdb
+msgid "!name field is required."
+msgstr "!name is a required field"
+
+#: /en-OC/product-search/list?category%5B%5D=3
+msgid "%count products found"
+msgstr "%count products found"
+
+#: sites/callebaut2015.devel2.duo.be/modules/custom/callebaut_extended_menu/js/callebaut-extended-menu.js
+msgid "Visit this page"
+msgstr "Visit this page"
+
+#: /en-OC/recipe-filter
+msgid "See detail"
+msgstr "See detail"
+
+#: /en-OC/ajax/dedicated-product-category-search-remark/7
+msgid "close"
+msgstr "close"
+
+#: /en-OC/products/811NV
+msgid "Available packagings"
+msgstr "Available packagings"
+
+#: /en-OC/products/chd-p65altobio/alto-el-sol-millesime-2013
+msgid "Explore more"
+msgstr "Explore more"
+
+#: /en-OC/ajax/course-filter?type%5B%5D=2007
+msgid "%count course found"
+msgstr "%count courses found"
+
+#: /en-OC/products/chd-p65altobio/alto-el-sol-millesime-2013
+msgid "More products"
+msgstr "More products"
+
+#: /en-OC/ajax/course-filter?type%5B%5D=2007
+msgid "%count course found, !view_course_url"
+msgstr "%count courses found, view courses"
+
+#: /en-OC/products/811NV
+msgid "Shelf life"
+msgstr "Shelf life"
+
+#: /en-OC/products/811NV
+msgid "Certifications"
+msgstr "Certifications"
+
+#: /en-OC/products/811NV; sites/callebaut2015.devel2.duo.be/modules/contrib/advagg/advagg.admin.js; sites/www.callebaut.com/modules/contrib/advagg/advagg.admin.js
+msgid "@count months"
+msgstr "@count months"
+
+#: /en-OC/contact?contact_region=10&contact_person=239
+msgid "Lastname"
+msgstr "Lastname"
+
+#: /en-OC/contact?contact_region=10&contact_person=239
+msgid "Company"
+msgstr "Company"
+
+#: /en-OC/node/5/edit
+msgid "- Select a value -"
+msgstr "Select a value"
+
+#: /en-OC/contact?contact_region=10&contact_person=239
+msgid "Insert your number if you want an answer by phone"
+msgstr "Insert your number if you want an answer by phone"
+
+#: /en-OC/contact?contact_region=10&contact_person=239
+msgid "Yes, keep me informed"
+msgstr "Yes, keep me informed"
+
+#: /en-OC/product-category-search/3
+msgid "Range"
+msgstr "Range"
+
+#: /en-OC/products/chd-p65altobio
+msgid "Page not found"
+msgstr "Page not found"
+
+#: /en-OC/product-search/list
+msgid "view products"
+msgstr "View products"
+
+#: /en-OC/products/chd-p65altobio
+msgid "The requested page \"@path\" could not be found."
+msgstr "We're very sorry, but the requested page could not be found."
+
+#: /en-OC/product-search/list
+msgid "%count products found, !view_products_url"
+msgstr "%count products found, !view_products_url"
+
+#: /en-OC/products/CHD-P65ALTOBIO
+msgid "Products"
+msgstr "Products"
+
+#: /en-OC/products/2804nv/2804
+msgid "Bean origin"
+msgstr "Bean origin"
+
+#: sites/callebaut2015.devel2.duo.be/modules/contrib/imce/js/imce.js; sites/www.callebaut.com/modules/contrib/imce/js/imce.js; sites/callebaut2015.devel2.duo.be/themes/callebaut/js/distribution/theme-script.js; sites/www.callebaut.com/themes/callebaut/js/distribution/theme-script.js; sites/callebaut2015.devel2.duo.be/themes/callebaut/js/distribution/theme-script.min.js; sites/callebaut2015/themes/callebaut/js/distribution/theme-script.min.js; sites/callebaut2015/themes/callebaut/js/distribution/theme-script.js; sites/callebaut2015/modules/contrib/imce/js/imce.js; sites/callebaut2019-test.duo.be/themes/callebaut/dist/js/theme-script.js; sites/callebaut2019-test.duo.be/modules/contrib/imce/js/imce.js; sites/www.callebaut.com/themes/callebaut/dist/js/theme-script.js; sites/callebaut2019/themes/callebaut/dist/js/theme-script.js; sites/www.callebaut.com/themes/traceability/dist/js/header.js; sites/callebaut2019/themes/traceability/dist/js/header.js
+msgid "Close"
+msgstr "Close"
+
+#: /en-OC/product-filter?view_mode=list
+msgid "Contact us"
+msgstr "Contact us"
+
+#: sites/callebaut2015.devel2.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/www.callebaut.com/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/callebaut2015/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/callebaut2019-test.duo.be/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js; sites/callebaut2019/modules/custom/callebaut_productdb/modules/callebaut_productdb_compare/js/callebaut-productdb-compare.js
+msgid "Remove from comparison"
+msgstr "Remove from comparison"
+
+#: /en-OC/product-filter
+msgid "Contact"
+msgstr "Send a message"
+
+#: /en-OC/admin/modules?render=overlay
+msgid "Search"
+msgstr "Search"
+
+#: /en-OC/admin/structure/features
+msgid "Related videos"
+msgstr "Related videos"
+
+#: /en-OC/products/811nv/811
+msgid "Recipes with @product_title"
+msgstr "Recipes with @product_title"
+
+#: /en-OC/products/811nv/811
+msgid "More recipes"
+msgstr "More recipes"
+
+#: /en-OC/product-search
+msgid "Refine by"
+msgstr "Refine by"
+
+#: /en-OC/product-search?categories[]=160
+msgid "Certification"
+msgstr "Certification"
+
+#: /en-OC/product-filter
+msgid "Recipe you want to make"
+msgstr "Recipe you want to make"
+
+#: /en-OC/product-filter
+msgid "Technique you want to apply"
+msgstr "Technique you want to apply"
+
+#: /en-OC/recipe-filter
+msgid "Recipes"
+msgstr "Recipes"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Czech"
+msgstr "Český"
+
+#: /en-OC/recipe-filter
+msgid "Created by"
+msgstr "Created by"
+
+#: /en-OC/recipes/1046
+msgid "Ingredients"
+msgstr "Ingredients"
+
+#: /en-OC/recipes/1046
+msgid "Preparation"
+msgstr "Preparation"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "German"
+msgstr "Deutsch"
+
+#: /en-OC/admin/structure/features
+msgid "Access Callebaut Traceability pages"
+msgstr "Access Callebaut Traceability pages"
+
+#: sites/www.callebaut.com/modules/custom/callebaut_traceability/js/traceability-map.js; sites/callebaut2019/modules/custom/callebaut_traceability/js/traceability-map.js
+msgctxt "callebaut:traceability"
+msgid "Callebaut Chocolaterie"
+msgstr "Callebaut Chocolaterie"
+
+#: sites/www.callebaut.com/modules/custom/callebaut_traceability/js/traceability-map.js; sites/callebaut2019/modules/custom/callebaut_traceability/js/traceability-map.js
+msgctxt "callebaut:traceability"
+msgid "Ports & logistics centre"
+msgstr "Port / logistics centre"
+
+#: /en-OC/chocolate-academy
+msgid "Courses"
+msgstr "Courses"
+
+#: sites/www.callebaut.com/modules/custom/callebaut_traceability/js/traceability-map.js; sites/callebaut2019/modules/custom/callebaut_traceability/js/traceability-map.js
+msgctxt "callebaut:traceability"
+msgid "Cocoa warehouse"
+msgstr "Cocoa Board district"
+
+#: /en-OC/chocolate-academy
+msgid "%count courses found"
+msgstr "%count courses found"
+
+#: sites/www.callebaut.com/modules/custom/callebaut_traceability/js/traceability-map.js; sites/callebaut2019/modules/custom/callebaut_traceability/js/traceability-map.js
+msgctxt "callebaut:traceability"
+msgid "Plant"
+msgstr "Callebaut Warehouse"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Spanish"
+msgstr "Español"
+
+#: /en-OC/recipe-filter
+msgid "Dietary needs"
+msgstr "Dietary needs"
+
+#: sites/www.callebaut.com/modules/custom/callebaut_traceability/js/traceability-map.js; sites/callebaut2019/modules/custom/callebaut_traceability/js/traceability-map.js
+msgctxt "callebaut:traceability"
+msgid "Cocoa cooperative"
+msgstr "Cocoa cooperative"
+
+#: /en-OC/recipe-filter
+msgid "Gluten free"
+msgstr "Without gluten ingredients"
+
+#: /en-OC/recipe-filter
+msgid "Nut free"
+msgstr "Without nut ingredients"
+
+#: /en-OC/chocolate-academy
+msgid "%count courses found, !view_courses_url"
+msgstr "%count courses found, !view_courses_url"
+
+#: /en-OC/admin/reports/dblog
+msgid "Message"
+msgstr "Message\r\n"
+
+#: /en-OC/recipe-filter
+msgid "Reduced in sugar"
+msgstr "Without added sugar"
+
+#: /en-OC/chocolate-academy
+msgid "Teacher"
+msgstr "Teacher"
+
+#: /en-OC/chocolate-academy
+msgid "Level"
+msgstr "Level"
+
+#: /en-OC/admin/structure/features/callebaut_feature
+msgid "Callebaut Traceability"
+msgstr "Callebaut Traceability"
+
+#: /en-OC/recipe-filter
+msgid "All recipes"
+msgstr "All chocolate recipes"
+
+#: /en-OC/admin/structure/features/callebaut_feature
+msgid "Configure Callebaut Traceability."
+msgstr "Configure Callebaut Traceability."
+
+#: /en-OC
+msgid "Description"
+msgstr "Description"
+
+#: /en-OC/recipe-filter
+msgid "%count recipes found"
+msgstr "%count recipes found"
+
+#: /en-OC/admin_menu/flush-cache?token=OjMLoZ73igYv2v01PBaVXYoOCyPt5hBdF2agbZE8Z1Q&destination=admin
+msgid "Get more out of each pack"
+msgstr "Get more out of each pack"
+
+#: /en-OC/admin
+msgid "Traceability Video Teaser"
+msgstr "Traceability Video Teaser"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "French"
+msgstr "Français"
+
+#: /en-OC/recipe-filter
+msgid "%count recipes found, !view_recipes_url"
+msgstr "%count recipes found, !view_recipes_url"
+
+#: /en-OC/admin/appearance
+msgid "Custom theme for Callebaut Traceability microsite"
+msgstr "Custom theme for Callebaut Traceability microsite\r\n"
+
+#: /en-OC/recipe-filter
+msgid "Chef"
+msgstr "Chef"
+
+#: /en-OC/admin/appearance
+msgid "Traceability App"
+msgstr "Traceability App"
+
+#: /en-OC/admin/config/system/callebaut-traceability
+msgid "Traceability api logging"
+msgstr "Traceability api logging"
+
+#: /en-OC/admin/config/system/callebaut-traceability
+msgid "Traceability api logging slow threshold"
+msgstr "Traceability api logging slow threshold"
+
+#: /en-OC/traceability
+msgid "Trace code"
+msgstr "Trace code"
+
+#: /en-OC/traceability
+msgid "I read & accept the !link."
+msgstr "I read & accept the !link."
+
+#: /en-OC/admin/structure/features/callebaut_feature/status
+msgid "News"
+msgstr "News"
+
+#: /en-OC/traceability
+msgid "Click Here!"
+msgstr "Click Here!"
+
+#: /en-OC/traceability
+msgid ""
+"Discover everything about your chocolate from traceability to recipes "
+"&amp; more"
+msgstr ""
+"Discover everything about your chocolate from traceability to recipes "
+"& more"
+
+#: /en-OC/product-search?categories%5B%5D=3
+msgid "clear"
+msgstr "clear"
+
+#: /en-OC/recipes/1138
+msgid "Discover more recipes"
+msgstr "Discover more recipes"
+
+#: /en-OC/traceability
+msgid "Enter the batch number of your chocolate"
+msgstr "Enter the Unique Code of your chocolate"
+
+#: /en-OC/product-search?categories[0]=5&categories[1]=6
+msgid "clear all"
+msgstr "Clear all"
+
+#: /en-OC/recipes/1138
+msgid "Used Callebaut products"
+msgstr "Callebaut&reg; ingredients"
+
+#: /en-OC/admin/structure/features/callebaut_feature/recreate
+msgid "Clear"
+msgstr "Clear"
+
+#: /en-OC/traceability
+msgid "You can find it on the back of each pack"
+msgstr "You can find it on the back of each pack"
+
+#: /en-OC/admin/config/system/callebaut-productdb
+msgid "component recipes"
+msgstr "Chocolate Essentials"
+
+#: sites/www.callebaut.com/themes/traceability/dist/js/theme-script.js; sites/callebaut2019/themes/traceability/dist/js/theme-script.js
+msgid "Videos"
+msgstr "Videos"
+
+#: /en-OC/recipe-filter
+msgid "Quantity"
+msgstr "Quantity"
+
+#: /en-OC/recipe-filter
+msgid "Recalculate"
+msgstr "Recalculate"
+
+#: /en-OC/recipe-filter
+msgid "Recipe components"
+msgstr "Recipe components"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Italian"
+msgstr "Italiano"
+
+#: /en-OC/recipe-filter
+msgid "Choose your chocolate"
+msgstr "Choose your chocolate"
+
+#: /en-OC/recipe-filter
+msgid "Recipe information"
+msgstr "Recipe instructions"
+
+#: /en-OC/test-sallys-event
+msgid "Back to overview"
+msgstr "Back to overview"
+
+#: /en-OC/admin/config/regional/language/add?render=overlay
+msgid "Japanese"
+msgstr "日本語"
+
+#: /nl-BE/admin/config/system/callebaut-custom
+msgid "Traceability terms of use page nid"
+msgstr "Traceability terms of use page nid\r\n"
+
+#: /en-OC/recipes/1138
+msgid "use another product"
+msgstr "Use another product"
+
+#: /en-OC/traceability/29f9a5aacc
+msgid "What you can claim with @product_id"
+msgstr "Claims you can make with @product_id"
+
+#: /en-OC/products/chd-p65altobio/alto-el-sol-millesime-2013
+msgid "Growing great chocolate"
+msgstr "With this chocolate, you support cocoa farmers"
+
+#: /en-OC/traceability/29f9a5aacc
+msgctxt "traceability"
+msgid "ID card of your "
+msgstr "ID card of your "
+
+#: /en-OC/products/chd-p65altobio/alto-el-sol-millesime-2013
+msgid ""
+"We believe that the success and future of our business depends "
+"directly on the future of cocoa cultivation and the cocoa farming "
+"communities. That’s why Callebaut® started the Growing Great "
+"Chocolate program in 2012."
+msgstr ""
+"The Finest Belgian Chocolate needs the finest cocoa beans. Today and "
+"tomorrow. For every pack of Finest Belgian Chocolate you buy, we "
+"reinvest a part in sustainable cocoa farming through the Cocoa "
+"Horizons Foundation."
+
+#: /en-OC/traceability/29f9a5aacc
+msgctxt "traceability"
+msgid "Batch N° "
+msgstr "Batch N°"
+
+#: /en-OC/traceability/29f9a5aacc
+msgctxt "traceability"
+msgid "Produced in"
+msgstr "Produced from bean to bar in"
+
+#: /en-OC/traceability/29f9a5aacc
+msgctxt "traceability"
+msgid "Do more"
+msgstr "Do more "
+
+#: /en-OC/traceability/29f9a5aacc
+msgctxt "traceability"
+msgid "Tell more"
+msgstr "Tell more "
+
