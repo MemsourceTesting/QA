@@ -1,9 +1,9 @@
 {
   "boolean_key": "--- true\n",
   "empty_string_translation": "",
-  "key_with_description": "text in GitHub1",
+  "key_with_description": "this is an updated text in GitHub1",
   "key_with_line-break": "This translations contains\na line-break.",
-  "nested.deeply.key": "text in GitHub.",
+  "nested.deeply.key": "this is another updated text in GitHub.",
   "nested.key": "This key is nested inside a namespace.",
   "null_translation": null,
   "pluralized_key": {
@@ -16,6 +16,6 @@
     "second item",
     "third item"
   ],
-  "simple_key": "Just a simple key with a simple message.",
+  "simple_key": "Just a simple updated key with a simple message.",
   "unverified_key": "This translation is not yet verified and waits for it. (In some formats we also export this status)"
 }
