@@ -1,9 +1,9 @@
 {
   "boolean_key": "--- true\n",
   "empty_string_translation": "",
-  "key_with_description": "This is the updated text in GitHub1",
+  "key_with_description": "text in GitHub1",
   "key_with_line-break": "This translations contains\na line-break.",
-  "nested.deeply.key": "This is another updated text in GitHub.",
+  "nested.deeply.key": "text in GitHub.",
   "nested.key": "This key is nested inside a namespace.",
   "null_translation": null,
   "pluralized_key": {
