@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionary Version="3">
+   <Entry Key="gui.buesmap.variablechangewindow">
+      <Text Lang="en">Change paramters</Text>
+      <Text Lang="de">Parameter anpassen</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Parametreleri uyarla</Text>
+   </Entry>
+   <Entry Key="gui.buesmap.variablechangewindow.description">
+      <Text Lang="en">Should the parameters be adjusted?</Text>
+      <Text Lang="de">Sollen die Parameter angepasst werden?</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Parametreler uyarlansın mı?</Text>
+   </Entry>
+   <Entry Key="gui.buesmap.variablechangewindow.name">
+      <Text Lang="en">Name:</Text>
+      <Text Lang="de">Name:</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">İsim:</Text>
+   </Entry>
+   <Entry Key="gui.buesmap.variablechangewindow.unit">
+      <Text Lang="en">Unit:</Text>
+      <Text Lang="de">Einheit:</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Birim:</Text>
+   </Entry>
+   <Entry Key="gui.communication.filefordbs" Description="check french">
+      <Text Lang="en">Database file path</Text>
+      <Text Lang="de">Dateipfad der Datenbank</Text>
+      <Text Lang="fr">Chemin de fichier de la base de données</Text>
+      <Text Lang="tr">Veritabanının dosya yolu</Text>
+   </Entry>
+   <Entry Key="gui.communication.ResetDevices" Description="check french">
+      <Text Lang="en">Restart devices</Text>
+      <Text Lang="de">Geräte neu starten</Text>
+      <Text Lang="fr">Redémarrer les appareils</Text>
+      <Text Lang="tr">Cihazları yeniden başlat</Text>
+   </Entry>
+   <Entry Key="gui.connect.NoServerSpecified">
+      <Text Lang="en">No Server specified!</Text>
+      <Text Lang="de">Kein Server angegeben!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.connect.rest.functionRestrictionInfo">
+      <Text Lang="en">Not all device functions are available with this type of communication.</Text>
+      <Text Lang="de">Bei dieser Art der Kommunikation sind nicht alle Gerätefunktionen verfügbar.</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.connect.rest.searchForDevices">
+      <Text Lang="en">Search for devices</Text>
+      <Text Lang="de">Nach Geräten suchen</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.connect.rest.useRestCommunication">
+      <Text Lang="en">Use http communication (Rest)</Text>
+      <Text Lang="de">Http-Kommunikation (Rest) benutzen</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.connect.UnableToResolveServerName">
+      <Text Lang="en">Unable to resolve server name!</Text>
+      <Text Lang="de">Server-Name kann nicht aufgelöst werden!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.devdiag.save">
+      <Text Lang="en">Retain value after closing</Text>
+      <Text Lang="de">Wert nach dem Schließen beibehalten</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Kapattıktan sonra değeri koru</Text>
+   </Entry>
+   <Entry Key="gui.device.backupRestore.failed.title">
+      <Text Lang="en">Failed!</Text>
+      <Text Lang="de">Fehlgeschlagen!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.device.backupRestore.finishedWithErrors.title">
+      <Text Lang="en">Finished with Error(s)!</Text>
+      <Text Lang="de">Fertig mit Fehler(n)!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.device.backupRestore.sameNetwork" Description="check french">
+      <Text Lang="en">Copy and original device are in the same network</Text>
+      <Text Lang="de">Kopie und Originalgerät sind im selben Netzwerk</Text>
+      <Text Lang="fr">Réseau identique</Text>
+      <Text Lang="tr">Kopya ve orijinal cihaz aynı ağda</Text>
+   </Entry>
+   <Entry Key="gui.device.storeDeviceParam.finish">
+      <Text Lang="en">Device parameters stored</Text>
+      <Text Lang="de">Geräteparameter gespeichert</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Cihaz parametreleri kaydedildi</Text>
+   </Entry>
+   <Entry Key="gui.device.valueOfDeviceInvalid">
+      <Text Lang="en">Value of device "%1" is Invalid!</Text>
+      <Text Lang="de">Wert von Gerät "%1" ist ungültig!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">"%1" cihazının değeri geçersiz!</Text>
+   </Entry>
+   <Entry Key="gui.driverVersion.openExplorer" Description="check french">
+      <Text Lang="en">Open in explorer</Text>
+      <Text Lang="de">Im Explorer öffnen</Text>
+      <Text Lang="fr">Ouvrir dans l'explorateur</Text>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.driverVersion.versionRange" Description="check french">
+      <Text Lang="en">Version range</Text>
+      <Text Lang="de">Versionsbereich</Text>
+      <Text Lang="fr">Gamme de versions</Text>
+      <Text Lang="tr">Tip numaraları:</Text>
+   </Entry>
+   <Entry Key="gui.error.invalidValue.1" Description="check french">
+      <Text Lang="en">Input too short. %1 .. %2 characters are allowed.</Text>
+      <Text Lang="de">Eingabe zu kurz. Erlaubt sind %1 .. %2 Zeichen</Text>
+      <Text Lang="fr">Saisie trop courte. Les caractères autorisés sont% 1 ..% 2</Text>
+      <Text Lang="tr">Girdi çok kısa. %1 ..%2 karaktere izin verilir</Text>
+   </Entry>
+   <Entry Key="gui.error.invalidValue.2" Description="check french">
+      <Text Lang="en">Input too long. %1 .. %2 characters are allowed.</Text>
+      <Text Lang="de">Eingabe zu lang. Erlaubt sind %1 .. %2 Zeichen</Text>
+      <Text Lang="fr">Saisie trop longue. Les caractères autorisés sont% 1 ..% 2 </Text>
+      <Text Lang="tr">Girdi çok uzun. %1 ..%2 karaktere izin verilir</Text>
+   </Entry>
+   <Entry Key="gui.error.invalidValue.8" Description="check french">
+      <Text Lang="en">Value bigger than biggest valid value.\nThe valid range is %1 .. %2</Text>
+      <Text Lang="de">Maximal zulässiger Wert wird überschritten.\nDer gültige Bereich ist %1 .. %2</Text>
+      <Text Lang="fr">Valeur maximale autorisée dépassée.\nLa plage valide est %1 ..%2</Text>
+      <Text Lang="tr">İzin verilen maksimum değerin üzerine çıkıldı.\nGeçerli değer aralığı: %1 .. %2</Text>
+   </Entry>
+   <Entry Key="gui.error.invalidValue.9" Description="check french">
+      <Text Lang="en">Value smaller than smallest valid value.\nThe valid range is %1 .. %2</Text>
+      <Text Lang="de">Minmal zulässiger Wert wird unterschritten.\nDer gültige Bereich ist %1 .. %2</Text>
+      <Text Lang="fr">Valeur minimale autorisée non atteinte.\nLa plage valide est %1 ..%2</Text>
+      <Text Lang="tr">İzin verilen minimum değerin altına inildi.\nGeçerli değer aralığı: %1 .. %2</Text>
+   </Entry>
+   <Entry Key="gui.fx.datatype.Boolean" Description="check french">
+      <Text Lang="en">Boolean</Text>
+      <Text Lang="de">Boolean</Text>
+      <Text Lang="fr">Boolean</Text>
+      <Text Lang="tr">Boolean</Text>
+   </Entry>
+   <Entry Key="gui.fx.datatype.Byte" Description="check french">
+      <Text Lang="en">Unsigned integer 8 bit</Text>
+      <Text Lang="de">Integer ohne Vorzeichen 8 bit</Text>
+      <Text Lang="fr">Entier sans signe 8 bits</Text>
+      <Text Lang="tr">8 bit işaretsiz tamsayı</Text>
+   </Entry>
+   <Entry Key="gui.fx.datatype.UInt16" Description="check french">
+      <Text Lang="en">Unsigned integer 16 bit</Text>
+      <Text Lang="de">Integer ohne Vorzeichen 16 bit</Text>
+      <Text Lang="fr">Entier sans signe 16 bits</Text>
+      <Text Lang="tr">16 bit işaretsiz tamsayı</Text>
+   </Entry>
+   <Entry Key="gui.fx.datatype.UInt32" Description="check french">
+      <Text Lang="en">Unsigned integer 32 bit</Text>
+      <Text Lang="de">Integer ohne Vorzeichen 32 bit</Text>
+      <Text Lang="fr">Entier sans signe 32 bits</Text>
+      <Text Lang="tr">32 bit işaretsiz tamsayı</Text>
+   </Entry>
+   <Entry Key="gui.fx.datatype.UInt64" Description="check french">
+      <Text Lang="en">Unsigned integer 64 bit</Text>
+      <Text Lang="de">Integer ohne Vorzeichen 64 bit</Text>
+      <Text Lang="fr">Entier sans signe 64 bits</Text>
+      <Text Lang="tr">64 bit işaretsiz tamsayı</Text>
+   </Entry>
+   <Entry Key="gui.fx.license.blockRestriction">
+      <Text Lang="en">Max. 10 blocks</Text>
+      <Text Lang="de">Max. 10 Bausteine</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Maks. 10 bileşen</Text>
+   </Entry>
+   <Entry Key="gui.fx.license.timeRestriction">
+      <Text Lang="en">One hour execution time</Text>
+      <Text Lang="de">Eine Stunde Programmlaufzeit</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Bir saatlik program çalışma süresi</Text>
+   </Entry>
+   <Entry Key="gui.fx.maxFunctionCount">
+      <Text Lang="en">Maximum number of functions</Text>
+      <Text Lang="de">Maximale Funktionsanzahl</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Azami fonksiyon sayısı</Text>
+   </Entry>
+   <Entry Key="gui.gateway.acyclic.mappingVersionIsNewerThanAllowed">
+      <Text Lang="en">The version of this file is newer than allowed by the device. To use this file, please update the firmware first.</Text>
+      <Text Lang="de">Die Version dieser Datei ist neuer als vom Gerät erlaubt. Um diese Datei zu verwenden, aktualisieren Sie bitte zuerst die Firmware.</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Bu dosyanın sürümü, aygıtın izin verdiğinden daha yeni. Bu dosyayı kullanmak için lütfen önce bellenimi güncelleyin.</Text>
+   </Entry>
+   <Entry Key="gui.gateway.acyclic.wrongFirmwareOrProtocol">
+      <Text Lang="en">This function is not available with this gateway firmware version and/or network protocol.</Text>
+      <Text Lang="de">Diese Funktion ist bei dieser Gateway-Firmware-Version und/oder diesem Netzwerkprotokoll nicht verfügbar.</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Bu fonksiyon, bu ağ geçidi bellenim sürümü ve / veya bu ağ protokolü ile kullanılamaz.</Text>
+   </Entry>
+   <Entry Key="gui.gateway.ccLinkEquipmentVersion">
+      <Text Lang="en">Equipment version</Text>
+      <Text Lang="de"/>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.gateway.ccLinkGeneral">
+      <Text Lang="en">General</Text>
+      <Text Lang="de">Allgemein</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Genel</Text>
+   </Entry>
+   <Entry Key="gui.gateway.start">
+      <Text Lang="en">Start</Text>
+      <Text Lang="de">Start</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Başlat</Text>
+   </Entry>
+   <Entry Key="gui.gateway.tooManyAcyclicValues">
+      <Text Lang="en">Too many acyclic values selected. Maximum number for the selected protocol(s) is %1.</Text>
+      <Text Lang="de">Zu viele azyklische Werte ausgweählt. Die maximale Anzahl für die ausgewählten Protokolle ist %1.</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Çok fazla periyodik olmayan değer seçildi. Seçilen protokoller için azami sayı %1'dir.</Text>
+   </Entry>
+   <Entry Key="gui.gateway.unitconversion.noValues">
+      <Text Lang="en">No values available</Text>
+      <Text Lang="de">Keine Werte vorhanden</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Mevcut değer yok</Text>
+   </Entry>
+   <Entry Key="gui.graph.importWarningLargeValue">
+      <Text Lang="en">You are about to import a large number of values. This action is time intensive and requires a lot of memory. Make sure that enough memory is available. </Text>
+      <Text Lang="de">Sie sind in Begriff eine große Anzahl an Werten zu importieren. Diese Aktion ist zeitintensiv und benötigt sehr viel Arbeitsspeicher. Stellen Sie sicher, dass genügend Arbeitsspeicher zur Verfügung steht.</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Çok sayıda değeri içe aktarmak üzeresiniz. Bu işlem zaman alıcıdır ve çok fazla bellek gerektirir. Yeterli belleğiniz olduğundan emin olun.</Text>
+   </Entry>
+   <Entry Key="gui.graphExportDialog.load">
+      <Text Lang="en">Load Graph</Text>
+      <Text Lang="de">Graph laden</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.pdoconfig.cantTransferOfflineDevices">
+      <Text Lang="en">Offline adjustments can not be transferred to online devices!</Text>
+      <Text Lang="de">Offline Anpassungen können nicht auf online Geräte übertragen werden!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Çevrimdışı uyarlamalar çevrimiçi cihazlara aktarılamaz!</Text>
+   </Entry>
+   <Entry Key="gui.pdoconfig.notMapped">
+      <Text Lang="en">Not mapped!</Text>
+      <Text Lang="de">Nicht gemappt!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Eşlenmemiş!</Text>
+   </Entry>
+   <Entry Key="gui.project.bues.offline.devicecount" Description="check french">
+      <Text Lang="en">Number of devices</Text>
+      <Text Lang="de">Anzahl Geräte</Text>
+      <Text Lang="fr">Nombre d'appareils</Text>
+      <Text Lang="tr">Cihaz sayısı</Text>
+   </Entry>
+   <Entry Key="gui.project.bues.offline.mode.addDeviceWindowTitle">
+      <Text Lang="en">Offline mode - add device(s)</Text>
+      <Text Lang="de">Offline Modus - Gerät(e) hinzufügen</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Çevrimdışı mod - cihaz(lar) ekle</Text>
+   </Entry>
+   <Entry Key="gui.project.new" Description="check french">
+      <Text Lang="en">New project...</Text>
+      <Text Lang="de">Neues Projekt...</Text>
+      <Text Lang="fr">Nouveau projet...</Text>
+      <Text Lang="tr">Yeni proje...</Text>
+   </Entry>
+   <Entry Key="gui.search">
+      <Text Lang="en">Search</Text>
+      <Text Lang="de">Suche</Text>
+      <Text Lang="fr">Recherche</Text>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.signalgenerator.title">
+      <Text Lang="en">Signal Generator (BETA)</Text>
+      <Text Lang="de">Signalgenerator (BETA)</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="gui.start.new" Description="check french">
+      <Text Lang="en">New project</Text>
+      <Text Lang="de">Neues Projekt</Text>
+      <Text Lang="fr">Nouveau projet</Text>
+      <Text Lang="tr">Yeni proje</Text>
+   </Entry>
+   <Entry Key="gui.start.sample" Description="check french">
+      <Text Lang="en">Sample projects</Text>
+      <Text Lang="de">Beispielprojekte</Text>
+      <Text Lang="fr">Exemples de projet</Text>
+      <Text Lang="tr">Örnek projeler</Text>
+   </Entry>
+   <Entry Key="gui.tracking.agreement.agree">
+      <Text Lang="en">Accept to send optional data</Text>
+      <Text Lang="de">Akzeptieren und optionale Daten senden</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Onayla</Text>
+   </Entry>
+   <Entry Key="gui.tracking.agreement.desc">
+      <Text Lang="en">We'd like to ask you to share optional diagnosis and usage data from Communicator, so we can get better. This does not include any personal data or data not related to Communicator.\n\n[b]Would you like to send optional data about your Communicator experience?[/b]</Text>
+      <Text Lang="de">Wir möchten Sie bitten, optionale Diagnose- und Nutzungsdaten aus dem Communicator mit uns zu teilen, sodass wir besser werden können. Dazu gehören keine persönlichen Daten oder Daten, die nicht mit dem Communicator zusammenhängen.\n\n[b]Möchten Sie optionale Daten über Ihre Erfahrung mit dem Communicator senden?[/b]</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">İsimsiz kullanım verilerini otomatik olarak göndererek Bürkert Communicator'ı geliştirmemize yardımcı olun.</Text>
+   </Entry>
+   <Entry Key="gui.tracking.agreement.disagree">
+      <Text Lang="en">Do not send optional data</Text>
+      <Text Lang="de">Keine optionalen Daten senden</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Kullanım verilerini gönderme</Text>
+   </Entry>
+   <Entry Key="gui.tracking.agreement.more">
+      <Text Lang="en">more...</Text>
+      <Text Lang="de">mehr...</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Daha fazlası...</Text>
+   </Entry>
+   <Entry Key="gui.tracking.agreement.moreText"
+          Description="For french use link: https://www.burkert.fr/fr/Mentions-legales/Mentions-legales">
+      <Text Lang="en">Data will be sent to Google Analytics. We will use this data to improve future versions of Communicator and related products. Disagreeing will not affect functionality. You can revoke your agreement at any time. See our [link https://www.burkert.com/en/Data-Privacy/Data-Privacy]privacy policy[/link] for details.</Text>
+      <Text Lang="de">Die Daten werden an Google Analytics gesendet. Sie werden verwendet, um zukünftige Versionen des Communicators und damit zusammenhängende Produkte zu verbessern. Falls Sie ablehnen, hat dies keinerlei Auswirkung auf die Funktionalität. Sie können diese Einwilligung jederzeit widerrufen. Mehr Informationen dazu finden Sie in unserer [link https://www.buerkert.de/de/Datenschutz/Datenschutz]Datenschutzerklärung[/link].</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Veriler Google Analytics'e gönderilir. Bu veriler Communicator'ın ve ilgili ürünlerin gelecekteki sürümlerini geliştirmek için kullanılırlar. Verileri göndermeyi reddetmenin işlevsellik üzerinde hiçbir etkisi yoktur. Bu rızayı istediğiniz zaman iptal edebilirsiniz. Bununla ilgili daha fazla bilgiyi şu adreste bulabilirsiniz: [link https://www.buerkert.de/de/Datenschutz/Datenschutz]Datenschutzerklärung[/link].</Text>
+   </Entry>
+   <Entry Key="gui.tracking.agreement.title">
+      <Text Lang="en">We want to improve!</Text>
+      <Text Lang="de">Wir möchten besser werden!</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">İsimsiz kullanım istatistikleri</Text>
+   </Entry>
+   <Entry Key="menu.options.graph.disableHardwareRenderer">
+      <Text Lang="en">Disable Hardware acceleration (Use in case of problems)</Text>
+      <Text Lang="de">Hardwarebeschleunigung deaktivieren (Bei Problemen verwenden)</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Donanım hızlandırmayı devre dışı bırak (sorun yaşıyorsanız kullanın)</Text>
+   </Entry>
+   <Entry Key="menu.usageData">
+      <Text Lang="en">Usage data...</Text>
+      <Text Lang="de">Nutzungsdaten...</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr"/>
+   </Entry>
+   <Entry Key="product.group.displays">
+      <Text Lang="en">Displays</Text>
+      <Text Lang="de">Displays</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">Ekranlar</Text>
+   </Entry>
+   <Entry Key="product.group.unknown">
+      <Text Lang="en">- Unknown -</Text>
+      <Text Lang="de">- Unbekannt -</Text>
+      <Text Lang="fr"/>
+      <Text Lang="tr">- Bilinmiyor -</Text>
+   </Entry>
+</Dictionary>
