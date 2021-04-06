@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dictionary Version="3">
    <Entry Key="gui.buesmap.variablechangewindow">
-      <Text Lang="en">Change paramters</Text>
+      <Text Lang="en">This is updated first segment</Text>
       <Text Lang="de">Parameter anpassen</Text>
       <Text Lang="fr"/>
       <Text Lang="tr">Parametreleri uyarla</Text>
    </Entry>
    <Entry Key="gui.buesmap.variablechangewindow.description">
-      <Text Lang="en">Should the parameters be adjusted?</Text>
+      <Text Lang="en">This is updated second segment.</Text>
       <Text Lang="de">Sollen die Parameter angepasst werden?</Text>
       <Text Lang="fr"/>
       <Text Lang="tr">Parametreler uyarlansın mı?</Text>
    </Entry>
    <Entry Key="gui.buesmap.variablechangewindow.name">
-      <Text Lang="en">Name:</Text>
+      <Text Lang="en">Name updated:</Text>
       <Text Lang="de">Name:</Text>
       <Text Lang="fr"/>
       <Text Lang="tr">İsim:</Text>
    </Entry>
    <Entry Key="gui.buesmap.variablechangewindow.unit">
-      <Text Lang="en">Unit:</Text>
+      <Text Lang="en">Unit updated:</Text>
       <Text Lang="de">Einheit:</Text>
       <Text Lang="fr"/>
       <Text Lang="tr">Birim:</Text>
