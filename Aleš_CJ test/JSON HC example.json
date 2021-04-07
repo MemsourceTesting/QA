@@ -1,0 +1,14 @@
+{
+"list": {
+	"id": "1",
+	"value": "text 1 for translation."
+	},
+"text": {
+	"id": "2",
+	"value": "text 2 for translation."
+	},
+"menu": {
+	"id": "3",
+	"value": "text 3 for translation."
+	 },"array": ["blue","green"],"arrays": [{        "color": "blue",        "title": "BLUE"
+         },         {        "color": "green",        "title": "GREEN"         }    ]}
