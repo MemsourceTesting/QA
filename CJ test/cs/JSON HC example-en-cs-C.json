@@ -1,0 +1,14 @@
+{
+"list": {
+	"id": "1",
+	"value": "text 1 pro překlad."
+	},
+"text": {
+	"id": "2",
+	"value": "text 2 pro překlad."
+	},
+"menu": {
+	"id": "3",
+	"value": "text 3 pro překlad."
+	 },"array": ["modrá","zelená"],"arrays": [{        "color": "modrá",        "title": "BLUE"
+         },         {        "color": "zelená",        "title": "ZELENÁ"         }    ]}
