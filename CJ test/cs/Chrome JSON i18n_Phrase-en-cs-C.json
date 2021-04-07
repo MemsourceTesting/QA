@@ -1,0 +1,42 @@
+{
+  "boolean_key": {
+    "message": "--- skutečný\n"
+  },
+  "empty_string_translation": {
+    "message": ""
+  },
+  "key_with_description": {
+    "message": "Zkontroluj to! Klíč má popis! (V některých formátech)",
+    "description": "Jsem velmi důležitý popis tohoto klíče!"
+  },
+  "key_with_line-break": {
+    "message": "Tento překlad obsahuje zalomení řádku."
+  },
+  "nested.deeply.key": {
+    "message": "  Jsem hluboce vnořený."
+  },
+  "nested.key": {
+    "message": "Tento klíč je vnořený uvnitř oboru názvů."
+  },
+  "null_translation": {
+    "message": null
+  },
+  "pluralized_key.one": {
+    "message": "Nalezena pouze jedna pluralizace."
+  },
+  "pluralized_key.other": {
+    "message": "Páni, máte% s pluralizace!"
+  },
+  "pluralized_key.zero": {
+    "message": "Nemáte žádnou pluralizaci."
+  },
+  "sample_collection": {
+    "message": "--- - první položka - druhá položka - třetí položka\n"
+  },
+  "simple_key": {
+    "message": "Jsem jednoduchý klíč s jednoduchou zprávou."
+  },
+  "unverified_key": {
+    "message": "Ještě není ověřeno, čeká na to. (V některých formátech tento stav také exportujeme)"
+  }
+}
