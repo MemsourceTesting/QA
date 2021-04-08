@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary Version="3">
+    <Entry Key="common.displayTheme.dark" Description="TODO Check fr add tr">
+        <Text Lang="en">Dark</Text>
+        <Text Lang="de">Dunkel</Text>
+        <Text Lang="fr">Noir</Text>
+    </Entry>
+    <Entry Key="common.displayTheme.light" Description="TODO Check fr add tr">
+        <Text Lang="en">Light</Text>
+        <Text Lang="de">Hell</Text>
+        <Text Lang="fr">Lumière</Text>
+    </Entry>
+    <Entry Key="common.forward" Description="TODO check fr and add tr">
+        <Text Lang="en">Forward</Text>
+        <Text Lang="de">Vorwärts</Text>
+        <Text Lang="fr">Suivant</Text>
+    </Entry>
+    <Entry Key="general.ConfigClient.helptext.TransmemActive" Description="TODO check all, add fr and tr">
+        <Text Lang="en">Feature is disabled because of active transferable memory</Text>
+        <Text Lang="de">Funktion ist aufgrund des aktiven Wechselspeichers deaktiviert</Text>
+    </Entry>
+    <Entry Key="IndComm.activateOPCUA_attention" Description="TODO add tr">
+        <Text Lang="en">Attention if you are using F(x) functionality. It will be disabled automatically when OPC UA is enabled.</Text>
+        <Text Lang="de">Achtung falls die F(x) Funktion verwendet wird. Diese ist automatisch deaktiviert wenn OPC UA aktiviert wird.</Text>
+        <Text Lang="fr">Attention si la fonction F(x) est utilisée. Celle-ci est automatiquement désactivée lorsque la fonction OPC UA est active.</Text>
+    </Entry>
+    <Entry Key="IndComm.activeFx.helptext" Description="TODO add tr">
+        <Text Lang="de">Das Nutzen der f(x) Funktion ist mit diesen Einstellungen möglich.</Text>
+        <Text Lang="fr">Usage of f(x) is possible with this settings.</Text>
+        <Text Lang="en">Usage of f(x) is possible with this settings.</Text>
+    </Entry>
+    <Entry Key="IndComm.deactiveFx.helptext" Description="TODO add tr">
+        <Text Lang="en">The f (x) function can not be used while the OPC UA is enabled</Text>
+        <Text Lang="de">Die f(x) Funktion ist mit eingeschalteter OPC UA Funktion nicht nutzbar</Text>
+        <Text Lang="fr">La fonction f(x) ne peut pas être utilisée lorsque la fonction OPC UA est activée</Text>
+    </Entry>
+    <Entry Key="IndComm.functionManage" Description="TODO add tr">
+        <Text Lang="fr">Gérer les fonctions de l'appareil</Text>
+        <Text Lang="en">Administrate device functions</Text>
+        <Text Lang="de">Gerätefunktionen verwalten</Text>
+    </Entry>
+    <Entry Key="IndComm.functionManage.helptext" Description="TODO add tr">
+        <Text Lang="fr">Communication industrielle, serveur web OPC UA et f(x)</Text>
+        <Text Lang="en">Industrial communication, web server, OPC UA and f(x)</Text>
+        <Text Lang="de">Industrielle Kommunikation, Webserver, OPC UA und f(x)</Text>
+    </Entry>
+    <Entry Key="IndComm.fxWithIndComm" Description="TODO add tr">
+        <Text Lang="en">f(x) with industrial communication</Text>
+        <Text Lang="de">f(x) Mit industrieller Kommunikation</Text>
+        <Text Lang="fr">f(x) Avec communication industrielle</Text>
+    </Entry>
+    <Entry Key="IndComm.fxWithIndComm.help" Description="TODO add tr">
+        <Text Lang="en">Industrial communication can be disabled e.g. if the device is to only run with f(x)</Text>
+        <Text Lang="de">Industrielle Kommunikation kann deaktiviert werden, wenn das Gerät z.B. nur mit f(x) arbeiten soll</Text>
+        <Text Lang="fr">La communication industrielle peut être désactivée si l'appareil doit uniquement fonctionner avec f(x)</Text>
+    </Entry>
+    <Entry Key="logger.additionalValues" Description="TODO check fr add tr">
+        <Text Lang="en">Additional values</Text>
+        <Text Lang="de">Weitere Werte</Text>
+        <Text Lang="fr">Valeurs supplémentaires</Text>
+    </Entry>
+    <Entry Key="logger.import" Description="TODO add tr">
+        <Text Lang="de">Importiere EDIP-Datenbank in Graph...</Text>
+        <Text Lang="en">Import EDIP database to graph...</Text>
+        <Text Lang="fr">Importer base de données EDIP dans graphe...</Text>
+    </Entry>
+    <Entry Key="logger.logDataWithHint" Description="TODO add tr and fr">
+        <Text Lang="en">Log data\n(Requires loaded database in datalogger)</Text>
+        <Text Lang="de">Daten loggen\n(Erfordert geladene Datenbank im Datalogger)</Text>
+    </Entry>
+    <Entry Key="logger.LoggerTaskStillRunning" Description="TODO add tr">
+        <Text Lang="en">EDIP DB could not be closed! The data logger is still writing remaining data!</Text>
+        <Text Lang="de">EDIP DB konnte nicht geschlossen werden! Der Datenlogger schreibt noch restliche Daten!</Text>
+        <Text Lang="fr">Impossible de fermer la base de données EDIP ! L'enregistreur de données écrit encore les données restantes !</Text>
+    </Entry>
+    <Entry Key="logger.selectAll" Description="TODO add tr">
+        <Text Lang="en">Select all</Text>
+        <Text Lang="de">Alle auswählen</Text>
+        <Text Lang="fr">Sélectionner tous</Text>
+    </Entry>
+    <Entry Key="logger.selectAllWithWarning" Description="TODO add tr and fr">
+        <Text Lang="en">Select all\n(Selection can be limited by the maximum number of graphs)</Text>
+        <Text Lang="de">Alle auswählen\n(Auswahl kann durch die maximale Anzahl an Graphen begrenzt werden)</Text>
+    </Entry>
+</Dictionary>
