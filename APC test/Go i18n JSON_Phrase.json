@@ -9,19 +9,19 @@
   },
   {
     "id": "key_with_description",
-    "translation": "Check it out! This key has a description! (At least in some formats)"
+    "translation": "Check that out my friend! This key has a best damn description! (At least in some formats)"
   },
   {
     "id": "key_with_line-break",
-    "translation": "This translations contains\na line-break."
+    "translation": "This badass translations contains\na line-break."
   },
   {
     "id": "nested.deeply.key",
-    "translation": "Wow, this key is nested even deeper."
+    "translation": "Wow, this hot key is nested even deeper."
   },
   {
     "id": "nested.key",
-    "translation": "This key is nested inside a namespace."
+    "translation": "This glamorous key is nested inside a namespace."
   },
   {
     "id": "null_translation",
