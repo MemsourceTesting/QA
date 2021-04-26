@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book [
+<!ENTITY % sgml.features "IGNORE">
+<!ENTITY % xml.features "INCLUDE">
+<!ENTITY % DOCBOOK_ENTS PUBLIC "-//OASIS//ENTITIES DocBook Character Entities V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/dbcentx.mod">
+%DOCBOOK_ENTS;
+]>
+<?asciidoc-toc maxdepth="4"?><?asciidoc-numbered?><book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<info>
+<title>A$s$s$e$s$s$i$n$g$ a$n$d$ M$o$n$i$t$o$r$i$n$g$ S$e$c$u$r$i$t$y$ P$o</title><subtitle>U$n$d$e$r$s$t$a$n$d$i$n$g$ t$h$e$ S$e$c$u$r$i$t$y$ C$o$m$p$l$i$a$n$</subtitle>
+
+<date>2021-04-23</date>
+<productname>Red Hat Insights</productname>
+<productnumber>2021</productnumber>
+<abstract>
+    <para>A$s$s$e$s$s$ a$n$d$ t$r$a$c$k$ t$h$e$ s$e$c$u$r$i$t$y$-p$o$l$i$c$y$ c$o$m$p$l$i$a$n$c$e$ s$t$a$t$u$s$ o$f$ y$o$u$r$ R$H$E$L$ e$n$v$i$r$o$n$m$e$n$t$ t$o$ d$e$t$e$r$m$i$</para>
+    <para><emphasis role="strong">P$r$o$v$i$d$i$n$g$ F$e$e$d$b$a$c$k$:</emphasis> I$f$ y$o$u$ h$a$v$e$ a$ s$u$g$g$e$s$t$i$o$n$ t$o$ i$m$p$r$o$v$e$ t$h$i$s$ d$o$c$u$m$e$n$t$a$t$i$o$n$, o$r$ f$i$n<link xlink:href="https://bugzilla.redhat.com/enter_bug.cgi?product=Cloud%20Software%20Services%20(cloud.redhat.com)"></link> S$e$l$e$c$t$ t$h$e$ <emphasis role="strong">C$l$o$u$d$ S$o$f$t$w$a$r$e$ S$e$r$v$i$c$e$s$ (c$l$o$u$d$.r$e$d$h$a$t$.c$o$m$)</emphasis> <emphasis role="strong"></emphasis></para>
+</abstract>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Author_Group.xml"/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Common_Content/Legal_Notice.xml"/>
+</info>
+<chapter xml:id="con-compl-assess-overview_compl-assess-overview">
+<title>c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ r$e$p$o</title>
+<simpara role="_abstract">T$h$e$ R$e$d$ H$a$t$ I$n$s$i$g$h$t$s$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ e$n$a$b$l$e$s$ y$o$u$ t$o$ a$s$s$e$s$s$ a$n$d$ m$o$n$i$t$o$r$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ o</simpara>
+<simpara>T$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ p$r$o$v$i$d$e$s$ a$ s$i$m$p$l$e$ b$u$t$ p$o$w$e$r$f$u$l$ u$s$e$r$ i$n$t$e$r$f$a$c$e$, e$n$a$b$l$i$n$g$ t$h W$i$t$h$ t$h$e$ f$i$l$t$e$r$i$n$g$ a$n$d$ c$o$n$t$e$x$t$-a$d$d$i$n$g$ f$e$a$t$u$r$e$s$ b$u$i$l$t$ i$n$, a$d$m$i$n$i$s$t$r$a$t$o$r$s$ c$a$n$ e$a$s$i$l$y$ i$d$</simpara>
+<simpara>T$h$i$s$ d$o$c$u$m$e$n$t$a$t$i$o$n$ d$e$s$c$r$i$b$e$s$ s$o$m$e$ o$f$ t$h$e$ f$u$n$c$t$i$o$n$a$l$i$t$y$ o$f$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$, t$o$ h$e$l$p$ u$s$e$r$s$</simpara>
+<simpara>Y$o$u$ c$a$n$ a$l$s$o$ c$r$e$a$t$e$ A$n$s$i$b$l$e$ P$l$a$y$b$o$o$k$s$ t$o$ r$e$s$o$l$v$e$ s$e$c$u$r$i$t$y$ c$o$m$p$l$i$a$n$c$e$ i$s$s$u$e$s$ a$n$</simpara>
+<itemizedlist role="_additional-resources">
+<title>A$d$d$i$t$i$o$n$a$l$</title>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/remediating_security-policy_compliance_issues_using_ansible_playbooks/index"><emphasis>R$e$m$e$d$i$a$t$i$n$g$ S$e$c$u$r$i$t$y$-P$o$l$i$c$y$ C$o$m$p$l$i$a$n$</emphasis></link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/generating_compliance_reports/index"><emphasis>G$e$n$e$r$a$t$i$n$g$ C$o$m$p$</emphasis></link></simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="con-compl-assess-requirements-and-prerequisites_compl-assess-overview">
+<title>R$e$q$u$i$r$e$m$e$n$t$s$ a$n$d</title>
+<simpara role="_abstract">T$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ i$s$ p$a$r$t$ o$f$ R$e$d$ H$a$t$ I$n$s$i$g$h$t$s$, w$h$i$c$h$ i$s$ i$n$c$l$u$d$e$d$ w$i$t$h$ y$o$u$r$ R$e$d$ H$a$t$ E$n$t$e$r$p$r$i$s$e$ L$i$n$u$x$ (R$H$E$ Y$o$u$ d$o$ n$o$t$ n$e$e$d$ a$d$d$i$t$i$o$n$a$l$ R$e$d$ H$a$t$ s$u$b$s$c$r$i$p$t$i$o$n$s$ t$</simpara>
+<simpara>V$e$r$i$f$y$ t$h$e$ f$o$l$l$o$w$i$n$g$ c$o$n$d$i$t$i$o$n$s$ a$r$e$ m$e$t$ b$</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">R$e$g$i$s$t$e$r$ t$h$e$ s$y$s$t$e$m$ w$i$t</emphasis> R$e$g$i$s$t$e$r$ s$y$s$t$e$m$s$ w$i$t$h$ I$n$s$i$g$h$t$s$ f$r<link xlink:href="https://cloud.redhat.com/insights/registration"></link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">S$e$t$ u$p$ O$p$</emphasis> S$e$t$ u$p$ O$p$e$n$S$C$A$P$ w$i$t$h$ t$h$e$ a$b$i$l$i$t$y$ t$o$ r$e$p$o$r P$o$l$i$c$i$e$s$ c$a$n$ t$h$e$n$ b$e$ a$d$d$e$d$ a$n$d$ m$o$d$i$f$i$e I$f$ y$o$u$ a$r$e$ u$n$f$a$m$i$l$i$a$r$ w$i$t$h$ O$p$e$n$S$C$A$P$, s$e$<link xlink:href="https://www.open-scap.org/getting-started/"></link></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">C$r$e$a$t$e$ s$e$c$u$r$i$t$y$ p$o$l$i$c$i$e$s$ i$n$</emphasis> I$n$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$, y$o$u$ h$a$v$e$ t$o$ a$s$s$i$g$n$ e$a$c$h$ I$n$s$i$g$h$t$s$-r$e$g$i$s$t$e$r$e$d$ s$y$s$t$e$m$ t$o$ o$n$</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-supported-configurations_compl-assess-overview">
+<title>S$u$p$p$o$r$t$e$d$ c$o$n</title>
+<simpara role="_abstract">A$c$c$u$r$a$t$e$ c$o$m$p$l$i$a$n$c$e$ r$e$p$o$r$t$i$n$g$ r$e$q$u$i$r$e$s$ t$h$a$t$ t$h$e$ R$e$d$ H$a$t$-a$p$p$r$o$v$e$d$ v$e$r$s$ R$e$d$ H$a$t$ E$n$t$e$r$p$r$i$s$e$ L$i$n$u$x$ m$i$n$o$r$ v$e$r$s$i$o$n$s$ s$h$i$p$ a$n$d$ u$p$g$r$a$d$e$ w$i$t$h$ t$h$e$ a$p$p$r$o$v$e$d$ S$S$G$ v$e$r$s$i$o$n$ i$n$c$l$u$d$e$d$; a$l$t$h$o$u$g$h$, s$o$m$e$ o</simpara>
+<simpara>I$f$ a$ p$o$l$i$c$y$ i$n$c$l$u$d$e$s$ s$y$s$t$e$m$s$ u$s$i$n$g$ u$n$s$u$p$p$o$r$t$e$d$ S$S$G$ v$e$r$s$i$o$n$s$, a$n$ <emphasis role="strong">u$n$s$u$p$p$o$r$t$e$d$</emphasis> w$a$r$n$i$n$g$, p$r$e$c$e$d$e$d$ b$y$ t$h$e$ n$u$m$b$e$r$ o$f$<link xlink:href="https://cloud.redhat.com/insights/compliance/reports"></link></simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-unsupported-configuration-example.png"/>
+</imageobject>
+<textobject><phrase>img compl assess unsupported configuration example</phrase></textobject>
+</inlinemediaobject></simpara>
+<simpara>T$h$e$ f$o$l$l$o$w$i$n$g$ t$a$b$l$e$ l$i$s$t$s$ t$h$e$ s$u$p$p$o$r$t$e$d$ S$S$G$ v$e$r</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>S$u$p$p$o$r$t$e$d$ v$e$r$s$i$o$n$s$ o$f$ t$h$e$ S$C$A</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">R$e$d$ H$a$t$ E$n$t$e$r$p$r$i$s$</entry>
+<entry align="left" valign="top">S$C$A$P$ S$e$c$u$r$i$t$y$ G</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ </simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 7.2</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 7.3</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 7.4 A$U$</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 7.5 (b$a$t$c$h</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d$e</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 7.6</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d$e</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 7.7</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 7.8 (b$a$t$c$h</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d</simpara><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 8.0</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 8.1</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$</simpara><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$ 8.2 (b$a$t$c$h</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>R$H$E$L$</simpara></entry>
+<entry align="left" valign="top"><simpara>s$c$a$p$-s$e$c$u$r$i$t$y$-g$u$i$d</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<formalpara>
+<title>W$h$a$t$ i$s$ t$h$e$ S$S$G$ v$</title>
+<para>S$C$A$P$ S$e$c$u$r$i$t$y$ G$u$i$d$e$ p$a$c$</para>
+</formalpara>
+<screen>scap-security-guide-0.1.43-13.el7</screen>
+<simpara>I$n$ t$h$i$s$ e$x$a$m$p$l$e$, t$h$e$ S$S$G$ v$e$r$s$i$o$n$ n$u$m$b$e$r$ i$s$ <emphasis role="strong">0.1.43</emphasis>, t$h$e$ r<emphasis></emphasis><emphasis></emphasis> T$h$e$ r$e$l$e$a$s$e$ n$u$m$b$e$r$ c$a$n$ d$i$f$f$e$r$ f$r$o$m$ t$h$e$ v$e$r$s$i$o$n$ n$u$m$b$e$r$ s$h$o$w$n$ i$n$ t$h$e$ t$a$b$l$e$ b$e$l$o$w$; h$o$w$e$v$e$r$, t$h$e$ <emphasis role="strong">v$e$r$s$i</emphasis></simpara>
+<formalpara>
+<title>W$h$a$t$ i$f$ R$e$d$ H$a$t$ s$u$p$p$o$r$t$s$ m$o$r$e$ t$h$a$t$ o$n$e$</title>
+<para>W$h$e$n$ m$o$r$e$ t$h$a$n$ o$n$e$ S$S$G$ v$e$r$s$i$o$n$ i$s$ s$u$p$p$o$r$t$e$d$ f$o$r$ a$ R$H$E$L$ m$i$n$o$r$ v$e$r$s$i$o$n$, a$s$ i$s$ t$h$e$ c$a$s$e$ w$i$t$h$ R$H$E$L$ 7.9 </para>
+</formalpara>
+<formalpara>
+<title>W$h$y$ i$s$ m$y$ o$l$d$ p$o$l$i$c$y$ n$o$ l$o$n$</title>
+<para>A$s$ R$H$E$L$ m$i$n$o$r$ v$e$r$s$i$o$n$s$ g$e$t$ o$l$d$e$r$, f$e$w$e T$o$ v$i$e$w$ w$h$i$c$h$ S$C$A$P$ p$r$o$f$i$l$e$s$ a$r$e$ s$u$p$p$o$r$t$e$d$, s$e$e$ t$a$b$l$e$s$ i$n$ <link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/security_guide/index#scap-security-guide-profiles-supported-in-rhel-7_scanning-the-system-for-configuration-compliance-and-vulnerabilities">S$C$A$P$ S$e$c$u$r$i$t$y$ G$u$i$d$e$ p$r$o$f$i$l$e$s$ s$</link><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/security_hardening/index?lb_target=production#scap-security-guide-profiles-supported-in-rhel_scanning-the-system-for-configuration-compliance-and-vulnerabilities"></link></para>
+</formalpara>
+<formalpara>
+<title>M$o$r$e$ a$b$o$u$t$ l$i$m$i$t$a$t$i$o$n$s$ o$f$ u$n$</title>
+<para>T$h$e$ f$o$l$l$o$w$i$n$g$ c$o$n$d$i$t$i$o$n$s$ a$p$p$l$y$ t$o$ t$h$e$ r$e$s$u</para>
+</formalpara>
+<itemizedlist>
+<listitem>
+<simpara>T$h$e$s$e$ r$e$s$u$l$t$s$ a$r$e$ a$ “b$e$s$t$-g$u$e$s$s$” e$f$f$o$r$t$ b$e$c$a$u$s$e$ u$s$i$n$g$ a$n$y$ S$S$G$ v$e$r$s$i$o$n$ o$t$h$e$r$ t$h$</simpara>
+<important>
+<simpara>A$l$t$h$o$u$g$h$ y$o$u$ c$a$n$ s$t$i$l$l$ s$e$e$ r$e$s$u$l$t$s$ f$o$r$ a$ s$y$s$t$e$m$ w$i$t$h$ a$n$ u$n$s$u$p$p$o$r$t$e$d$ v$e$r$s$i$o$n$ o$f$ S$S$G$ i$n$s$t$a$l$l$e$d$, </simpara>
+</important>
+</listitem>
+<listitem>
+<simpara>R$e$s$u$l$t$s$ f$o$r$ s$y$s$t$e$m$s$ u$s$i$n$g$ a$n$ u$n$s$u$p$p$o$r$t$e$d$ v$e$r$s$i$o$n$ o$f$ S$S$G$ <emphasis>a$r$e$ n$o$t$ i$n$c$l$</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>R$e$m$e$d$i$a$t$i$o$n$s$ a$r$e$ n$o$t$ a$v$a$i$l$a$b$l$e$ f$o$r$ r$u$l$e$s$ o$n$ s$y$s$t$e$m$s$ w</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-best-practices-and-supported-configurations_compl-assess-overview">
+<title>B$e$s$t$ p$r$a</title>
+<simpara role="_abstract">T$o$ b$e$n$e$f$i$t$ f$r$o$m$ t$h$e$ b$e$s$t$ u$s$e$r$ e$x$p$e$r$i$e$n$c$e$ a$n$d$ r$e$c$e$i$v$e$ t$h$e$ m$o$s$t$ a$c$c$u$r$a$t$e$ r$e$s$u$l$t$s$ i$n$ t$h$e$ c$o$</simpara>
+<formalpara>
+<title>E$n$s$u$r$e$ t$h$a$t$ t$h$e$ R$H$E$L$ O$S$ s$y$s$t$e$m$ m$i$n$o$r$ v$e$r$s$i$o</title>
+<para>I$f$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ c$a$n$n$o$t$ s$e$e$ y$o$u$r$ R$H$E$L$ O$S$ m$i$n$o$r$ v$e$r$s$i$o$n$, t$h$e$n$ t$h$e$ s$u$p$p$o$r$t$e$d$ S$C$A$P$ S$e$c$u$r T$h$e$ I$n$s$i$g$h$t$s$ c$l$i$e$n$t$ a$l$l$o$w$s$ u$s$e$r$s$ t$o$ r$e$d$a$c$t$ c$e$r$t$a$i$n$ d$a$t$a$, i$n$c$l$u$d$i$n$g$ R$H$E$L$ O$S$ m$i$n$o$r$ v T$h$i$s$ w$i$l$l$ p$r$o$h$i$b$i$t$ a$c$c$u$r$a$t$e$ c$o$m</para>
+</formalpara>
+<simpara>T$o$ l$e$a$r$n$ m$o$r$e$ a$b$o$u$t$ d$a$t$a$ r$e$d$a$c$t$i$o$n$, s$e$e$ t$h$e$ f$o$l$l$o$w$i$n$g$ d$o$c$u$m$e$n$t$<link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html-single/client_configuration_guide_for_red_hat_insights/index#configuring-insights-client-redaction"></link></simpara>
+<formalpara>
+<title>C$r$e$a$t$e$ s$e$c$u$r$i$t$y$ p$o$l$i$c$i$e$s$ w$i$t$h</title>
+<para>C$r$e$a$t$i$n$g$ y$o$u$r$ o$r$g$a$n$i$z$a$t$i$o$n$’s$ s$e$c$u$r$i$t$y$ p$o$l$i$c$i$e$s$ w$i$t$h$i$n$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ a$l$l$o$w$s$ y$o$u$ t$o$ a$s$s$o$c$i$a$t$e$ m$u$l$t$i$p$l$e$ s$y$s$t$e$m$s$ w$i$t$h$ t$h$e$ p$o$l$i$c$y$, b$e$ a$s$s$u$r$e$d$ o$f$ u$s$i$n$g$ t$h$e$ c$o$r$r$e$c</para>
+</formalpara>
+</section>
+</chapter>
+<chapter xml:id="con-compl-assess-managing-scap-security-policies_compl-manage-scap-security-policies">
+<title>M$a$n$a$g$i$n$g$ S$C$A$P$ s$e$c$u$r$i$t$y$ p$o$l$i$c$i$e$</title>
+<simpara role="_abstract">C$r$e$a$t$e$ a$n$d$ m$a$n$a$g$e$ y$o$u$r$ S$C$A$P$ s$e$c$u$r$i$t$y$ p$o$l$i$c$i$e$s$  D$e$f$i$n$e$ n$e$w$ p$o$l$i$c$i$e$s$ a$n$d$ s$e$l$e$c$t$ t$h$e$ r$u$l$e$s$ a$n$d$ s$y$s$t$e$m$s$ y$o$u$ w$a$n$t$ t$o$ a$s$s$o$c$i$a$t$e$ w$i$</simpara>
+<important>
+<simpara>U$n$l$i$k$e$ o$t$h$e$r$ R$e$d$ H$a$t$ I$n$s$i$g$h$t$s$ s$e$r$v$i$c$e$s$, t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c I$n$ o$r$d$e$r$ t$o$ u$p$l$o$a$d$ O$p$e$n$S$C$A$P$ d$a$t$a$ t$o$ t$h$e$ I$n$s$i$g$h$t$s$ a$p$p$l$i$c$a$t$i$o$n$, y$o$u$ m$u$s$t$ r$u$n$ <literal>i$n$s$i$g$h$t$s$-c$l$</literal></simpara>
+</important>
+<section xml:id="proc-compl-assess-creating-policies_compl-manage-scap-security-policies">
+<title>C$r$e$a$t$i$n$g$ n$e$w$ S$</title>
+<simpara role="_abstract">Y$o$u$ m$u$s$t$ a$d$d$ e$a$c$h$ I$n$s$i$g$h$t$s$-r$e$g$i$s$t$e$r$e$d$ s$y$s$t$e$m$ t$o$ a$ s$e$c$u$r$i$t$y$ p$o$l$i$c$y$ b$e$f$ T$o$ c$r$e$a$t$e$ a$ n$e$w$ p$o$l$i$c$y$, a$n$d$ i$n$c$l$u$d$e$ s$p$e$c$i$f$i$c$ s$y$s$t$e$m$</simpara>
+<important>
+<simpara>I$f$ y$o$u$r$ R$H$E$L$ s$e$r$v$e$r$s$ s$p$a$n$ a$c$r$o$s$s$ m$u$l$t$i$p$l$e$ m$a$j$o$r$ r$e$l$e$a$s$e$s$ o$f$ R$H$E$L$, y$o F$o$r$ e$x$a$m$p$l$e$, a$l$l$ o$f$ y$o$u$r$ R$H$E$L$ 7 s$e$r$v$e$r$s$ w$o$u$l$d$ b$e$ o$n$ o$n$e$ <emphasis>S$t$a$n$d$a$r$d$ S$y$s$t$e$m$ S$e$c$u$r$i$t$y$ P$r$o$f$i$</emphasis></simpara>
+</important>
+<orderedlist numeration="arabic">
+<title>P$r$o$c$e</title>
+<listitem>
+<simpara>L$o$g$ i$n$ t$o$ <link xlink:href="https://cloud.redhat.com/">c$l$o$u$d$.r$e$d$h$a$t$.c$o$m$</link> a$n$d$ n$a$v$i$g$a$t$e$ t$o$ t$h$e$ <link xlink:href="https://cloud.redhat.com/insights/compliance/scappolicies">R$e$d$ H$a$t$ </link></simpara>
+</listitem>
+<listitem>
+<simpara>C$l$i$c$k$ t$h$e$ <emphasis role="strong">C$r$e$a$t$e$ n$e$</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>O$n$ t$h$e$ <emphasis role="strong">C$r$e$a$t$e$ S$C$A$P$ p$o$l$i$c$y$</emphasis> p$a$g$e$ o$f$ t$h$e$ w$i$z$a$r$d$, s$e$l$e$c$t$ t$h$e$ <emphasis role="strong">R$H$E$L$ m$a$j$o$r$ </emphasis></simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-create-policy-wizard-1.png"/>
+</imageobject>
+<textobject><phrase>img compl assess create policy wizard 1</phrase></textobject>
+</inlinemediaobject></simpara>
+</listitem>
+<listitem>
+<simpara>S$e$l$e$c$t$ o$n$e$ o$f$ t$h$e$ <emphasis role="strong">p$o$l$i$c$y$ t$y$p$e$s$</emphasis> a$v$a$i$l$a$b$l$e$ f$o$r$ t$h$<emphasis role="strong"></emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>O$n$ t$h$e$ <emphasis role="strong">D$e$t$a$i$l$s$</emphasis> p$a$g$e$, a$c$c$e$p$t$ t$h$e$ n$a$m$e$ a$n$d$ d$e$s$c$r$i$p$t$i$o$n$ a$l$r$e$a$d$y$ p$r</simpara>
+</listitem>
+<listitem>
+<simpara>O$p$t$i$o$n$a$l$l$y$ a$d$d$ a$ <emphasis role="strong">B$u$s$i$n$e$s$s$ o$b$j$e$c$t$i$v$e$</emphasis> t$o$ g$i$v$e$ </simpara>
+</listitem>
+<listitem>
+<simpara>D$e$f$i$n$e$ a$ <emphasis role="strong">C$o$m$p$l$i$a$n$c$e$ t$h$r$e$s$h$o$l$d$</emphasis> a$c$c$e$p$t$a$b$l$e$ f<emphasis role="strong"></emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>S$e$l$e$c$t$ t$h$e$ <emphasis role="strong">S$y$s$t$e$m$s$</emphasis> t$o$ i$n$c$l$u$d$e$ o$n$ <emphasis role="strong"></emphasis> Y$o$u$r$ s$e$l$e$c$t$i$o$n$ o$f$ a$ R$H$E$L$ m$a$j$o$r$ v$e$r$s$i$o$n$ i$n$ t$h$e$ f$i$r$s$t$ s$t$e$p$ a$u$t$o$m$a$t$i$c$a$l</simpara>
+</listitem>
+<listitem>
+<simpara>S$e$l$e$c$t$ w$h$i$c$h$ <emphasis role="strong">R$u$l$e$s$</emphasis> t$o$ i$n$c$l B$e$c$a$u$s$e$ e$a$c$h$ m$i$n$o$r$ v$e$r$s$i$o$n$ o$f$ R$H$E$L$ s$u$p$p$o$r$t$s$ t$h$e$ u$s$e$ o$f$ a$ s$p$e$c$i$f$i$c$ S$C$A$P$ S$e$c$u$r$i$t$y$ G$u$i$d$e$ (S$S$G$) v$e$r$s$i$o$n$ (s$o$m$e$t$i$m$e$s$ m$o$r$e$ t$h$a$n$ o$n$e$, i$n$ w$h$i$c$h$ c$a$s$e$ w$e</simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-create-policy-rules-tabs.png"/>
+</imageobject>
+<textobject><phrase>img compl assess create policy rules tabs</phrase></textobject>
+</inlinemediaobject></simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>O$p$t$i$o$n$a$l$l$y$, u$s$e$ t$h$e$ f$i$l$t$e$r$i$n$g$ a$n$d$ s$e$a$r$c$h$ c$a$p$a</simpara>
+<simpara>F$o$r$ e$x$a$m$p$l$e$, t$o$ s$h$o$w$ o$n$l$y$ t$h$e$ h$i$g$h$e$s$t$ s$e$v$e$r$i$t$y$ r$u$l$e$s$, c$l$i$c$k$ <emphasis role="strong"></emphasis> I$n$ t$h$e$ s$e$c$o$n$d$a$r$y$ f$i$l$t$e$r$, c$h$e$c$k$ t$h$e<emphasis role="strong"></emphasis><emphasis role="strong"></emphasis></simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-create-policy-filter-rules.png"/>
+</imageobject>
+<textobject><phrase>img compl assess create policy filter rules</phrase></textobject>
+</inlinemediaobject></simpara>
+</listitem>
+<listitem>
+<simpara>T$h$e$ r$u$l$e$s$ s$h$o$w$n$ b$y$ d$e$f$a$u$l$t$ a$r$e$ t$h$o$s$e$ d$e$s$i$g$n$a$t$e$d$ f$o$r Y$o$u$ c$a$n$ v$i$e$w$ a$d$d$i$t$i$o$n$a$l$ r$u$l$e$s$ y$o$u$ m$a$y$ w$i$s$h$ t$o$ i$n$c$l$u$d$e$ b$y$ c$l$i$c$k$i$n$g$ t$h$e<emphasis role="strong"></emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>R$e$p$e$a$t$ t$h$i$s$ p$r$o$c$e$s$s$ a$s$ n$e$e$d$e$d$ <emphasis role="strong">f$o$r$ <emphasis></emphasis></emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>A$f$t$e$r$ y$o$u$ s$e$l$e$c$t$ r$u$l$e$s$ f$o$r$ e$a$c$h$ R$H$E$L$ <emphasis role="strong"></emphasis></simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>O$n$ t$h$e$ <emphasis role="strong">R$e$v$i$e$w$</emphasis> p$a$g$e$, v$e$r$i$f$y$ t$h$a$t$ t$h$e$ i$n$f$o$r$m$a$t$i$o$<emphasis role="strong"></emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>G$i$v$e$ t$h$e$ a$p$p$ a$ m$i$n$u$t$e$ t$o$ c$r$e$a$t$e$ t$h$e$ p$o$l$i$c$y$, t$h$e$n$ c$l$i$c$k$ t$h$e$ b$u$t$t$o$n$ t$o$ <emphasis role="strong">R$e$t$u$r$n$ t$o$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c</emphasis></simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="proc-compl-assess-editing-policies_compl-manage-scap-security-policies">
+<title>E$d$i$t$i$n$g$ e$x$i$s$t$</title>
+<simpara role="_abstract">Y$o$u$ m$a$y$ d$e$c$i$d$e$ a$f$t$e$r$ c$r$e$a$t$i$n$g$ a$ s$e$c$u$r$i$t$y$ p$o$l$i$c$y$ t$h$a$t$ y$o$u$ w$a$n$t$ t$o$ c$h$a$n$g$e$ w$h$i$c$h$ r$u$l$e$s$ (o$r$ s$y$s U$s$e$ t$h$e$ f$o$l$l$o$w$i$n$g$ p$r$o$c$e$d$u$r$e$ t$o$ e$d$i$t$ a$n$ e$x$i$s$t$i$n$g$</simpara>
+<orderedlist numeration="arabic">
+<title>P$r$o$c$e</title>
+<listitem>
+<simpara>L$o$g$ i$n$ t$o$ <link xlink:href="https://cloud.redhat.com/">c$l$o$u$d$.r$e$d$h$a$t$.c$o$m$</link> a$n$d$ n$a$v$i$g$a$t$e$ t$o$ t$h$e$ <link xlink:href="https://cloud.redhat.com/insights/compliance/scappolicies">R$e$d$ H$a$t$ </link></simpara>
+</listitem>
+<listitem>
+<simpara>L$o$c$a$t$e$ t$h$e$ p$o$l$</simpara>
+</listitem>
+<listitem>
+<simpara>O$n$ t$h$e$ r$i$g$h$t$ s$i$d$e$ o$f$ t$h$e$ p$o$l$i$c$y$ r$o$w$, c$l$i$c$k$ t$h$e$ m$o$r$e$-a$c$t$i$o$n$s$ i$<emphasis role="strong"></emphasis><emphasis role="strong"></emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>I$n$ t$h$e$ <emphasis role="strong">E$d$i$t$ &lt;P$o$l$i$c$y$ n$a$m$e$></emphasis> c$a$r$d<emphasis role="strong"></emphasis></simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>U$s$e$ t$h$e$ f$i$l$t$e$r$ o$r$ s$e$a$r$c$h$ f$u$n$c$t$i$o$n$s$ t</simpara>
+<important>
+<simpara>T$h$e$ r$u$l$e$s$ s$h$o$w$n$ b$y$ d$e$f$a$u$l$t$ a$r$e$ t$h$o$s$e$ d$e$s$i$g$n$a$t$e$d$ f$o$r Y$o$u$ c$a$n$ i$n$c$l$u$d$e$ a$d$d$i$t$i$o$n$a$l$ r$u$l$e$s$ b$y$ c$l$i$c$k$i$n$g$ t$h$e$ <emphasis role="strong">S$e$l$e$c$t$e$d$ o$n$l$y$</emphasis> t$o$g$g$l$e$,</simpara>
+</important>
+</listitem>
+<listitem>
+<simpara>U$n$c$h$e$c$k$ t$h$e$ b$o$x$ n$e$x$t$ t$o$ a$n$y$ r$</simpara>
+</listitem>
+<listitem>
+<simpara>R$e$p$e$a$t$ t$h$i$s$ p$r$o$c$e$s$s$ a$s$ n$e$e$d$e$d$ f$o$r$ e$a$</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>C$l$i$c$k$ <emphasis role="strong"></emphasis></simpara>
+</listitem>
+</orderedlist>
+<orderedlist numeration="arabic">
+<title>V$e$r$i$f$i$</title>
+<listitem>
+<simpara>N$a$v$i$g$a$t$e$ t$o$ t$h$e$ <link xlink:href="https://cloud.redhat.com/insights/compliance/scappolicies">R$e$d$ H$a$t$ I$n$s$i$g$h$t$s$ > C$o$m$p$l$i$a$n$c$e$ > S$C$A$P$ p$</link></simpara>
+</listitem>
+<listitem>
+<simpara>C$l$i$c$k$ o$n$ t$h$e$ p$o$l$i$c$y$ a$n$d$ v$e$r$i$f$y$ t$h$a$t$ t$h$e$ i$n$c$l$u$d$e$d$ r$u$l</simpara>
+</listitem>
+</orderedlist>
+</section>
+</chapter>
+<chapter xml:id="con-compl-assess-understanding-compl-reporting_compl-understand-compl-service-reporting">
+<title>U$n$d$e$r$s$t$a$n$d$i$n$g$ y$o$u$r$ c$o$m$p$l$i</title>
+<simpara role="_abstract">T$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ d$i$s$p$l$a$y$s$ t$h$e$ l$a$t$e$s$t$ a$v$a$i$l$a$b$l$e$ O$p$e$n$S$C$A$ V$i$e$w$ s$u$m$m$a$r$y$ r$e$s$u$l$t$s$ f$o$r$ e$a$c$h$ p$o$l$i$c$y$ i$n$ <link xlink:href="https://cloud.redhat.com/insights/compliance/reports">R$e$d$ </link></simpara>
+<simpara>F$o$r$ a$ d$e$e$p$e$r$ u$n$d$e$r$s$t$a$n$d$i$n$g$ o$f$ c$o$m$p$l$i$a$n$c$e$ s$t$a$t$u$s$ p$e$r$ s$y$s$t$e$m$, f$i$l$t$e$r$ a$n$d</simpara>
+<simpara>T$h$e$ f$o$l$l$o$w$i$n$g$ s$e$c$t$i$o$n$s$ d$e$s$c$r$i$b$e$ w$a$y$s$ t$o$ r$e$f$i$n$e$ y$o$u$r$ d$a$t$a$, d$e$p$e$n$d$i$n$g$ o$n$ y$o$u$r$ l$o$c$a$t$i$</simpara>
+<section xml:id="con-compl-assess-scap-policies_compl-understand-compl-service-reporting">
+<title>S$C$A$P$ p$o$</title>
+<simpara role="_abstract">U$s$e$ t$h$e$ S$e$a$r$c$h$ f$u$n$c$t$i$o$n$ t$o$ l$o$c$a$t$e T$h$e$n$ c$l$i$c$k$ o$n$ t$h$e$ p$o$l$i$c$y$ n$a$m$e$ t$o$ s$e$e$ t$h$e$ p$o$l$i$c$y$ c$a$r$d$,</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">D$e$t$a$</emphasis> V$i$e$w$ d$e$t$a$i$l$s$ s$u$c$h$ a$s$ c$o$m$p$l$i$a$n$c$e$ t$h$r$e$s$h$o$l$d$, b$u$</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">R$u$l$</emphasis> V$i$e$w$ a$n$d$ f$i$l$t$e$r$ t$h$e$ r$u$l$e$s$ i$n$c$l$u$d$e$d$ i$n$ t$h$e$ s$p$e$c$i$f$i$c$ S$S$G$ v$e$r$s$i$o$n$ o$f$ t$h$e$ p$o$l$i$c$y$ b$y$ n$a$m$e$ a$n$d$ s$e$v$e$</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">S$y$s$t$</emphasis> S$e$a$r$c$h$ b$y$ s$y$s$t$e$m$ n$a$m$e$ t$o$ l$o$c$a$t$e$ a$ s$p$e$c$i$f$i$c$ s$y$s$t$e$m$ a$s$s$o$c$i$a$t$e$d$ w$i$t$h$ t$h$e$ p$o$l$i$c$y$ t$h$e$n$ c$l$i$c$k$ t$h$e$ s$y$s$t$</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-systems_compl-understand-compl-service-reporting">
+<title>S$y$s$t</title>
+<simpara role="_abstract">T$h$e$ d$e$f$a$u$l$t$ f$u$n$c$t$i$o$n$a$l$i$t$y$ o$n$ t$h$i$s$ p$a$</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">N$a$m</emphasis> S$e$a$r$c$h$ b$y$ s$y$</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">P$o$l$i</emphasis> S$e$a$r$c$h$ b$y$ p$o$l$i$c$y$ n$a$m$e$ a$n$d$ s$e$e$ t$h$e$ s$y$s</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">O$p$e$r$a$t$i$n$g</emphasis> S$e$a$r$c$h$ b$y$ R$H$E$L$ O$S$ m$a$j$o$r$ v$e$r$s$i$o$n$s$ t$o$ s$e$e</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-searching_compl-understand-compl-service-reporting">
+<title>S$e$a$r$c</title>
+<simpara role="_abstract">T$h$e$ s$e$a$r$c$h$ f$u$n$c$t$i$o$n$ i$n$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$c$e$ w$o$r$k$s$</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">S$C$A$P$ P$o$l</emphasis> S$e$a$r$c$h$ f$o$r$ a$ s$p$e$c$i$f$i$</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">S$y$s$t$</emphasis> S$e$a$r$c$h$ b$y$ s$y$s$t$e$m$ n$a$m$e$, p$o$l$i$c$y$, o$r$ R$H$E$L$ o</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">R$u$l$e$s$ l$i$s$t$ (s$i$n$</emphasis> T$h$e$ r$u$l$e$s$ l$i$s$t$ s$e$a$r$c$h$ f$u$n$c$t$i$o$n$ a$l$l$o$w$s$ y$o$u$ t$o$ s I$d$e$n$t$i$f$i$e$r$s$ a$r$e$ s$h$o$w$n$ d$i$r$e$c$</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-filtering_compl-understand-compl-service-reporting">
+<title>F$i$l$t$e</title>
+<simpara role="_abstract">F$i$l$t$e$r$i$n$g$ i$s$ a$v$a$i$l$a$b$l$e$ f$r$o$m$ m$u$l$t$i$p$l$e$ v$i$e$w$s$ i$n$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$ T$h$e$ <emphasis role="strong">F$i$l$t$e$r$s$</emphasis> i$c$o$n$ i$s$ l$o$c$a$t$e$d$ o$n$ t$h$e$ l$<emphasis role="strong"></emphasis> C$l$i$c$k$ t$h$e$ d$o$w$n$ a$r$r$o$w$ a$n$d$ c$h$e$c$k$ </simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">S$y$s$t$e$m$s</emphasis> F$i$l$t$e$r$ b$y$ N$a$m$e$, S$t$a$t</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">S$i$n$g$l$e$ s$y$s$t$e$m$</emphasis> F$i$l$t$e$r$ r$u$l$e$s$ t$h$a$t$ h$a$v$e$ p$a$s$s$e$d$ o$r$ n$o$t</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-sorting-data_compl-understand-compl-service-reporting">
+<title>S$o$r$t$i$n$g$ y$</title>
+<simpara role="_abstract">Y$o$u$ c$a$n$ o$r$d$e$r$ y$o$u$r$ r$e$s$u$l$t$s$ b$y$ s$o$r$t$i$n$g$ c$o$l$u$m$n$s$ i$n$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ <emphasis role="strong"></emphasis><emphasis role="strong"></emphasis> T$h$e$ f$o$l$l$o$w$i$n$g$ c$o$l$u$m$n$s$ a$r$e$ </simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">C$o$m$p$l$i$a$n$c$e$ s$e$r$v$i$</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>S$y$s$t$e$m$ n$a$m$e$ (A$l</simpara>
+</listitem>
+<listitem>
+<simpara>P$o$l$i$c$y$ n$a$m$e$ (A$l</simpara>
+</listitem>
+<listitem>
+<simpara>C$o$m$p$l$i$a$n$c$e$ s$c$o$r$e$ (P$e$r$c$e$n$t$a$g$e$ o$f</simpara>
+</listitem>
+<listitem>
+<simpara>L$a$s$t$ s$c$a$n$ (T$i$m$e$ e$l$a$p$s$e$</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">R$u$l$e$s$ l$i$s$t$ f$o</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>R$u$l$e$ n$a$m$e$ (A$l$p</simpara>
+</listitem>
+<listitem>
+<simpara>S$e$v$e$r$i$t$y$ (L$o$w$, M$e$d$i$u$m$</simpara>
+</listitem>
+<listitem>
+<simpara>A$n$s$i$b$l$e$ s$u$p$p$o$r$t$ (p$l$a$y$b$o$o$k$ a$v$a</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+</chapter>
+<chapter xml:id="ref-compl-assess_compl-assess-reference-materials">
+<title>R$e$f$e$r$e$n$c$e$ </title>
+<simpara role="_abstract">T$o$ l$e$a$r$n$ m$o$r$e$ a$b$o$u$t$ t$h$e$ c$o$m$p$l$i$a$n$c$e$ s$e$r$v$</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/remediating_security-policy_compliance_issues_using_ansible_playbooks/index"><emphasis>R$e$m$e$d$i$a$t$i$n$g$ S$e$c$u$r$i$t$y$-P$o$l$i$c$y$ C$o$m$p$l$i$a$n$</emphasis></link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/generating_compliance_reports/index"><emphasis>G$e$n$e$r$a$t$i$n$g$ C$o$m$p$</emphasis></link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/">R$e$d$ H$a$t$ I$n$s$i$g$h$t$s$</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/products/red-hat-insights/#whatsnew">R$e$d$ H$a$t$ I$n$s$i$g$h$t$s$ P$r$o$</link></simpara>
+</listitem>
+</itemizedlist>
+</chapter>
+</book>
