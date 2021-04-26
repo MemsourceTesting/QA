@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book [
+<!ENTITY % sgml.features "IGNORE">
+<!ENTITY % xml.features "INCLUDE">
+<!ENTITY % DOCBOOK_ENTS PUBLIC "-//OASIS//ENTITIES DocBook Character Entities V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/dbcentx.mod">
+%DOCBOOK_ENTS;
+]>
+<?asciidoc-toc maxdepth="4"?><?asciidoc-numbered?><book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+<info>
+<title>Assessing and Monitoring Security Policy Compliance of RHEL Systems</title><subtitle>Understanding the Security Compliance Status of your Infrastructure</subtitle>
+
+<date>2021-04-23</date>
+<productname>Red Hat Insights</productname>
+<productnumber>2021</productnumber>
+<abstract>
+    <para>Assess and track the security-policy compliance status of your RHEL environment to determine compliance level and plan a course of action to resolve compliance issues.</para>
+    <para><emphasis role="strong">Providing Feedback:</emphasis>  If you have a suggestion to improve this documentation, or find an error, submit a Bugzilla report at <link xlink:href="https://bugzilla.redhat.com/enter_bug.cgi?product=Cloud%20Software%20Services%20(cloud.redhat.com)">http://bugzilla.redhat.com</link>. Select the <emphasis role="strong">Cloud Software Services (cloud.redhat.com)</emphasis> product and use the <emphasis role="strong">Documentation</emphasis> component.</para>
+</abstract>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Author_Group.xml"/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Common_Content/Legal_Notice.xml"/>
+</info>
+<chapter xml:id="con-compl-assess-overview_compl-assess-overview">
+<title>compliance service reporting and assessment</title>
+<simpara role="_abstract">The Red Hat Insights compliance service enables you to assess and monitor the compliance of your Red Hat Enterprise Linux (RHEL) systems with SCAP security policies.</simpara>
+<simpara>The compliance service provides a simple but powerful user interface, enabling the creation, configuration, and management of SCAP security policies. With the filtering and context-adding features built in, administrators can easily identify and manage security compliance issues in the RHEL infrastructure.</simpara>
+<simpara>This documentation describes some of the functionality of the compliance service, to help users understand reporting, manage issues, and get the maximum value from the service.</simpara>
+<simpara>You can also create Ansible Playbooks to resolve security compliance issues and share reports with stakeholders to communicate compliance status.</simpara>
+<itemizedlist role="_additional-resources">
+<title>Additional Resources</title>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/remediating_security-policy_compliance_issues_using_ansible_playbooks/index"><emphasis>Remediating Security-Policy Compliance issues using Ansible Playbooks</emphasis></link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/generating_compliance_reports/index"><emphasis>Generating Compliance Reports</emphasis></link></simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="con-compl-assess-requirements-and-prerequisites_compl-assess-overview">
+<title>Requirements and prerequisites</title>
+<simpara role="_abstract">The compliance service is part of Red Hat Insights, which is included with your Red Hat Enterprise Linux (RHEL) subscription and can be used with all versions of RHEL currently supported by Red Hat. You do not need additional Red Hat subscriptions to use Insights and the compliance service.</simpara>
+<simpara>Verify the following conditions are met before using the compliance service:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Register the system with Red Hat Insights.</emphasis> Register systems with Insights from the <link xlink:href="https://cloud.redhat.com/insights/registration">Insights application</link>.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Set up OpenSCAP.</emphasis> Set up OpenSCAP with the ability to report data to the compliance service. Policies can then be added and modified using the compliance service. If you are unfamiliar with OpenSCAP, see <link xlink:href="https://www.open-scap.org/getting-started/">Getting Started with OpenSCAP</link>.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Create security policies in the compliance service.</emphasis> In the compliance service, you have to assign each Insights-registered system to one or more security policies in order to see results for your systems.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-supported-configurations_compl-assess-overview">
+<title>Supported configurations</title>
+<simpara role="_abstract">Accurate compliance reporting requires that the Red Hat-approved version of SCAP Security Guide (SSG) be installed on the system. Red Hat Enterprise Linux minor versions ship and upgrade with the approved SSG version included; although, some organizations may decide to continue using an earlier version temporarily, prior to upgrading.</simpara>
+<simpara>If a policy includes systems using unsupported SSG versions, an <emphasis role="strong">unsupported</emphasis> warning, preceded by the number of affected systems, is visible next to the policy in <link xlink:href="https://cloud.redhat.com/insights/compliance/reports">Red Hat Insights &gt; Compliance &gt; Reports</link>.</simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-unsupported-configuration-example.png"/>
+</imageobject>
+<textobject><phrase>img compl assess unsupported configuration example</phrase></textobject>
+</inlinemediaobject></simpara>
+<simpara>The following table lists the supported SSG version(s) for each minor version of RHEL.</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Supported versions of the SCAP Security Guide in RHEL</title>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Red Hat Enterprise Linux version</entry>
+<entry align="left" valign="top">SCAP Security Guide version</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 6.6</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.18-3.el6</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 6.9</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.28-3.el6</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 6.10</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.28-4.el6</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.2 AUS</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.25-3.el7</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.3 AUS</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.30-5.el7_3</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.4 AUS, E4S</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.33-6.el7_4</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.5 (batch update)</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.36-10.el7_5</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.6 EUS</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.40-13.el7_6</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.7 EUS</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.43-13.el7</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.8 (batch update)</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.46-11.el7</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 7.9</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.49-13.el7</simpara><simpara>scap-security-guide-0.1.52-2.el7_9</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 8.0 SAP</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.42-11.el8</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 8.1 EUS</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.46-1.el8</simpara><simpara>scap-security-guide-0.1.47-8.el8_1</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 8.2 (batch update)</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.48-7.el8</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>RHEL 8.3</simpara></entry>
+<entry align="left" valign="top"><simpara>scap-security-guide-0.1.50-14.el8</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<formalpara>
+<title>What is the SSG version number</title>
+<para>SCAP Security Guide package names look like</para>
+</formalpara>
+<screen>scap-security-guide-0.1.43-13.el7</screen>
+<simpara>In this example, the SSG version number is <emphasis role="strong">0.1.43</emphasis>, the release is <emphasis>13</emphasis> and architecture is <emphasis>el7</emphasis>. The release number can differ from the version number shown in the table below; however, the <emphasis role="strong">version number</emphasis> must match as indicated below for it to be a supported configuration.</simpara>
+<formalpara>
+<title>What if Red Hat supports more that one SSG for my RHEL minor version?</title>
+<para>When more than one SSG version is supported for a RHEL minor version, as is the case with RHEL 7.9 and RHEL 8.1, the compliance service will use the latest available version.</para>
+</formalpara>
+<formalpara>
+<title>Why is my old policy no longer supported by SSG?</title>
+<para>As RHEL minor versions get older, fewer SCAP profiles are supported. To view which SCAP profiles are supported, see tables in <link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/security_guide/index#scap-security-guide-profiles-supported-in-rhel-7_scanning-the-system-for-configuration-compliance-and-vulnerabilities">SCAP Security Guide profiles supported in RHEL 7</link> and <link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/security_hardening/index?lb_target=production#scap-security-guide-profiles-supported-in-rhel_scanning-the-system-for-configuration-compliance-and-vulnerabilities">SCAP Security Guide profiles supported in RHEL 8</link>.</para>
+</formalpara>
+<formalpara>
+<title>More about limitations of unsupported configurations</title>
+<para>The following conditions apply to the results for unsupported configurations:</para>
+</formalpara>
+<itemizedlist>
+<listitem>
+<simpara>These results are a “best-guess” effort because using any SSG version other than what is supported by Red Hat can lead to inaccurate results.</simpara>
+<important>
+<simpara>Although you can still see results for a system with an unsupported version of SSG installed, those results may be considered inaccurate for compliance reporting purposes.</simpara>
+</important>
+</listitem>
+<listitem>
+<simpara>Results for systems using an unsupported version of SSG <emphasis>are not included</emphasis> in the overall compliance assessment for the policy.</simpara>
+</listitem>
+<listitem>
+<simpara>Remediations are not available for rules on systems with an unsupported version of SSG installed.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-best-practices-and-supported-configurations_compl-assess-overview">
+<title>Best practices</title>
+<simpara role="_abstract">To benefit from the best user experience and receive the most accurate results in the compliance service, Red Hat recommends that you follow some best practices.</simpara>
+<formalpara>
+<title>Ensure that the RHEL OS system minor version is visible to the Insights client</title>
+<para>If the compliance service cannot see your RHEL OS minor version, then the supported SCAP Security Guide version cannot be validated and your reporting may not be accurate.  The Insights client allows users to redact certain data, including RHEL OS minor version, from the data payload that is uploaded to Red Hat Insights. This will prohibit accurate compliance service reporting.</para>
+</formalpara>
+<simpara>To learn more about data redaction, see the following documentation: <link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html-single/client_configuration_guide_for_red_hat_insights/index#configuring-insights-client-redaction">Configuring Red Hat Insights client redaction</link></simpara>
+<formalpara>
+<title>Create security policies within the compliance service</title>
+<para>Creating your organization’s security policies within the compliance service allows you to associate multiple systems with the policy, be assured of using the correct, supported SCAP Security Guide for your RHEL minor version, and edit which rules are included, based on your organization’s requirements.</para>
+</formalpara>
+</section>
+</chapter>
+<chapter xml:id="con-compl-assess-managing-scap-security-policies_compl-manage-scap-security-policies">
+<title>Managing SCAP security policies in the compliance service</title>
+<simpara role="_abstract">Create and manage your SCAP security policies entirely within the compliance service. Define new policies and select the rules and systems you want to associate with them, and edit existing policies as your requirements change.</simpara>
+<important>
+<simpara>Unlike other Red Hat Insights services, the compliance service does not run automatically on a default schedule. In order to upload OpenSCAP data to the Insights application, you must run <literal>insights-client --compliance</literal>, either on-demand or on a scheduled job that you set.</simpara>
+</important>
+<section xml:id="proc-compl-assess-creating-policies_compl-manage-scap-security-policies">
+<title>Creating new SCAP policies</title>
+<simpara role="_abstract">You must add each Insights-registered system to a security policy before you will see results for it in the compliance service. To create a new policy, and include specific systems and rules, complete the following steps:</simpara>
+<important>
+<simpara>If your RHEL servers span across multiple major releases of RHEL, you must create a separate policy for each major release. For example, all of your RHEL 7 servers would be on one <emphasis>Standard System Security Profile for RHEL</emphasis> policy and all of your RHEL 8 servers will be on another.</simpara>
+</important>
+<orderedlist numeration="arabic">
+<title>Procedure</title>
+<listitem>
+<simpara>Log in to <link xlink:href="https://cloud.redhat.com/">cloud.redhat.com</link> and navigate to the <link xlink:href="https://cloud.redhat.com/insights/compliance/scappolicies">Red Hat Insights &gt; Compliance &gt; SCAP policies</link> page.</simpara>
+</listitem>
+<listitem>
+<simpara>Click the <emphasis role="strong">Create new policy</emphasis> button.</simpara>
+</listitem>
+<listitem>
+<simpara>On the <emphasis role="strong">Create SCAP policy</emphasis> page of the wizard, select the <emphasis role="strong">RHEL major version</emphasis> of the systems you will include in the policy.</simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-create-policy-wizard-1.png"/>
+</imageobject>
+<textobject><phrase>img compl assess create policy wizard 1</phrase></textobject>
+</inlinemediaobject></simpara>
+</listitem>
+<listitem>
+<simpara>Select one of the <emphasis role="strong">policy types</emphasis> available for that RHEL major version, then click <emphasis role="strong">Next</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>On the <emphasis role="strong">Details</emphasis> page, accept the name and description already provided or provide your own more meaningful entries.</simpara>
+</listitem>
+<listitem>
+<simpara>Optionally add a <emphasis role="strong">Business objective</emphasis> to give context, for example, “CISO mandate.”</simpara>
+</listitem>
+<listitem>
+<simpara>Define a <emphasis role="strong">Compliance threshold</emphasis> acceptable for your requirements and click <emphasis role="strong">Next</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Select the <emphasis role="strong">Systems</emphasis> to include on this policy and click <emphasis role="strong">Next</emphasis>. Your selection of a RHEL major version in the first step automatically determines which systems can be added to this policy.</simpara>
+</listitem>
+<listitem>
+<simpara>Select which <emphasis role="strong">Rules</emphasis> to include with each policy. Because each minor version of RHEL supports the use of a specific SCAP Security Guide (SSG) version (sometimes more than one, in which case we use the latest), the rule set for each RHEL minor version is slightly different and must be selected separately.</simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-create-policy-rules-tabs.png"/>
+</imageobject>
+<textobject><phrase>img compl assess create policy rules tabs</phrase></textobject>
+</inlinemediaobject></simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>Optionally, use the filtering and search capabilities to refine the list of rules.</simpara>
+<simpara>For example, to show only the highest severity rules, click the primary filter dropdown and select <emphasis role="strong">Severity</emphasis>. In the secondary filter, check the boxes for <emphasis role="strong">High</emphasis> and <emphasis role="strong">Medium</emphasis>.</simpara>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="images/_images/img-compl-assess-create-policy-filter-rules.png"/>
+</imageobject>
+<textobject><phrase>img compl assess create policy filter rules</phrase></textobject>
+</inlinemediaobject></simpara>
+</listitem>
+<listitem>
+<simpara>The rules shown by default are those designated for that policy type and that version of SSG. You can view additional rules you may wish to include by clicking the <emphasis role="strong">Selected only</emphasis> toggle, located next to the filter boxes.</simpara>
+</listitem>
+<listitem>
+<simpara>Repeat this process as needed <emphasis role="strong">for <emphasis>each</emphasis> RHEL minor version tab</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>After you select rules for each RHEL minor version SSG, click <emphasis role="strong">Next</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>On the <emphasis role="strong">Review</emphasis> page, verify that the information shown is correct, then click <emphasis role="strong">Finish</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Give the app a minute to create the policy, then click the button to <emphasis role="strong">Return to the compliance service</emphasis> where you will see your new policy at the bottom of the list of SCAP policies.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="proc-compl-assess-editing-policies_compl-manage-scap-security-policies">
+<title>Editing existing policies</title>
+<simpara role="_abstract">You may decide after creating a security policy that you want to change which  rules (or systems) are included because they may no longer apply to your requirements. Use the following procedure to edit an existing policy to add or remove specific rules.</simpara>
+<orderedlist numeration="arabic">
+<title>Procedure</title>
+<listitem>
+<simpara>Log in to <link xlink:href="https://cloud.redhat.com/">cloud.redhat.com</link> and navigate to the <link xlink:href="https://cloud.redhat.com/insights/compliance/scappolicies">Red Hat Insights &gt; Compliance &gt; SCAP policies</link> page.</simpara>
+</listitem>
+<listitem>
+<simpara>Locate the policy to edit.</simpara>
+</listitem>
+<listitem>
+<simpara>On the right side of the policy row, click the more-actions icon, <emphasis role="strong">three vertical dots</emphasis>, and click <emphasis role="strong">Edit policy</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>In the <emphasis role="strong">Edit &lt;Policy name&gt;</emphasis> card, click the <emphasis role="strong">Rules</emphasis> tab.</simpara>
+<orderedlist numeration="loweralpha">
+<listitem>
+<simpara>Use the filter or search functions to locate the rules to remove.</simpara>
+<important>
+<simpara>The rules shown by default are those designated for that policy type and that version of SSG. You can include additional rules by clicking the <emphasis role="strong">Selected only</emphasis> toggle, located next to the filter boxes, to see additional rules.</simpara>
+</important>
+</listitem>
+<listitem>
+<simpara>Uncheck the box next to any rule you want to remove.</simpara>
+</listitem>
+<listitem>
+<simpara>Repeat this process as needed for each RHEL minor version SSG tab.</simpara>
+</listitem>
+</orderedlist>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Save</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+<orderedlist numeration="arabic">
+<title>Verification</title>
+<listitem>
+<simpara>Navigate to the <link xlink:href="https://cloud.redhat.com/insights/compliance/scappolicies">Red Hat Insights &gt; Compliance &gt; SCAP policies</link> page and locate the edited policy.</simpara>
+</listitem>
+<listitem>
+<simpara>Click on the policy and verify that the included rules are consistent with the edits you made.</simpara>
+</listitem>
+</orderedlist>
+</section>
+</chapter>
+<chapter xml:id="con-compl-assess-understanding-compl-reporting_compl-understand-compl-service-reporting">
+<title>Understanding your compliance service reporting</title>
+<simpara role="_abstract">The compliance service displays the latest available OpenSCAP results for each policy and the associated systems. View summary results for each policy in <link xlink:href="https://cloud.redhat.com/insights/compliance/reports">Red Hat Insights &gt; Compliance &gt; Reports</link>.</simpara>
+<simpara>For a deeper understanding of compliance status per system, filter and sort your data to see which rules have passed and failed.</simpara>
+<simpara>The following sections describe ways to refine your data, depending on your location in the compliance service, to focus on your most important issues.</simpara>
+<section xml:id="con-compl-assess-scap-policies_compl-understand-compl-service-reporting">
+<title>SCAP policies</title>
+<simpara role="_abstract">Use the Search function to locate a specific policy by name. Then click on the policy name to see the policy card, which includes the following information:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Details.</emphasis> View details such as compliance threshold, business objective, OS and SSG versions.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Rules.</emphasis> View and filter the rules included in the specific SSG version of the policy by name and severity, then sort results by rule name, severity, or Ansible Playbook support.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Systems.</emphasis> Search by system name to locate a specific system associated with the policy then click the system name to see more information about that system and issues that may affect it.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-systems_compl-understand-compl-service-reporting">
+<title>Systems</title>
+<simpara role="_abstract">The default functionality on this page is to search by system name.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Name.</emphasis> Search by system name.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Policy.</emphasis> Search by policy name and see the systems included in that policy.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Operating system.</emphasis> Search by RHEL OS major versions to see only RHEL 7 or RHEL 8 systems.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-searching_compl-understand-compl-service-reporting">
+<title>Searching</title>
+<simpara role="_abstract">The search function in the compliance service works in the context of the page you are viewing.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">SCAP Policies.</emphasis> Search for a specific policy by name.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Systems.</emphasis> Search by system name, policy, or RHEL operating system major version.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Rules list (single system).</emphasis> The rules list search function allows you to search by the rule name or identifier. Identifiers are shown directly below the rule name.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-filtering_compl-understand-compl-service-reporting">
+<title>Filtering</title>
+<simpara role="_abstract">Filtering is available from multiple views in the compliance service and filtering options are unique to the page view. The <emphasis role="strong">Filters</emphasis> icon is located on the left side of the <emphasis role="strong">Search field</emphasis>. Click the down arrow and check the boxes to set filters.</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Systems list.</emphasis> Filter by Name, Status, and Source.</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Single system rules list.</emphasis> Filter rules that have passed or not passed, or by rule severity.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="con-compl-assess-sorting-data_compl-understand-compl-service-reporting">
+<title>Sorting your data</title>
+<simpara role="_abstract">You can order your results by sorting columns in the compliance service <emphasis role="strong">Systems</emphasis> list and the <emphasis role="strong">Rules</emphasis> list for a policy. The following columns are sortable on each list:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Compliance service Systems list</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>System name (Alphabetical)</simpara>
+</listitem>
+<listitem>
+<simpara>Policy name (Alphabetical)</simpara>
+</listitem>
+<listitem>
+<simpara>Compliance score (Percentage of rules passed on a system)</simpara>
+</listitem>
+<listitem>
+<simpara>Last scan (Time elapsed since last scan)</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Rules list for a policy</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Rule name (Alphabetical)</simpara>
+</listitem>
+<listitem>
+<simpara>Severity (Low, Medium, High, Critical)</simpara>
+</listitem>
+<listitem>
+<simpara>Ansible support (playbook available or not available)</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+</chapter>
+<chapter xml:id="ref-compl-assess_compl-assess-reference-materials">
+<title>Reference materials</title>
+<simpara role="_abstract">To learn more about the compliance service, see the following resources:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/remediating_security-policy_compliance_issues_using_ansible_playbooks/index"><emphasis>Remediating Security-Policy Compliance issues using Ansible Playbooks</emphasis></link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/2021/html/generating_compliance_reports/index"><emphasis>Generating Compliance Reports</emphasis></link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/documentation/en-us/red_hat_insights/">Red Hat Insights Documentation</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xlink:href="https://access.redhat.com/products/red-hat-insights/#whatsnew">Red Hat Insights Product Support page</link></simpara>
+</listitem>
+</itemizedlist>
+</chapter>
+</book>
