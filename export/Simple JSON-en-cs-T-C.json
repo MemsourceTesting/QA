@@ -1,21 +1,21 @@
 {
-  "boolean_key": "--- true\\n",
-  "empty_string_translation": "",
-  "key_with_description": "Check it out! This brand new key has a description! (At least in some formats)",
-  "key_with_line-break": "This awesome translations contains\\na line-break.",
-  "nested.deeply.key": "Wow, this key is nested even deeper.",
-  "nested.key": "This key is nested inside a namespace.",
-  "null_translation": null,
-  "pluralized_key": {
-    "one": "Only one pluralization found.",
-    "other": "Wow, you have %s pluralizations!",
-    "zero": "You have no pluralization."
+  "b$o$o$l$e$a$n$_k$e$y$": "--
+  "e$m$p$t$y$_s$t$r$i$n$g$_t$r$a$
+  "k$e$y$_w$i$t$h$_d$e$s$ "C$h$e$c$k$ i$ T$h$i$s$ b$r$a$n$d$ n$e$w$ k$e$y$ h$a (A$t$ l$e$a$s$t$ i$n$ s$o$m$
+  "k$e$y$_w$i$t$h$_l$i$n "T$h$i$s$ a$w$e$s$o$m$e$ t$r$a$n$s$l$a$t$i$o$n$s$ c$
+  "n$e$s$t$e$d$.d$e$e$ "W$o$w$, t$h$i$s$ k$e$y$ i$s$ n$e$s$t$e
+  "n$e$s$t$e$d$ "T$h$i$s$ k$e$y$ i$s$ n$e$s$t$e$d$ i$n$s$
+  "n$u$l$l$_t$r$a$n$s$l$a$t
+  "p$l$u$r$a$l$i$z$e$
+    "o$n$e "O$n$l$y$ o$n$e$ p$l$u$r$a$l$i$z
+    "o$t$h$e "W$o$w$, y$o$u$ h$a$v$e$ %s$ p$l$u$
+    "z$e$r$ "Y$o$u$ h$a$v$e$ n$o$ p$l$u$
   },
-  "sample_collection": [
-      "first item",
-      "second item",
-    "third item"
+  "s$a$m$p$l$e$_c$o$l$l$
+      "f$i$r$s$t$ i
+      "s$e$c$o$n$d$ 
+    "t$h$i$r$d$ 
   ],
-"simple_key": "Just a simple key with a simple message.",
-"unverified_key": "This translation is not yet verified and waits for it. (In some formats we also export this status)"
+"s$i$m$p$l$e$ "J$u$s$t$ a$ s$i$m$p$l$e$ k$e$y$ w$i$t$h$ a
+"u$n$v$e$r$i$f$i$ "T$h$i$s$ t$r$a$n$s$l$a$t$i$o$n$ i$s$ n$o$t$ y$e$t$ v$e (I$n$ s$o$m$e$ f$o$r$m$a$t$s$ w$e$ a$l$s$o$ e
 }
