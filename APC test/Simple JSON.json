@@ -1,8 +1,8 @@
 {
   "boolean_key": "--- true\n",
   "empty_string_translation": "",
-  "key_with_description": "Check it out! This key has a description! (At least in some formats)",
-  "key_with_line-break": "This translations contains\na line-break.",
+  "key_with_description": "Check it out! This brand new key has a description! (At least in some formats)",
+  "key_with_line-break": "This awesome translations contains\na line-break.",
   "nested.deeply.key": "Wow, this key is nested even deeper.",
   "nested.key": "This key is nested inside a namespace.",
   "null_translation": null,
