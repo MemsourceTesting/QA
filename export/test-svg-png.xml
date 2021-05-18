@@ -2409,7 +2409,7 @@ device 192.168.122.73:/exports/scsi_lun_0 mounted on /mnt/rhel7/scsi_lun_0 with 
 <title>FS-Cache Overview</title>
 <mediaobject>
 <imageobject>
-<imagedata fileref="images/fs-cache.svg"/>
+<imagedata fileref="images/fs-cache.png"/>
 </imageobject>
 <textobject><phrase>FS-Cache Overview</phrase></textobject>
 </mediaobject>
