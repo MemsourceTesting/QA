@@ -10416,11 +10416,6 @@ command and then manage
 the contained resources individually.</simpara>
 </section>
 <section xml:id="proc_setting-maintenance-mode-cluster-maintenance">
-<title>Putting a cluster in maintenance mode</title>
-<simpara>When a cluster is in maintenance mode, the cluster does not start or stop
-any services until told otherwise. When maintenance mode is completed,
-the cluster does a sanity check of the current state of any services,
-and then stops or starts any that need it.</simpara>
 <simpara>To put a cluster in maintenance mode, use the following command to
 set the <literal>maintenance-mode</literal> cluster property to <literal>true</literal>.</simpara>
 <literallayout class="monospaced"># <literal>pcs property set maintenance-mode=true</literal></literallayout>
