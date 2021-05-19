@@ -1,8 +1,8 @@
 {
    "root":[
       {
-         "title":"text for translation 1",
-         "note":"note for text 1",
+         "first line":"text for translation 1",
+         "note":"note for second segment 1",
          "length":13
       },
       {
