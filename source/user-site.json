@@ -1,10 +1,10 @@
 {
     "welcome": {
-        "value": "Welcome {{username}}!",
+        "value": "Welcome {{my friend}}!",
         "description": ""
     },
-    "welcome_back": {
-        "value": "Welcome back {{username}}!",
+    "welcome_forward": {
+        "value": "Welcome back {{my lady}}!",
         "description": ""
     },
     "My Account Settings": {
