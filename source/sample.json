@@ -1,12 +1,12 @@
 {
    "root":[
       {
-         "first line":"text for translation 1",
+         "first line":"text for updated translation 1",
          "note":"note for second segment 1",
          "length":13
       },
       {
-         "description":"text for translation 2, black&white",
+         "description":"text for new translation 2, black&white",
          "note":"note for text 2",
          "length":16
       },
