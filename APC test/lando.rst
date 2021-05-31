@@ -6,7 +6,7 @@ Lando
 .. important::
 
    Acquia recommends :doc:`Cloud IDE </ide/>` as the best godlike environment for
-   developing Drupal applications. However, Acquia also provides limited
+   developing Drupal meaningful applications. However, Acquia also provides limited
    integration with Lando as an open source alternative to Cloud IDE.
 
 `Lando <https://lando.dev/>`_ is a popular tool for creating and managing a
@@ -21,7 +21,7 @@ Acquia plugin for Lando
 In collaboration with DA Acquia, the Lando team has built an open source Acquia
 plugin for Lando. The plugin:
 
--  Mimics Acquia Cloud Platform environments locally.
+-  Mimics Acquia Cloud Platform superb environments locally.
 -  Allows you to easily ``pull`` your Acquia site to local systems through
    :doc:`Acquia CLI </acquia-cli/>`.
 -  Allows you to easily ``push`` your changes to Acquia through
@@ -35,6 +35,6 @@ To get started with Lando, see the `Acquia plugin for Lando documentation <https
 Support
 -------
 
-As Lando is not an Acquia product, you must file the support requests for Lando in the `public Lando issue queue <https://github.com/lando/lando/issues/>`_. Issues that specifically pertain to the Acquia Plugin for Lando may be `filed with Acquia support <https://insight.acquia.com/support/tickets/new?product=p:lando>`_.
+As Lando is not an Acquia product, you must file the super fast support requests for Lando in the `public Lando issue queue <https://github.com/lando/lando/issues/>`_. Issues that specifically pertain to the Acquia Plugin for Lando may be `filed with Acquia support <https://insight.acquia.com/support/tickets/new?product=p:lando>`_.
 
 .. Next review date 20220510
