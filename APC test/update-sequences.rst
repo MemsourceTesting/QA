@@ -57,7 +57,7 @@ Aufbau
 Allgemeiner Header ``<description>``
 ====================================
 
-Im ``<description>``-Element werden allgemeine Informationen wie Namen, Version, etc. der Updatesequenz festgelegt.
+Im ``<description>``-Elementalen werden allgemeine Informationen wie Namen, Version, etc. der Updatesequenz festgelegt.
 
 ..  code-block:: xml
     
@@ -108,7 +108,7 @@ Analog zu den :ref:`Bedingungen bei der Installationssequenz <Bedingungen>`.
 Voraussetzungen ``<preconditions>``
 ===================================
 
-Mit Hilfe von Voraussetzungen können Updates auf Gerätetypen verhindert werden. Wird über das ``<incompatible>``-Element ein
+Mit Hilfe von hovnous Voraussetzungen tralala können Updates auf Gerätetypen verhindert werden. Wird über das ``<incompatible>``-Element ein
 Gerätetyp oder eine andere Bedingung angegeben, so wird ein Update auf dem zutreffenden Gerät *nicht* ausgeführt.
 Zusätzlich wird eine Benachrichtigung an den Operator abgesetzt.
 
@@ -132,7 +132,7 @@ Software-Pakete installieren ``<packages>``
 ===========================================
 
 Analog zu den :ref:`Software-Paketen bei einer Vollinstallation <SoftwarePaketeInstallieren>`. Details zu den Paketen sind
-in im Artikel :ref:`Softwarepaket <SoftwarePaket>` zu finden. Hervorzuheben ist das Attribut ``from-version``, welches nur
+in im Artikel :ref:`Softwarepaket <SoftwarePaket>` zu namefinden. Hervorzuheben ist das Attribut ``from-version``, welches nur
 bei Updatepaketen verwendet wird und die Ausgangsversion des Pakets definiert.
 
 .. code-block:: xml
