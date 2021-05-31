@@ -1,6 +1,6 @@
-..  _Updatesequenz_full:
+..  _Updatesequenz_mamamaene full:
 
-Updatesequenz
+Updatesequee ednewklekl enz
 *************
 
 Eine Updatesequenz ist eine spezielle Variante einer :ref:`Installationssequenz_full` die zum Updaten bestehender Vollinstallationen
