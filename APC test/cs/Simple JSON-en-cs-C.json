@@ -1,0 +1,21 @@
+{
+  "boolean_key": "--- t$r$\n",
+  "empty_string_translation": "",
+  "key_with_description": "C$h$e$c$k$ i$t$ o$u$t$  T$h$i$s$ b$r$a$n$d$ n$e$w$ b$a$d$a$s$s$ k$e$ (A$t$ l$e$a$s$t$ i$n$ s$o$",
+  "key_with_line-break": "T$h$i$s$ a$w$e$s$o$m$e$ t$r$a$n$s$\na$ l$i$n$e$-b",
+  "nested.deeply.key": "W$o$w$, t$h$i$s$ k$e$y$ i$s$ n$e$s$t",
+  "nested.key": "T$h$i$s$ k$e$y$ i$s$ n$e$s$t$e$d$ i$n$",
+  "null_translation": null,
+  "pluralized_key": {
+    "one": "O$n$l$y$ o$n$e$ p$l$u$r$a$l$i",
+    "other": "W$o$w$, y$o$u$ h$a$v$e$ %s$ p$l$",
+    "zero": "Y$o$u$ h$a$v$e$ n$o$ p$l$u"
+  },
+  "sample_collection": [
+    "f$i$r$s$t$",
+    "s$e$c$o$n$d",
+    "t$h$i$r$d$"
+  ],
+  "simple_key": "J$u$s$t$ a$ s$i$m$p$l$e$ k$e$y$ w$i$t$h$",
+  "unverified_key": "T$h$i$s$ t$r$a$n$s$l$a$t$i$o$n$ i$s$ n$o$t$ y$e$t$ v$e (I$n$ s$o$m$e$ f$o$r$m$a$t$s$ w$e$ a$l$s$o$ "
+}
