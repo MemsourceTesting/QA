@@ -8,8 +8,8 @@
 		<string>%#@itemsCount@</string>
 		<key>itemsCount</key>
 		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatSpecTypeKeyupdated</key>
+			<string>NSStringPluralRuleTypeupdated</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
