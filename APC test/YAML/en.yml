@@ -1,13 +1,13 @@
 ---
 title: A
-text: translate A
+text: translate this new A
 categories:
   title: B
-  text: translate B
+  text: translate this even newer B
 categories:
   title: C
-  text: translate C
+  text: translate amazing C
 categories:
   content:
       title: D
-      text: translate D
+      text: translate dope D
