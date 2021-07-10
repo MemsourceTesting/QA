@@ -1,0 +1,304 @@
+{
+  "strings": [
+    {
+      "id": "applicationNotAvailable",
+      "string": "%1 is currently unavailable in the Opera TV Store.",
+      "comment": " Error message explaining that application is not abailable in TVStore. %1 should not be translated"
+    },
+    {
+      "id": "descriptionDuration",
+      "string": "Length:",
+      "comment": " Text on a video description page, shows how long is given video"
+    },
+    {
+      "id": "descriptionFavoriteLabel",
+      "string": "Favourite",
+      "comment": " Button on an app/video description page, it adds given resource to favorites"
+    },
+    {
+      "id": "descriptionGenre",
+      "string": "Genre:",
+      "comment": " Text on an app/video description page, it specifies genre of given resource"
+    },
+    {
+      "id": "descriptionMoreFrom",
+      "string": "More from <strong> %1 </strong>",
+      "comment": " Button on an app/video description page, it show more videos/apps of given publisher. %1 should not be translated"
+    },
+    {
+      "id": "descriptionNowPlaying",
+      "string": "Now playing",
+      "comment": " Text shown over video thumnbnail explaining that given video is currently being played"
+    },
+    {
+      "id": "descriptionPubdate",
+      "string": "Publication date:",
+      "comment": " Publication date of a video"
+    },
+    {
+      "id": "descriptionStarring",
+      "string": "Starring:",
+      "comment": " Text on an video/movie description page, it specifies whom starring in given movie"
+    },
+    {
+      "id": "eulaAcceptButton",
+      "string": "I accept",
+      "comment": " Button text to accept EULA displayed to the user"
+    },
+    {
+      "id": "eulaExitButton",
+      "string": "Exit",
+      "comment": " Button text to reject EULA and quit from our application (accepting EULA is mandatory)."
+    },
+    {
+      "id": "genericErrorFooter",
+      "string": "Press <strong>OK/Enter</strong> to try again, or <strong>BACK</strong> to exit.",
+      "comment": " Error box text OK/Enter/BACK refeer to buttons on remote."
+    },
+    {
+      "id": "genericErrorMessage",
+      "string": "Oops! Something went wrong...",
+      "comment": " Generic Error message caption"
+    },
+    {
+      "id": "genericWarningFooter",
+      "string": "Press <strong>OK/Enter</strong> and try again later.",
+      "comment": " Generic warning message text. OK/Enter refeer to a buttons on remote."
+    },
+    {
+      "id": "genericWarningMessage",
+      "string": "Oops! Something went wrong...",
+      "comment": " Generic warning message caption"
+    },
+    {
+      "id": "keyboardDelete",
+      "string": "DELETE",
+      "comment": " Button of a virtual keyboard, DELETE on a normal keyboard"
+    },
+    {
+      "id": "keyboardSpace",
+      "string": "SPACE",
+      "comment": " Button of a virtual keyboard, SPACE on a normal keyboard"
+    },
+    {
+      "id": "searchClearHistoryCaption",
+      "string": "Clear history",
+      "comment": " Button that will remove all history entries on Last Searches section"
+    },
+    {
+      "id": "searchErrorCaption",
+      "string": "Something went wrong...",
+      "comment": " Text displayed when there was an error during searching"
+    },
+    {
+      "id": "searchInProgressCaption",
+      "string": "Searching...",
+      "comment": " Text displayed during waiting for search results being returned from server"
+    },
+    {
+      "id": "searchLastSearchesCaption",
+      "string": "Last Searches",
+      "comment": " Caption of a section where there is list of a last searches queries."
+    },
+    {
+      "id": "searchNothingFoundCaption",
+      "string": "Nothing found",
+      "comment": " Text displayed when there was no results for given search term"
+    },
+    {
+      "id": "searchPopularSearchesCaption",
+      "string": "Popular Searches",
+      "comment": " Caption of a section where there is list of a popular searches queries."
+    },
+    {
+      "id": "searchResultsTitleapp",
+      "string": "'%1' in apps",
+      "comment": " Section caption of applications search results for string given by user (%1). %1 should not be translated"
+    },
+    {
+      "id": "searchResultsTitleclip",
+      "string": "'%1' in clips",
+      "comment": " Section caption of clips search results for string given by user (%1). %1 should not be translated"
+    },
+    {
+      "id": "searchResultsTitlemovie",
+      "string": "'%1' in movies",
+      "comment": " Section caption of movies search results for string given by user (%1). %1 should not be translated"
+    },
+    {
+      "id": "searchSearchCaption",
+      "string": "Search",
+      "comment": " Caption of a Search section, were user can search for videos/apps/movies"
+    },
+    {
+      "id": "settingAboutCaption",
+      "string": "About",
+      "comment": " Caption of a section inside settings where user can read about our application"
+    },
+    {
+      "id": "settingAutoplayCaption",
+      "string": "Autoplay",
+      "comment": " Caption of a section where user can turn on autoplay feaure on/off (automatically play next video on list)"
+    },
+    {
+      "id": "settingAutoplaySwitch",
+      "string": "Autoplay",
+      "comment": " Button to switch autoplay functionality on/off"
+    },
+    {
+      "id": "settingLanguageCaption",
+      "string": "Language",
+      "comment": " Caption of a section where user can change our application language"
+    },
+    {
+      "id": "settingOff",
+      "string": "OFF",
+      "comment": " Generic OFF button for disabling features like autoplay"
+    },
+    {
+      "id": "settingOn",
+      "string": "ON",
+      "comment": " Generic ON button for enabling features like autoplay"
+    },
+    {
+      "id": "settingPPCaption",
+      "string": "Privacy",
+      "comment": " Section explaining privacy inside TVStore (our application)"
+    },
+    {
+      "id": "settingPairingCaption",
+      "string": "Developer Options",
+      "comment": " Caption of a section where user(developer) can change some develop-specific options withit our application"
+    },
+    {
+      "id": "settingPaymentsCaption",
+      "string": "Payments",
+      "comment": " Caption of a section where user can check and change status of a Payments account attached to his TVStore account"
+    },
+    {
+      "id": "settingShuffleCaption",
+      "string": "Shuffle",
+      "comment": " Caption of a section where user can enable or disable suffle feature (randomize order of videos being autoplayed on list)"
+    },
+    {
+      "id": "settingShuffleSwitch",
+      "string": "Shuffle",
+      "comment": " Button to switch shuffle functionality on/off"
+    },
+    {
+      "id": "settingTermsCaption",
+      "string": "Terms of Service",
+      "comment": " Section name describing Terms of Service"
+    },
+    {
+      "id": "settingWeatherCaption",
+      "string": "Weather",
+      "comment": " Caption of a section where user can check weather and change default displayed unit from Celcius to Fahrenheit"
+    },
+    {
+      "id": "settingWeatherTSwitch",
+      "string": "Temperature unit",
+      "comment": " Button text that switching between Fahrenheit and Celcius"
+    },
+    {
+      "id": "settingsAutoplayDescription",
+      "string": "Automatically play next video from current playlist",
+      "comment": " Description of an autoplay feature"
+    },
+    {
+      "id": "settingsPairingConfirm",
+      "string": "User <strong>%1</strong> wants to connect to this device.<br/>Do you want to grant access?",
+      "comment": " Developer message about connecting developer account with tvstore account"
+    },
+    {
+      "id": "settingsPairingDone",
+      "string": "Success!<br/>The accounts are paired.",
+      "comment": " Developer message about successfully connecting developer account with tvstore account"
+    },
+    {
+      "id": "settingsPairingInit",
+      "string": "To pair this device with your submission portal account, you need an <strong>ID for developers</strong>.<br/>You can generate it here. It will be valid for 15 minutes. Keep this screen open while pairing.",
+      "comment": " Developer explanation of how to connect developer account with tvstore account"
+    },
+    {
+      "id": "settingsPairingTimeout",
+      "string": "%1sec.",
+      "comment": " Simple timeout message %1 should not be translated"
+    },
+    {
+      "id": "settingsPairingTimeoutFail",
+      "string": "fail",
+      "comment": " Simple fail message (only for developers)"
+    },
+    {
+      "id": "settingsPairingToken",
+      "string": "Generate ID",
+      "comment": " Button for developers that will generate ID to fill in on a desktop machine"
+    },
+    {
+      "id": "settingsPairingValue",
+      "string": "Your <strong>ID for developers</strong> is here.<br/>It will be valid for %1 minutes. Keep this screen open while pairing.",
+      "comment": " Information for the developer that tries to bind their TV with developer account on computer"
+    },
+    {
+      "id": "settingsPaymentsWith",
+      "string": "Log in with",
+      "comment": " Button that will trigger flow of connecting payments account with our TVStore account"
+    },
+    {
+      "id": "settingsSelectLanguage",
+      "string": "Select Language",
+      "comment": " Caption of a section where user can change language of our application"
+    },
+    {
+      "id": "settingsSelectLanguageDescription",
+      "string": "Change preferred language",
+      "comment": " Desription of a SelectLanguage section, where user can change language of our application"
+    },
+    {
+      "id": "settingsNoPaymentsSelectedDescription",
+      "string": "You have not yet selected a method of payment. Choose one, and log in.",
+      "comment": " Default message displayed on a Payments section when user haven't add any Payment Account"
+    },
+    {
+      "id": "settingsShuffleDescription",
+      "string": "You can randomly shuffle videos from a playlist",
+      "comment": " Desription of a shuffle option, turning it on will make playing of vides in random order"
+    },
+    {
+      "id": "splashScreenWelcome",
+      "string": "Welcome",
+      "comment": " Welcome message shown at application start"
+    },
+    {
+      "id": "weatherC",
+      "string": "°C",
+      "comment": " Celcius temperature unit format (probably don't need translation)"
+    },
+    {
+      "id": "weatherF",
+      "string": "°F",
+      "comment": " Fahrenheit temperature unit format (probably don't need translation)"
+    },
+    {
+      "id": "menuSettings",
+      "string": "Settings",
+      "comment": " Section on mainscreen where user can change some settings"
+    },
+    {
+      "id": "favoriteYourapp",
+      "string": "Your Apps",
+      "comment": "Section inside favorite area where we display list of user favorited applications"
+    },
+    {
+      "id": "favoriteYourclip",
+      "string": "Your Clips",
+      "comment": "Section inside favorite area where we display list of user favorited clips"
+    },
+    {
+      "id": "favoriteYourmovie",
+      "string": "Your Movies",
+      "comment": "Section inside favorite area where we display list of user favorited movies"
+    }
+  ]
+}

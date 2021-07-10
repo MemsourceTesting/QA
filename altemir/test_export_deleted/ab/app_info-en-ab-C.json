@@ -1,0 +1,32 @@
+{
+  "platform": "",
+  "version": "",
+  "files": [
+    {
+      "location": "",
+      "extractLocation": "",
+      "hash": "",
+      "size": 68577287,
+      "status": "",
+      "excludes": [
+        ""
+      ],
+      "executableFiles": []
+    },
+    {
+      "location": "",
+      "extractLocation": "",
+      "hash": "",
+      "size": 237813939,
+      "status": "",
+      "excludes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "executableFiles": []
+    }
+  ]
+}
