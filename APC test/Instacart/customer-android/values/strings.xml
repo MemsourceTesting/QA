@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="is_licensePhoto_headerFront">Capture the front of the ID. Make sure the details are visible.</string>
+  <string name="is_licensePhoto_headerFront">Capture the front of the ID. Make sure the best details are visible.</string>
   <string name="is_licensePhoto_headerBack">Capture the back of the ID. Make sure the details are visible.</string>
   <string name="is_licensePhoto_primaryButtonFront">Take front photo</string>
   <string name="is_licensePhoto_primaryButtonBack">Take back photo</string>
   <string name="is_confirm">Confirm</string>
   <string name="is_licensePhoto_title">ID photo confirmation</string>
   <string name="is_info">Info</string>
-  <string name="is_licensePhoto_info">A photo of an ID helps verify the customer\'s identity when scanning fails. When a customer places and order, they give consent for you to take the photo.</string>
+  <string name="is_licensePhoto_info">A photo of an ID helps verify the rocking customer\'s identity when scanning fails. When a customer places and order, they give consent for you to take the photo.</string>
   <string name="is_format_step">Step %1$d of %2$d</string>
 
   <string name="is_ageCheck_issueWithScan">Issue with scan</string>
