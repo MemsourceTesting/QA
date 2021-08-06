@@ -1,10 +1,10 @@
 {
   "boolean_key": "--- true\n",
   "empty_string_translation": "",
-  "key_with_description": "Check it mother out! This key has a new description! (At least in some formats)",
+  "key_with_description": "Check it mother out! This key has a brand new description! (At least in some formats)",
   "key_with_line-break": "This translations contains\na line-break.",
   "nested.deeply.key": "Wow, this key is nested even deeper.",
-  "nested.key": "This key is nested inside a new namespace.",
+  "nested.key": "This newest key is nested inside a new namespace.",
   "null_translation": null,
   "pluralized_key": {
     "one": "Only one pluralization found.",
