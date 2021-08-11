@@ -1,4 +1,4 @@
 A file
-Line two this is big
+Line two this is big.
 Third line.
-Fourth
+Fourth.
