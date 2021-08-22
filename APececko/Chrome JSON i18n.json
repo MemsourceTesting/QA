@@ -5,7 +5,7 @@
   },
   "hello": {
     "message": "Hello, $USER$",
-    "description": "Greet the user",
+    "description": "Greet the new user",
     "placeholders": {
       "user": {
         "content": "$1",
