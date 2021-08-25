@@ -1,0 +1,21 @@
+{
+  "boolean_key": "--- pravda\n",
+  "empty_string_translation": "",
+  "key_with_description": "Tohle je nový řetězec.",
+  "key_with_line-break": "Tento překlad obsahuje zalomený řádek.",
+  "nested.deeply.key": "toto je další nový aktualizovaný text na GitHubu.",
+  "nested.key": "Tento klíč je vnořen do oboru názvů.",
+  "null_translation": null,
+  "pluralized_key": {
+    "one": "Byla nalezena pouze jedna pluralita.",
+    "other": "Páni, máte %s pluralit!",
+    "zero": "Máte žádné pluralitní schopnosti."
+  },
+  "sample_collection": [
+    "V první řadě",
+    "druhá věc",
+    "třetí věc"
+  ],
+  "simple_key": "Jen jednoduchý aktualizovaný klíč s jednoduchou zprávou.",
+  "unverified_key": "Tento překlad ještě není ověřen a čeká na něj. (V některých formátech také exportujeme tento stav)"
+}
