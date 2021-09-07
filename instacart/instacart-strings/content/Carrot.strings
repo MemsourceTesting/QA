@@ -1,0 +1,1619 @@
+/* No comment provided by engineer. */
+"AboutViewController.about" = "About";
+
+/* Action label text to view open source libraries used in this app. */
+"AboutViewController.legal" = "Legal";
+
+/* Action label text to view the privacy policy. */
+"AboutViewController.privacyPolicy" = "Privacy Policy";
+
+/* Action label text to view the terms of service. */
+"AboutViewController.termsOfService" = "Terms of Service";
+
+/* Account screen title */
+"AccountSettingsWireframe.account" = "Account";
+
+/* Account settings button title with the Account screen */
+"AccountSettingsWireframe.accountSettings" = "Account Settings";
+
+/* Voice Over description for Instacart logo */
+"AccountSettingsWireframe.instacartLogo" = "Instacart logo";
+
+/* No comment provided by engineer. */
+"AcknowledgementsViewController.licenses" = "Licences";
+
+/* Action label for partial zip modal */
+"ActionHandler.addAddress" = "Add address";
+
+/* No comment provided by engineer. */
+"ActionHandler.addedToCart" = "%@ added to cart";
+
+/* Cancel action */
+"ActionHandler.cancel" = "Cancel";
+
+/* Partial zip modal title */
+"ActionHandler.checkIfWeDeliverTo" = "Check if we deliver to your address";
+
+/* Dismiss button label for partial zip modal */
+"ActionHandler.skip" = "Skip";
+
+/* No comment provided by engineer. */
+"ActionHandler.viewCart" = "View cart";
+
+/* Paritial zip modal message */
+"ActionHandler.weDontSupportAllNeighborhoods" = "We don't support all neighbourhoods in %@, yet! Please check your address 📍";
+
+/* Prompt asking the user which map application they would like to use when opening an address */
+"ActionHandler.whichAppDoYouWant" = "Which app do you want to use?";
+
+/* Button title to approve replacement for low stock item */
+"ActionResource.approve" = "Approve";
+
+/* Button title to find another replacement for low stock item */
+"ActionResource.change" = "Change…";
+
+/* Button title to dismiss bottom container tray */
+"ActionResource.continueShopping" = "Continue shopping";
+
+/* No comment provided by engineer. */
+"AddItemView.addThisToYourOrder" = "Add this to your order in progress";
+
+/* Adding an item to a store within a delivery window. Ex: Get it with your existing Safeway order scheduled for Delivery Tomorrow, Mon 9am - 10am */
+"AddItemView.getItWithYourExisting" = "Get it with your existing %1$@ order scheduled for %2$@";
+
+/* No comment provided by engineer. */
+"AddItemsEmptyView.youCanMakeChangesUp" = "You can make changes up until we start shopping your order";
+
+/* Navigation bar title */
+"AddToOrderInProgressViewController.addToOrderInProgress" = "Add to order in progress";
+
+/* Toast message to users after they've elected to add an item to their order in progress */
+"AddToOrderInProgressViewController.addedToOrder" = "Added to order";
+
+/* Toast message to users after they've elected to remove an item from their order in progress */
+"AddToOrderInProgressViewController.removedFromOrder" = "Removed from order";
+
+/* Toast message to users after they've elected to add an item to their order in progress */
+"AddToOrderInProgressViewController.yourItemHasBeenAdded" = "Your item has been added to your order. ";
+
+/* Voice Over desciption of the action to close Alcohol Promotion banner */
+"AlcoholPromotionBannerView.close" = "Close";
+
+/* Accessibilty hint telling users they can double tap to learn more */
+"AlternateRetailerItemsModuleView.doubleTapToLearnMore" = "Double-tap to learn more";
+
+/* Ok button title */
+"AppCoordinator.ok" = "OK";
+
+/* Button text to login after session has been expired. */
+"AppStateView.login" = "Login";
+
+/* Description when a user's session is invalidated. */
+"AppStateView.pleaseLogInToContinue" = "Please log in to continue.";
+
+/* Button text to retry. */
+"AppStateView.tryAgain" = "Try Again";
+
+/* Description when there is a server error. */
+"AppStateView.wereSorrynsomethingWentWrongWeve" = "We're sorry\nSomething went wrong. We've been notified about this issue and we'll take a look at it shortly.";
+
+/* Cart button value describing contents of a one-item cart */
+"BadgableBarButtonItem.1Item" = "1 item";
+
+/* Cart navigation button */
+"BadgableBarButtonItem.cart" = "cart";
+
+/* Cart button value describing contents of a many item cart */
+"BadgableBarButtonItem.dItems" = "%d items";
+
+/* Cart button value describing contents of an empty cart */
+"BadgableBarButtonItem.empty" = "empty";
+
+/* No comment provided by engineer. */
+"BannerCardCarouselModuleController.banners" = "Banners";
+
+/* No comment provided by engineer. */
+"BannerCardLogoView.selectToSeeMore" = "Select to see more";
+
+/* No comment provided by engineer. */
+"BrowseByCategoryListModuleController.browseByCategory" = "Browse By Category";
+
+/* No comment provided by engineer. */
+"ChangeLocationActionView.bummerWereNotInYour" = "Bummer, we’re not in your area… yet!";
+
+/* No comment provided by engineer. */
+"ChangeLocationActionView.startShopping" = "Start shopping";
+
+/* No comment provided by engineer. */
+"ChangeLocationErrorView.oopsSomethingWentWrong" = "⚠️ Oops, something went wrong";
+
+/* No comment provided by engineer. */
+"ChangeLocationErrorView.tapToReload" = "Tap to reload";
+
+/* No comment provided by engineer. */
+"ChangeLocationViewController.addNewAddress" = "Add new address";
+
+/* No comment provided by engineer. */
+"ChangeLocationViewController.bummerWereNotInYet" = "Bummer, we’re not in %@… yet!";
+
+/* Action allowing the user to change the country (ex US or Canada) */
+"ChangeLocationViewController.changeCountry" = "Change country";
+
+/* No comment provided by engineer. */
+"ChangeLocationViewController.changeLocation" = "Change location";
+
+/* Change postal code */
+"ChangeLocationViewController.changePostalCode" = "Change postcode";
+
+/* Action allowing the user to change zip code to shop */
+"ChangeLocationViewController.enterAnAddressOrA" = "Enter an address or a postcode";
+
+/* Prompt message informing the user they haven't completed all the required informations */
+"ChangeLocationViewController.missingInformation" = "Missing information";
+
+/* Prompt message informing the user they need to fill in a zip code or an address before going to the next step */
+"ChangeLocationViewController.youNeedToEnterAn" = "You need to enter an address or a postcode to start shopping";
+
+/* No comment provided by engineer. */
+"ChangeLocationViewController.yourArea" = "your area";
+
+/* No comment provided by engineer. */
+"ChangeLocationViewModel.deliverTo" = "Deliver to";
+
+/* No comment provided by engineer. */
+"ChangeLocationViewModel.enterPostalCode" = "Enter postcode";
+
+/* Error message when something goes wrong */
+"ChatViewController.anErrorOccurredAndIts" = "An error occurred and it's not your fault.\n Please contact support for any questions";
+
+/* Cancel action */
+"ChatViewController.cancel" = "Cancel";
+
+/* Chat screen title */
+"ChatViewController.chat" = "Chat";
+
+/* Placeholder for when chat is disabled */
+"ChatViewController.chatDisabled" = "Chat disabled";
+
+/* Error message telling the user that the shopper has finished shopping. ex: Bob is done shopping,\nplease contact support for any further questions */
+"ChatViewController.isDoneShoppingnpleaseContactSupport" = "%@ is done shopping,\nplease contact support for any further questions";
+
+/* Button title in chat to send message to shopper or driver */
+"ChatViewController.send" = "Send";
+
+/* Action allowing the user to send a photo in chat */
+"ChatViewController.sendPhoto" = "Send Photo";
+
+/* Error message telling a user that the current order is complete */
+"ChatViewController.thisOrderIsCompletenpleaseContact" = "This order is complete,\nplease contact support for any further questions.";
+
+/* Appends the sender name to the chat section title */
+"ChatViewController.trailingChatSender" = ", %@";
+
+/* Chat screen text input placeholder instructing the user to start typing a message */
+"ChatViewController.typeMessage" = "Type message";
+
+/* Replacement string for when we're not sure what a shopper's name is */
+"ChatViewController.yourShopper" = "Your shopper";
+
+/* No comment provided by engineer. */
+"CircularLoadingView.inProgress" = "In progress";
+
+/* Button for expanding */
+"ComplementaryTermPreviewTitleView.viewAll" = "View all";
+
+/* Description of button to find contacts */
+"ContactsPermissionView.findContacts" = "Find contacts";
+
+/* No comment provided by engineer. */
+"ContactsPermissionView.inviteYourContacts" = "Invite your contacts";
+
+/* No comment provided by engineer. */
+"ContactsSearchView.contacts" = "Contacts";
+
+/* Accessibility text for searching contacts button */
+"ContactsSearchView.searchContacts" = "Search contacts";
+
+/* No comment provided by engineer. */
+"CountriesViewController.country" = "Country";
+
+/* Voice Over description to switch the current country */
+"CountriesViewController.switchCountry" = "Switch country: %@";
+
+/* No comment provided by engineer. */
+"CountriesViewController.youllOnlySeeYourItems" = "You'll only see your items, orders and addresses that apply in each country.";
+
+/* Button text that dismisses a view */
+"CrossButton.dismiss" = "Dismiss";
+
+/* Delivery Promotion dismiss button text fallback */
+"DeliveryPromotionViewController.continueToCheckout" = "Continue to checkout";
+
+/* Order management menu title */
+"DeliveryShimViewController.manageOrder" = "Manage order";
+
+/* Order options menu title */
+"DeliveryShimViewController.moreOptions" = "More options";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.addItems" = "Add items";
+
+/* Accessibility order item replacement action name */
+"DeliveryViewController.adjustReplacementOption" = "Adjust replacement option";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.currentlyBeingShopped" = "Currently Being Shopped";
+
+/* Accessibility order item edit action name */
+"DeliveryViewController.edit" = "Edit";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.found" = "Found";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.itemSummary" = "Item Summary";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.itemsToBeShopped" = "Items to be Shopped";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.refunds" = "Refunds";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.replacements" = "Replacements";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.saved" = "Saved";
+
+/* No comment provided by engineer. */
+"DeliveryViewController.summary" = "%@ Summary";
+
+/* Toast message to users after they've elected to add an item to their order in progress */
+"DidYouForgetModuleController.addedToOrder" = "Added to order";
+
+/* Toast message to users after they've elected to remove an item from their order in progress */
+"DidYouForgetModuleController.removedFromOrder" = "Removed from order";
+
+/* Voiceover label for DismissBanner dismiss button */
+"DismissableBannerModuleView.dismiss" = "Dismiss";
+
+/* No comment provided by engineer. */
+"DoNotReplaceItemView.dontReplace" = "Don't Replace";
+
+/* No comment provided by engineer. */
+"DoNotReplaceItemView.refundTheOriginalItemIf" = "Refund the original item if it's not available";
+
+/* No comment provided by engineer. */
+"EditEmailViewController.currentPassword" = "Current password";
+
+/* No comment provided by engineer. */
+"EditEmailViewController.editEmail" = "Edit email";
+
+/* No comment provided by engineer. */
+"EditEmailViewController.newEmail" = "New email";
+
+/* No comment provided by engineer. */
+"EditEmailViewController.newEmailConfirmation" = "New email confirmation";
+
+/* No comment provided by engineer. */
+"EditEmailViewController.save" = "Save";
+
+/* No comment provided by engineer. */
+"EditEmailViewController.savedAccountInformation" = "Saved account information";
+
+/* Title label to change password */
+"EditPasswordViewController.changePassword" = "Change Password";
+
+/* No comment provided by engineer. */
+"EditPasswordViewController.confirmNewPassword" = "Confirm new password";
+
+/* No comment provided by engineer. */
+"EditPasswordViewController.currentPassword" = "Current password";
+
+/* No comment provided by engineer. */
+"EditPasswordViewController.newPassword" = "New password";
+
+/* No comment provided by engineer. */
+"EditPasswordViewController.save" = "Save";
+
+/* No comment provided by engineer. */
+"EditPasswordViewController.savedAccountInformation" = "Saved account information";
+
+/* Title label to set password */
+"EditPasswordViewController.setPassword" = "Set Password";
+
+/* Title for a button to allow the user to reload a failed request */
+"ErrorCell.tapToReload" = "Tap to reload";
+
+/* Hint text for search bar */
+"ExploreContainerViewController.search" = "Search %@";
+
+/* Title text for the explore screen */
+"ExploreContainerViewControllerIDS.explore" = "Explore";
+
+/* Hint text for search bar */
+"ExploreContainerViewControllerIDS.search" = "Search";
+
+/* Hint text for search bar */
+"ExploreContainerViewControllerIDS.searchRetailer" = "Search %@…";
+
+/* Button title to select product sort order */
+"FiltersModule.sort" = "Sort";
+
+/* No comment provided by engineer. */
+"FiltersModuleBar.clearAll" = "Clear all";
+
+/* No comment provided by engineer. */
+"FiltersModuleBar.filters" = "Filters";
+
+/* No comment provided by engineer. */
+"FiltersModuleBar.sort" = "Sort";
+
+/* Changing the selected state of an item as an action. ex: Deselect the radio/checkbox */
+"FiltersOptionView.deselectsFilter" = "Deselects filter";
+
+/* Changing the selected state of an item as an action. ex: Select the radio/checkbox */
+"FiltersOptionView.selectsFilter" = "Selects filter";
+
+/* Text for button to select all departments for search results */
+"FiltersPresenter.allDepartments" = "All departments";
+
+/* No comment provided by engineer. */
+"FiltersPresenter.more" = "More";
+
+/* No comment provided by engineer. */
+"FiltersPresenter.viewMore" = "View more";
+
+/* Accessibility text for collapsed filter header */
+"FiltersV2HeaderView.collapsedAccessibilityLabel" = "%@, collapsed";
+
+/* Accessibility text for expanded filter header */
+"FiltersV2HeaderView.expandedAccessibilityLabel" = "%@, expanded";
+
+/* Button text for applying selected filters */
+"FiltersViewController.apply" = "Apply";
+
+/* Button text for completing part of the filter selection flow */
+"FiltersViewController.done" = "Done";
+
+/* Title for filter results view */
+"FiltersViewController.filterResults" = "Filter Results";
+
+/* Button text for resetting filter selections */
+"FiltersViewController.reset" = "Reset";
+
+/* Text for showing more options for a filter */
+"FiltersViewController.showMore" = "Show more %@";
+
+/* Accessibility value of dismissing x-mark button */
+"FreshnessGuaranteeActionView.dismiss" = "Dismiss";
+
+/* No comment provided by engineer. */
+"GroupCartToaster.changeCart" = "Change cart";
+
+/* Toast message for current shopping cart context */
+"GroupCartToaster.currentlyShoppingFor" = "🍇 You're currently shopping for Group Cart: %@.";
+
+/* No comment provided by engineer. */
+"GroupCartToaster.youreCurrentlyShoppingInA" = "🍇 You're currently shopping in a Group Cart.";
+
+/* No comment provided by engineer. */
+"GuidedQualificationModuleView.promotionForProducts" = "Promotion for: %@ products";
+
+/* Learn more action for the current feature */
+"HeaderInfoBannerModuleView.learnMoreAction" = "Learn more";
+
+/* Title text for the How it works screen */
+"HowViewController.howInstacartWorks" = "How Instacart Works";
+
+/* No comment provided by engineer. */
+"ICReplacementChoiceInstacart.dontReplace" = "Don't Replace";
+
+/* No comment provided by engineer. */
+"ICReplacementChoiceInstacart.findBestMatch" = "Find Best Match";
+
+/* No comment provided by engineer. */
+"ICReplacementChoiceInstacart.pickSpecificReplacement" = "Pick Specific Replacement";
+
+/* No comment provided by engineer. */
+"InfoLabelView.showsTooltip" = "Shows tooltip";
+
+/* No comment provided by engineer. */
+"InviteContactItemView.invite" = "Invite";
+
+/* No comment provided by engineer. */
+"InviteContactItemView.invited" = "Invited";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.addANote" = "Add a note";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.addInstructions" = "Add instructions";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.adjustReplacementOptions" = "Adjust replacement options";
+
+/* Prompt dismiss action title */
+"ItemAddInstructionsViewController.cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.done" = "Done";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.editInstructions" = "Edit instructions";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.idLikeMyShopperTo" = "I'd like my shopper to…";
+
+/* Prompt save action title */
+"ItemAddInstructionsViewController.save" = "Save";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.saved" = "Saved";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.specialInstructions" = "Special Instructions";
+
+/* No comment provided by engineer. */
+"ItemAddInstructionsViewController.specialInstructionsForYourShopper" = "Special instructions for your shopper";
+
+/* No comment provided by engineer. */
+"ItemAddToOrderContainerViewController.addToOrderInProgress" = "Add to order in progress";
+
+/* Toast message to users after they've elected to add an item to their order in progress */
+"ItemAddToOrderContainerViewController.addedToOrder" = "Added to order";
+
+/* No comment provided by engineer. */
+"ItemAddToOrderContainerViewController.yesAddIt" = "Yes, add it";
+
+/* Toast message to users after they've elected to add an item to their order in progress */
+"ItemAddToOrderContainerViewController.yourItemHasBeenAdded" = "Your item has been added to your order. ";
+
+/* No comment provided by engineer. */
+"ItemAddToOrderContainersViewController.choose" = "Choose";
+
+/* No comment provided by engineer. */
+"ItemBadgeView.buyItAgain" = "Buy it again";
+
+/* No comment provided by engineer. */
+"ItemBadgeView.featured" = "Featured";
+
+/* No comment provided by engineer. */
+"ItemCell.inCart" = "%.0f in cart";
+
+/* No comment provided by engineer. */
+"ItemCell.outOfStock" = "Out of stock";
+
+/* ' */
+"ItemCell.seeCouponOffer" = "See coupon offer";
+
+/* No comment provided by engineer. */
+"ItemCell.showsItemDetails" = "Shows item details";
+
+/* Button title to add a grocery item to the cart */
+"ItemConfiguratorContainerViewController.addToCart" = "Add to Cart";
+
+/* Alert title to ask confirmation to close item configurator screen when the user has already made selections */
+"ItemConfiguratorContainerViewController.doYouWantToClose" = "Do you want to close?";
+
+/* Default cancel button to close an alert message */
+"ItemConfiguratorContainerViewController.noThanks" = "No, thanks";
+
+/* Button title to update slections for a configurable grocery item (update subs toppings, ...) to the cart */
+"ItemConfiguratorContainerViewController.saveChanges" = "Save changes";
+
+/* Alert close button to confirm that the user wants to close the item configurator screen */
+"ItemConfiguratorContainerViewController.yesClose" = "Yes, close";
+
+/* Alert message to ask confirmation to close item configurator screen when the user has already made selections */
+"ItemConfiguratorContainerViewController.yourSelectionsWillNotBe" = "Your selections will not be saved";
+
+/* Nutrition info calories label */
+"ItemConfiguratorCoordinator.dcal" = "%d Cal";
+
+/* Accessibility value indicating that an option (ex: cheddar, swiss, ...) is not selected */
+"ItemConfiguratorOptionItemViewModel.notSelected" = "Not Selected";
+
+/* Accessibility value indicating that an option (ex: cheddar, swiss, ...) is selected */
+"ItemConfiguratorOptionItemViewModel.selected" = "Selected";
+
+/* Accessibility hint to unselect an option (ex: cheddar, swiss, ...) */
+"ItemConfiguratorOptionItemViewModel.tapToSelect" = "Tap to select";
+
+/* Accessibility hint to select an option (ex: cheddar, swiss, ...) */
+"ItemConfiguratorOptionItemViewModel.tapToUnselect" = "Tap to unselect";
+
+/* Indicate the user that they need to pick one option for meal optional item (ex: toppings, sauces, ...)  */
+"ItemConfiguratorOptionViewModel.chooseOne" = "Choose 1";
+
+/* Accessibility value indicating that an expandable item (ex: cheese) has it's options (ex: cheddar, swiss, ...) closed */
+"ItemConfiguratorOptionViewModel.closed" = "Closed";
+
+/* Amount of options for a meal optional items (ex: toppings, sauces, ...) */
+"ItemConfiguratorOptionViewModel.doptions" = "%d options";
+
+/* Amount of selected options for a meal optional items (ex: toppings, sauces, ...) */
+"ItemConfiguratorOptionViewModel.dselections" = "%d selections";
+
+/* Accessibility value indicating that an expandable item (ex: cheese) has it's options (ex: cheddar, swiss, ...) expanded */
+"ItemConfiguratorOptionViewModel.expanded" = "Expanded";
+
+/* Accessibility hint to close options (ex: cheddar, swiss, ...) for an expandable item (ex: cheese) */
+"ItemConfiguratorOptionViewModel.tapToCloseOptions" = "Tap to close options";
+
+/* Accessibility hint to expand options (ex: cheddar, swiss, ...) for an expandable item (ex: cheese) */
+"ItemConfiguratorOptionViewModel.tapToExpandOptions" = "Tap to expand options";
+
+/* Replacement policy for item */
+"ItemDetailActionCell.bestChoice" = "Best Choice";
+
+/* No comment provided by engineer. */
+"ItemDetailActionCell.dontReplace" = "Don't Replace";
+
+/* No comment provided by engineer. */
+"ItemDetailActionCell.ifItemIsOutOf" = "If item is out of stock…";
+
+/* Replacement policy description */
+"ItemDetailActionCell.replaceWith" = "Replace with %1$@";
+
+/* No comment provided by engineer. */
+"ItemDetailContainerViewController.quantityChooser" = "Quantity chooser";
+
+/* No comment provided by engineer. */
+"ItemDetailContainerViewController.tapAdjacentButtonToSave" = "Tap adjacent button to save";
+
+/* No comment provided by engineer. */
+"ItemDetailDescriptionView.more" = " …more";
+
+/* No comment provided by engineer. */
+"ItemDetailHeaderView.addToOrderInProgress" = "Add to order in progress";
+
+/* No comment provided by engineer. */
+"ItemDetailHeaderView.outOfStock" = "Out of stock";
+
+/* No comment provided by engineer. */
+"ItemDetailLayout.additionalDealTerms" = "Additional deal terms";
+
+/* No comment provided by engineer. */
+"ItemDetailModel.featured" = "Featured";
+
+/* No comment provided by engineer. */
+"ItemDetailModel.mixMatchWith" = "Mix &amp; Match With";
+
+/* No comment provided by engineer. */
+"ItemDetailModel.oftenBoughtWith" = "Often bought with";
+
+/* No comment provided by engineer. */
+"ItemDetailModel.related" = "Related";
+
+/* Favorite product button title */
+"ItemDetailModuleActionView.favorite" = "Favourite";
+
+/* Favorite product button title when favorited */
+"ItemDetailModuleActionView.favorited" = "Favourited";
+
+/* Add item specific instructions button title */
+"ItemDetailModuleActionView.instructions" = "Instructions";
+
+/* Share product button title */
+"ItemDetailModuleActionView.share" = "Share";
+
+/* Voice over action to apply a coupon to a grocery item */
+"ItemDetailModuleController.applyCoupon" = "Apply coupon";
+
+/* Price estimate for a variable weight item */
+"ItemDetailModuleView.aboutThisMuch" = "About %@";
+
+/* No comment provided by engineer. */
+"ItemDetailModuleView.estimate" = "Estimate";
+
+/* Item's size, concatenating primary and secondary fields */
+"ItemDetailModuleView.formattedSizeWithSecondary" = "%1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"ItemDetailModuleView.outOfStock" = "Out of stock";
+
+/* No comment provided by engineer. */
+"ItemDetailModuleView.priceEstimate" = "Price estimate";
+
+/* No comment provided by engineer. */
+"ItemDetailSection.details" = "Details";
+
+/* No comment provided by engineer. */
+"ItemDetailSection.nutritionFacts" = "Nutrition Facts";
+
+/* Button title to access a form to create a note for the shopper */
+"ItemDetailViewController.addNote" = "Add note";
+
+/* Button title to access a form to create a note for the shopper */
+"ItemDetailViewController.addNoteForShopper" = "Add Note for Shopper";
+
+/* Button title to add an item to the cart */
+"ItemDetailViewController.addToCart" = "Add to cart";
+
+/* Button title to save a grocery item as favorite */
+"ItemDetailViewController.addToFavorites" = "Add to favourites";
+
+/* Button title to access a form to edit a note previously added for the shopper */
+"ItemDetailViewController.editNoteForShopper" = "Edit Note for Shopper";
+
+/* Button title to remove an item from the cart */
+"ItemDetailViewController.removeFromCart" = "Remove from cart";
+
+/* Toast message to inform the user changes have been saved */
+"ItemDetailViewController.saved" = "Saved";
+
+/* Label used to identify a quality rating for an item */
+"ItemDetailsTabsModuleController.rating" = "Rating";
+
+/* Text for viewing fewer user reviews */
+"ItemDetailsTabsModuleController.viewLess" = "View less";
+
+/* Text for viewing more user reviews */
+"ItemDetailsTabsModuleController.viewMore" = "View more";
+
+/* Label for product quality rating */
+"ItemDetailsTabsReviewRow.rating" = "Rating";
+
+/* Title for a view that allows the user to attach a note to a grocery item */
+"ItemTextViewController.addNotes" = "Add Notes";
+
+/* Placeholder text to explain the user he can fill in special instructions about the grocery item displayed on the view */
+"ItemTextViewController.haveAnySpecialInstructionsAbout" = "Have any special instructions about this item?";
+
+/* Button title to save a note */
+"ItemTextViewController.save" = "Save";
+
+/* No comment provided by engineer. */
+"ItemView.showsItemDetails" = "Shows item details";
+
+/* No comment provided by engineer. */
+"ItemsSearchViewController.oops" = "Oops";
+
+/* No comment provided by engineer. */
+"ItemsSearchViewController.search" = "Search%@…";
+
+/* No comment provided by engineer. */
+"ItemsSearchViewController.weCouldntFindResultsFor" = "We couldn't find results for %@ at this store";
+
+/* No comment provided by engineer. */
+"ItemsSearchViewController.yourQuery" = "your query";
+
+/* No comment provided by engineer. */
+"ListAddItemView.addItem" = "Add item…";
+
+/* No comment provided by engineer. */
+"ListCell.andDMore" = "and %d more…";
+
+/* Placeholder for shopping list name input */
+"ListHeaderView.yourNewShoppingList" = "Your new Shopping List";
+
+/* No comment provided by engineer. */
+"ListItemCell.delete" = "Delete";
+
+/* No comment provided by engineer. */
+"ListItemCell.search" = "Search";
+
+/* Cancel action */
+"ListViewController.cancel" = "Cancel";
+
+/* Action to delete item */
+"ListViewController.delete" = "Delete";
+
+/* Accessibility label for shopping list name input */
+"ListViewController.listName" = "List name: ";
+
+/* Default title for shopping list */
+"ListViewController.myList" = "My list";
+
+/* Search for an item. Ex: Search "Cheese" */
+"ListViewController.search" = "Search ‘%@’";
+
+/* Action to start shopping the list */
+"ListViewController.shopMyList" = "Shop my list";
+
+/* Title for screen showing shopping list */
+"ListViewController.shoppingList" = "Shopping List";
+
+/* Confirmation dialog asking users if they're sure they want to delete the list. Ex: Are you sure you want to delete \"Grocery List\"? */
+"ListsViewController.areYouSureYouWant" = "Are you sure you want to delete ‘%@’?";
+
+/* Cancel action */
+"ListsViewController.cancel" = "Cancel";
+
+/* Action to create a new list */
+"ListsViewController.createANewList" = "Create a new list";
+
+/* Title for shopping lists screen */
+"ListsViewController.lists" = "Lists";
+
+/* Action to create a new list */
+"ListsViewController.newList" = "New list";
+
+/* Afirmative action */
+"ListsViewController.ok" = "OK";
+
+/* Description on how users should use the shopping list feature */
+"ListsViewController.useListsToJotDown" = "Use Lists to jot down your shopping list and easily shop for anything right from your list!";
+
+/* No comment provided by engineer. */
+"LoadingTableViewCell.anErrorHasOccuredTap" = "An error has occurred. Tap to reload.";
+
+/* No comment provided by engineer. */
+"LocationSearchResultView.useCurrentLocation" = "Use current location";
+
+/* No comment provided by engineer. */
+"LocationSearchViewController.backButton" = "Back button";
+
+/* No comment provided by engineer. */
+"LocationSearchViewController.storesNear" = "Stores near…";
+
+/* Approve a recommended replacement */
+"LowStockModuleController.approve" = "Approve";
+
+/* Title for replacement search screen */
+"LowStockModuleController.chooseAReplacementFor" = "Choose a replacement for…";
+
+/* Button to choose no replacement for an item */
+"LowStockModuleController.dontReplaceThisItem" = "Don't replace this item";
+
+/* Description for do not replace button */
+"LowStockModuleController.notFindingWhatYoureLooking" = "Not finding what you're looking for?";
+
+/* Placeholder for replacement search input */
+"LowStockModuleController.searchForAReplacement" = "Search for a replacement";
+
+/* Toast message when a user chooses a replacement for an item */
+"LowStockModuleController.yourReplacementChoiceHasBeen" = "Your replacement choice has been saved";
+
+/* Placeholder text for special instructions */
+"LowStockModuleView.addNote" = "Add note";
+
+/* Suggested replacement traits header */
+"LowStockModuleView.ifOutOfStockReplace" = "If out of stock, replace with…";
+
+/* Accessibility hint telling users they can add
+   Add button title, users can tap to add */
+"LoyaltyCardView.add" = "Add";
+
+/* Accessibility hint telling users they can add */
+"LoyaltyCardView.addsLoyaltyCard" = "Adds loyalty card";
+
+/* Accessibility hint telling users they can edit */
+"LoyaltyCardView.edit" = "Edit";
+
+/* Accessibility hint telling users they can edit */
+"LoyaltyCardView.editsLoyaltyCard" = "Edits loyalty card";
+
+/* Accessibility label for loyalty membership card number placeholder */
+"LoyaltyCardViewController.cardNumber" = "Card Number";
+
+/* Save button for adding loyalty card */
+"LoyaltyCardViewController.save" = "Save";
+
+/* No comment provided by engineer. */
+"LoyaltyCardsViewController.loyaltyCards" = "Loyalty Cards";
+
+/* No comment provided by engineer. */
+"LoyaltyCardsViewController.noLoyaltyCards" = "No loyalty cards";
+
+/* No comment provided by engineer. */
+"LoyaltyCardsViewController.reload" = "Reload";
+
+/* No comment provided by engineer. */
+"LoyaltyCardsViewController.saved" = "Saved %@.";
+
+/* No comment provided by engineer. */
+"LoyaltyCardsViewController.savedLoyaltyCard" = "Saved loyalty card.";
+
+/* No comment provided by engineer. */
+"LoyaltyCardsViewController.youHaventAddedLoyaltyCards" = "You haven't added loyalty cards yet.";
+
+/* No comment provided by engineer. */
+"MapRouter.appleMaps" = "Apple Maps";
+
+/* No comment provided by engineer. */
+"MapRouter.googleMaps" = "Google Maps";
+
+/* No comment provided by engineer. */
+"MapRouter.waze" = "Waze";
+
+/* Accessiblity button text for closing marketing SMS confirmation pop-up  */
+"MarketingSMSConfirmationViewController.close" = "Close";
+
+/* Button text for marketing SMS confirmation pop-up  */
+"MarketingSMSConfirmationViewController.enable" = "Enable";
+
+/* Legal text for marketing SMS confirmation pop-up  */
+"MarketingSMSConfirmationViewController.legalText" = "By tapping ‘enable’, you agree to (i) receive text messages from Instacart, including via auto-diallers; and (ii) our Terms, SMS and Privacy Policies. Msg &amp; data rates may apply; frequency varies. Consent not required to buy. Text STOP to opt out. Text HELP for Help.";
+
+/* Accessibility text for phone tet field on marketing SMS confirmation pop-up  */
+"MarketingSMSConfirmationViewController.phone" = "Phone number";
+
+/* Text inside of MarketingSMSConfirmationViewController.legalText that shoud be a link to the Privacy policy */
+"MarketingSMSConfirmationViewController.privacy" = "Privacy";
+
+/* Text inside of MarketingSMSConfirmationViewController.legalText that shoud be a link to the SMS legal policy */
+"MarketingSMSConfirmationViewController.smsPolicy" = "SMS";
+
+/* Section header prompt title for marketing SMS confirmation pop-up  */
+"MarketingSMSConfirmationViewController.smsPrompt" = "Text messages";
+
+/* Section header prompt subtitle for marketing SMS confirmation pop-up  */
+"MarketingSMSConfirmationViewController.smsPromptSubtitle" = "Stay updated on deals and promotions.";
+
+/* Text inside of MarketingSMSConfirmationViewController.legalText that shoud be a link to Terms and conditions */
+"MarketingSMSConfirmationViewController.terms" = "Terms";
+
+/* Title of the marketing SMS confrimation pop-up  */
+"MarketingSMSConfirmationViewController.title" = "Notification Settings";
+
+/* Button title to dismiss bottom container tray */
+"MealsComboContainerViewController.continueShopping" = "Continue shopping";
+
+/* No comment provided by engineer. */
+"ModalActionContentView.changeAddress" = "Change address";
+
+/* No comment provided by engineer. */
+"ModalActionContentView.weDontDeliverToYour" = "We don't deliver to your address, yet!";
+
+/* Title for disabling push and SMS notifications prompt */
+"NotificationSettingsViewController.areYouSureYouWant" = "Are you sure you want to disable %@ notifications?";
+
+/* Title of setting to disable/enable phone calls before checkout */
+"NotificationSettingsViewController.callBeforeCheckout" = "Call before checkout";
+
+/* Cancel Option in prompt for disabling sms and push notification
+   Cancel Option in prompt for enabling sms and push notification. */
+"NotificationSettingsViewController.cancel" = "Cancel";
+
+/* Option in prompt to disable sms and push notifications */
+"NotificationSettingsViewController.disable" = "Disable %@";
+
+/* Option in prompt to enable sms and push notifications */
+"NotificationSettingsViewController.enable" = "Enable %@";
+
+/* Title for enabling push and SMS notifications prompt */
+"NotificationSettingsViewController.enableBothPushAndSms" = "Enable both push and SMS notifications?";
+
+/* Title for Account Notification Settings Screen */
+"NotificationSettingsViewController.notificationSettings" = "Notification Settings";
+
+/* Setting to disable/enable marketing emails */
+"NotificationSettingsViewController.receiveMarketingEmails" = "Email notifications";
+
+/* Setting to disable/enable marketing push notifications */
+"NotificationSettingsViewController.receiveMarketingPushNotifications" = "Push notifications";
+
+/* Setting to disable/enable marketing SMS notifications */
+"NotificationSettingsViewController.receiveMarketingSMS" = "Text messages";
+
+/* Header for notification settings related to Sales & Promptions */
+"NotificationSettingsViewController.salesPromotions" = "MARKETING UPDATES";
+
+/* Title of setting to disable/enable push notification toggle */
+"NotificationSettingsViewController.sendAPushNotification" = "Push notifications";
+
+/* Title of setting to disable/enable sms notification toggle */
+"NotificationSettingsViewController.sendAnSmsMessage" = "Text messages";
+
+/* Body message for enabling push and SMS notifications prompt */
+"NotificationSettingsViewController.thisMayCauseYouTo" = "This may cause you to receive multiple alerts on the same device.";
+
+/* Subtitle for setting to disable/enable phone calls before checkout */
+"NotificationSettingsViewController.wellOnlyCallIfThere" = "We'll only call if there are pending changes";
+
+/* Header for notification settings related to push, sms, phone call when order is updated */
+"NotificationSettingsViewController.whenThereIsAnUpdate" = "ORDER UPDATES";
+
+/* Body message for disabling push and SMS notifications prompt */
+"NotificationSettingsViewController.youWillStopReceivingAlerts" = "You will stop receiving alerts about your order, including time-sensitive notifications regarding unexpected changes to your order.";
+
+/* Text indicating 1 invite was sent */
+"OneClickInviteViewController.1InviteSent" = "1 invite sent";
+
+/* Announcement indicating screen changed with filtered contacts */
+"OneClickInviteViewController.contactsFiltered" = "Contacts filtered";
+
+/* Placeholder text for search bar */
+"OneClickInviteViewController.enterNameEmailOrPhone" = "Enter name, email or phone";
+
+/* Title for the invite contacts screen. */
+"OneClickInviteViewController.inviteContacts" = "Invite Contacts";
+
+/* Message informing the user they do not have any contacts to show. */
+"OneClickInviteViewController.looksLikeYouDoNot" = "Looks like you do not have any contacts in your phone book at this time.";
+
+/* Title indicating no contacts found. */
+"OneClickInviteViewController.noContacts" = "No contacts";
+
+/* Subtitle to entice customer to send more referrals */
+"OneClickInviteViewController.sendXMoreReferrals" = "Send %d or more to increase your chances!";
+
+/* Message telling the user an item was added to their order */
+"OrderAddItemViewController.itemAddedToYourOrder" = "Item added to your order";
+
+/* No comment provided by engineer. */
+"OrderAddItemViewController.yesAddIt" = "Yes, add it";
+
+/* No comment provided by engineer. */
+"OrderAddItemsViewController.addToOrderInProgress" = "Add to order in progress";
+
+/* No comment provided by engineer. */
+"OrderAddItemsViewController.addedItem" = "Added item";
+
+/* No comment provided by engineer. */
+"OrderAddItemsViewController.needAnythingElse" = "Need anything else?";
+
+/* Title for choosing a specific replacement when an order item is changed. */
+"OrderChangesReplacementViewController.chooseReplacement" = "Choose Replacement";
+
+/* Button title to add all the items to the user's cart */
+"OrderHistoryContentView.addToCart" = "Add to cart";
+
+/* VoiceOver hint for order add-to-cart button */
+"OrderHistoryContentView.addsAllItemsFromOrder" = "Adds all items from order to cart";
+
+/* No comment provided by engineer. */
+"OrderHistoryHeadingView.canceled" = "Cancelled";
+
+/* No comment provided by engineer. */
+"OrderHistoryHeadingView.orderPlaced" = "Order placed";
+
+/* No comment provided by engineer. */
+"OrderHistoryHeadingView.total" = "Total";
+
+/* No comment provided by engineer. */
+"OrderHistoryLoadingView.loadMore" = "Load more";
+
+/* No comment provided by engineer. */
+"OrderIssueItemCell.selectAll" = "Select All";
+
+/* Button label to invite the user to fill in another problem with an Instacart order */
+"OrderIssuesCommentView.addAnotherProblem" = "Add another problem";
+
+/* Placeholder explaining the user is asked to add comments regarding his Instacart order experience */
+"OrderIssuesCommentView.addCommentsAboutYourExperience" = "Add comments about your experience";
+
+/* Title label explaining that the user will be asked to communicate regarding his Instacart order experience */
+"OrderIssuesCommentView.tellUsAboutYourExperience" = "Tell us about your experience!";
+
+/* No comment provided by engineer. */
+"OrderIssuesControl.selectANewIssue" = "Select a new issue";
+
+/* No comment provided by engineer. */
+"OrderIssuesResolutionView.addAnotherProblem" = "Add another problem";
+
+/* No comment provided by engineer. */
+"OrderIssuesResolutionView.whatWouldYouLikeUs" = "What would you like us to do?";
+
+/* Navigation title for order issue selection page */
+"OrderIssuesSelectionViewController.wereThereAnyProblems" = "Were there any problems?";
+
+/* Prompt dismiss action title */
+"OrderIssuesViewController.cancel" = "Cancel";
+
+/* Prompt dismiss action title */
+"OrderIssuesViewController.ok" = "OK";
+
+/* Prompt save action title */
+"OrderIssuesViewController.save" = "Save";
+
+/* Button title to submit a report regarding an issue with an Instacart order */
+"OrderIssuesViewController.submitIssues" = "Submit Issues";
+
+/* Popup title asking the use to type in a comment regarding an issue with an Instacart order */
+"OrderIssuesViewController.tellUsMore" = "Tell us more";
+
+/* No comment provided by engineer. */
+"OrderIssuesViewController.wellTryToRespondAnd" = "We'll try to respond and resolve this issue quickly – you'll hear from us very soon!";
+
+/* No comment provided by engineer. */
+"OrderIssuesViewController.wereSorryYourOrderDidnt" = "We're sorry your order didn't go as planned";
+
+/* Screen title for a flow dedicatted to report an issue with an Instacart order */
+"OrderIssuesViewController.wereThereAnyProblems" = "Were there any problems?";
+
+/* Popup textfield placeholder asking the use to type in a comment regarding an issue with an Instacart order */
+"OrderIssuesViewController.whatCouldWeDoBetter" = "What could we do better?";
+
+/* Popup textfield placeholder asking the use to type in a comment regarding an issue with an Instacart order */
+"OrderIssuesViewController.whatCouldWeDoTo" = "What could we do to improve our product and service?";
+
+/* Button title for item modification */
+"OrderItemCell.edit" = "Edit";
+
+/* No comment provided by engineer. */
+"OrderItemCell.quantity" = "Quantity: ";
+
+/* No comment provided by engineer. */
+"OrderItemCell.replacementOption" = "Replacement option: %@";
+
+/* Ok action */
+"OrderRatingContainerViewController.ok" = "OK";
+
+/* Order toast title when ready for locker pickup */
+"OrderReadyForPickupToaster.tapForPickupLockerInstructionsGeneric" = "Tap for pickup locker instructions.";
+
+/* Order toast title when ready for pickup */
+"OrderReadyForPickupToaster.yourOrderIsReadyToGeneric" = "Your order is ready to be picked up!";
+
+/* Navigation bar title for receipt viewer */
+"OrderReceiptViewController.receipt" = "Receipt";
+
+/* No comment provided by engineer. */
+"OrderReceiptViewController.reload" = "Reload";
+
+/* No comment provided by engineer. */
+"OrderReviewReplacementHeaderView.searchForAReplacement" = "Search for a replacement";
+
+/* Button title to open a chat with the shopper */
+"OrderReviewReplacementsFooterView.chatWith" = "Chat with %@";
+
+/* Bottom section title to containing action buttons in case none of the replacement items suggestions are interesting for the user */
+"OrderReviewReplacementsFooterView.notFindingWhatYoureLooking" = "Not finding what you're looking for?";
+
+/* Button title to get a refund for an item that can't be found */
+"OrderReviewReplacementsFooterView.refundThisItem" = "Refund this item";
+
+/* Header text for choosing a specific replacement option when an order item is unavailable */
+"OrderReviewReplacementsViewController.chooseAnotherOption" = "Choose another option";
+
+/* Title text for choosing a specific replacement option when an order item is unavailable */
+"OrderReviewReplacementsViewController.otherOptionsFor" = "Other options for…";
+
+/* Placeholder text for when a shopper name doesn't exist. */
+"OrderReviewReplacementsViewController.shopper" = "Shopper";
+
+/* Prompt dismiss action title */
+"OrderViewControllerActions.cancel" = "Cancel";
+
+/* Title for the modal to allow the user to add instructions for the order delivery / pickup (example: 'Delivery Instructions' or 'Pickup Instructions') */
+"OrderViewControllerActions.deliveryTypeInstructionsTitle" = "%@ Instructions";
+
+/* Cancel alert action */
+"OrderViewControllerActions.dismiss" = "Dismiss";
+
+/* A placeholder text telling the user how to fill in the instructions for when the shopper gets to their door */
+"OrderViewControllerActions.ieRingTheDoorbell5" = "i.e. Ring the doorbell #5";
+
+/* Order management menu title */
+"OrderViewControllerActions.manageOrder" = "Manage order";
+
+/* Prompt save action title */
+"OrderViewControllerActions.save" = "Save";
+
+/* Accessibility label for a button that closes a banner */
+"OverHeaderView.close" = "Close";
+
+/* Accessibility label for a timer, showing how much time is left. */
+"OverHeaderView.dHoursDMinutesD" = "%1$d hours, %2$d minutes, %3$d seconds left";
+
+/* Title for no invited contacts */
+"PastInvitesViewController.noInvitedContacts" = "No invited contacts";
+
+/* Title text for sent invites screen */
+"PastInvitesViewController.sentInvites" = "Sent Invites";
+
+/* Message informing the user they do not have any invited friends to show. */
+"PastInvitesViewController.youHaveNotInvitedAny" = "You have not invited any friends at this time.";
+
+/* No comment provided by engineer. */
+"PriceEstimateView.about" = "About";
+
+/* No comment provided by engineer. */
+"PriceEstimateView.estimate" = "Price estimate";
+
+/* Title for other retailers that have carry a product */
+"ProductDetailsRetailerActionsView.availableInTheseStores" = "Available in these stores:";
+
+/* Title for when no retailers carry a product in the users location */
+"ProductDetailsRetailerActionsView.thisItemIsntAvailableIn" = "This item isn't available in your area";
+
+/* button indicating to the user there's more content they can see when tapping */
+"ProductDetailsView.more" = " …more";
+
+/* No comment provided by engineer. */
+"ProductModuleRetailerActionsView.soldBy" = "Sold By";
+
+/* No comment provided by engineer. */
+"ProductModuleView.thisItemIsntAvailableIn" = "This item isn't available in your area";
+
+/* Nutrition info amount per serving section title label */
+"ProductNutritionView.amountPerServing" = "Amount Per Serving";
+
+/* Nutrition info calories label */
+"ProductNutritionView.caloriesD" = "Calories %d";
+
+/* Nutrition info percent daily value section title label */
+"ProductNutritionView.dailyValue" = "%% Daily Value";
+
+/* Nutrition info section title label */
+"ProductNutritionView.nutritionFacts" = "Nutrition Facts";
+
+/* Nutrition info serving size label text */
+"ProductNutritionView.servingSize" = "Serving Size %@";
+
+/* Nutrition info servings per container */
+"ProductNutritionView.servingsPerContainer" = "Servings Per Container %@";
+
+/* No comment provided by engineer. */
+"ProfileView.hi" = "Hi, %@";
+
+/* Voice Over description for price */
+"QuantifiableItemWideView.originalPriceSalePrice" = "Original price %1$@, sale price %2$@";
+
+/* Voice Over description of currently selected rating */
+"RatingControl.outOf" = "%1$@ out of %2$@";
+
+/* Save button title */
+"RatingModuleStateController.next" = "Next";
+
+/* Voice over announcement indicating the selected order rating has updated. */
+"RatingModuleStateController.ratingUpdated" = "Rating updated";
+
+/* Save button title when input is due to requirement */
+"RatingModuleStateController.submitFeedback" = "Submit feedback";
+
+/* Voice over announcement indicating the order rating is updating. */
+"RatingModuleStateController.updatingRating" = "Updating rating";
+
+/* Rating comments prefix */
+"RatingModuleView.comments" = "Comments: %@";
+
+/* No comment provided by engineer. */
+"ReachabilityToaster.pleaseCheckYourInternetConnection" = "📶 Please check your internet connection.";
+
+/* Label for action that cancels changing a subscription */
+"RecurringOrdersItemsListModuleController.cancel" = "Cancel";
+
+/* Title for action sheet showing repeating item options */
+"RecurringOrdersItemsListModuleController.repeatingItems" = "Repeating Items";
+
+/* Text describing status of sent referalls button */
+"ReferralStatusView.status" = "Status";
+
+/* No comment provided by engineer. */
+"ReferralsPageModuleController.1InviteSent" = "1 invite sent";
+
+/* Accessibility text for searching contacts button */
+"ReferralsPageModuleController.searchContacts" = "Search contacts";
+
+/* Subtitle to entice customer to send more referrals */
+"ReferralsPageModuleController.sendDOrMoreTo" = "Send %d or more to increase your chances!";
+
+/* Share referral offer */
+"ReferralsPageModuleController.share" = "Share";
+
+/* No comment provided by engineer. */
+"ReferralsPageModuleController.terms" = "Terms";
+
+/* No comment provided by engineer. */
+"Replaceable.cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Replaceable.ifItsOutOfStock" = "If it’s out of stock…";
+
+/* No comment provided by engineer. */
+"ReplacementItemsViewController.pleaseFindASpecificReplacement" = "Please find a specific replacement by searching";
+
+/* Title for Possible Replacement Items */
+"ReplacementItemsViewController.possibleReplacements" = "Possible Replacements";
+
+/* No comment provided by engineer. */
+"ReplacementItemsViewController.search" = "Search";
+
+/* No comment provided by engineer. */
+"ReplacementItemsViewController.sorryWeCouldNotFind" = "Sorry, we could not find replacement choices for your item";
+
+/* Navigation title for replacement search screen */
+"ReplacementsApprovalInlineRefundModuleController.searchForASpecificItem" = "Search for a specific item";
+
+/* Action title to see all items in order */
+"ReplacementsApprovalInlineRefundModuleController.seeAllDItems" = "See all %d items";
+
+/* Action title to collapse low risk replacement items */
+"ReplacementsApprovalInlineRefundModuleController.seeFewerItems" = "See fewer items";
+
+/* No comment provided by engineer. */
+"ReplacementsSearchContainerViewController.notFindingWhatYoureLooking" = "Not finding what you're looking for?";
+
+/* Search for a replacement item */
+"ReplacementsSearchContainerViewController.searchForAReplacement" = "Search for a replacement";
+
+/* No comment provided by engineer. */
+"ResetPasswordViewController.emailAddress" = "Email address";
+
+/* No comment provided by engineer. */
+"ResetPasswordViewController.forgotYourPassword" = "Forgotten your password?";
+
+/* No comment provided by engineer. */
+"ResetPasswordViewController.resetPassword" = "Reset Password";
+
+/* No comment provided by engineer. */
+"ResetPasswordViewController.wellSendYouALink" = "We'll send you a link to reset your password";
+
+/* button indicating to the user there's more content they can see when tapping */
+"RetailerAboutModuleController.more" = " …more";
+
+/* Pickup map title */
+"RetailerLocationsViewController.chooseAPickupLocation" = "Choose a pickup location";
+
+/* Accessibility paging indicator */
+"RetailerLocationsViewController.locationDOfD" = "Location %1$d of %2$d";
+
+/* VoiceOver label describing purpose */
+"RetailerLocationsViewController.pendingRetailerLocation" = "Pending retailer location";
+
+/* VoiceOver hint describing activation action */
+"RetailerLocationsViewController.selectsLocationForPickup" = "Selects location for pickup";
+
+/* No comment provided by engineer. */
+"RetailerPricingModuleController.more" = " …more";
+
+/* Button title telling the users to continue along in a flow */
+"SampleItemsModuleView.continue" = "Continue";
+
+/* Dialog title asking the user to enable camera permissions */
+"ScanCameraController.theBarcodeScanningFeatureRequires" = "The barcode-scanning feature requires camera permissions";
+
+/* text on top of a view that asks you to scan a barcode */
+"ScanCameraView.holdTheCameraOverA" = "Hold the camera over a barcode to search for an item";
+
+/* Error dialog title when trying to open the camera */
+"ScanViewController.cameraError" = "Camera Error";
+
+/* error text when a network request timed out */
+"ScanViewController.checkYourNetworkAndTry" = "Check your network and try again.";
+
+/* Message to show to the user when cannot open camera */
+"ScanViewController.couldNotOpenCamera" = "Could not open camera";
+
+/* OK Button title */
+"ScanViewController.ok" = "OK";
+
+/* informational banner when unable to find an item, of which the barcode was scanned with the phone's camera, placeholder is store name(e.g. Safeway) */
+"ScanViewController.theScannedItemWasNot" = "The scanned item was not found at %@";
+
+/* informational banner when unable to find an item, of which the barcode was scanned with the phone's camera */
+"ScanViewController.theScannedItemWasNotGeneric" = "The scanned item was not found at this store";
+
+/* No comment provided by engineer. */
+"SearchContainerViewController.backButton" = "Back button";
+
+/* Hint text for search bar */
+"SearchContainerViewController.search" = "Search";
+
+/* Hint text for search bar */
+"SearchContainerViewController.searchIn" = "Search in %@";
+
+/* Hint text for search bar */
+"SearchContainerViewControllerIDS.search" = "Search";
+
+/* Button title to refine filter selections while searching */
+"SearchFilterPillsProvider.refine" = "Refine";
+
+/* No comment provided by engineer. */
+"SearchItemHeaderView.search" = "Search…";
+
+/* No comment provided by engineer. */
+"SearchModuleBar.clearAll" = "Clear all";
+
+/* No comment provided by engineer. */
+"SearchModuleBar.filter" = "Filter";
+
+/* No comment provided by engineer. */
+"SearchModuleBar.sort" = "Sort";
+
+/* button that brings up filters for the user to narrow a search */
+"SearchModuleController.filters" = "Filters";
+
+/* button that brings up filters to narrow a search, includes number of selected filters. e.g. Filters (2) */
+"SearchModuleController.filtersD" = "Filters (%d)";
+
+/* button label that allows users to change sort options */
+"SearchModuleController.sort" = "Sort";
+
+/* button label that allows users to change sort options, (1) option is already selected */
+"SearchModuleController.sort1" = "Sort (1)";
+
+/* Search top bar back button */
+"SearchTopBar.backButton" = "Back button";
+
+/* Accessibility hint for SearchBar */
+"SearchTopBar.editsSearchQuery" = "Edits search query";
+
+/* Accessibility label for action allowing the user to open refinement options */
+"SearchTopBar.openRefinementsModal" = "Open refinements modal";
+
+/* Accessibility label for SearchBar */
+"SearchTopBar.search" = "Search";
+
+/* Search top bar back button */
+"SearchTopBarWithTitle.backButton" = "Back button";
+
+/* Accessibility hint for SearchBar */
+"SearchTopBarWithTitle.editsSearchQuery" = "Edits search query";
+
+/* Accessibility label for SearchBar */
+"SearchTopBarWithTitle.search" = "Search";
+
+/* No comment provided by engineer. */
+"ServiceOptionListView.moreTimes" = "More times ";
+
+/* Order shopping context title */
+"ShoppingOrder.order" = "order";
+
+/* Order shopping context title */
+"ShoppingOrderChanges.order" = "order";
+
+/* Order shopping context title */
+"ShoppingSelection.order" = "order";
+
+/* No comment provided by engineer. */
+"ShortcutItemsConfigurator.myCart" = "My cart";
+
+/* No comment provided by engineer. */
+"ShortcutItemsConfigurator.search" = "Search";
+
+/* Add EBT card row title */
+"SnapEbtSettingsViewController.addEbtCard" = "Add EBT SNAP card";
+
+/* Learn More row title */
+"SnapEbtSettingsViewController.learnMore" = "Learn More";
+
+/* Show EBT eligibility by item toggle title */
+"SnapEbtSettingsViewController.showEbtEligibilityByItem" = "Show EBT SNAP eligibility by item";
+
+/* SNAP/EBT settings page title */
+"SnapEbtSettingsViewController.snapebtSettings" = "EBT SNAP info";
+
+/* Button text to view referral terms */
+"SocialShareReferralProminentCopyView.copy" = "Copy";
+
+/* Accessibility button text to copy share link to pasteboard */
+"SocialShareReferralProminentCopyView.copyShareLink" = "Copy share link";
+
+/* Accessibility button text to share with facebook */
+"SocialShareReferralProminentCopyView.facebookShare" = "Facebook share";
+
+/* Button title encouraging referrals via other options not shown */
+"SocialShareReferralProminentCopyView.more" = "More";
+
+/* Accessibility button text for more share options */
+"SocialShareReferralProminentCopyView.moreShareOptions" = "More share options";
+
+/* Button title encouraging referrals */
+"SocialShareReferralProminentCopyView.share" = "Share";
+
+/* Text to share your referral link */
+"SocialShareReferralProminentCopyView.shareYourLink" = "Share your link";
+
+/* Button title encouraging referrals via SMS */
+"SocialShareReferralProminentCopyView.text" = "Text";
+
+/* Accessibility button text to text invite */
+"SocialShareReferralProminentCopyView.textInvite" = "Text invite";
+
+/* Button text to view referral terms */
+"SocialShareReferralProminentCopyView.viewTerms" = "View terms";
+
+/* Accessibility button text to copy share link to pasteboard */
+"SocialShareReferralView.copyShareLink" = "Copy share link";
+
+/* Accessibility button text to share with facebook */
+"SocialShareReferralView.facebookShare" = "Facebook share";
+
+/* Accessibility button text to share referral */
+"SocialShareReferralView.share" = "Share";
+
+/* Text to share your referral link */
+"SocialShareReferralView.shareYourLink" = "Share your link";
+
+/* Button text to view referral terms */
+"SocialShareReferralView.viewTerms" = "View terms";
+
+/* No comment provided by engineer. */
+"SortViewController.apply" = "Apply";
+
+/* No comment provided by engineer. */
+"SortViewController.reset" = "Reset";
+
+/* No comment provided by engineer. */
+"SortViewController.sort" = "Sort";
+
+/* Button title to add a grocery item to the cart */
+"StepperView.addToCart" = "Add to Cart";
+
+/* Button title to add a grocery item to an order
+   Button title to add an item to an existing order */
+"StepperView.addToOrder" = "Add to Order";
+
+/* Button title to inform the user that a grocery item is being added to the cart */
+"StepperView.addToOrderInProgress" = "Add to order in progress";
+
+/* Button title to change the quantity of a grocery item in an order
+   Button title to change the quantity of a grocery item in the cart */
+"StepperView.changeQty" = "Change qty";
+
+/* Button title to confirm selection of a grocery item */
+"StepperView.choose" = "Choose";
+
+/* Button title to select a grocery item as a replacement for another item */
+"StepperView.chooseAsReplacement" = "Choose as Replacement";
+
+/* Button title for disabled state to inform the user that the grocery item is already in the cart */
+"StepperView.inCart" = "In Cart";
+
+/* Button title for disabled state to inform the user that the grocery item is already in the order */
+"StepperView.inOrder" = "In Order";
+
+/* Default button title */
+"StepperView.ok" = "OK";
+
+/* Button title to confirm removal of a grocery item
+   Button title to remove a grocery item from an order
+   Button title to remove a grocery item from the cart */
+"StepperView.remove" = "Remove";
+
+/* Store chooser default title */
+"StoreChooserHeaderModule.chooseAStore" = "Choose a store";
+
+/* Error title indicating the address entered did not include a postal code */
+"StoreChooserHeaderModuleController.codeRequired" = "Postcode Required";
+
+/* Error message asking the user to enter a more specific address inclusive of a postal code */
+"StoreChooserHeaderModuleController.weNeedASpecificAddress" = "We need a specific address or postcode to find available stores.";
+
+/* Accessibility label for store chooser mini map showing pickup retailer locations */
+"StoreChooserPickupLocationsPreviewModuleController.mapShowingNearbyPickupRetailer" = "Map showing nearby pickup retailer locations";
+
+/* Accessibility hint for expandable store chooser mini map showing pickup retailer locations */
+"StoreChooserPickupLocationsPreviewModuleController.tapToExpandAndExplore" = "Tap to expand and explore";
+
+/* Voiceover text providing context about the subsequent labels */
+"StoreChooserRetailerListView.availableFor" = "Available for:";
+
+/* Hint text for search bar */
+"StoreFrontContainerViewControllerIDS.search" = "Search";
+
+/* Hint text for search bar */
+"StoreFrontContainerViewControllerIDS.searchEllipsis" = "Search…";
+
+/* Hint text for search bar */
+"StoreFrontContainerViewControllerIDS.searchRetailer" = "Search %@…";
+
+/* Voice Over description of the Retailer Logo on the top of the StoreFront view */
+"StoreFrontHeaderView.logo" = "%@ Logo";
+
+/* Search placeholder text. ex: Search Safeway... */
+"StoreFrontHeaderView.search" = "Search %@…";
+
+/* accessibility label for navigation bar item - Home */
+"StoreFrontTopBar.backToHome" = "Back to home";
+
+/* Title text for the current store. ex: Current store: Safeway */
+"StoreFrontTopBar.currentStore" = "Current store: %@";
+
+/* No comment provided by engineer. */
+"StoreFrontTopBar.selectToBrowseLocalStores" = "Select to browse local stores";
+
+/* Action to add a number of items to cart. Ex: Add 1 item to cart */
+"SuggestedItemsActionView.addDItemToCart" = "Add %d item to cart";
+
+/* Action to add a number of items to cart. Ex: Add your 12 items to cart */
+"SuggestedItemsActionView.addYourDItemsTo" = "Add your %d items to cart";
+
+/* Action to add a number of items to cart. Ex: Add your items to cart
+   Fallback text for adding items to cart button */
+"SuggestedItemsActionView.addYourItemsToCart" = "Add your items to cart";
+
+/* Action to close view */
+"SuggestedItemsActionView.close" = "Close";
+
+/* Accessibility hint to not include an item */
+"SuggestedItemsListItemView.excludesItemWhenAddingItems" = "Excludes item when adding items to cart";
+
+/* Accessibility label telling users how many items are in cart. Ex: 1.5 in cart */
+"SuggestedItemsListItemView.gInCart" = "%.0f in cart";
+
+/* Accessibility hint to include an item */
+"SuggestedItemsListItemView.includesItemWhenAddingItems" = "Includes item when adding items to cart";
+
+/* Item size accessibility label. Ex: Item size: 1oz */
+"SuggestedItemsListItemView.itemSize" = "Item size: %@";
+
+/* Voice Over desciption of full price for an item before reduction */
+"SuggestedItemsListItemView.priceBeforePromotion" = "Price before promotion: %@";
+
+/* Ok action */
+"SuggestedItemsListModuleController.ok" = "OK";
+
+/* Action to see the user's cart */
+"SuggestedItemsListModuleController.viewCart" = "View cart";
+
+/* Message telling the user we added their plural items from a previous order to their cart */
+"SuggestedItemsListModuleController.yourDItemsHaveBeen" = "Your %d items have been added to your cart";
+
+/* Message telling the user we added a single item from a previous order to their cart */
+"SuggestedItemsListModuleController.yourItemHasBeenAdded" = "Your item has been added to your cart";
+
+/* Voice Over value for a selected tab */
+"TabActionsModuleView.selected" = "selected";
+
+/* No comment provided by engineer. */
+"TermsViewController.agree" = "Agree";
+
+/* Button text to agree to terms and conditions displayed on the screen */
+"TermsViewController.agreeContinue" = "Agree &amp; continue";
+
+/* No comment provided by engineer. */
+"TermsViewController.alcoholAgreement" = "Alcohol Agreement";
+
+/* Label explaining the user has to fill in his date of birth */
+"TermsViewController.dateOfBirth" = "Date of birth";
+
+/* Message to let the user know they will need to be present at the delivery */
+"TermsViewController.unattendedDeliveryMessage" = "Adding alcohol will require you to sign for your delivery and we won't be able to leave the order at your door if you're not around.";
+
+/* Error label saying that the user has to be over 21 to continue */
+"TermsViewController.youMustBeOver21" = "You must be over 18.";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.cannot" = "cannot";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.count" = "count";
+
+/* Title for safeguard() unwrapping error prompt */
+"ThirdPartyConfigurator.errorUnwrappingOptional" = "Error Unwrapping Optional";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.fluid" = "fluid";
+
+/* Prompt primary action title */
+"ThirdPartyConfigurator.ok" = "OK";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.ounces" = "ounces";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.perOunce" = "per gram";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.pint" = "litre";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.quantity" = "quantity";
+
+/* Message for safeguard() unwrapping error prompt */
+"ThirdPartyConfigurator.safeguardErrorHasBeenLogged" = "Safeguard error has been logged to console";
+
+/* No comment provided by engineer. */
+"ThirdPartyConfigurator.times" = "times";
+
+/* No comment provided by engineer. */
+"ThumbsRatingControl.dislike" = "Dislike";
+
+/* No comment provided by engineer. */
+"ThumbsRatingControl.like" = "Like";
+
+/* Placeholder for textfield when user is asked to explain why they changed their tip */
+"TippingUpdateAmountSurveyModule.pleaseTellUsMore" = "Please tell us more";
+
+/* No comment provided by engineer. */
+"TippingViewController.next" = "Next";
+
+/* No comment provided by engineer. */
+"ToastsCoordinator.view" = "View";
+
+/* Log out alert message */
+"UIViewControllerInstacart.areYouSureYouWant" = "Are you sure you want to log out?";
+
+/* Cancel button title */
+"UIViewControllerInstacart.cancel" = "Cancel";
+
+/* Log out alert title
+   Log out button title */
+"UIViewControllerInstacart.logOut" = "Log out";
+

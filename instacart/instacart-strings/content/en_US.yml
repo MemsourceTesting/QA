@@ -1,0 +1,23 @@
+---
+en_US:
+  collections_view:
+    layouts:
+      free_gifts_response_backed:
+        free_gifts:
+          pre_header: WELCOME TO INSTACART!
+          header: Find your new favorite with a <highlight>free treat</highlight> from PepsiCo
+          notification: Nice! Your <highlight>free gift</highlight> will come with
+            your first order.
+          sub_header: Choose your gift, courtesy of PepsiCo, from the items below.
+          sub_header_cta: Terms Apply
+          disabled_cta: Pick your gift to add to cart
+          cta: Add free item to cart
+          error: Something went wrong. Please try again.
+          flash_sales_pre_header: IT'S YOUR LUCKY DAY! YOU'VE GOT...
+          flash_sales_header: "%{percent}% off"
+          flash_sales_sub_header: plus free delivery
+          flash_sales_cta: Let's go
+          flash_sales_expires: Offer automatically applied at checkout • expires in
+          flash_sales_expires_mobile: Offer expires in
+          terms: Excludes alcohol. Max $25 discount. Valid on first %{app_name} order.
+            <terms_link>See terms</terms_link>.

@@ -1,0 +1,19 @@
+name: "[customers-backend] Merge files"
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'customers-backend/**/**/en_US.yml'
+
+jobs:
+  Merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/merge
+        with:
+          app_name: "customers-backend"
+          source_glob: "customers-backend/**/en_US.yml"
+          output_file: "consolidated_files/customers-backend/en_US.yml"
