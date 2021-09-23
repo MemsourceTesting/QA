@@ -1,0 +1,19 @@
+{
+   "root":[
+      {
+         "title":"zdrojový obsah 1",
+         "note":"Tady je vzkaz.",
+         "length":13
+      },
+      {
+         "description":"zde přichází popis",
+         "note":"zde přichází poznámka 2",
+         "length":16
+      },
+      {
+         "description":"zde přichází další popis",
+         "note":"poznámka, oddíl",
+         "length":17
+      }
+   ]
+}
