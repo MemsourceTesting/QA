@@ -1,21 +1,18 @@
 {
    "root":[
       {
-         "title":"source content is updated",
-         "title":"new content",
-         "note":"here comes the note",
+         "title":"text for translation 1",
+         "note":"note for text 1",
          "length":13
       },
       {
-         "description":"here comes the new description",
-         "description":"new description",
-         "note":"here comes the note 2",
+         "description":"text for translation 2, black&white",
+         "note":"note for text 2",
          "length":16
       },
       {
-         "description":"here comes another latest description",
-         "note":"note section",
-         "note":"new note section",
+         "description":"text for translation 3, black & white",
+         "note":"note for text 3",
          "length":17
       }
    ]
