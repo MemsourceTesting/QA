@@ -1,0 +1,12 @@
+^((?!\..+\.).)*$
+
+FilesControllerResources.it-IT.resx
+Add.ja-JP.resx
+Details.ja-JP.resx
+
+
+^[a-zA-Z0-9]+.resx
+
+ContactControllerResources.de-DE.resx
+ContactControllerResources.resx
+FilesControllerResources.it-IT.resx
