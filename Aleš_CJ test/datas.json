@@ -1,18 +1,18 @@
 {
    "root":[
       {
-         "title":"updated text for translation 2",
+         "title":"the newest updated text for translation 2, after another 30 minutes",
          "new key":"another new updated text for translation",
          "note":"note for text 1",
          "length":13
       },
       {
-         "description":"updated text for translation 2, black&white",
+         "description":"real updated text for translation 2, black&white",
          "note":"note for text 2",
          "length":16
       },
       {
-         "description":"newest text for translation 3, black & white",
+         "description":"real newest text for translation 3, black & white",
          "note":"note for text 3",
          "new key":"another new text for translation",
          "new key":"completely new text for translation",
