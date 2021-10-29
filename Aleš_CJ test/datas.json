@@ -1,8 +1,8 @@
 {
    "root":[
       {
-         "title":"text for translation 2",
-         "new key":"new updated text for translation",
+         "title":"updated text for translation 2",
+         "new key":"another new updated text for translation",
          "note":"note for text 1",
          "length":13
       },
@@ -12,7 +12,7 @@
          "length":16
       },
       {
-         "description":"text for translation 3, black & white",
+         "description":"newest text for translation 3, black & white",
          "note":"note for text 3",
          "new key":"another new text for translation",
          "new key":"completely new text for translation",
