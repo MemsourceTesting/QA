@@ -10,6 +10,7 @@
     "one": "Only one pluralization found.",
     "other": "Wow, you have %s pluralizations!",
     "zero": "You have no pluralization."
+    "one": "This is an updated segment."
   },
   "sample_collection": [
     "first item",
