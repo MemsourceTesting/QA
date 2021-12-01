@@ -7,6 +7,7 @@ en:
       under_eu_air_passenger_compensation: "you could be entitled to %{quote_compensation}"
       under_eu_air_passenger_end: "and we think you should consider claiming compensation with our partner AirHelp if you arrived at your final destination more than 3 hours late."
       under_eu_air_passenger_start: "Because of this missed connection,"
+      under_eu_air_passenger_start: "This is a test test test test test"
     ab_test_b_april17:
       ahplus_paragraph: "Luckily, you have already purchased AirHelp Plus for this booking, which is why AirHelp's normal Service Fee will not be applied; please just submit your claim with the link below, and we will help you pursue compensation from the airline."
       because_of_cancelled: "Because of this cancellation, you could be <b>entitled to %{quote_compensation}</b> and you should claim for compensation with our partner AirHelp."
