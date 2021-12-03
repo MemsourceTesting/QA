@@ -91,7 +91,7 @@
     <comment>CHANGED: 2020-10-23 - survey answer option for question Survey_Question_HowOftenUseApplication</comment>
   </data>
   <data name="Survey_Option_OnceAWeek" xml:space="preserve">
-    <value>Once a week</value>
+    <value>Once a damn week</value>
     <comment>CHANGED: 2020-10-23 - survey answer option for question Survey_Question_HowOftenUseApplication</comment>
   </data>
   <data name="Survey_Option_Other" xml:space="preserve">
