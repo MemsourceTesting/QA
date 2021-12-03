@@ -67,7 +67,7 @@
     <comment>CHANGED: 2020-10-23 - answer option for the question Survey_Question_MostImportantForYou</comment>
   </data>
   <data name="Survey_Option_DealerWorkshop" xml:space="preserve">
-    <value>Dealer / Workshop</value>
+    <value>Dealerka / Workshopka</value>
     <comment>CHANGED: 2020-10-23 - survey answer option for question Survey_Question_WhereDoYouBelongTo</comment>
   </data>
   <data name="Survey_Option_Distributor" xml:space="preserve">
