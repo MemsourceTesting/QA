@@ -63,7 +63,7 @@
     <comment>CHANGED: 2020-10-23 - Message on survey pop up</comment>
   </data>
   <data name="Survey_Option_AddEmail" xml:space="preserve">
-    <value>If yes, please add e-mail</value>
+    <value>If yes, please add new e-mail</value>
     <comment>CHANGED: 2020-10-23 - answer option for the question Survey_Question_MostImportantForYou</comment>
   </data>
   <data name="Survey_Option_DealerWorkshop" xml:space="preserve">
