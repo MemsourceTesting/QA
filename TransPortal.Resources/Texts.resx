@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HelpUsImprove" xml:space="preserve">
-    <value>Help us improve my friend, for real please.</value>
+    <value>Help us improve my friend, for real please. This is a new update.</value>
     <comment>CHANGED: 2020-10-23 - Message on survey pop up</comment>
   </data>
   <data name="Survey_Option_AddEmail" xml:space="preserve">
