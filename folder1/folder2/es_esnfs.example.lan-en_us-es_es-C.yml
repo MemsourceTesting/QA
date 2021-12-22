@@ -1,0 +1,8 @@
+---
+environment: p$r$o$d$u$
+classes:
+  nfs::server:
+    exports:
+      - /s$r$v$/s$h
+      - /s$r$v$/s$h
+parameters:
