@@ -1,18 +1,18 @@
 {
    "root":[
       {
-         "title":"aktualizovaný text pro překlad 1",
+         "title":"opět aktualizovaný text pro překlad 1",
          "note":"poznámka k textu 1",
          "length":13
       },
       {
-         "description":"aktualizovaný text pro překlad 2, černobílý",
+         "description":"opět aktualizovaný text pro překlad 2, černobílý",
          "note":"poznámka k textu 2",
          "length":16
       },
       {
          "description":"text pro překlad 3, černobílý",
-         "note":"aktualizovaná poznámka k textu 3",
+         "note":"otra vez aktualizovaná poznámka k textu 3",
          "length":17
       }
    ]
