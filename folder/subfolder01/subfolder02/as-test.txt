@@ -2,4 +2,4 @@ A file
 Line two this is big
 Third line.
 Fourth
-Change detection 6
+Change detection 7
