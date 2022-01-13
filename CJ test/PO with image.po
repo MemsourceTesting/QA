@@ -1,8 +1,0 @@
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-# french_mountains_picture_desc
-#, <img src="https://peakvisor.com/img/news/french-mountains.jpg">
-msgid "The view of the French Alps"
-msgstr "Here should be Czech translation"
-msgid "Liverpool FC is the best"
-msgstr "Here should be Czech translation"
