@@ -3,7 +3,7 @@
 # french_mountains_picture_desc
 #, <img src="https://peakvisor.com/img/news/french-mountains.jpg">
 msgid "The view of the French Alps"
-msgstr "Here should be Czech translation"
+msgstr "Pohled na francouzské ALPY"
 
 msgid "Liverpool FC is the best"
-msgstr "Here should be Czech translation"
+msgstr "LIVERPOOL FC je nejlepší"
