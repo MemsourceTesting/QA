@@ -1,15 +1,76 @@
-﻿UI_shop_sell_ny2022_0001,season8,160,"[Limited-Time] 1,000 Jala + 10 Gumball Machine Coins for New Year 2022",MasterData_ShopEproduct,新規
-UI_shop_sell_ny2022_0002,season8,160,"[Limited-Time] 2,800 Jala + 30 Gumball Machine Coins for New Year 2022",MasterData_ShopEproduct,新規
-UI_shop_sell_ny2022_0003,season8,160,"[Limited-Time] 5,000 Jala + 50 Gumball Machine Coins for New Year 2022",MasterData_ShopEproduct,新規
-UI_shop_sell_ny2022_0004,season8,160,"[Limited-Time] 13,500 Jala + 150 Gumball Machine Coins for New Year 2022",MasterData_ShopEproduct,新規
-eshop_ny2022_lst_0001,season8,255,[Limited-Time] Paid Jala with bonus Gumball Machine Coins for New Year 2022,Nintendo eショップ 商品リスト名,新規
-S08_txt_ss_newyear_01,season8,18,New Year 2022 30% Off Eight Special Products Sale,,新規
-S08_txt_ss_newyear_02,season8,18,New Year 2022 30% Off Ten Special Products Sale,,新規
-S08_txt_ss_common_01,season8,18,Shinobi Shop 30% Off Six Special Products Sale,,新規
-NAM_Avatar_set_0263,season8,18,Kenshin Himura Style,検索ワード：carrotコラボ、carrotcollaboration,新規
-NAM_Avatar_set_0264,season8,18,Hajime Saito Style,検索ワード：carrotコラボ、carrotcollaboration,新規
-NAM_Avatar_set_0265,season8,18,Aoshi Shinomori Style,検索ワード：carrotコラボ、carrotcollaboration,新規
-NAM_Avatar_set_0266,season8,18,Makoto Shishio Style,検索ワード：carrotコラボ、carrotcollaboration,新規
-NAM_Avatar_set_0267,season8,18,Poppin' Pop Star Style,,新規
-NAM_Avatar_set_0268,season8,18,Gold Cyborg Style,,新規
-NAM_Avatar_set_0269,season8,18,Delightful Hakama Style,,新規
+﻿S09_sp_desc_pass_002,season9,18,Fully enjoy Ninjala{=br}with this!{=br}300 Jala off right now!,MasterData_ShopProduct　【ニンジャラパスの説明】,新規
+
+S09_sp_desc_pass_bundle_002,season9,18,Ninjala Pass{=br}+ 25 Tier{=br}300 Jala off right now!,MasterData_ShopProduct　【ニンジャラパスバンドルの説明】,新規
+
+S09_sp_desc_passmini_002,season9,18,A budget version of{=br}the Ninjala Pass!{=br}For only 0 Jala right now!,MasterData_ShopProduct　【ニンジャラパスミニの説明】,新規
+
+S09_sp_catchphrase_pass_002,season9,18,Get up to 1350 Jala and exclusive items!{=br}300 Jala off right now! Until <datetime>2022/3/24T10:59:59</> (JST),MasterData_ShopProduct　【ニンジャラパスのキャッチフレーズ】,新規
+
+S09_sp_catchphrase_mini_002,season9,18,A handy version available up to Tier 30!{=br}For only 0 Jala right now! Until <datetime>2022/3/24T10:59:59</> (JST),MasterData_ShopProduct　【ニンジャラパスミニのキャッチフレーズ】,新規
+
+UI_shop_sell_cy2021_txt_0001_i,season9,160,"<img id=""gachacoin""></><style_u_i_black_large>10</>",MasterData_ShopEproduct ニューイヤー2022など、同量のガチャコイン付与パックでも使用,新規
+
+UI_shop_sell_cy2021_txt_0002_i,season9,160,"<img id=""gachacoin""></><style_u_i_black_large>30</>",MasterData_ShopEproduct ニューイヤー2022など、同量のガチャコイン付与パックでも使用,新規
+
+UI_shop_sell_cy2021_txt_0003_i,season9,160,"<img id=""gachacoin""></><style_u_i_black_large>50</>",MasterData_ShopEproduct ニューイヤー2022など、同量のガチャコイン付与パックでも使用,新規
+
+UI_shop_sell_cy2021_txt_0004_i,season9,160,"<img id=""gachacoin""></><style_u_i_black_large>150</>",MasterData_ShopEproduct ニューイヤー2022など、同量のガチャコイン付与パックでも使用,新規
+
+UI_shop_sell_lab_0001,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_0002,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_0003,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_0004,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_txt_0001,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_txt_0002,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_txt_0003,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_txt_0004,season9,160,,MasterData_ShopEproduct,新規
+
+UI_shop_sell_lab_txt_0001_i,season9,160,"<img id=""labopoint""></><style_u_i_black_large>1100</>",MasterData_ShopEproduct　追加巴,新規
+
+UI_shop_sell_lab_txt_0002_i,season9,160,"<img id=""labopoint""></><style_u_i_black_large>3400</>",MasterData_ShopEproduct　追加巴,新規
+
+UI_shop_sell_lab_txt_0003_i,season9,160,"<img id=""labopoint""></><style_u_i_black_large>6800</>",MasterData_ShopEproduct　追加巴,新規
+
+UI_shop_sell_lab_txt_0004_i,season9,160,"<img id=""labopoint""></><style_u_i_black_large>22000</>",MasterData_ShopEproduct　追加巴,新規
+
+UI_shop_sell_medal_txt_0001,season9,160,"<img id=""medal""></><style_u_i_black_large>1020</><img id=""medal_silver""></><style_u_i_black_large>2600</><img id=""medal_bronze""></><style_u_i_black_large>10500</>",MasterData_ShopEproduct　追加巴,新規
+
+eshop_lab_lst_0001,season9,255,,Nintendo eショップ 商品リスト名,新規
+
+eshop_lab_txt_0001,season9,400,"A pack containing in-game currency and special items for Ninjala.
+
+
+
+*Purchasable once per account.
+*In-game Jala currency comes in Paid and Free varieties. *Paid Jala will be consumed first.
+*Paid Jala is valid for 150 days from the date of purchase. (Japan Nintendo eShop only)",Nintendo eショップ 商品テキスト　【期間限定】おまけ研究ポイント付き有償ジャラ,新規
+
+NAM_Avatar_set_clb_0901,season9,18,Yuji Itadori Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0902,season9,18,Megumi Fushiguro Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0903,season9,18,Satoru Gojo Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0904,season9,18,Nobara Kugisaki Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0905,season9,18,Maki Zen'in Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0906,season9,18,Toge Inumaki Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0907,season9,18,Aoi Todo Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0908,season9,18,Kento Nanami Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0909,season9,18,Suguru Geto Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0910,season9,18,Mahito Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
+NAM_Avatar_set_clb_0911,season9,18,Ryomen Sukuna Style,検索ワード：banbooコラボ、banboocollaboration,新規
+
