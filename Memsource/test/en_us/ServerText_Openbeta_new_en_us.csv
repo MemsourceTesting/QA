@@ -1,62 +1,26 @@
-﻿S08_oe_title_Hattoriocup_001,season8,,Hanzo Cup (Solo),,新規
-S08_oe_ov_WNAcup_001,season8,,"A monthly official tournament event sponsored by the WNA!{=br}Earn fabulous rewards, like badges for each tournament and Jala!{=br}Be sure to join in and aim for the top in the WNA Tours!{=br}{=br}*Tournament rankings are calculated separately from normal rankings. {=br}*Tournament rewards will be sent to your in-game mailbox after the tournament rankings have been finalized.",,修正
-S08_oe_regulation_common_001,season8,,"The following actions are prohibited during the tournament. {=br}If we confirm the occurrence of any of the following acts,{=br}your tournament entry and prizes may be forfeited. {=br}・Confirmation of falsified data and unauthorized operations{=br}・Working with other users to manipulate battle outcomes{=br}・The use of offensive player names and other acts of harassment, etc.{=br}that impede with gameplay{=br}・Any other acts that are determined to be interfering with the tournament{=br}If you exit the matching lobby repeatedly,{=br}it will be considered an act of harassment and you may be temporarily restricted from matching. {=br}",,新規
-S08_oe_title_Sarutobicup_001,season8,,Sasuke Cup (Solo),,新規
-S08_oe_title_Jiraiyacup_001,season8,,Jiraiya Cup (Solo),,新規
-S8_wr_ranking_01,season8,,IPPON,,新規
-S8_wr_ranking_02,season8,,High Score,,新規
-S8_wr_ranking_03,season8,,Drones Destroyed,,新規
-S8_wr_ranking_04,season8,,Rating Increase,,新規
-S08_oi_HattoriCup_S_01,season8,,Hanzo Cup: Gold (Solo),,新規
-S08_oi_HattoriCup_S_02,season8,,Hanzo Cup: Silver (Solo),,新規
-S08_oi_HattoriCup_S_03,season8,,Hanzo Cup: Bronze (Solo),,新規
-S08_oi_HattoriCup_S_04,season8,,Hanzo Cup: Purple (Solo),,新規
-S08_oi_HattoriCup_T_01,season8,,Hanzo Cup: Gold (Team),,新規
-S08_oi_HattoriCup_T_02,season8,,Hanzo Cup: Silver (Team),,新規
-S08_oi_HattoriCup_T_03,season8,,Hanzo Cup: Bronze (Team),,新規
-S08_oi_HattoriCup_T_04,season8,,Hanzo Cup: Purple (Team),,新規
-S08_oi_SasukeCup_S_01,season8,,Sasuke Cup: Gold (Solo),,新規
-S08_oi_SasukeCup_S_02,season8,,Sasuke Cup: Silver (Solo),,新規
-S08_oi_SasukeCup_S_03,season8,,Sasuke Cup: Bronze (Solo),,新規
-S08_oi_SasukeCup_S_04,season8,,Sasuke Cup: Purple (Solo),,新規
-S08_oi_SasukeCup_T_01,season8,,Sasuke Cup: Gold (Team),,新規
-S08_oi_SasukeCup_T_02,season8,,Sasuke Cup: Silver (Team),,新規
-S08_oi_SasukeCup_T_03,season8,,Sasuke Cup: Bronze (Team),,新規
-S08_oi_SasukeCup_T_04,season8,,Sasuke Cup: Purple (Team),,新規
-S08_oi_JiraiyaCup_S_01,season8,,Jiraiya Cup: Gold (Solo),,新規
-S08_oi_JiraiyaCup_S_02,season8,,Jiraiya Cup: Silver (Solo),,新規
-S08_oi_JiraiyaCup_S_03,season8,,Jiraiya Cup: Bronze (Solo),,新規
-S08_oi_JiraiyaCup_S_04,season8,,Jiraiya Cup: Purple (Solo),,新規
-S08_oi_JiraiyaCup_T_01,season8,,Jiraiya Cup: Gold (Team),,新規
-S08_oi_JiraiyaCup_T_02,season8,,Jiraiya Cup: Silver (Team),,新規
-S08_oi_JiraiyaCup_T_03,season8,,Jiraiya Cup: Bronze (Team),,新規
-S08_oi_JiraiyaCup_T_04,season8,,Jiraiya Cup: Purple (Team),,新規
-S08_oi_KotaroCup_S_01,season8,,Kotaro Cup: Gold (Solo),,新規
-S08_oi_KotaroCup_S_02,season8,,Kotaro Cup: Silver (Solo),,新規
-S08_oi_KotaroCup_S_03,season8,,Kotaro Cup: Bronze (Solo),,新規
-S08_oi_KotaroCup_S_04,season8,,Kotaro Cup: Purple (Solo),,新規
-S08_oi_KotaroCup_T_01,season8,,Kotaro Cup: Gold (Team),,新規
-S08_oi_KotaroCup_T_02,season8,,Kotaro Cup: Silver (Team),,新規
-S08_oi_KotaroCup_T_03,season8,,Kotaro Cup: Bronze (Team),,新規
-S08_oi_KotaroCup_T_04,season8,,Kotaro Cup: Purple (Team),,新規
-S08_oi_SaizoCup_S_01,season8,,Saizo Cup: Gold (Solo),,新規
-S08_oi_SaizoCup_S_02,season8,,Saizo Cup: Silver (Solo),,新規
-S08_oi_SaizoCup_S_03,season8,,Saizo Cup: Bronze (Solo),,新規
-S08_oi_SaizoCup_S_04,season8,,Saizo Cup: Purple (Solo),,新規
-S08_oi_SaizoCup_T_01,season8,,Saizo Cup: Gold (Team),,新規
-S08_oi_SaizoCup_T_02,season8,,Saizo Cup: Silver (Team),,新規
-S08_oi_SaizoCup_T_03,season8,,Saizo Cup: Bronze (Team),,新規
-S08_oi_SaizoCup_T_04,season8,,Saizo Cup: Purple (Team),,新規
-S08_oi_NagatoCup_S_01,season8,,Nagatonokami Cup: Gold (Solo),,新規
-S08_oi_NagatoCup_S_02,season8,,Nagatonokami Cup: Silver (Solo),,新規
-S08_oi_NagatoCup_S_03,season8,,Nagatonokami Cup: Bronze (Solo),,新規
-S08_oi_NagatoCup_S_04,season8,,Nagatonokami Cup: Purple (Solo),,新規
-S08_oi_NagatoCup_T_01,season8,,Nagatonokami Cup: Gold (Team),,新規
-S08_oi_NagatoCup_T_02,season8,,Nagatonokami Cup: Silver (Team),,新規
-S08_oi_NagatoCup_T_03,season8,,Nagatonokami Cup: Bronze (Team),,新規
-S08_oi_NagatoCup_T_04,season8,,Nagatonokami Cup: Purple (Team),,新規
-S08_oi_OfficialPlayer_01,season8,,Official Gumchi (Yellow),,新規
-S08_oi_OfficialPlayer_02,season8,,Official Gumchi (Blue),,新規
-S08_oi_OfficialPlayer_03,season8,,Official Gumchi (Pink),,新規
-S08_oi_OfficialPlayer_04,season8,,Official Gumchi (Green),,新規
-STOB_dummy_label,season99,,Dummy!,,ダミー
+﻿S09_clb_oe_title_bamboocup_001,season9,,Jujutsu Kaisen Cup,,新規
+
+S09_clb_oe_ov_bamboocup_001,season9,,"The Ninjala Tournament held in collaboration with{=br}Jujutsu Kaisen will be open simultaneously worldwide!{=br}There's an exclusive Sticker available just for participating,{=br}plus exclusive emotes and tons of other awesome rewards for top ranking players!{=br}Be sure to join in and aim for the top in the Ninjala Tournament!{=br}{=br}*Tournament rankings are calculated separately from normal rankings. {=br}*Tournament rewards will be sent to your in-game mailbox after the tournament rankings have been finalized.",,新規
+
+S09_oi_LaboLv_01,season9,,Ninja Gum PhD Level 100,,新規
+
+S09_oi_LaboLv_02,season9,,Ninja Gum PhD Level 200,,新規
+
+S09_oi_LaboLv_03,season9,,Ninja Gum PhD Level 300,,新規
+
+S09_oi_LaboLv_04,season9,,Ninja Gum PhD Level 400,,新規
+
+S09_oi_LaboLv_05,season9,,Ninja Gum PhD Level 500,,新規
+
+S09_oi_LaboLv_06,season9,,Ninja Gum PhD Level 600,,新規
+
+S09_oi_LaboLv_07,season9,,Ninja Gum PhD Level 700,,新規
+
+S09_oi_LaboLv_08,season9,,Ninja Gum PhD Level 800,,新規
+
+S09_oi_LaboLv_09,season9,,Ninja Gum PhD Level 900,,新規
+
+S09_oi_LaboLv_10,season9,,Ninja Gum PhD Level 1000,,新規
+
+STOB_dummy_label,season99,,Dummy!,,ダミー
+
