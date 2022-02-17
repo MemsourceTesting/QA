@@ -1,13 +1,13 @@
 {
    "root":[
       {
-         "title":"again updated text for translation 1",
-         "note":"note for text 1",
+         "title":"not really updated text for translation 1",
+         "note":"new note for text 1",
          "length":13
       },
       {
-         "description":"again updated text for translation 2, black&white",
-         "note":"note for text 2",
+         "description":"updated text for translation 2, black&white",
+         "note":"updated note for text 2",
          "length":16
       },
       {
