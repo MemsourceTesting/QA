@@ -3,19 +3,19 @@
   <file id="vehicles-store">
     <unit id="ENQUIRY_FORM_CTA_CLOSE">
       <segment>
-        <source>Close</source>
+        <source>Open</source>
         <target />
       </segment>
     </unit>
     <unit id="ENQUIRY_FORM_CTA_ENQUIRE_NOW">
       <segment>
-        <source>Enquire now</source>
+        <source>Esquire now</source>
         <target />
       </segment>
     </unit>
     <unit id="ENQUIRY_FORM_CTA_SUBMIT">
       <segment>
-        <source>Submit</source>
+        <source>Submit nothing, please</source>
         <target />
       </segment>
     </unit>
