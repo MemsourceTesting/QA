@@ -3,11 +3,11 @@
   <file id="showroom">
     <unit id="VEHICLE_SEARCH_UNABLE_TO_FIND_VEHICLES_TITLE">
       <segment>
-        <source>Sorry! We couldn't find any vehicles that match your search.</source>
+        <source>Sorry my friend! We couldn't find shit.</source>
         <target />
       </segment>
     </unit>
-    <unit id="VEHICLE_SEARCH_UNABLE_TO_FIND_VEHICLES_SUBTITLE">
+    <unit id="VEHICLE_SEARCH_UNABLE_TO_FIND_CARS_SUBTITLE">
       <segment>
         <source>Based on the details you gave us, we couldn't find any vehicles so please search again using the filters.</source>
         <target />
