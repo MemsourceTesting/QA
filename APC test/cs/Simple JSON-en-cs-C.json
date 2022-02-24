@@ -1,21 +1,19 @@
 {
-  "boolean_key": "--- true\n",
+  "boolean_key": "--- pravda\n",
   "empty_string_translation": "",
-  "key_with_description": "Check this updated translation for forced import purposes solely! This completely new updated brand, new badass key has a description! (At least in some formats)",
-  "key_with_line-break": "This awesome translations contains a line-break.",
-  "nested.deeply.key": "Wow, this newest key is nested even deeper.",
-  "nested.key": "This key is nested inside a completey new updated namespace, forced by import.",
+  "key_with_description": "Zkontrolujte tento aktualizovaný překlad pouze pro účely nuceného importu! Tento zcela nový aktualizovaný značka, nový klíč badass má popis! (Alespoň v některých formátech)",
+  "key_with_line-break": "Tento úžasný překlad obsahuje zalomení řádku.",
+  "nested.deeply.key": "Wow, tento nejnovější klíč je vnořen ještě hlouběji.",
+  "nested.key": "Tento klíč je vnořený do zcela nového aktualizovaného oboru názvů vynuceného importem.",
   "null_translation": null,
   "pluralized_key": {
-    "one": "Only one pluralization found.",
-    "other": "Wow, you have %s pluralizations!",
-    "zero": "You have no pluralization."
+    "one": "Byla nalezena pouze jedna pluralizace.",
+    "other": "Páni, máte %s pluralizace!",
+    "zero": "Nemáte žádné množné číslo."
   },
   "sample_collection": [
-    "first item",
-    "second item",
-    "third item"
-  ],
-  "simple_key": "Just a simple key with a simple message.",
-  "unverified_key": "This translation is not yet verified and waits for it. (In some formats we also export this status)"
+    "první položka",
+    "druhá položka",
+    "třetí položka"
+  ]
 }
