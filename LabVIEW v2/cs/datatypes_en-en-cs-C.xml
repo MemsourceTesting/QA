@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datatypes>
+  <datatype datatypeId="223" group="$$$$$$$" filename="$$$$$$$$$$$$.$$$">
+    <description>
+      <loc>
+        Error cluster control 2 modified by Michel yet again one more
+      </loc>
+    </description>
+  </datatype>
+  <datatype datatypeId="224" group="$$$$$$$" filename="$$$$$$$$$$$$.$$$">
+    <description>
+      <loc>
+        Error cluster indicator
+      </loc>
+    </description>
+  </datatype>
+</datatypes>
