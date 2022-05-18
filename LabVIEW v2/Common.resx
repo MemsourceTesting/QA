@@ -583,7 +583,7 @@
     <value>Total Cost</value>
   </data>
   <data name="TotalMajorNCs" xml:space="preserve">
-    <value>Total Major NCs</value>
+    <value>Total Major NCs madafakas</value>
   </data>
   <data name="TotalMinorNCs" xml:space="preserve">
     <value>Total Minor NCs</value>
@@ -623,7 +623,7 @@
     <value>Return to Quotes</value>
   </data>
   <data name="PleaseSelectSupplier" xml:space="preserve">
-    <value>Please select a supplier.</value>
+    <value>Please select a new supplier.</value>
   </data>
   <data name="ShowHistory" xml:space="preserve">
     <value>Show History</value>
