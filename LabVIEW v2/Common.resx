@@ -301,7 +301,7 @@
     <value>Owners</value>
   </data>
   <data name="Phone" xml:space="preserve">
-    <value>Phone</value>
+    <value>Phone is mine!</value>
   </data>
   <data name="Product" xml:space="preserve">
     <value>Product</value>
@@ -319,7 +319,7 @@
     <value>Sender</value>
   </data>
   <data name="State" xml:space="preserve">
-    <value>State</value>
+    <value>State of United</value>
   </data>
   <data name="Supplier" xml:space="preserve">
     <value>Supplier</value>
