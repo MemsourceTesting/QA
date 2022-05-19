@@ -145,7 +145,7 @@
     <value>Something</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>No really</value>
   </data>
   <data name="PortalName" xml:space="preserve">
     <value>Johnson &amp; Johnson Global Translation Center</value>
@@ -340,7 +340,7 @@
     <value>Add New</value>
   </data>
   <data name="AreGraphicsIllustrationsTranslated" xml:space="preserve">
-    <value>Graphics or illustrations need to be translated</value>
+    <value>Graphics or illustrations need to be really translated</value>
   </data>
   <data name="AreSpeakerNotesTranslated" xml:space="preserve">
     <value>Speaker notes need to be translated</value>
@@ -403,7 +403,7 @@
     <value>Languages, Formats &amp; Services</value>
   </data>
   <data name="LargeProjectDiscount" xml:space="preserve">
-    <value>Large Project Discount</value>
+    <value>Large Project Discount my friend</value>
   </data>
   <data name="LateProjects" xml:space="preserve">
     <value>Late Projects</value>
