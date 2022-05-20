@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Cancel" xml:space="preserve">
-    <value>Zrušit</value>
+    <value>Zrušit updtovaný</value>
   </data>
   <data name="Category" xml:space="preserve">
-    <value>Kategorie</value>
+    <value>Kategorie updatovaný</value>
   </data>
   <data name="Client" xml:space="preserve">
     <value>Klient</value>
