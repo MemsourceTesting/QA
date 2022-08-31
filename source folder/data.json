@@ -1,7 +1,7 @@
 {
    "root":[
       {
-         "title":"source &content is very new my friend <number> 1",
+         "title":"source &content is <number> 1",
          "note":"here comes the note",
          "length":13
       },
@@ -11,7 +11,7 @@
          "length":16
       },
       {
-         "description":"here comes another new description",
+         "description":"here comes another description",
          "note":"note section",
          "length":17
       }
