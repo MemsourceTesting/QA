@@ -1,4 +1,0 @@
-This is a sample test file.
-And change
-And another line
-Another line
