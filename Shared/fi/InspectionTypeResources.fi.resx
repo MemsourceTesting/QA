@@ -251,7 +251,7 @@
     <value>Underhandsbesiktning</value>
   </data>
    <data name="meps.assignments.api:src:meps.assignments.api:controllers:assignments:inspections:shared:inspectiontyperesources.resx:InspectionState.Active" xml:space="preserve">
-    <value>Luonnos</value>
+    <value>Luonnos update</value>
   </data>
    <data name="meps.assignments.api:src:meps.assignments.api:controllers:assignments:inspections:shared:inspectiontyperesources.resx:InspectionState.Done" xml:space="preserve">
     <value>Valmis</value>
