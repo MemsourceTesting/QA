@@ -1,0 +1,9 @@
+{
+    "user": {
+        "userName": "longer",
+        "firstName": "short",
+        "lastName": "medium",
+        "role": "else",
+        "email": "longest"
+    }
+}
