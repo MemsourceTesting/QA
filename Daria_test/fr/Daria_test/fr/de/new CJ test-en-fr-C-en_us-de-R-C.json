@@ -1,0 +1,10 @@
+{
+    "user": {
+        "userName": "",
+        "firstName": "",
+        "lastName": "",
+        "role": "",
+        "email": "",
+        "timeZone": ""
+    }
+}
