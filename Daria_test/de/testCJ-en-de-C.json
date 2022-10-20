@@ -1,10 +1,10 @@
 {
     "asyncRequest": {
-        "action": "PRE_TRANSLATE EDITED-Zeichenfolge",
+        "action": "PRE_TRANSLATE moje zmeny",
         "project": {
             "uid": "UC5cnFwKEqX02qUqW1UI75",
             "name": "#38687 Support-Batch-Vorübersetzung für Tilde",
-            "role": "ADMIN"
+            "role": "MANAGER"
         }
     }
 }
