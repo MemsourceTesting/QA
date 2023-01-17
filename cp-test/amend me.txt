@@ -10,3 +10,4 @@ And after 40 seconds.
 And after 30 seconds.
 Line 10 did not update though.
 Let's add line 12
+And line 13
