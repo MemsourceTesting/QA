@@ -6,9 +6,11 @@ phrase:
     - file: ./Localization/<locale_name>.json
       params:
         locale_id: 7e624e1cca92e873c61f2a97ea4405c2
+        file_format: simple_json
   pull:
     targets:
     - file: ./Phrase/PhraseSampleItems/languages/<locale_name>.json
       params:
+        file_format: simple_json
 
 
