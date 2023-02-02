@@ -1,15 +1,14 @@
 phrase:
   access_token: 57511b30d757a7ac095ef4f67527ec49cc47bf140dbd897a8d75a14ea7acd6c7
-  project_id: 7921eb08f9ae126a17e3fa7dc95c7db3
+  project_id: 3cc9fe7caf5f4e1e47e97b057d186c0f
   push:
     sources:
-    - file: ./Phrase/PhraseSampleItems/languages/<locale_name>.json
+    - file: ./Localization/<locale_name>.json
       params:
-        file_format: simple_json
-        locale_id: ad646f68fd703662815565734ed51226
+        locale_id: 7e624e1cca92e873c61f2a97ea4405c2
   pull:
     targets:
     - file: ./Phrase/PhraseSampleItems/languages/<locale_name>.json
       params:
-        file_format: simple_json
+
 
