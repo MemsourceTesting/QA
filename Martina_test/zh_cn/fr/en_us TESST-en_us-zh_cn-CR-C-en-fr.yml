@@ -1,0 +1,476 @@
+en:
+  mailer:
+    ab_test_a_april17:
+      head_flight: "000000000938438874fuluiuguhu"
+      head_text: "999999998061724695Autu %{buruau"
+      hi: "999999999362328438嗨"
+      under_eu_air_passenger_compensation: "999999998302651495yuou"
+      under_eu_air_passenger_end: "999999998604359214aunudu wueu tu"
+      under_eu_air_passenger_start: "999999998832109813Bue"
+    ab_test_b_april17:
+      ahplus_paragraph: "999999999780721092Luuucukuiuluyu, yuouuu "
+      because_of_cancelled: "000000000832900438由u于u此u"
+      because_of_delayed: "999999998408823463Bueucuauuusueu"
+      because_of_missed_connection: "999999999203205639Bueucuauuusueu oufu tuh"
+      cancelled: "999999997912609533"
+      delayed: "000000001364440590"
+      flight_route: "000000000609242254%{dueupu"
+      head_text_cancelled: "000000001668832170在u%{buruaun"
+      head_text_delayed: "000000000912483835Autu %{buruaunudu_nua"
+      head_text_missed_connection: "999999999993420891Autu %{buruaunudu_nuaumu"
+      hi: "999999999491411157嗨"
+      missed_connection: "999999998714523822m"
+    ab_test_december16:
+      airhelp_specializes_in_helping: "999999998866313203AuiuruHueu 999999998866313203Wuiutuhu au 9.5 suau"
+      booking_confirmation: "999999998072513452"
+      booking_summary: "999999998365221327B"
+      cancelled: "999999998135334048"
+      delayed: "000000001753498737"
+      does_it_cost: "000000000193453292"
+      head_text: "000000001734944635Yuouuuru du"
+      hi: "000000001239567506嗨"
+      if_airhelp_is_unable_to_assist: "000000001018612369如u果000000001018612369000000001018612369如u果000000001018612369他"
+      initial_campaign:
+        subject_cancelled_flight: "000000001865352964Gueut"
+        subject_delayed_flight: "000000000308509523Gueut"
+      start_your_claim: "000000001075189502S"
+      submitting_is_easy: "000000002022227791提"
+      to: "000000001239567884"
+      trip_summary: "000000001831177181Y"
+      trustpilot_rating: "9999999999669410999."
+      wanna_know: "999999999440690372"
+      what_is: "000000001512469396什"
+      why_recieve: "000000002053051251你"
+      your_flight_is_eligible: "000000001646749848根u据u欧u盟000000001646749848为u了"
+    airmail_test_jun16:
+      airhelp_knows_the_regulations: "000000001777482399AuiuruHueu 000000001777482399Wuiutuhu au 9.5 suau 000000001777482399Iut"
+      at_we_want_our_customers: "999999999922741193Autu %{puaurutunueu"
+      booking_confirmation: "999999999192549740"
+      booking_summary: "999999999829361679B"
+      brilliant_service: "999999998068461244” 999999998068461244Vueuruy 999999998068461244Fuau 999999998068461244M"
+      cancelled: "999999999859435232"
+      delayed: "999999999011161777"
+      eu_air_passengers_are_protected: "999999998829891504EuUu auiur 999999998829891504Yuouuuru %{aur 999999998829891504Ausu aunu aududu"
+      hi: "999999998178009682H"
+      initial_campaign:
+        subject_cancelled_flight: "999999997862590788Gueut"
+        subject_delayed_flight: "999999998244011411Gueut"
+      start_your_claim: "999999999218900158S"
+      to: "999999998178010060"
+      who_is: "000000002038934044W"
+    ah_default:
+      company_address: "000000001630822065Auiu"
+      company_managing_directors: "999999999494320237董u事u总u"
+    btafirsttravel:
+      airhelp_works_on_a_no_win_no_fee_basis: "999999998515374730Au999999998515374730因u此999999998515374730999999998515374730如u果u 999999998515374730你u可"
+      delayed: "999999999716009555"
+      initial_campaign:
+        ending_text:
+          airhelp_specializes_in_helping_air_passengers: "999999999194763244Aui999999999194763244凭u借u Turuuus"
+          does_it_cost: "999999998867292602"
+          what_is: "000000000394118662什"
+        intro_text:
+          because_of_cancelled: "000000001427065308Bueucuauuusueu o"
+          because_of_delayed: "999999999008323757Bueucuauuusueu oufu tuhuiusu"
+          formal_salutation: "000000001112377166Du"
+          head_text_cancelled: "999999998778504804在u%{buruaun"
+          head_text_delayed: "999999999684896565在u%{buruaun"
+        recommend_airhelp: "000000001032446483我u们000000001032446483它000000001032446483但u"
+        your_flight_may_be_eligible: "999999998533775233根u据u欧u盟u999999998533775233为u了"
+      trustpilot_rating: "000000001152810765%{t"
+    checkmytrip:
+      get_compensation: '000000000458304062G'
+      company_name: "000000000960533032Au"
+      company_address: "999999999297880887B 9999999992978808871"
+      company_managing_directors: "000000001139268647董u"
+      company_registered: "000000000744311903注u册"
+      initial_campaign:
+        cancelled_flight: "000000001641794247Wueu'vueu dueutu"
+        click_the_button_bellow: "000000002016730570Wueu a 000000002016730570Juuu"
+        delayed_flight: "999999999494869974Wueu'vueu dueut"
+        get_your_compensation: "999999999446571572Gu"
+        got_questions: "999999998779029073G 999999998779029073L "
+        happy_travels: "999999999645543217H"
+        it_will_take_few_minutes: "000000001354644194Suiumupul 000000001354644194Iutu"
+        missed_connection_flight: "000000000144658166Wueu'vueu dueutueurumuiu"
+        subject_disrupted_flight: "000000000174639095%{au"
+        thanks_for_signing_up: "999999998940652408Tuhuaun"
+        you_are_receiving_this_email: "999999998775856334Yuouuu a"
+    checkmytrip_2020:
+      initial_campaign:
+        subject_disrupted_flight: "999999999412115562%{au"
+        subject_disrupted_flight_with_booking_ref: "999999999462841577Rueufu:"
+    concur_integration:
+      initial_campaign:
+        intro_text:
+          head_text_cancelled: "999999999760782428Autu AuiuruHueulupu,"
+          head_text_delayed: "000000000414409517Autu AuiuruHueulupu, "
+          because_of_cancelled: "000000001812900580Bueucuauuusue"
+          because_of_delayed: "000000000148388789Bueucuauuusueu oufu tuhu"
+        ending_text:
+          your_flight_may_be_eligible: "999999999744500287Yuouuuru %{aururui 999999999744500287Tuou puruouvui"
+          your_flight_is_eligible: "999999998877447186Yuouuuru %{aururui 999999998877447186Tuou puruouvui"
+          recommend_airhelp: "999999998092823121Wueu aurueu sup 999999998092823121Huouwueu"
+      regulation_agnostic:
+        because_of_cancelled: "000000000933019313Bueucuauuusue"
+        because_of_delayed: "000000000344121026Bueucuau 000000000344121026Wueu tuhuiunuku y"
+        your_flight_may_be_eligible: "000000001588692775Yuouuuru % 000000001588692775Tuhueusueu  000000001588692775Tuou puruouvui"
+    custom:
+      kuoni:
+        hi: "999999997962081865嗨"
+    cwt:
+      footer:
+        email_sent_to: "000000000347088703Tuhuius"
+        unsubscribe_list: "999999999516362988uun"
+      initial_campaign:
+        intro_text:
+          because_of_cancelled: "000000001761844097%{buruaunudu_nuau"
+          because_of_delayed: "999999999674593170%{buruaunudu_nuau"
+          head_text_cancelled: "999999997958020127%{buruaunudu_nuaumueu"
+          head_text_delayed: "000000001091862448%{buruaunudu_nuaumueu}"
+    default:
+      cancelled: "000000000893960446"
+      delayed: "999999998489333839"
+      first_reminder:
+        subject_cancelled_flight: "000000000550172140关u于u"
+        subject_delayed_flight: "999999999471387707提u醒u"
+        subject_missed_connection_flight: "000000001427604763看u"
+      footer:
+        agency: "999999998990928934代"
+        booking_reference: "999999998805542948预u"
+        email_sent_to: "999999999410441118此"
+        order: "999999998318137101订"
+        unsubscribe_list: "000000000250680365"
+      fourth_reminder:
+        subject_cancelled_flight: "999999998436653724关u于u"
+        subject_delayed_flight: "000000001873655019关u于u"
+        subject_missed_connection_flight: "999999998081505739看u"
+      get_compensation: "000000000717469270"
+      initial_campaign:
+        baltic_languages_limitation: "999999998571750315请u注999999998571750315但u是"
+        booking_confirmation: "999999999602252908"
+        click_on_the_button: "999999998057797240点u"
+        ending_text:
+          airhelp_plus_member_free_of_charge: "999999999498384504Au"
+          airhelp_specializes_in_helping_air_passengers: "000000001051096176Aui000000001051096176凭u借u Turuuus"
+          airhelp_works_on_a_no_win_no_fee_basis: "999999998410379254Au999999998410379254因u此999999998410379254999999998410379254如u果u 999999998410379254你u可"
+          does_it_cost: "000000001591815350"
+          if_airhelp_is_unable_to_assist: "999999998530649051如u果999999998530649051999999998530649051如u果999999998530649051他"
+          recommend_airhelp: "999999997894547917我u们999999997894547917它999999997894547917但u"
+          wanna_know: "999999998905833230"
+          what_is: "000000000540601738什"
+          why_recieve: "999999998357381737你"
+          your_flight_is_eligible: "999999998144231054根u据u欧u盟999999998144231054为u了"
+          your_flight_may_be_eligible: "999999999497979579根u据u欧u盟u999999999497979579为u了"
+        flight_route: "000000000776666315%{dueupu"
+        intro_text:
+          ahplus_paragraph: "999999999013610702幸u运u的u是u，<s"
+          because_of_cancelled: "000000000248990560由u于u此u"
+          because_of_delayed: "999999999950113585由u于u这u种u延u"
+          head_text_cancelled: "999999997909218400在u%{buruaun"
+          head_text_delayed: "999999998606898225在u%{buruaun"
+          hi: "000000000613685599嗨"
+          similar_claim_won: "000000001596176545Auiur"
+          sas_strike: 9999999998700553382021 年
+        subject_cancelled_flight: "000000001621318498您u"
+        subject_delayed_flight: "999999998976413489您u"
+        subject_missed_connection_flight: "999999998192653457看u"
+        submitting_is_easy: "000000001952311311提"
+        trustpilot_rating: "999999998163570411%{t"
+      missed_connection: "999999998518062511"
+      regulation_agnostic:
+        because_of_cancelled: "000000001474009901由u于u此u次"
+        because_of_delayed: "999999998498875966由u于u999999998498875966我u们u认u为"
+        your_flight_may_be_eligible: "999999999737128747根u据u999999999737128747这u些999999999737128747为u了"
+      second_reminder:
+        subject_cancelled_flight: "999999999155371638999999999155371638关u于u"
+        subject_delayed_flight: "999999999282227013999999999282227013提u醒u"
+        subject_missed_connection_flight: "999999999552283557看u"
+      third_reminder:
+        subject_cancelled_flight: "000000000718551779000000000718551779关u于u"
+        subject_delayed_flight: "999999999046982386999999999046982386提u醒u"
+        subject_missed_connection_flight: "999999997880034066看u"
+    default_20160215:
+      first_reminder:
+        subject_cancelled_flight: "999999999012378076关u于u"
+        subject_delayed_flight: "000000000721182763提u醒u"
+        subject_missed_connection_flight: "999999999933396235看u"
+      initial_campaign:
+        claim_specialists: "999999997927962494%{puaurutu"
+        click_on_the_button: "000000000730512520点u"
+        hi: "000000001618177346Huiu"
+        missed_connection:
+          hi: "999999998762165551Huiu %"
+          under_eu_air_passenger: "000000000644644427Iufu yuouuu muiusu"
+        subject_cancelled_flight: "000000001269972818您u"
+        subject_delayed_flight: "000000001733586721您u"
+        subject_missed_connection_flight: "000000001072302209看u"
+        under_eu_air_passenger: "000000001502478046Uunudueu"
+      initial_email:
+        claim_specialists: "999999998402210318%{puaurutu"
+        click_on_the_button: "000000001216138008点u"
+        hi: "000000000835333298Huiu"
+        subject_cancelled_flight: "000000001335020226Cuou000000001335020226%"
+        subject_delayed_flight: "999999999257679505Cuou999999999257679505%"
+        under_eu_air_passenger: "999999999026570830Uunudueu"
+      second_reminder:
+        subject_cancelled_flight: "999999998728395910999999998728395910关u于u"
+        subject_delayed_flight: "999999999371168085999999999371168085提u醒u"
+        subject_missed_connection_flight: "000000000476459445看u"
+      shared:
+        ahplus:
+          already_purchased: "999999999631980117Luuucukuiuluyu, yuouuu "
+        booking_reference: "999999998647246462预u"
+        cancelled_flight: "999999999806495845C"
+        delayed_flight: "999999999778993396D"
+        email_sent_to: "999999999322218232此"
+        footer:
+          agency: "000000000211599122代"
+          order: "000000000851365537订"
+        get_compensation: "000000000214944746"
+        missed_connection_flight: "000000000357982868Mu"
+        operated_by: "999999999376141295o"
+        reminders:
+          click_on_the_link: "999999998202551612Fuiul 999999998202551612Tuo"
+          collaboration: "999999998123452368Wueu aurueu"
+          flight_was_cancelled: "000000001377337857Aucu"
+          flight_was_delayed: "999999999642908178Aucu"
+          flight_was_missed_connection: "999999999361907634Ouuuru "
+          goodbye: "999999998770076380B"
+          laws_regarding_cancelled_flight: "000000000208464979Buausueudu"
+          laws_regarding_delayed_flight: "000000001294493794Buausueudu"
+          laws_regarding_missed_connection_flight: "000000002045518978Iufu yuouuu wu"
+          missed_connection:
+            click_on_the_button: "000000000802179239Iu"
+            collaboration: "999999999763834563Tuou sueueu "
+            hi: "999999999522800451嗨"
+            remind_about_flight: "000000000818701402Rueumue"
+            start_your_claim: "999999999561712623S"
+          once_you_are_finished: "999999998748376742Ounucueu"
+          remind_about_flight: "999999998970455975Wueu’du luiu"
+          welcome: "999999999796153645D"
+        subscription_preferences: "000000000373329181uup"
+        unable_see_email: "000000001789446187Iufu"
+        unsubscribe_list: "000000000522668691"
+      third_reminder:
+        last_reminder: "999999999058808889Tuhuius"
+        missed_connection:
+          collaboration: "000000001191361206%{puaurutunu"
+          last_reminder: "000000000786737260Tuhuius"
+          laws_regarding: "999999999676943428Iufu yuouuu mui"
+          still_have_not_checked: "000000001503204938Yuouuu sutu"
+        remind_about_flight: "999999999617847322Rueuguauru"
+        subject_cancelled_flight: "999999999180757715关u于u"
+        subject_delayed_flight: "000000000296777442关u于u"
+        subject_missed_connection_flight: "000000000680792834看u"
+    default_2020:
+      first_reminder:
+        subject_cancelled_flight: "000000001333257807关u"
+        subject_delayed_flight: "999999998815220062提u"
+        subject_cancelled_flight_with_booking_ref: "000000000960247204Rueuf"
+        subject_delayed_flight_with_booking_ref: "999999999753456245Rueuf"
+      fourth_reminder:
+        subject_cancelled_flight: "000000001237472921关u于"
+        subject_delayed_flight: "999999998712327208关u于"
+        subject_cancelled_flight_with_booking_ref: "999999997874217626Rueuf"
+        subject_delayed_flight_with_booking_ref: "999999999446334699Rueuf"
+      initial_campaign:
+        subject_cancelled_flight: "999999998252400389你u"
+        subject_delayed_flight: "999999999759499156你u"
+        subject_cancelled_flight_with_booking_ref: "999999999681241006Rueu"
+        subject_delayed_flight_with_booking_ref: "999999998728662783Rueu"
+      second_reminder:
+        subject_cancelled_flight: "000000001956190835000000001956190835关u"
+        subject_delayed_flight: "000000000415866498000000000415866498提u"
+        subject_cancelled_flight_with_booking_ref: "000000000548228608参u000000000548228608关u"
+        subject_delayed_flight_with_booking_ref: "000000000530680273参u000000000530680273提u"
+      third_reminder:
+        subject_cancelled_flight: "000000001501637446关u于"
+        subject_delayed_flight: "999999998390814741关u"
+        subject_cancelled_flight_with_booking_ref: "999999999113207181Rueuf"
+        subject_delayed_flight_with_booking_ref: "999999999309076638Rueuf"
+    default_2020_b:
+      footer:
+        unsubscription_sentence: "000000001149526021如u果u您u不u"
+    egencia:
+      first_reminder:
+        subject_cancelled_flight: "999999998656263355 999999998656263355Rueumui"
+        subject_delayed_flight: "999999998526401226 999999998526401226Rueumui"
+      initial_campaign:
+        airhelp_works_on_a_no_win_no_fee_basis: "000000000665424443Auiu 000000000665424443Suou iufu 000000000665424443N 000000000665424443Iufu AuiuruHueu"
+        all_rights_reserved: "999999998455986514©  999999998455986514Au 999999998455986514Eugueunucuiuau  999999998455986514Aululu"
+        booking_reference: "999999997953519173预u"
+        cancelled_flight: "000000000476854206C"
+        click_on_the_button: "999999997888766473Tuou gueut 999999997888766473Tuh"
+        click_on_the_button_part_2: "000000001655860700Iufu yuouuu huau"
+        click_on_the_button_part_3: "000000001655860701Fuouru eunu"
+        delayed_flight: "999999998939468429D"
+        email_sent_to: "000000000957704767此"
+        ending_text:
+          airhelp_specializes_in_claming_compensation: "000000000401619521AuiuruHue 000000000401619521AuiuruH 000000000401619521Huouwueu"
+          your_flight_may_be_eligible: "000000000391126988Yuouuuru %{aururui 000000000391126988Eugueunu"
+        estimated_compensation_amounts: "000000000588437753Tuhueu cuoumup 000000000588437753Aululu c"
+        full_compensation_note: "000000001433085863Pulueuaus"
+        get_compensation: "000000000885303107"
+        good_news: "000000000490002549Tuhueu guo"
+        operated_by: "999999998229241078o"
+        subject_cancelled_flight: "999999998346142321 999999998346142321Cuoum"
+        subject_delayed_flight: "000000001377472000 000000001377472000Cuoum"
+        unsubscribe_list: "000000001193027052"
+        welcome: "999999998389721794D"
+        you_may_be_entitled_to_cancelled: "000000000232681717Wueu wuaunut"
+        you_may_be_entitled_to_delayed: "999999999351214598Wueu wuaunut"
+        your_flight_was_cancelled: "000000001078522328Eugueunucuiuau"
+        your_flight_was_delayed: "999999999213547433Eugueunucuiuau uunudueurusu"
+    egencia_2019:
+      initial_campaign:
+        airhelp_works_on_a_no_win_no_fee_basis: "999999998952095306Auiu 999999998952095306Iufu AuiuruHueu"
+        click_on_the_button: "000000000958155354Tuou culua 000000000958155354Tuh"
+        ending_text:
+          airhelp_specializes_in_helping_air_passengers: "999999998554173138AuiuruHueul 999999998554173138Wuiutuhu au %{turuuusutu"
+    egencia_2019_a:
+      click_on_the_button_part_2: "000000000344554735Iufu yuouuu huauvue"
+      initial_campaign:
+        subject_cancelled_flight: "999999999360296866% 999999999360296866Gueutu"
+        subject_delayed_flight: "000000001110371185% 000000001110371185Gueutu"
+      pre_header_for_cancelled: "999999998784840632%{fuiurusu"
+      pre_header_for_delayed: "000000000046913929%{fuiurus"
+      welcome: "000000001841223311D"
+      your_flight_was: "999999999475588179yuouuuru duius"
+    egencia_2020:
+      first_reminder:
+        subject_cancelled_flight: "999999999331832032 999999999331832032Rueum"
+        subject_delayed_flight: "000000000363973679 000000000363973679Rueum"
+        subject_cancelled_flight_with_booking_ref: "999999999560769331Eugueunu"
+        subject_delayed_flight_with_booking_ref: "000000000185519044Eugueunu"
+      fourth_reminder:
+        subject_cancelled_flight: "999999999322816040 999999999322816040Fuiunu"
+        subject_delayed_flight: "999999999479049079 999999999479049079Fuiun"
+        subject_cancelled_flight_with_booking_ref: "000000001735043819Eugueunuc"
+        subject_delayed_flight_with_booking_ref: "999999999955379580Eugueunuc"
+        additional_head_text: "999999999401580011Wueu'rueu cuounutua"
+      initial_campaign:
+        subject_cancelled_flight: "999999999027579222 999999999027579222Yuou"
+        subject_delayed_flight: "000000002053040677 000000002053040677Yuo"
+        subject_cancelled_flight_with_booking_ref: "999999999107768701Eugueun"
+        subject_delayed_flight_with_booking_ref: "000000001624152206Eugueun"
+      regulation_agnostic:
+        ending_text:
+          your_flight_may_be_eligible: "999999997882903253Yuouuuru %{aururu"
+        you_may_be_entitled_to_cancelled: "999999997942124044Wueu wuaunutu"
+        you_may_be_entitled_to_delayed: "999999999978997981Wueu wuaunut"
+      second_reminder:
+        subject_cancelled_flight: "000000000041533954 000000000041533954 000000000041533954Rueum"
+        subject_delayed_flight: "000000001182588369 000000001182588369 000000001182588369Rueum"
+        subject_cancelled_flight_with_booking_ref: "000000000114087505Eug 000000000114087505Rueum"
+        subject_delayed_flight_with_booking_ref: "000000001039725154Eug 000000001039725154Rueum"
+      third_reminder:
+        subject_cancelled_flight: "999999999500211671 999999999500211671Luausu"
+        subject_delayed_flight: "999999999939568358 999999999939568358Luaus"
+        subject_cancelled_flight_with_booking_ref: "000000002008696604Eugueunuc"
+        subject_delayed_flight_with_booking_ref: "999999999741139437Eugueunuc"
+    etraveli:
+      initial_campaign:
+        check_terms_and_conditions: "999999999175439795AuiuruH 999999999175439795Bueufuourueu"
+        footer_eu_regulation: "000000000607700217Yuouuu rueucueui"
+        get_compensation_for_cancelled_flight: "000000001291331180Gueu"
+        get_compensation_for_delayed_flight: "999999998913500347Gue"
+        head_text_cancelled: "999999998330939002Autu %{b 999999998330939002Tuhuautu’su w"
+        head_text_delayed: "999999999840855243Autu %{b 999999999840855243Tuhuautu’su w"
+        submit_claim_directly_or_with_airhelp: "000000001393393931Yuouuu cuaunu 000000001393393931AuiuruHueulupu"
+        you_could_be_entitled_to: "999999999506563435Uunudueuru EuUu Rueugu"
+    etraveli_2019:
+      airhelp_works_on_a_no_win_no_fee_basis: "999999998107545300Iufu Aui 999999998107545300N 999999998107545300AuiuruHueu 999999998107545300Tuh 999999998107545300Tuhueu sueuru"
+      check_terms_and_conditions: "000000000254821736AuiuruH 000000000254821736Bueufuourueu"
+      head_text_cancelled: "000000001655646309Autu %{b 000000001655646309Tuhuautu’su "
+      head_text_delayed: "000000000751576438Autu %{b 000000000751576438Tuhuautu’su w"
+      initial_campaign:
+        subject_cancelled_flight: "999999999712727004Gueu"
+        subject_delayed_flight: "999999999028058667Gue"
+        you_could_be_entitled_to: "000000001909242738Uunudueuru EuUu Rueugu"
+      submit_claim_directly_or_with_airhelp: "000000002051145270Yuouuu cuaunu 000000002051145270AuiuruHueulupu"
+      regulation_agnostic:
+        you_could_be_entitled_to: "999999997942683096Uunudueuru auiuru pua"
+        you_receive_this_email: "000000001217616488Yuouuu rueucueui"
+        your_flight_may_be_eligible: "000000000378755109Yuouuuru %{aururu 000000000378755109Iunu ourudueu"
+      your_flight_may_be_eligible: "000000001528776349Yuouuuru fuluiuguh 000000001528776349Iunu ourudueu"
+    flightnetwork:
+      location_address:
+        flightnetwork: "999999998810549615Tuhuiusu eu 999999998810549615T"
+        flyfar: "000000001889985843Tuhuiusu 000000001889985843Uunu 000000001889985843T"
+    lastminute:
+      initial_campaign:
+        fees_info: "000000000578426396<suturuo 000000000578426396Bueufuourueu uusu"
+        footer_text_1: "999999998889130207BuruauvuouNueuxutu Su.Au., wuhuiucuhu iusu a 999999998889130207Tuhuuusu, Burua"
+        footer_text_2: "999999998889130208Iufu yuouuu wuouuuludu luiu"
+        footer_text_3: "999999998889130209Buruauv"
+        get_compensation_for_your_cancelled_flight: "000000001605730684Gueu"
+        get_compensation_for_your_delayed_flight: "000000001287009227Gue"
+        head_text_cancelled: "000000001812340762Autu %{b 000000001812340762Tuhuautu’su w"
+        head_text_delayed: "000000000863471211Autu %{b 000000000863471211Tuhuautu’su w"
+        submitting_is_easy: "000000000263915298Suuub"
+        you_can_either_submit: "999999999229978271Yuouuu cuaunu e 999999999229978271AuiuruHueulupu"
+        you_could_be_entitled_to: "999999998178610123<suturuounugu>Uunudueu"
+        you_receive_this_email: "000000000100544795Yuouuu rueucueuiuvue"
+    odigeo:
+      initial_campaign:
+        notice_legal_entity_EDLLC: "000000000983833406euDu 000000000983833406A 000000000983833406CuS 000000000983833406A"
+        notice_legal_entity_EVED: "000000001832868950Vu 000000001832868950Suoucuiueud 000000001832868950Vu 000000001832868950Rueuguiu"
+        notice_legal_entity_OLTD: "000000001833157715Oupuou 000000001833157715Vu 000000001833157715Cu"
+        notice_line1: "999999998904019885Buyu culuiucukuiunugu 999999998904019885Yuouuuru duaut"
+        notice_line2: "999999998904019886Yuouuu  999999998904019886Wueu wuiusuhu "
+        view_privacy_policy: "000000000959475116Yuouuu cua"
+    odigeo_2018_a_preheader_1:
+      first_reminder:
+        subject_cancelled_flight: "999999998349025207关u"
+        subject_delayed_flight: "000000001435575494提u"
+        subject_cancelled_flight_with_booking_ref: "000000001169750332Rueuf"
+        subject_delayed_flight_with_booking_ref: "999999998873228301Rueuf"
+      initial_campaign:
+        subject_cancelled_flight: "999999999443025517你u"
+        subject_delayed_flight: "000000001070233852你u"
+        subject_cancelled_flight_with_booking_ref: "999999999150284102Rueu"
+        subject_delayed_flight_with_booking_ref: "999999998938165911Rueu"
+      pre_header_for_cancelled: "000000000814518669Bueucuauuusue"
+      pre_header_for_delayed: "000000001640085662Bueucuauuusu"
+    odigeo_2018_a_preheader_2:
+      first_reminder:
+        subject_cancelled_flight: "000000000708332216Au "
+        subject_delayed_flight: "000000000512891911Au "
+        subject_cancelled_flight_with_booking_ref: "999999999239131227Fuluiug"
+        subject_delayed_flight_with_booking_ref: "999999998893565676Fuluiug"
+      initial_campaign:
+        subject_cancelled_flight: "999999998994328878你u"
+        subject_delayed_flight: "999999999134573565你u"
+        subject_cancelled_flight_with_booking_ref: "999999999251196069Rueu"
+        subject_delayed_flight_with_booking_ref: "000000001302514102Rueu"
+      pre_header_for_cancelled: "000000000845538476Bueucuauuusue"
+      pre_header_for_delayed: "000000001573078909Bueucuauuusu"
+    tripcase:
+      initial_campaign:
+        intro_text:
+          head_text_cancelled: "000000000289269470Yuouuuru <b"
+          head_text_delayed: "999999998368034351Yuouuuru <"
+    welcometravel:
+      initial_campaign:
+        as_a_customer_of: "999999999250519033Ausu au cuuus"
+        ticket_number: "000000001959414032Tui"
+        you_may_be_entitled_to: "000000001136652687Aucucuouruduiunu"
+  powered_by: "999999999338934072P"
+  unsubscriptions:
+    answers:
+      claim_submitted: "000000000199808166我"
+      compensation_received: "999999998499042708我"
+      no_details: "000000000376583446我"
+      not_relevant: "999999998505548123"
+      other: "000000000973460606"
+      spam: "000000000724253723电"
+      too_many_emails: "000000001575332794我u"
+    before_you_go: "000000001320556880在u你"
+    if_interested: "000000000101267763如u果"
+    sorry_to_see_you_go: "000000000463545822看000000000463545822我u们"
+    submit: "000000000329442704"
+    taking_off: "000000001339420588"
+    tell_us_the_reason: "000000001662497661告"
+    thank_you: "000000000875605202感"
+    you_will_be_unsubscribed: "000000002023197530或u者u，"
