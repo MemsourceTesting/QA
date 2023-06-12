@@ -1,0 +1,23 @@
+{
+   "root":[
+      {
+         "title":"zdroj a obsah je <number> 1",
+         "another title":"aktualizovaný zdroj &obsah je <number> 1",
+         "third title":"to je další titul",
+         "fourth title":"toto je potřeba přeložit",
+         "fourth title":"i tento pátý titul je třeba přeložit",
+         "note":"Zde přichází poznámka",
+         "length":13
+      },
+      {
+         "description":"zde přichází aktualizovaný popis",
+         "note":"Zde přichází poznámka",
+         "length":16
+      },
+      {
+         "description":"Zde přichází další popis",
+         "note":"Oddíl s poznámkami",
+         "length":17
+      }
+   ]
+}
