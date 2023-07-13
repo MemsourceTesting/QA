@@ -4,7 +4,7 @@
 
 <group id="0" m:para-id="0">
 <trans-unit id="Njfd100EFrDf2SH53_dc4:0" xml:space="preserve" m:score="1.01" m:gross-score="1.01" m:trans-origin="tm" m:confirmed="1" m:locked="true" m:para-id="0" m:created-at="1658302616456" m:created-by="332915" m:modified-at="1658302616842" m:modified-by="332915" m:level-edited="false">
-<source>Thank you,</source>
+<source>Thank you, EDITED</source>
 <target>Med venlig hilsen</target>
 <alt-trans origin="machine-trans" match-quality="1.0"><target>Mange tak</target></alt-trans>
 <alt-trans origin="memsource-tm" match-quality="1.01" tm-id="1027864"><target>Med venlig hilsen</target></alt-trans>
@@ -17,7 +17,7 @@
 </group>
 <group id="1" m:para-id="0">
 <trans-unit id="Njfd100EFrDf2SH53_dc4:1" xml:space="preserve" m:score="1.0" m:gross-score="1.0" m:trans-origin="mt" m:trans-origin-detail="qe_v2" m:confirmed="1" m:locked="false" m:para-id="0" m:created-at="1658302616456" m:created-by="332915" m:modified-at="1658303643984" m:modified-by="332915" m:level-edited="false">
-<source>Logitech Services Team</source>
+<source>Logitech Services Team CHANGE</source>
 <target>Logitechs serviceteam</target>
 <alt-trans origin="machine-trans" match-quality="1.0"><target>Logitech Services Team</target></alt-trans>
 <alt-trans origin="memsource-tm" match-quality="0.8461538461538461" tm-id="1027864"><target>Logitechs serviceteam</target></alt-trans>
