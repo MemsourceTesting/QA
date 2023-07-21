@@ -3,7 +3,7 @@
 :icons: font
 [id="yaskawa-interface-commands"]
 
-= YASKAWA （安川）接口程序指令说明
+= YASKAWA
 
 YASKAWA 机器人程序调用说明：
 
