@@ -1,0 +1,22 @@
+:imagesdir: ../images/
+:experimental:
+:icons: font
+[id="software-installation"]
+
+= Installa l'SDK
+
+[id="obtain-dlk-sdk"]
+== Ottieni \{prodotto-dlk-sdk}
+
+. Scarica la cartella compressa di \{product-dlk-sdk}.
+. Decomprimere la cartella scaricata. Puoi trovare quattro sottocartelle, ad esempio **mech-dlk-sdk**, **3rd_dll**, **resources**e **docs**.
+
+[IMPORTANT] 
+NON modificare nessuno di questi file e annotare la directory per un uso successivo.
+
+== Configura ambiente
+
+Assicurati di aver configurato l'ambiente per eseguire direttamente campioni C in \{product-dlk-sdk} sul tuo dispositivo. Confermare i requisiti come segue:
+
+. xref:samples:c-windows.adoc#required-software[CMake e Visual Studio installati.]
+. xref:samples:c-windows.adoc#add-environment-variables[Aggiunta variabile d'ambiente correlata.]
