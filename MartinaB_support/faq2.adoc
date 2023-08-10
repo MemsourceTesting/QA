@@ -1,0 +1,12 @@
+= FAQs
+
+Can models trained with {product-dlk} be used in other software?::
+Yes, models trained with {product-dlk} can be used in other software, provided that the software supports the loading of inference models with {product-dlk-sdk} and can call corresponding programming languages to write programs and thus use the models.
+Can other models be used in {product-vis} / {product-dlk-sdk}?::
+No, {product-vis} / {product-dlk} can only use models trained with {product-dlk} or provided super models.
+Can models trained with {product-dlk} be converted into other model formats?::
+No, they cannot be converted into other formats.
+Which third-party software does {product-dlk-sdk} support?::
+It has been verified that {product-dlk-sdk} supports the integration with LabVIEW to load and call DLLs in C#. In addition, as long as third-party software can support the calling of program blocks in C, C#, or C++, it can be integrated with {product-dlk-sdk} and thus call program blocks.
+Which programming languages does {product-dlk-sdk} support?::
+Currently, Mech-DLK SDK supports development in C, and development in C++, C#, and Python will be supported soon.
