@@ -1,0 +1,12 @@
+= Domande frequenti
+
+I modelli addestrati con \{product-dlk} possono essere utilizzati in altri software?::
+Sì, i modelli addestrati con \{product-dlk} possono essere utilizzati in altri software, a condizione che questi supportino il caricamento dei modelli di inferenza con \{product-dlk-sdk} e possano richiamare i linguaggi di programmazione corrispondenti per scrivere programmi e quindi utilizzare i modelli.
+Si possono usare altri modelli in \{product-vis}? / \{product-dlk-sdk}?::
+No, \{product-vis} / \{product-dlk} può usare solo modelli addestrati con \{product-dlk} o super modelli forniti.
+I modelli addestrati con \{product-dlk} possono essere convertiti in altri formati di modello?::
+No, non possono essere convertiti in altri formati.
+Quale software di terze parti supporta \{product-dlk-sdk}?::
+È stato verificato che \{product-dlk-sdk} supporta l'integrazione con LabVIEW per caricare e chiamare le DLL in C#. Inoltre, se il software di terze parti può supportare la chiamata di blocchi di programma in C, C# o C++, può essere integrato con \{product-dlk-sdk} e quindi chiamare i blocchi di programma.
+Quali linguaggi di programmazione supporta \{product-dlk-sdk}?::
+Attualmente, l'SDK di Mech-DLK supporta lo sviluppo in C e presto sarà supportato anche lo sviluppo in C++, C# e Python.
