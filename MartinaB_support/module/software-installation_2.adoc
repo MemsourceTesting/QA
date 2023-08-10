@@ -8,8 +8,8 @@
 [id="obtain-dlk-sdk"]
 == Get {product-dlk-sdk}
 
-. Download the zipped folder of {product-dlk-sdk}.
-. Unzip the downloaded folder. You can find four subfolders, i.e., **mech-dlk-sdk**, **3rd_dll**, **resources**, and **docs**.
+. Download the zipped folder TEST TEST MIAO MIAO of {product-dlk-sdk}.
+. Unzip the downloaded folder. Editing You can find four subfolders, i.e., **mech-dlk-sdk**, **3rd_dll**, **resources**, and **docs**.
 
 [IMPORTANT] 
 Do NOT change any of these files and note down the directory for subsequent use.
