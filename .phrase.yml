@@ -1,18 +1,24 @@
 phrase:
-  access_token: d3f31c5732d55a42d3098d185800a6ede9d27e75debd27a563f715d5a1d98644
-  project_id: 32b61ddb971dc55f15a10417384bb51f
 
+  access_token: "d3f31c5732d55a42d3098d185800a6ede9d27e75debd27a563f715d5a1d98644"
+  
+  project_id: "32b61ddb971dc55f15a10417384bb51f"
+  
+  file_format: "properties"
+  
   push:
     sources:
-    - file: ./Baset/en.json
+    - file: "./4github.properties"
       params:
-        file_format: simple_json
-        locale_id: en #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        update_translations: true #Indicates whether existing translations should be updated with the file content.
+        encoding: UTF-8
+        locale_id: c23cf3ea1407f9d67822d0247919f0b1
+        tags: github
+        update_translations: true
+        autotranslate: true
+        
   pull:
     targets:
-    - file: ./Baset/enn.json
+    - file: "./4github-de.properties"
       params:
-        file_format: simple_json
-        locale_id: English
-        include_empty_translations: true
+        encoding: UTF-8
+        locale_id: ar
