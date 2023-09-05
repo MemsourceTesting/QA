@@ -1,6 +1,6 @@
 phrase:
-  access_token: 7942ebb79c8942aecc6aadba2f21ec66c353e72484273e64aa6596457fde88fb
-  project_id: 6dae84faa2cc51e2aecb259651d4ce41
+  access_token: d3f31c5732d55a42d3098d185800a6ede9d27e75debd27a563f715d5a1d98644
+  project_id: 32b61ddb971dc55f15a10417384bb51f
   push:
     sources:
     - file: ./core/i18n/src/messages.json
