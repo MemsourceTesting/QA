@@ -1,0 +1,80 @@
+phrase:
+  access_token: 7942ebb79c8942aecc6aadba2f21ec66c353e72484273e64aa6596457fde88fb
+  project_id: 6dae84faa2cc51e2aecb259651d4ce41
+
+  push:
+    sources:
+    - file: ./core/i18n/src/messages.json
+      params:
+        file_format: simple_json
+        locale_id: en #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+    - file: ./apps/platform-app/src/translations/partners/melio.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-melio #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+    - file: ./apps/platform-app/src/translations/partners/capOne.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-capital-one #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+    - file: ./apps/platform-app/src/translations/partners/clover.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-clover #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+    - file: ./apps/platform-app/src/translations/partners/sbb.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-sbb #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+    - file: ./apps/platform-app/src/translations/partners/fiserv.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-fiserv #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+
+  pull:
+    targets:
+    - file: ./messages.json
+      params:
+        file_format: simple_json
+        locale_id: en
+        include_empty_translations: true
+        tags: "142080"
+
+    - file: ./melio.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-melio
+        include_empty_translations: true
+        tags: "142080"
+
+    - file: ./capOne.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-capital-one
+        include_empty_translations: true
+        tags: "142080"
+
+    - file: ./clover.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-clover
+        include_empty_translations: true
+        tags: "142080"
+
+    - file: ./sbb.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-sbb
+        include_empty_translations: true
+        tags: "142080"
+
+    - file: ./fiserv.locale.json
+      params:
+        file_format: simple_json
+        locale_id: en-fiserv
+        include_empty_translations: true
+        tags: "142080"
