@@ -4,15 +4,15 @@ phrase:
 
   push:
     sources:
-    - file: ./Baset/enn.json
+    - file: ./Baset/en.json
       params:
         file_format: simple_json
         locale_id: en #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
         update_translations: true #Indicates whether existing translations should be updated with the file content.
   pull:
     targets:
-    - file: ./Baset/en.json
+    - file: ./Baset/enn.json
       params:
         file_format: simple_json
-        locale_id: en
+        locale_id: English
         include_empty_translations: true
