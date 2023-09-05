@@ -3,64 +3,24 @@ phrase:
   project_id: 32b61ddb971dc55f15a10417384bb51f
   push:
     sources:
-    - file: ./messages.json
+    - file: ./111.json
       params:
         file_format: simple_json
-        locale_id: en #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
         update_translations: true #Indicates whether existing translations should be updated with the file content.
-    - file: ./melio.locale.json
+    - file: ./222.json
       params:
         file_format: simple_json
-        locale_id: en-melio #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        update_translations: true #Indicates whether existing translations should be updated with the file content.
-    - file: ./capOne.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-capital-one #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        update_translations: true #Indicates whether existing translations should be updated with the file content.
-    - file: ./clover.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-clover #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        update_translations: true #Indicates whether existing translations should be updated with the file content.
-    - file: ./sbb.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-sbb #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        update_translations: true #Indicates whether existing translations should be updated with the file content.
-    - file: ./fiserv.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-fiserv #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
         update_translations: true #Indicates whether existing translations should be updated with the file content.
   pull:
     targets:
-    - file: ./messages.json
+    - file: ./111.json
       params:
         file_format: simple_json
-        locale_id: en #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
         include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
-    - file: ./melio.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-melio #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-#        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
-    - file: ./capOne.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-capital-one #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-#        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
-    - file: ./clover.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-clover #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-#        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
-    - file: ./sbb.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-sbb #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-      #        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
-    - file: ./fiserv.locale.json
+    - file: ./222.json
       params:
         file_format: simple_json
         locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
