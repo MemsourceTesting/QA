@@ -4,7 +4,7 @@ phrase:
 
   push:
     sources:
-    - file: ./Baset/en.json
+    - file: ./Baset/enn.json
       params:
         file_format: simple_json
         locale_id: en #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
