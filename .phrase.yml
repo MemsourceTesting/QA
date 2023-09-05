@@ -11,44 +11,8 @@ phrase:
         update_translations: true #Indicates whether existing translations should be updated with the file content.
   pull:
     targets:
-    - file: ./messages.json
+    - file: ./Baset/en.json
       params:
         file_format: simple_json
         locale_id: en
         include_empty_translations: true
-        tags: "142080"
-
-    - file: ./melio.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-melio
-        include_empty_translations: true
-        tags: "142080"
-
-    - file: ./capOne.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-capital-one
-        include_empty_translations: true
-        tags: "142080"
-
-    - file: ./clover.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-clover
-        include_empty_translations: true
-        tags: "142080"
-
-    - file: ./sbb.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-sbb
-        include_empty_translations: true
-        tags: "142080"
-
-    - file: ./fiserv.locale.json
-      params:
-        file_format: simple_json
-        locale_id: en-fiserv
-        include_empty_translations: true
-        tags: "142080"
