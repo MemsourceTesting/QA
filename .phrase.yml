@@ -1,16 +1,27 @@
-# Ondrej Urbanek testing GitHub sync
-
 phrase:
-  access_token: 57511b30d757a7ac095ef4f67527ec49cc47bf140dbd897a8d75a14ea7acd6c7
-  project_id: 3cc9fe7caf5f4e1e47e97b057d186c0f
+  access_token: d3f31c5732d55a42d3098d185800a6ede9d27e75debd27a563f715d5a1d98644
+  project_id: 32b61ddb971dc55f15a10417384bb51f
   push:
     sources:
-    - file: ./Strings/<locale_name>.json
+    - file: ./111.json
       params:
-        locale_id: 7e624e1cca92e873c61f2a97ea4405c2
         file_format: simple_json
+        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+    - file: ./222.json
+      params:
+        file_format: simple_json
+        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
   pull:
     targets:
-    - file: ./Strings/<locale_name>.json
+    - file: ./111.json
       params:
         file_format: simple_json
+        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
+    - file: ./222.json
+      params:
+        file_format: simple_json
+        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+#        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.

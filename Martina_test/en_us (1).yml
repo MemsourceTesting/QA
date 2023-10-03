@@ -1,10 +1,10 @@
 en:
   mailer:
     ab_test_a_april17:
-      head_flight: "flight from %{departure_city} to %{arrival_city} on %{flight_date} was subject to missed connection."
+      head_flight: "flight from %{departure_city} to %{arrival_city} on %{flight_date} was subject to missed connection EDITED MARTINA"
       head_text: "At %{brand_name}, we want our customers to have the best travel experience possible, so we were sorry to see that it looks like your"
       hi: "Hi %{client_name},"
-      under_eu_air_passenger_compensation: "you could be entitled to %{quote_compensation}"
+      under_eu_air_passenger_compensation: "you could be entitled to %{quote_compensation} TEST TEST TEST"
       under_eu_air_passenger_end: "and we think you should consider claiming compensation with our partner AirHelp if you arrived at your final destination more than 3 hours late."
       under_eu_air_passenger_start: "Because of this missed connection,"
       under_eu_air_passenger_start: "This is a test test test test test"
