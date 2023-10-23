@@ -1,0 +1,99 @@
+{
+  "botAuthorName": {
+    "text": "$$$$$$ $$$",
+    "note": "This is the name for the bot that sends automated messages for us, kind of like a chatbot."
+  },
+  "autoresponder": {
+    "firstMessage": {
+      "default": {
+        "text": "$$$$$! $$$ $$$$$$$$$$ $$$ $$$$$$$$$ 24/7 $$ $$$$ $$$ $$$$ $$$$$$ $$$$$$$ $$$$$. $$ $$$$ $$$$$$? $$ $$, $$$$ $$$$$ \"$$$\" $$$ $$'$$ $$$$$$$ $$$ $$$$ $ $$$$$$$$$ $$$$$ $$$$. $$ $$$$ $$$$$$$$ $$ $$$$$$$ $$ $$$ $$$$$$ $$$ $$$ $$$$ $$$$$ $$$$$$$, $$$$$$ $$$$$ \"$$$$$\" $$$ $$'$$ $$$ $$$$ $$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$$ $$$ $$$."
+      },
+      "holiday": {
+        "text": "$$$$$! $$$ $$$$$$$$$$ $$$ $$$$$$$$$ 24/7 $$ $$$$ $$$ $$$$ $$$$$$ $$$$$$$ $$$$$. $$ $$$$ $$$$$$? $$ $$, $$$$ $$$$$ \"$$$\" $$$ $$'$$ $$$$$$$ $$$ $$$$ $ $$$$$$$$$ $$$$$ $$$$. $$ $$$$ $$$$$$$$ $$ $$$$$$$ $$ $$$ $$$$$$ $$$ $$$ $$$$ $$$$$ $$$$$ $$$ {{holidayName}} $$$$$$$, $$$$$$ $$$$$ \"$$$$$\" $$$ $$'$$ $$$ $$$$ $$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$ $$$ $$$$$$$."
+      }
+    },
+    "noPatientReply": {
+      "default": {
+        "text": "$$$ $$ $$$ $$$$ $$ $$$ $$ $$$ $$$$$$$? $$ $$, $$$$ $$$$$."
+      },
+      "holiday": {
+        "text": "$$$ $$ $$$ $$$$ $$ $$$ $$$$$ $$$ {{holidayName}} $$$$$$$? $$ $$, $$$$ $$$$$."
+      }
+    },
+    "waitUntilMorning": {
+      "default": {
+        "text": "$$$$$$, $ $$$$$$$$$ $$$$ $$$$$ $$$$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$$ $$$ $$$"
+      },
+      "holiday": {
+        "text": "$$$$$$, $ $$$$$$$$$ $$$$ $$$$$ $$$$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$ $$$ {{holidayName}} $$$$$$$.",
+        "note": "The {{holidayName}} value will also be translated (see the 'autoresponder.holidays' key for the list of holidays)"
+      }
+    },
+    "notifyingClinician": {
+      "text": "$$ $$$$$$$, $$ $$$ $$$$$$$$$ $ $$$$$$$$$ $$$ $$$ $$$$ $$$$$$ $$ $$$$ $$$ $$$$$$$."
+    },
+    "nowReply": {
+      "text": "$$$"
+    },
+    "laterReply": {
+      "text": "$$$$$"
+    },
+    "autoresponderAuthor": {
+      "text": "$$$$$$ $$$",
+      "note": "This is the name for the bot that sends automated messages for us, kind of like a chatbot."
+    },
+    "holidays": {
+      "newYearsDay": {
+        "text": "$$$ $$$$'$ $$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "mlkJrDay": {
+        "text": "$$$$$$ $$$$$$ $$$$ $$. $$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "presidentsDay": {
+        "text": "$$$$$$$$$'$ $$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "memorialDay": {
+        "text": "$$$$$$$$ $$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "juneteenth": {
+        "text": "$$$$$$$$$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "independenceDay": {
+        "text": "$$$$$$$$$$$$ $$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "laborDay": {
+        "text": "$$$$$ $$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "thanksgiving": {
+        "text": "$$$$$$$$$$$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      },
+      "christmas": {
+        "text": "$$$$$$$$$",
+        "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
+      }
+    }
+  },
+  "notifications": {
+    "patientNewMessageInApp": {
+      "title": {
+        "text": "$$$ $$$$$$$"
+      },
+      "body": {
+        "text": "$$$ $$$$ $ $$$ $$$$$$$ $$$$ $$$$ $$$$ $$$$ $$ $$$ $$$$$$ $$$$ $$$."
+      }
+    }
+  },
+  "encounterSurvey": {
+    "message": {
+      "text": "$$$ $$$$$$$$$ $$$$ $$$ $$$$ $$$ $$$$ $$$ $$$$$$$$ $$$$ $$$$$$? $$$$$$ $$$$$ $$$$ $ $$$$$$. 5 = $$$$ $$$$$$$$$ 4 = $$$$$$$$$ 3 = $$$$$$$ 2 = $$$$$$$$$$$$ 1 = $$$$ $$$$$$$$$$$$ $$ $$$ $$$$$$ $$$$$$$ $$$ $$$$$$$$. $$$$ $$ $$$$ $$$$$ $$$$ $$$ $$$$$."
+    }
+  }
+}
