@@ -1,82 +1,82 @@
 {
   "botAuthorName": {
-    "text": "$$$$$$ $$$",
+    "text": "Pomelo Bot",
     "note": "This is the name for the bot that sends automated messages for us, kind of like a chatbot."
   },
   "autoresponder": {
     "firstMessage": {
       "default": {
-        "text": "$$$$$! $$$ $$$$$$$$$$ $$$ $$$$$$$$$ 24/7 $$ $$$$ $$$ $$$$ $$$$$$ $$$$$$$ $$$$$. $$ $$$$ $$$$$$? $$ $$, $$$$ $$$$$ \"$$$\" $$$ $$'$$ $$$$$$$ $$$ $$$$ $ $$$$$$$$$ $$$$$ $$$$. $$ $$$$ $$$$$$$$ $$ $$$$$$$ $$ $$$ $$$$$$ $$$ $$$ $$$$ $$$$$ $$$$$$$, $$$$$$ $$$$$ \"$$$$$\" $$$ $$'$$ $$$ $$$$ $$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$$ $$$ $$$."
+        "text": "Hola! Nuestros médicos están disponibles 24/7 para ayudarle con necesidades médicas urgentes. ¿Es urgente? Si es así, simplemente responda \"AHORA\" y lo conectaremos con un médico de inmediato. Si su pregunta o inquietud no es urgente y puede esperar hasta la mañana, por favor responda \"MÁS TARDE\" y nos pondremos en contacto con usted lo antes posible durante el día."
       },
       "holiday": {
-        "text": "$$$$$! $$$ $$$$$$$$$$ $$$ $$$$$$$$$ 24/7 $$ $$$$ $$$ $$$$ $$$$$$ $$$$$$$ $$$$$. $$ $$$$ $$$$$$? $$ $$, $$$$ $$$$$ \"$$$\" $$$ $$'$$ $$$$$$$ $$$ $$$$ $ $$$$$$$$$ $$$$$ $$$$. $$ $$$$ $$$$$$$$ $$ $$$$$$$ $$ $$$ $$$$$$ $$$ $$$ $$$$ $$$$$ $$$$$ $$$ {{$$$$$$$$$$$}} $$$$$$$, $$$$$$ $$$$$ \"$$$$$\" $$$ $$'$$ $$$ $$$$ $$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$ $$$ $$$$$$$."
+        "text": "Hola! Nuestros médicos están disponibles 24/7 para ayudarle con necesidades médicas urgentes. ¿Es urgente? Si es así, simplemente responda \"AHORA\" y lo conectaremos con un médico de inmediato. Si su pregunta o inquietud no es urgente y puede esperar hasta después de las vacaciones, responda \"MÁS TARDE\" y nos pondremos en contacto con usted lo antes posible después de las vacaciones."
       }
     },
     "noPatientReply": {
       "default": {
-        "text": "$$$ $$ $$$ $$$$ $$ $$$ $$ $$$ $$$$$$$? $$ $$, $$$$ $$$$$."
+        "text": "¿Podemos volver por la mañana? Si es así, escriba LATER."
       },
       "holiday": {
-        "text": "$$$ $$ $$$ $$$$ $$ $$$ $$$$$ $$$ {{$$$$$$$$$$$}} $$$$$$$? $$ $$, $$$$ $$$$$."
+        "text": "¿Podemos volver a llamarte después de las vacaciones? Si es así, escriba LATER."
       }
     },
     "waitUntilMorning": {
       "default": {
-        "text": "$$$$$$, $ $$$$$$$$$ $$$$ $$$$$ $$$$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$$ $$$ $$$"
+        "text": "Gracias, un médico hablará con usted lo antes posible durante el día"
       },
       "holiday": {
-        "text": "$$$$$$, $ $$$$$$$$$ $$$$ $$$$$ $$$$ $$$ $$ $$$$ $$ $$$$$$$$ $$$$$ $$$ {{$$$$$$$$$$$}} $$$$$$$.",
+        "text": "Gracias, un médico hablará con usted lo antes posible después de las vacaciones.",
         "note": "The {{holidayName}} value will also be translated (see the 'autoresponder.holidays' key for the list of holidays)"
       }
     },
     "notifyingClinician": {
-      "text": "$$ $$$$$$$, $$ $$$ $$$$$$$$$ $ $$$$$$$$$ $$$ $$$ $$$$ $$$$$$ $$ $$$$ $$$ $$$$$$$."
+      "text": "No hay problema, estamos notificando a un médico ahora y deberían estar con usted en breve."
     },
     "nowReply": {
-      "text": "$$$"
+      "text": "Ahora"
     },
     "laterReply": {
-      "text": "$$$$$"
+      "text": "Más tarde"
     },
     "autoresponderAuthor": {
-      "text": "$$$$$$ $$$",
+      "text": "Pomelo Bot",
       "note": "This is the name for the bot that sends automated messages for us, kind of like a chatbot."
     },
     "holidays": {
       "newYearsDay": {
-        "text": "$$$ $$$$'$ $$$",
+        "text": "Día de Año Nuevo",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "mlkJrDay": {
-        "text": "$$$$$$ $$$$$$ $$$$ $$. $$$",
+        "text": "Martin Luther King Jr. Día",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "presidentsDay": {
-        "text": "$$$$$$$$$'$ $$$",
+        "text": "Día del Presidente",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "memorialDay": {
-        "text": "$$$$$$$$ $$$",
+        "text": "Memorial Day",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "juneteenth": {
-        "text": "$$$$$$$$$$",
+        "text": "Juneteenth",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "independenceDay": {
-        "text": "$$$$$$$$$$$$ $$$",
+        "text": "Día de la Independencia",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "laborDay": {
-        "text": "$$$$$ $$$",
+        "text": "Día del Trabajo",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "thanksgiving": {
-        "text": "$$$$$$$$$$$$",
+        "text": "Acción de Gracias",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       },
       "christmas": {
-        "text": "$$$$$$$$$",
+        "text": "Christmas",
         "note": "This holiday will be used to replace {{holidayName}} in the 'autoresponder.firstMessage.holiday', 'autoresponder.noPatientReply.holiday', and 'autoresponder.waitUntilMorning' strings."
       }
     }
@@ -84,16 +84,16 @@
   "notifications": {
     "patientNewMessageInApp": {
       "title": {
-        "text": "$$$ $$$$$$$"
+        "text": "Nuevo mensaje"
       },
       "body": {
-        "text": "$$$ $$$$ $ $$$ $$$$$$$ $$$$ $$$$ $$$$ $$$$ $$ $$$ $$$$$$ $$$$ $$$."
+        "text": "Tienes un nuevo mensaje de tu equipo de atención en la aplicación Pomelo Care."
       }
     }
   },
   "encounterSurvey": {
     "message": {
-      "text": "$$$ $$$$$$$$$ $$$$ $$$ $$$$ $$$ $$$$ $$$ $$$$$$$$ $$$$ $$$$$$? $$$$$$ $$$$$ $$$$ $ $$$$$$. 5 = $$$$ $$$$$$$$$ 4 = $$$$$$$$$ 3 = $$$$$$$ 2 = $$$$$$$$$$$$ 1 = $$$$ $$$$$$$$$$$$ $$ $$$ $$$$$$ $$$$$$$ $$$ $$$$$$$$. $$$$ $$ $$$$ $$$$$ $$$$ $$$ $$$$$."
+      "text": "¿Qué tan satisfecho estuvo con la atención que recibió de Pomelo? Por favor responda con un número.\n\n5 = muy satisfecho\n4 = satisfecho\n3 = neutral\n2 = insatisfecho\n1 = muy insatisfecho\n\nSiempre estamos buscando comentarios. Cuéntanos más sobre lo que piensas."
     }
   }
 }
