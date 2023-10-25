@@ -29,10 +29,10 @@ injixo Me works on the two latest versions of the following browsers:
 - Mozilla Firefox
 - Apple Safari
 
-You can access injixo Me on your computer, {% link_new smartphone, or tablet | features/injixo-me/use-injixo-me/injixo-me-on-your-smartphone.md %}.
+You can access injixo Me on your new segment new words to be translated computer, {% link_new smartphone, or tablet | features/injixo-me/use-injixo-me/injixo-me-on-your-smartphone.md %}.
 Once you have logged in to your injixo Me account, you will see up to six navigation items: [Dashboard](#get-an-overview-dashboard), [My Calendar](#see-your-schedule-my-calendar), [Team Calendar](#see-your-teams-schedule-team-calendar), [Time Off](#manage-your-time-off-requests-time-off), [Availability](#set-your-availabilities-availability), and [Time Recording](#clock-in-and-track-your-activities-time-recording).
 
-If you are missing a functionality, you may not have access to it. Get in touch with your supervisor or planner.
+If you are missing a functionality, new new new you may not have access to it. Get in touch with your supervisor or planner.
 
 ## Get an overview: Dashboard
 
@@ -49,7 +49,7 @@ In _Me > My Calendar_{:.breadcrumbs} you can see your schedule in a daily, weekl
 You can also {% link_new swap shifts | features/injixo-me/use-injixo-me/swap-shifts-with-your-colleagues.md | #swap-shifts %}.
 
 - To change the displayed time period, click _Day_{:.doc-button}, _Week_{:.doc-button}, or _Month_{:.doc-button}.
-- To jump to the previous or to the next time period, click _<_{:.doc-button} or _>_{:.doc-button}.
+- To jump to the new new new previous or to the next time period, click _<_{:.doc-button} or _>_{:.doc-button}.
 - To see the overview for the current date, click _Today_{:.doc-button}.
 - To select a date range, click the {% icon calendar %}.
 - To display the daily view for a specific day, select the day in the calendar.
@@ -61,7 +61,7 @@ Link an ICS URL with a calendar app, such as Outlook, iOS Calendar, or Android C
 
 1. Go to _Me > My Calendar_{:.breadcrumbs}.
 2. Click _Subscribe_{:.doc-button} in the upper right:
-   - Click _Subscribe now_{:.doc-button} to open the default calendar app of your browser or operating system. For example, if you're signed into a Google Account, Google Chrome will automatically open the URL with Google Calendar. If you're using Microsoft Edge on Windows, the default calendar app will open, or you will be asked to choose an app.
+   - Click _Subscribe now_{:.doc-button} to open the default calendar app of your browser or operating system. For example, if you're signed into a Google Account, Google Chrome will automatically open the URL with Google Calendar. If you're using Microsoft Edge on Windows, the default calendar app will open, or you will be asked to choose an app. New stuff to translate.
    - Click **view subscription link** to copy and paste the link into another calendar app.
 3. Click _Close_{:.doc-button}.
 
