@@ -1,0 +1,3 @@
+Hello, 
+
+If my tests are correct, this will go to project 3 because I set the status of project 2 to Cancelled
