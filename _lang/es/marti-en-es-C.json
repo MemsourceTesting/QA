@@ -1,0 +1,18 @@
+{
+	"DNL_test": "consulte",
+	"test":
+	[
+	{
+		"DNL_itemType": "Servicio web: aún no es un conjunto de herramientas",
+		"message": "LabVIEW no puede cargar este elemento porque requiere el LabVIEW Web Service Authoring Toolkit. Utilice NI Package Manager para instalar este kit de herramientas."
+	},
+	{
+		"DNL_ChassisType": "RT PXI Chassis",
+		"message": "LabVIEW no puede cargar este elemento porque requiere el Módulo de Tiempo Real de LabVIEW. Utilice NI Package Manager para instalar este módulo."
+	},
+	{
+		"DNL_TargetType": "Objetivo FPGA",
+		"message": "LabVIEW no puede cargar este elemento porque requiere el Módulo FPGA de LabVIEW. Utilice NI Package Manager para instalar este módulo."
+	}
+]
+}
