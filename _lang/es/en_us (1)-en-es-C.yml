@@ -1,0 +1,477 @@
+en:
+  mailer:
+    ab_test_a_april17:
+      head_flight: "el vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_del_vuelo} estaba sujeto a pérdida de conexión EDITADO MARTINA"
+      head_text: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu"
+      hi: "Hi %{client_name},"
+      under_eu_air_passenger_compensation: "podría tener derecho a %{quote_compensation} PRUEBA PRUEBA PRUEBA"
+      under_eu_air_passenger_end: "y creemos que debería plantearse reclamar una indemnización a nuestro socio AirHelp si llega a su destino final con más de 3 horas de retraso."
+      under_eu_air_passenger_start: "Debido a esta conexión perdida,"
+      under_eu_air_passenger_start: "Esto es una prueba prueba prueba"
+    ab_test_b_april17:
+      ahplus_paragraph: "Por suerte, usted ya ha adquirido AirHelp Plus para esta reserva, por lo que no se le aplicará la tarifa de servicio normal de AirHelp; sólo tiene que enviar su reclamación a través del enlace que aparece a continuación y le ayudaremos a reclamar una indemnización a la compañía aérea."
+      because_of_cancelled: "Debido a esta cancelación, podrías tener <b>derecho a %{quote_compensation}</b> y deberías solicitar una indemnización a nuestro socio AirHelp."
+      because_of_delayed: "Debido a este retraso, podrías tener <b>derecho a %{quote_compensation}</b> y deberías solicitar una indemnización a nuestro socio AirHelp."
+      because_of_missed_connection: "Debido a esta pérdida de conexión, podrías tener <b>derecho a %{quote_compensation}</b> y creemos que deberías plantearte reclamar una indemnización a nuestro socio AirHelp si llegas a tu destino final con más de 3 horas de retraso."
+      cancelled: cancelado
+      delayed: con retraso
+      flight_route: "%{ciudad_de_salida} (%{código_de_ciudad_de_salida}) a %{ciudad_de_llegada} (%{código_de_ciudad_de_llegada})"
+      head_text_cancelled: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu <b>vuelo de %{departure_city} a %{arrival_city} en %{flight_date} ha sido cancelado</b>."
+      head_text_delayed: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu <b>vuelo de %{departure_city} a %{arrival_city} en %{flight_date} se ha retrasado</b>."
+      head_text_missed_connection: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que su <b>vuelo de %{departure_city} a %{arrival_city} en %{flight_date} estaba sujeto a pérdida de conexión</b>."
+      hi: "Hi %{client_name},"
+      missed_connection: "conexión perdida"
+    ab_test_december16:
+      airhelp_specializes_in_helping: "AirHelp se especializa en ayudar a los pasajeros aéreos a obtener indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. Con un índice de satisfacción de 9,5 en Trustpilot y más de 5 millones de viajeros ayudados, AirHelp cuenta con los recursos y la experiencia necesarios para gestionar el complejo proceso de reclamación y presionar si las aerolíneas se niegan a pagar."
+      booking_confirmation: "Confirmación de la reserva: "
+      booking_summary: "Resumen de la reserva:"
+      cancelled: Cancelado
+      delayed: Retraso
+      does_it_cost: "¿Me cuesta algo?"
+      head_text: "Su vuelo interrumpido a %{arrival_city} en %{flight_date} puede darle derecho a %{quote_compensation} en concepto de indemnización."
+      hi: "Hi %{client_name},"
+      if_airhelp_is_unable_to_assist: "Si AirHelp no puede ayudarle a recibir una indemnización, no se le cobrará nada. Ni un céntimo. AirHelp simplemente deducirá una tasa de servicio del importe total de su indemnización si su reclamación prospera. Sólo cobran cuando tú lo haces."
+      initial_campaign:
+        subject_cancelled_flight: "Obtenga una indemnización por su vuelo %{airline_name} cancelado"
+        subject_delayed_flight: "Obtenga una indemnización por el retraso de su vuelo %{airline_name}."
+      start_your_claim: "Inicie su solicitud"
+      submitting_is_easy: "Presentar una reclamación es fácil y seguro."
+      to: a
+      trip_summary: "El resumen de su viaje:"
+      trustpilot_rating: "Puntuación de 9,5 en Trustpilot"
+      wanna_know: "¿Quiere saber más?"
+      what_is: "¿Qué es AirHelp?"
+      why_recieve: "¿Por qué recibe este correo electrónico?"
+      your_flight_is_eligible: "Su vuelo %{arrival_city} tiene derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros europeos contra retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, nos hemos asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+    airmail_test_jun16:
+      airhelp_knows_the_regulations: "AirHelp se especializa en ayudar a los pasajeros aéreos a obtener indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. Con un índice de satisfacción de 9,5 en Trustpilot y más de 5 millones de viajeros ayudados, AirHelp cuenta con los recursos y la experiencia necesarios para gestionar el complejo proceso de reclamación y presionar si las aerolíneas se niegan a pagar. Sólo se tarda 3 minutos en empezar."
+      at_we_want_our_customers: "En %{partner_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos los problemas con su vuelo a %{arrival_city} en %{flight_date}."
+      booking_confirmation: "Confirmación de la reserva:"
+      booking_summary: "Resumen de la reserva:"
+      brilliant_service: "\"Un servicio brillante. Resolución muy rápida con un esfuerzo mínimo por mi parte, siempre me mantuvieron informado. Una empresa fantástica y se la recomendaría a cualquiera\". Matthew, Reino Unido"
+      cancelled: Cancelado
+      delayed: Retraso
+      eu_air_passengers_are_protected: "Los pasajeros aéreos de la UE están protegidos, en virtud de la ley UE 261, contra los retrasos prolongados y otras perturbaciones del viaje. Tu vuelo %{arrival_city} cumple los criterios de compensación, por lo que podrías tener derecho a una <strong>%{quote_compensation}</strong>. Como servicio adicional para usted, nos hemos asociado con los especialistas de AirHelp para ayudarle a obtener la indemnización que merece por sus molestias."
+      hi: "Hi %{client_name}"
+      initial_campaign:
+        subject_cancelled_flight: "Obtenga una indemnización por su vuelo %{airline_name} cancelado"
+        subject_delayed_flight: "Obtenga una indemnización por el retraso de su vuelo %{airline_name}."
+      start_your_claim: "Inicie su solicitud"
+      to: a
+      who_is: "¿Quién es AirHelp?"
+    ah_default:
+      company_address: "AirHelp Germany GmbH, Boxhagener Str. 18, 10245 Berlín"
+      company_managing_directors: "Directores Generales: Philipp E. Lederer, Christian Nielsen<br>Oficina registrada: Berlín, Tribunal de Distrito: Charlottenburg, Registro Mercantil: HRB 196015"
+    btafirsttravel:
+      airhelp_works_on_a_no_win_no_fee_basis: "AirHelp trabaja sobre la base del principio \"no win, no fee\". Por tanto, si AirHelp no puede ayudarle a recibir una indemnización, no se le cobrará nada. Ni un céntimo. Si AirHelp consigue ayudarle a recibir una indemnización, le cobrará unos honorarios fijos, que suelen corresponder al 35% del importe de la indemnización recibida. Puede consultar sus tarifas <a href=\"%{link}\">aquí</a>."
+      delayed: con retraso
+      initial_campaign:
+        ending_text:
+          airhelp_specializes_in_helping_air_passengers: "AirHelp se especializa en ayudar a los pasajeros aéreos a obtener indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. Con un %{trustpilot_rate} de índice de satisfacción en Trustpilot y más de %{travelers_helped_amount} millones de viajeros ayudados, AirHelp cuenta con los recursos y la experiencia necesarios para gestionar el complejo proceso de reclamación y presionar si las aerolíneas se niegan a pagar."
+          does_it_cost: "¿Me cuesta algo?"
+          what_is: "¿Qué es AirHelp?"
+        intro_text:
+          because_of_cancelled: "Debido a esta cancelación, podrías tener <b>derecho a un pago de reembolso del %{quote_compensation}</b> y deberías solicitar una compensación a nuestro socio AirHelp."
+          because_of_delayed: "Debido a este retraso, podrías tener <b>derecho al pago de un reembolso del %{quote_compensation}</b> y creemos que deberías plantearte reclamar una indemnización a nuestro socio AirHelp si llegaste a tu destino final con más de 3 horas de retraso (incluso si perdiste un vuelo de conexión)."
+          formal_salutation: "Estimado cliente,"
+          head_text_cancelled: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu <b>vuelo de %{departure_city} a %{arrival_city} en %{flight_date} ha sido cancelado</b>."
+          head_text_delayed: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu <b>vuelo de %{departure_city} a %{arrival_city} en %{flight_date} puede haberse retrasado</b>."
+        recommend_airhelp: "Recomendamos AirHelp, ya que son especialistas en reclamar indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. Hacen que el proceso sea lo más sencillo y libre de estrés posible. No obstante, si lo prefiere, puede presentar su reclamación directamente a la compañía aérea."
+        your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede tener derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros europeos contra retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, nos hemos asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+      trustpilot_rating: "%{trustpilot_rate} valoración en Trustpilot"
+    checkmytrip:
+      get_compensation: 'Obtener compensación'
+      company_name: "AirHelp Germany GmbH"
+      company_address: "Boxhagener Str. 18, 10245 Berlín"
+      company_managing_directors: "Directores Generales: Philipp E. Lederer, Christian Nielsen"
+      company_registered: "Domicilio social: Berlín, Tribunal de Distrito: Charlottenburg, Registro Mercantil: HRB 196015"
+      initial_campaign:
+        cancelled_flight: "Hemos determinado que puede tener derecho a %{compensation_with_currency_sign} en concepto de compensación de %{airline_name} por su vuelo cancelado el %{flight_date}."
+        click_the_button_bellow: "Estamos aquí para ayudarle a reclamar la indemnización que le corresponde. Haga clic en el botón de abajo para empezar."
+        delayed_flight: "Hemos determinado que puede tener derecho a %{compensation_with_currency_sign} en concepto de indemnización de %{airline_name} por el retraso de su vuelo en %{flight_date}."
+        get_your_compensation: "Obtenga su indemnización"
+        got_questions: "¿Tiene alguna pregunta? Háganoslo saber en "
+        happy_travels: "¡Feliz viaje!"
+        it_will_take_few_minutes: "Simplemente rellene toda la información requerida y proporcione los documentos justificativos y nosotros nos encargaremos a partir de ahí. Sólo le llevará unos minutos, se lo prometemos."
+        missed_connection_flight: "Hemos determinado que puede tener derecho a %{compensation_with_currency_sign} en concepto de indemnización de %{airline_name} por el retraso de su vuelo, que podría haberle hecho perder su vuelo de conexión a %{final_destination} en %{flight_date}."
+        subject_disrupted_flight: "%{airline_name} le debe, obtenga su compensación"
+        thanks_for_signing_up: "Gracias por contratar nuestro servicio rápido y sencillo a través de %{brand_name}."
+        you_are_receiving_this_email: "Está recibiendo este correo electrónico porque se suscribió a AirHelp a través de %{brand_name}."
+    checkmytrip_2020:
+      initial_campaign:
+        subject_disrupted_flight: "%{airline_name} le debe, obtenga su compensación"
+        subject_disrupted_flight_with_booking_ref: "Ref: %{booking_reference} - %{airline_name} le debe, obtenga su compensación"
+    concur_integration:
+      initial_campaign:
+        intro_text:
+          head_text_cancelled: "En AirHelp, queremos que tengas la mejor experiencia de viaje posible, así que lamentamos ver que parece que tu <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_del_vuelo} ha sido cancelado</b>."
+          head_text_delayed: "En AirHelp, queremos que tengas la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_de_vuelo} puede haberse retrasado</b>."
+          because_of_cancelled: "Debido a esta cancelación, podrías tener <b>derecho a %{quote_compensation}</b> y deberías solicitarnos una indemnización."
+          because_of_delayed: "Debido a este retraso, podrías tener <b>derecho a %{quote_compensation}</b> y creemos que deberías plantearte reclamarnos una indemnización si llegas a tu destino final con más de 3 horas de retraso (aunque hayas perdido un vuelo de conexión)."
+        ending_text:
+          your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede tener derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros europeos contra retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, su empresa se ha asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+          your_flight_is_eligible: "Su vuelo %{arrival_city} tiene derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros europeos contra retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, su empresa se ha asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+          recommend_airhelp: "Somos especialistas en reclamar indemnizaciones por vuelos retrasados, cancelados y sobrevendidos, y podemos hacer que el proceso sea lo más sencillo y libre de estrés posible. No obstante, si lo prefiere, puede presentar su reclamación directamente a la compañía aérea."
+      regulation_agnostic:
+        because_of_cancelled: "Debido a esta cancelación, podrías tener <b>derecho a una indemnización de hasta el %{quote_compensation}</b> y deberías solicitarnos una compensación."
+        because_of_delayed: "Debido a este retraso, podría tener <b>derecho a una indemnización de hasta el %{quote_compensation}</b>. Creemos que debería plantearse reclamarnos una indemnización si llega a su destino final con más de %{delay_hours} horas de retraso (aunque haya perdido un vuelo de conexión)."
+        your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede ser objeto de compensación en virtud de la normativa sobre derechos de los pasajeros aéreos. Se trata de las leyes vigentes para proteger a los pasajeros aéreos en caso de retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, su empresa se ha asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+    custom:
+      kuoni:
+        hi: "Hi %{client_name},"
+    cwt:
+      footer:
+        email_sent_to: "Este correo electrónico ha sido enviado por AirHelp con el permiso de su empresa a: %{email}"
+        unsubscribe_list: "darse de baja de la lista de AirHelp"
+      initial_campaign:
+        intro_text:
+          because_of_cancelled: "%{brand_name} y su empresa se complacen en presentarle a los especialistas en reclamaciones de AirHelp, un proveedor independiente de indemnizaciones de vuelo, que pueden ayudarle a facilitar la obtención de indemnizaciones."
+          because_of_delayed: "%{brand_name} y su empresa se complacen en presentarle a los especialistas en reclamaciones de AirHelp, un proveedor independiente de indemnizaciones de vuelo, que pueden ayudarle a facilitar la obtención de indemnizaciones."
+          head_text_cancelled: "%{nombre_de_la_marca} quiere que sus clientes tengan la mejor experiencia de viaje posible, por lo que lamentan ver que parece que tu <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_del_vuelo} ha sido cancelado</b>."
+          head_text_delayed: "%{nombre_de_la_marca} quiere que sus clientes tengan la mejor experiencia de viaje posible, por lo que lamentan haber visto que parece que tu <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_del_vuelo} puede haberse retrasado</b>."
+    default:
+      cancelled: cancelado
+      delayed: con retraso
+      first_reminder:
+        subject_cancelled_flight: "Recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "Recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+      footer:
+        agency: "Agencia: %{agency}"
+        booking_reference: "Referencia de la reserva: %{booking_reference}"
+        email_sent_to: "Este correo electrónico se envió a %{email}"
+        order: "Pedido: %{order}"
+        unsubscribe_list: "darse de baja de esta lista"
+      fourth_reminder:
+        subject_cancelled_flight: "Último recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "Último recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+      get_compensation: "OBTENER COMPENSACIÓN"
+      initial_campaign:
+        baltic_languages_limitation: "Tenga en cuenta que actualmente no ofrecemos servicio de atención al cliente en estonio/latino/lituano. Pero podemos ayudarle en inglés, ruso, alemán u otros 12 idiomas."
+        booking_confirmation: "Confirmación de la reserva:"
+        click_on_the_button: "Haga clic en el botón de abajo para iniciar su solicitud, sólo tardará 3 minutos."
+        ending_text:
+          airhelp_plus_member_free_of_charge: "Este servicio es totalmente gratuito para los miembros de AirHelp Plus."
+          airhelp_specializes_in_helping_air_passengers: "AirHelp se especializa en ayudar a los pasajeros aéreos a obtener indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. Con un %{trustpilot_rate} de índice de satisfacción en Trustpilot y más de %{travelers_helped_amount} millones de viajeros ayudados, AirHelp cuenta con los recursos y la experiencia necesarios para gestionar el complejo proceso de reclamación y presionar si las aerolíneas se niegan a pagar."
+          airhelp_works_on_a_no_win_no_fee_basis: "AirHelp trabaja sobre la base del principio \"no win, no fee\". Por tanto, si AirHelp no puede ayudarle a recibir una indemnización, no se le cobrará nada. Ni un céntimo. Si AirHelp consigue ayudarle a recibir una indemnización, le cobrará unos honorarios fijos, que suelen corresponder al 35% del importe de la indemnización recibida. Puede consultar sus tarifas <a href=\"%{link}\">aquí</a>."
+          does_it_cost: "¿Me cuesta algo?"
+          if_airhelp_is_unable_to_assist: "Si AirHelp no puede ayudarle a recibir una indemnización, no se le cobrará nada. Ni un céntimo. AirHelp simplemente deducirá una tasa de servicio del importe total de su indemnización si su reclamación prospera. Sólo cobran cuando tú lo haces."
+          recommend_airhelp: "Recomendamos AirHelp, ya que son especialistas en reclamar indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. Hacen que el proceso sea lo más sencillo y libre de estrés posible. No obstante, si lo prefiere, puede presentar su reclamación directamente a la compañía aérea."
+          wanna_know: "¿Quiere saber más?"
+          what_is: "¿Qué es AirHelp?"
+          why_recieve: "¿Por qué recibe este correo electrónico?"
+          your_flight_is_eligible: "Su vuelo %{arrival_city} tiene derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros europeos contra retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, nos hemos asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+          your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede tener derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros europeos contra retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, nos hemos asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+        flight_route: "%{ciudad_de_salida} (%{código_de_ciudad_de_salida}) a %{ciudad_de_llegada} (%{código_de_ciudad_de_llegada})"
+        intro_text:
+          ahplus_paragraph: "Afortunadamente, <strong>usted ya ha adquirido AirHelp Plus</strong> para esta reserva, por lo que no se aplicará la <strong>Carga de Servicio</strong> normal de AirHelp; sólo tiene que enviar su reclamación con el enlace que aparece a continuación y le ayudaremos a reclamar una compensación a la compañía aérea."
+          because_of_cancelled: "Debido a esta cancelación, podrías tener <b>derecho a %{quote_compensation}</b> y deberías solicitar una indemnización a nuestro socio AirHelp."
+          because_of_delayed: "Debido a este retraso, podrías tener <b>derecho a %{quote_compensation}</b> y creemos que deberías plantearte reclamar una indemnización a nuestro socio AirHelp si llegas a tu destino final con más de 3 horas de retraso (aunque hayas perdido un vuelo de conexión)."
+          head_text_cancelled: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu <b>vuelo de %{departure_city} a %{arrival_city} en %{flight_date} ha sido cancelado</b>."
+          head_text_delayed: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible, por lo que lamentamos ver que parece que tu <b>vuelo de %{departure_city} a %{arrival_city} en %{flight_date} puede haberse retrasado</b>."
+          hi: "Hi %{client_name},"
+          similar_claim_won: "AirHelp ya ha ayudado a otros pasajeros del vuelo %{flight_number} a %{arrival_city} a obtener su indemnización."
+          sas_strike: El 23 de marzo de 2021 el <b>Tribunal de Justicia de la Unión Europea</b> ha dictaminado que los retrasos y cancelaciones de vuelos causados por empleados de aerolíneas en huelga <b>tienen derecho a indemnización</b>.
+        subject_cancelled_flight: "Compensación por su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Compensación por el retraso de su vuelo a %{arrival_city}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+        submitting_is_easy: "Presentar una reclamación es fácil y seguro."
+        trustpilot_rating: "%{trustpilot_rate} valoración en Trustpilot"
+      missed_connection: "Conexión perdida"
+      regulation_agnostic:
+        because_of_cancelled: "Debido a esta cancelación, podrías tener <b>derecho a una indemnización de hasta el %{quote_compensation}</b> y deberías solicitarla a nuestro socio AirHelp."
+        because_of_delayed: "Debido a este retraso, podría tener <b>derecho a una indemnización de hasta el %{quote_compensation}</b>. Creemos que debería plantearse reclamar una indemnización a nuestro socio, AirHelp, si ha llegado a su destino final con más de %{delay_hours} horas de retraso (aunque haya perdido un vuelo de conexión)."
+        your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede ser objeto de compensación en virtud de la normativa sobre derechos de los pasajeros aéreos. Se trata de las leyes vigentes para proteger a los pasajeros aéreos en caso de retrasos prolongados y otras perturbaciones del viaje. Para ofrecerle el mejor servicio posible, nos hemos asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+      second_reminder:
+        subject_cancelled_flight: "2. Recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "2. Recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+      third_reminder:
+        subject_cancelled_flight: "3. Recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "3. Recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+    default_20160215:
+      first_reminder:
+        subject_cancelled_flight: "Recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "Recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+      initial_campaign:
+        claim_specialists: "%{partner_name} se ha asociado con los especialistas en reclamaciones de AirHelp para facilitarle la obtención de su indemnización."
+        click_on_the_button: "Haga clic en el botón de abajo para iniciar su solicitud, sólo tardará 3 minutos."
+        hi: "Hola %{client_name}, ¡recibe tu indemnización!"
+        missed_connection:
+          hi: "Hola %{client_name}, averigua si tienes derecho a indemnización."
+          under_eu_air_passenger: "Si perdió un vuelo de conexión durante su viaje y llegó con más de 3 horas de retraso a su destino final, puede tener derecho a una indemnización de hasta el %{quote_compensation} según la legislación de la UE."
+        subject_cancelled_flight: "Compensación por su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Compensación por el retraso de su vuelo a %{arrival_city}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+        under_eu_air_passenger: "Según la legislación de la UE sobre pasajeros aéreos, puede recibir hasta un %{quote_compensation} de indemnización."
+      initial_email:
+        claim_specialists: "%{partner_name} se ha asociado con los especialistas en reclamaciones de AirHelp para facilitarle la obtención de su indemnización."
+        click_on_the_button: "Haga clic en el botón de abajo para iniciar su solicitud, sólo tardará 3 minutos."
+        hi: "Hola %{client_name}, ¡recibe tu indemnización!"
+        subject_cancelled_flight: "Indemnización por su vuelo cancelado a ​%{arrival_city}"
+        subject_delayed_flight: "Indemnización por el retraso de su vuelo a ​%{arrival_city}"
+        under_eu_air_passenger: "Según la legislación de la UE sobre pasajeros aéreos, puede recibir hasta un %{quote_compensation} de indemnización."
+      second_reminder:
+        subject_cancelled_flight: "2. Recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "2. Recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+      shared:
+        ahplus:
+          already_purchased: "Por suerte, usted ya ha adquirido AirHelp Plus para esta reserva, por lo que no se le aplicará la tarifa de servicio normal de AirHelp; sólo tiene que enviar su reclamación a través del enlace que aparece a continuación y le ayudaremos a reclamar una indemnización a la compañía aérea."
+        booking_reference: "Referencia de la reserva: %{booking_reference}"
+        cancelled_flight: "Vuelo cancelado"
+        delayed_flight: "Vuelo retrasado"
+        email_sent_to: "Este correo electrónico se envió a %{email}"
+        footer:
+          agency: "Agencia: %{agency}"
+          order: "Pedido: %{order}"
+        get_compensation: "OBTENER COMPENSACIÓN"
+        missed_connection_flight: "Vuelo de conexión perdido"
+        operated_by: "operado por"
+        reminders:
+          click_on_the_link: "Solicitar una indemnización sólo lleva unos 3 minutos. Para empezar, haga clic en el siguiente enlace:"
+          collaboration: "Actualmente estamos colaborando con AirHelp, para ayudarle a cobrar esta indemnización lo más fácilmente posible."
+          flight_was_cancelled: "Según nuestros datos, su vuelo ha sido cancelado."
+          flight_was_delayed: "Según nuestros datos, su vuelo se ha retrasado."
+          flight_was_missed_connection: "Nuestros registros muestran que es posible que haya perdido un vuelo de conexión en su viaje."
+          goodbye: "Saludos cordiales,"
+          laws_regarding_cancelled_flight: "Según la legislación de la UE sobre cancelación de vuelos, puede tener derecho a una %{quote_compensación} por viajero."
+          laws_regarding_delayed_flight: "Según la legislación de la UE sobre retrasos de vuelos, puede tener derecho a una %{quote_compensación} por viajero."
+          laws_regarding_missed_connection_flight: "Si llegó con más de 3 horas de retraso a su destino final, la legislación de la UE establece que la compañía aérea puede deberle hasta un %{quote_compensation}."
+          missed_connection:
+            click_on_the_button: "Sólo se tarda 3 minutos."
+            collaboration: "Para saber si puedes optar a una indemnización, %{partner_name} se ha asociado con AirHelp para que el proceso sea lo más sencillo posible."
+            hi: "Hi %{client_name},"
+            remind_about_flight: "¿Recuerdas tu vuelo %{airline_name} a %{arrival_city} el %{departure_date}?"
+            start_your_claim: "Inicie su solicitud"
+          once_you_are_finished: "Una vez que haya terminado de rellenar sus datos, AirHelp se encargará del resto."
+          remind_about_flight: "Nos gustaría recordarle su vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada}, con %{nombre_de_línea aérea} en %{fecha_de_salida}."
+          welcome: "Estimado %{client_name}"
+        subscription_preferences: "actualizar las preferencias de suscripción"
+        unable_see_email: "Si no puede ver este correo electrónico, haga clic aquí."
+        unsubscribe_list: "darse de baja de esta lista"
+      third_reminder:
+        last_reminder: "Este es nuestro último recordatorio sobre su derecho a compensación por este vuelo."
+        missed_connection:
+          collaboration: "%{partner_name} se ha asociado con AirHelp para facilitarte la comprobación de si cumples los requisitos, así que no pierdes nada con comprobarlo."
+          last_reminder: "Este es el último recordatorio que enviaremos, pero no nos gustaría que te lo perdieras."
+          laws_regarding: "Si ha perdido un vuelo de conexión y ha llegado con más de 3 horas de retraso a %{arrival_city}, puede tener derecho a una compensación de hasta %{quote_compensation}."
+          still_have_not_checked: "Aún no has comprobado si tienes derecho a compensación por tu vuelo de %{airline_name} a %{arrival_city}."
+        remind_about_flight: "Respecto a su vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada}, con %{nombre_de_línea aérea} en %{fecha_de_salida}."
+        subject_cancelled_flight: "Último recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "Último recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_missed_connection_flight: "Averigüe si le deben una indemnización por su vuelo %{airline_name}."
+    default_2020:
+      first_reminder:
+        subject_cancelled_flight: "Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+      fourth_reminder:
+        subject_cancelled_flight: "Último recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Último recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - Recordatorio final sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - Recordatorio final sobre su vuelo retrasado a %{arrival_city}"
+      initial_campaign:
+        subject_cancelled_flight: "Su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - Su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - Su vuelo retrasado a %{arrival_city}"
+      second_reminder:
+        subject_cancelled_flight: "2. Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "2. Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - 2. Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - 2. Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+      third_reminder:
+        subject_cancelled_flight: "Último recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Último recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - Último recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - Último recordatorio sobre su vuelo retrasado a %{arrival_city}"
+    default_2020_b:
+      footer:
+        unsubscription_sentence: "Si no desea recibir más correos electrónicos relacionados con esta posible reclamación o con otras futuras, <a href=\"%{unsubscription_link}\">anule su suscripción a esta lista</a>."
+    egencia:
+      first_reminder:
+        subject_cancelled_flight: "Egencia: Recordatorio sobre su vuelo cancelado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+        subject_delayed_flight: "Egencia: Recordatorio sobre su vuelo retrasado de %{ciudad_de_salida} a %{ciudad_de_llegada}"
+      initial_campaign:
+        airhelp_works_on_a_no_win_no_fee_basis: "AirHelp trabaja sobre la base del principio \"no win, no fee\". Por tanto, si AirHelp no puede ayudarle a recibir una indemnización, no se le cobrará nada. Ni un céntimo. Si AirHelp consigue ayudarle a recibir una indemnización, AirHelp le cobrará unos honorarios fijos, puede ver los honorarios <a href=\"%{link}\">aquí</a>."
+        all_rights_reserved: "© %{year} Egencia LLC. Todos los derechos reservados. Egencia y el logotipo de Egencia, Expedia y Hotels.com son marcas registradas o marcas comerciales de Expedia, Inc. en EE.UU. y/o en otros países. Todas las demás marcas comerciales pertenecen a sus respectivos propietarios."
+        booking_reference: "Referencia de la reserva: %{booking_reference}"
+        cancelled_flight: "Vuelo cancelado"
+        click_on_the_button: "Para obtener su compensación, haga clic en el botón de abajo para rellenar sus datos (tardará unos 3 minutos). Entonces déjenos el resto a nosotros."
+        click_on_the_button_part_2: "Si tiene alguna pregunta sobre el servicio de compensación por interrupción del vuelo, los criterios de elegibilidad o los detalles del vuelo, póngase en contacto directamente con AirHelp en %{contact_email}."
+        click_on_the_button_part_3: "Si desea más información sobre la asociación entre %{brand_name} y AirHelp, póngase en contacto con el coordinador de viajes de su empresa."
+        delayed_flight: "Vuelo retrasado"
+        email_sent_to: "Este correo electrónico se envió a %{email}"
+        ending_text:
+          airhelp_specializes_in_claming_compensation: "AirHelp se especializa en reclamar indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. AirHelp se esfuerza por hacer que este proceso sea lo más sencillo y menos estresante posible. No obstante, si lo prefiere, puede presentar su reclamación directamente a la compañía aérea."
+          your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede tener derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros europeos frente a retrasos prolongados y otras perturbaciones del viaje. Egencia se ha asociado con AirHelp para ayudarle a obtener la indemnización que merece."
+        estimated_compensation_amounts: "Los importes de indemnización especificados en este correo electrónico son importes estimados y pueden variar en función del derecho real del cliente a la indemnización. Todas las indemnizaciones se abonan en USD, por lo que pueden estar sujetas a ajustes por tipo de cambio."
+        full_compensation_note: "Tenga en cuenta que puede obtener una indemnización completa poniéndose en contacto directamente con el transportista afectado."
+        get_compensation: "OBTENER COMPENSACIÓN"
+        good_news: "La buena noticia es que %{brand_name} colabora con AirHelp para facilitarle al máximo este proceso."
+        operated_by: "operado por"
+        subject_cancelled_flight: "Egencia: Compensación por su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Egencia: Compensación por el retraso de su vuelo a %{arrival_city}"
+        unsubscribe_list: "darse de baja de esta lista"
+        welcome: "Estimado %{first_name}"
+        you_may_be_entitled_to_cancelled: "Queríamos informarle de que, en virtud de una ley de la UE relativa a las cancelaciones de vuelos, puede tener derecho a %{quote_compensation}."
+        you_may_be_entitled_to_delayed: "Queríamos informarle de que, en virtud de una ley de la UE relativa a los retrasos de los vuelos, puede tener derecho a %{quote_compensation}."
+        your_flight_was_cancelled: "Egencia entiende que tu vuelo %{airline_name} de %{departure_city_translated} a %{arrival_city_translated} en %{flight_date} ha sido cancelado."
+        your_flight_was_delayed: "Egencia entiende que tu vuelo %{airline_name} de %{departure_city_translated} a %{arrival_city_translated} en %{flight_date} puede haberse retrasado, por lo que llegaste a tu destino final más de 3 horas después de lo previsto inicialmente (o perdiste tu vuelo de conexión)."
+    egencia_2019:
+      initial_campaign:
+        airhelp_works_on_a_no_win_no_fee_basis: "AirHelp trabaja sobre la base del principio \"no win, no fee\". Si AirHelp consigue ayudarle a recibir una indemnización, AirHelp le cobrará unos honorarios fijos, puede ver los honorarios <a href=\"%{link}\">aquí</a>."
+        click_on_the_button: "Para reclamar su indemnización, haga clic en el botón de abajo para rellenar sus datos (tardará unos 3 minutos). Entonces déjenos el resto a nosotros."
+        ending_text:
+          airhelp_specializes_in_helping_air_passengers: "AirHelp se especializa en ayudar a los pasajeros aéreos a obtener indemnizaciones por vuelos retrasados, cancelados y sobrevendidos. Con un %{trustpilot_rate} de índice de satisfacción en Trustpilot y más de %{travelers_helped_amount} millones de viajeros ayudados, AirHelp cuenta con los recursos y la experiencia necesarios para gestionar el complejo proceso de reclamación y presionar si las aerolíneas se niegan a pagar."
+    egencia_2019_a:
+      click_on_the_button_part_2: "Si tiene alguna pregunta sobre el servicio de compensación por interrupción del vuelo, los criterios de elegibilidad o los detalles del vuelo, póngase en contacto directamente con AirHelp en <a href=\"%{contact_email}\">%{contact_email}</a>."
+      initial_campaign:
+        subject_cancelled_flight: "%{partner_name}: Obtenga hasta %{quote_compensation} por su vuelo %{airline_name}."
+        subject_delayed_flight: "%{partner_name}: Obtenga hasta %{quote_compensation} por su vuelo %{airline_name}."
+      pre_header_for_cancelled: "%{first_name}, compensación por su vuelo cancelado a %{arrival_city_translated} el %{flight_date}"
+      pre_header_for_delayed: "%{first_name}, compensación por su vuelo retrasado a %{arrival_city_translated} el %{flight_date}"
+      welcome: "Estimado %{first_name},"
+      your_flight_was: "¡su vuelo interrumpido a <b>%{ciudad_de_llegada_traducida}</b> en <b>%{fecha_de_vuelo}</b> puede darle derecho a <b>%{cita_compensación}</b> en concepto de indemnización!"
+    egencia_2020:
+      first_reminder:
+        subject_cancelled_flight: "Egencia: Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Egencia: Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Egencia: %{booking_reference} - Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Egencia: %{booking_reference} - Recordatorio sobre tu vuelo retrasado a %{arrival_city}"
+      fourth_reminder:
+        subject_cancelled_flight: "Egencia: Último recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Egencia: Último recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Egencia: %{booking_reference} - Recordatorio final sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Egencia: %{booking_reference} - Recordatorio final sobre tu vuelo retrasado a %{arrival_city}"
+        additional_head_text: "Nos ponemos en contacto con usted por última vez para asegurarnos de que es consciente de que <b>la legislación europea protege a los pasajeros que han sufrido un retraso en su vuelo, una cancelación o a los que se les ha denegado el embarque por overbooking</b>."
+      initial_campaign:
+        subject_cancelled_flight: "Egencia: Su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Egencia: Su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Egencia: %{booking_reference} - Tu vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Egencia: %{booking_reference} - Tu vuelo retrasado a %{arrival_city}"
+      regulation_agnostic:
+        ending_text:
+          your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede tener derecho a indemnización en virtud de la normativa sobre derechos de los pasajeros aéreos, que protege a los pasajeros contra retrasos prolongados y otras interrupciones del viaje."
+        you_may_be_entitled_to_cancelled: "Queríamos informarle de que, según la legislación relativa a la cancelación de vuelos, puede tener derecho a una indemnización de hasta el %{quote_compensation}.</b>"
+        you_may_be_entitled_to_delayed: "Queríamos informarle de que, según la legislación sobre retrasos de vuelos, puede tener derecho a una indemnización de hasta el %{quote_compensation}.</b>"
+      second_reminder:
+        subject_cancelled_flight: "Egencia: 2. Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Egencia: 2. Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Egencia: %{booking_reference} - 2. Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Egencia: %{booking_reference} - 2. Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+      third_reminder:
+        subject_cancelled_flight: "Egencia: Último recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Egencia: Último recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Egencia: %{booking_reference} - Último recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Egencia: %{booking_reference} - Último recordatorio sobre tu vuelo retrasado a %{arrival_city}"
+    etraveli:
+      initial_campaign:
+        check_terms_and_conditions: "AirHelp no cobra ninguna tasa de servicio a menos que su reclamación prospere. Antes de utilizar el servicio de AirHelp, le aconsejamos que consulte las condiciones y tarifas de la empresa <a href=\"%{link}\">aquí</a>."
+        footer_eu_regulation: "Usted recibe este correo electrónico porque ha realizado una reserva de vuelo en %{marca} y su vuelo podría ser susceptible de compensación en virtud del Reglamento (CE) nº 261/2004 de la UE."
+        get_compensation_for_cancelled_flight: "Obtenga una indemnización por la cancelación de su vuelo"
+        get_compensation_for_delayed_flight: "Obtenga una indemnización por el retraso de su vuelo"
+        head_text_cancelled: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible. Por eso lamentamos ver que su <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_de_vuelo} ha sido cancelado</b>."
+        head_text_delayed: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible. Por eso lamentamos ver que su <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_de_vuelo} puede haberse retrasado</b>."
+        submit_claim_directly_or_with_airhelp: "Puede presentar su reclamación directamente a la compañía aérea u obtener ayuda de una organización externa, como nuestro socio AirHelp. En AirHelp somos expertos en viajes y hacemos que el proceso de obtener una indemnización por vuelos retrasados, cancelados o con exceso de reservas sea sencillo y sin estrés."
+        you_could_be_entitled_to: "En virtud del Reglamento (CE) nº 261/2004 de la UE, introducido para proteger a los pasajeros europeos contra los retrasos prolongados y otras perturbaciones del viaje, podría tener derecho a una indemnización de hasta <strong>%{importe_de_la_compensación}</strong>."
+    etraveli_2019:
+      airhelp_works_on_a_no_win_no_fee_basis: "Si AirHelp no puede ayudarle a recibir una indemnización, no se le cobrará nada. Ni un céntimo. AirHelp simplemente deducirá una tasa de servicio del importe total de su indemnización si su reclamación prospera. Sólo cobran cuando tú lo haces. La cuota de servicio es una cuota fija, normalmente el 35% de la indemnización.<p><a href=\"%{link}\" target=\"_blank\">Vea la lista de precios de AirHelp aquí</a></p>"
+      check_terms_and_conditions: "AirHelp no cobra ninguna tasa de servicio a menos que su reclamación prospere. Antes de utilizar el servicio de AirHelp, le aconsejamos que consulte las condiciones y tarifas de la empresa <a href=\"%{link}\">aquí</a>."
+      head_text_cancelled: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible. Por eso lamentamos ver que tu <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} %{fecha_de_vuelo} ha sido cancelado.</b>"
+      head_text_delayed: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible. Por eso sentimos ver que su <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} %{fecha_de_vuelo} puede haberse retrasado</b>."
+      initial_campaign:
+        subject_cancelled_flight: "Obtenga una indemnización por la cancelación de su vuelo"
+        subject_delayed_flight: "Obtenga una indemnización por el retraso de su vuelo"
+        you_could_be_entitled_to: "En virtud del Reglamento (CE) nº 261/2004 de la UE, introducido para proteger a los pasajeros europeos contra los retrasos prolongados y otras perturbaciones del viaje, podría tener derecho a una indemnización de hasta <strong>%{importe_de_la_compensación}</strong>."
+      submit_claim_directly_or_with_airhelp: "Puede presentar su reclamación directamente a la compañía aérea u obtener ayuda de una organización externa, como nuestro socio AirHelp. En AirHelp somos expertos en viajes y hacemos que el proceso de obtener una indemnización por vuelos retrasados, cancelados o con exceso de reservas sea sencillo y sin estrés."
+      regulation_agnostic:
+        you_could_be_entitled_to: "En virtud de la normativa sobre derechos de los pasajeros aéreos, introducida para proteger a los pasajeros frente a retrasos prolongados y otras interrupciones del viaje, podrías tener derecho a una indemnización de hasta <strong>%{importe_de_compensación}</strong>."
+        you_receive_this_email: "Usted recibe este correo electrónico porque ha realizado una reserva de vuelo con %{marca} y su vuelo podría ser susceptible de compensación en virtud de la normativa sobre derechos de los pasajeros aéreos."
+        your_flight_may_be_eligible: "Su vuelo %{arrival_city} puede tener derecho a indemnización en virtud de la normativa sobre derechos de los pasajeros aéreos, que protege a los pasajeros frente a grandes retrasos y otros problemas del transporte aéreo. Para ofrecerle la mejor ayuda posible, colaboramos con AirHelp, que puede ayudarle a obtener la indemnización que le corresponde."
+      your_flight_may_be_eligible: "Su vuelo a %{arrival_city} puede tener derecho a compensación en virtud del Reglamento (CE) nº 261/2004 de la UE, que protege a los pasajeros en Europa frente a grandes retrasos y otros problemas del transporte aéreo. Para ofrecerle la mejor ayuda posible, colaboramos con AirHelp, que puede ayudarle a obtener la indemnización que le corresponde."
+    flightnetwork:
+      location_address:
+        flightnetwork: "Este correo electrónico es enviado por AirHelp en nombre de FlightNetwork.com con sede en 145 King St. W. Toronto ON Canada, M5H1J8. TICO Reg: # 3392505"
+        flyfar: "Este correo electrónico es enviado por AirHelp en nombre de Flyfar.ca ubicado en 3100 Ridgeway Drive. Unit 16, Mississauga ON Canada, L5L 5M5. TICO Reg: # 3392505"
+    lastminute:
+      initial_campaign:
+        fees_info: "<strong>AirHelp</strong> no cobra ninguna tarifa de servicio a menos que su reclamación prospere. Antes de utilizar el servicio de <strong>AirHelp</strong>, te aconsejamos que consultes los términos, condiciones y tarifas de la empresa en su página web <a href=\"%{link}\">www.airhelp.com</a>."
+        footer_text_1: "BravoNext S.A., que forma parte del grupo <a href=\"%{link}\">lastminute.com</a>, con número de registro CHE-115.704.228 y domicilio social en Vicolo de' Calvi 2, 6830 Chiasso, Suiza, actúa como responsable del tratamiento de los datos que posee y/o como encargado del tratamiento de los datos de las demás empresas del grupo <a href=\"%{link}\">lastminute.com</a>, y gestiona el tratamiento de los datos de todas las empresas del grupo <a href=\"%{link}\">lastminute.com</a>. Así, BravoNext S.A. le envía esta comunicación en su propio nombre o en nombre de una empresa perteneciente al grupo <a href=\"%{link}\">lastminute.com</a>."
+        footer_text_2: "Si desea conocer los datos exactos de la/s empresa/s del grupo <a href=\"%{link}\">lastminute.com</a> responsable del tratamiento de sus datos o ejercer los derechos que le reconoce la normativa de protección de datos, puede escribir a privacy@lastminutegroup.com"
+        footer_text_3: "BravoNext S.A., Vicolo de’ Calvi 2, 6830 Chiasso, Switzerland, CHE-115.704.228"
+        get_compensation_for_your_cancelled_flight: "Obtenga una indemnización por la cancelación de su vuelo"
+        get_compensation_for_your_delayed_flight: "Obtenga una indemnización por el retraso de su vuelo"
+        head_text_cancelled: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible. Por eso lamentamos que su vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_de_vuelo} haya sido cancelado."
+        head_text_delayed: "En %{brand_name}, queremos que nuestros clientes tengan la mejor experiencia de viaje posible. Por eso lamentamos que su vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_de_vuelo} se haya retrasado."
+        submitting_is_easy: "Presentar su reclamación con AirHelp es fácil y seguro"
+        you_can_either_submit: "Puede presentar su reclamación directamente a la compañía aérea u obtener asistencia de una organización externa, como nuestro socio <strong>AirHelp</strong>. En AirHelp somos expertos en viajes y hacemos que el proceso de obtener una indemnización por vuelos retrasados, cancelados o con exceso de reservas sea sencillo y sin estrés."
+        you_could_be_entitled_to: "<strong>En virtud del Reglamento (CE) nº 261/2004 de la UE,</strong> introducido para proteger a los pasajeros europeos contra los retrasos prolongados y otras perturbaciones del viaje, usted podría tener derecho a una indemnización de hasta el %{quote_compensation}."
+        you_receive_this_email: "Usted recibe este correo electrónico porque ha realizado una reserva de vuelo en un <a href=\"%{link}\">sitio web del grupo lastminute.com</a> y su vuelo puede ser susceptible de compensación en virtud del Reglamento (CE) nº 261/2004 de la UE."
+    odigeo:
+      initial_campaign:
+        notice_legal_entity_EDLLC: "eDreams LLC propiedad de Vacaciones eDreams S.L. Agente acreditado ARC. CST 2121263-50, Florida ST38821. ARC 10719166."
+        notice_legal_entity_EVED: "Vacaciones eDreams, S.L. Sociedad unipersonal, CIF B-61965778, Domicilio social: c/ Conde de Peñalver, 5, 1º Ext.Izq, 28006 Madrid, España. Número de IVA ESB-61965778. Inscrita en el Registro Mercantil de Madrid, Tomo 36897, Folio 121, Hoja M-660117"
+        notice_legal_entity_OLTD: "Opodo Limited, 26 - 28 Hammersmith Grove, Londres, W6 7BA, Reino Unido. Número de IVA 766445988. Empresa número 4051797."
+        notice_line1: "Al hacer clic en este enlace y con el fin de facilitar la tramitación de su reclamación, usted da su consentimiento para transferir su nombre completo, dirección, número de teléfono, dirección de correo electrónico y código de reserva al formulario de cálculo de reclamaciones de AirHelp. Sus datos sólo se utilizarán temporalmente para facilitar la tramitación de su solicitud y no serán guardados automáticamente por AirHelp."
+        notice_line2: "Ha recibido este correo electrónico transaccional, debido a su reserva con nosotros. Deseamos informarle de irregularidades en el vuelo de esta reserva debido a las cuales podría tener derecho a una compensación económica por parte de la compañía aérea."
+        view_privacy_policy: "Puede consultar la Política de privacidad de AirHelp en <a href=\"%{privacy_link}\" target= \"_blank\">%{privacy_link}</a>."
+    odigeo_2018_a_preheader_1:
+      first_reminder:
+        subject_cancelled_flight: "Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - Recordatorio sobre su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - Recordatorio sobre su vuelo retrasado a %{arrival_city}"
+      initial_campaign:
+        subject_cancelled_flight: "Su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - Su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - Su vuelo retrasado a %{arrival_city}"
+      pre_header_for_cancelled: "Debido a su cancelación, podría tener derecho a %{quote_compensation} y creemos que debería plantearse reclamar una indemnización."
+      pre_header_for_delayed: "Debido a su retraso, podría tener derecho a %{quote_compensation} y creemos que debería plantearse reclamar una indemnización."
+    odigeo_2018_a_preheader_2:
+      first_reminder:
+        subject_cancelled_flight: "Le recordamos que no se lo pierda."
+        subject_delayed_flight: "Le recordamos que no se lo pierda."
+        subject_cancelled_flight_with_booking_ref: "Reserva de vuelo: %{booking_reference} - Un recordatorio, por favor, no se lo pierda."
+        subject_delayed_flight_with_booking_ref: "Reserva de vuelo: %{booking_reference} - Un recordatorio, por favor, no se lo pierda."
+      initial_campaign:
+        subject_cancelled_flight: "Su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight: "Su vuelo retrasado a %{arrival_city}"
+        subject_cancelled_flight_with_booking_ref: "Ref: %{booking_reference} - Su vuelo cancelado a %{arrival_city}"
+        subject_delayed_flight_with_booking_ref: "Ref: %{booking_reference} - Su vuelo retrasado a %{arrival_city}"
+      pre_header_for_cancelled: "Debido a su cancelación, podría tener derecho a %{quote_compensation} y creemos que debería plantearse reclamar una indemnización."
+      pre_header_for_delayed: "Debido a su retraso, podría tener derecho a %{quote_compensation} y creemos que debería plantearse reclamar una indemnización."
+    tripcase:
+      initial_campaign:
+        intro_text:
+          head_text_cancelled: "Su <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_de_vuelo}</b> se ha notificado como cancelado."
+          head_text_delayed: "Su <b>vuelo de %{ciudad_de_salida} a %{ciudad_de_llegada} en %{fecha_de_vuelo}</b> se ha notificado como retrasado."
+    welcometravel:
+      initial_campaign:
+        as_a_customer_of: "Como cliente de %{partner_name}, puede obtener ayuda de los especialistas en reclamaciones de AirHelp para conseguir fácilmente una indemnización."
+        ticket_number: "Número de billete: %{ticket_number}"
+        you_may_be_entitled_to: "Según el Reglamento Europeo 261 de 2004 de la UE, puede tener derecho a un reembolso de hasta un %{quote_compensation} por la interrupción del vuelo que se indica a continuación."
+  powered_by: "Desarrollado por"
+  unsubscriptions:
+    answers:
+      claim_submitted: "Ya he presentado mi reclamación a la compañía aérea"
+      compensation_received: "Ya he recibido una indemnización por este vuelo"
+      no_details: "No me siento cómodo dando más detalles sobre mi vuelo"
+      not_relevant: "No creo que el contenido sea relevante"
+      other: "Otros:"
+      spam: "Los correos electrónicos parecen spam"
+      too_many_emails: "Recibo demasiados correos electrónicos de %{ota_name}"
+    before_you_go: "Antes de irte, tómate un momento para decirnos por qué ya no quieres saber nada de nosotros:"
+    if_interested: "Si sigues interesado <a href=\"%{link}\">haz clic aquí</a>."
+    sorry_to_see_you_go: "Sentimos que te vayas. Pensamos que te gustaría esta oportunidad de obtener un %{quote_compensation} en compensación."
+    submit: enviar
+    taking_off: "¿Despegando tan pronto?"
+    tell_us_the_reason: "Dinos la razón de dejarnos..."
+    thank_you: "Gracias por compartir su opinión con nosotros."
+    you_will_be_unsubscribed: "O si has decidido que esta oportunidad no es para ti, te daremos de baja de la lista de correo electrónico de compensación de vuelo de %{ota_name}."
