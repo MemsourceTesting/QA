@@ -1,0 +1,6 @@
+I created an APC as continuous project
+Project 1 is created
+I set project 1 as Cancelled
+New project 2 is created with new files
+I set the status of project 1 back to new
+What will happen?
