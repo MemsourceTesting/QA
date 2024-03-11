@@ -6,7 +6,7 @@ phrase:
     - file: ./<locale_name>.json #Provide the path to the file(s) you want to push here, starting from the location of the configuration file. You can use the placeholders <locale_name>, <locale_code> and <tags> in the path or file-name
       params:
         file_format: simple_json
-        locale_id: en-US
+        locale_id: 9d8cc46e70a465d321931d21702f6850
        
   pull:
     targets:
