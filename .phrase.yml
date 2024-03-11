@@ -1,5 +1,5 @@
 phrase:
-  project_id: PROJECT_ID #The public Project ID which can be found in the Project Settings (API tab)
+  project_id: ba0e96b9cdbcc98eb19b95864258ad3d
   
   push:
     sources:
