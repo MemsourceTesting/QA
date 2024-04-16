@@ -7,7 +7,7 @@
 	"pluralized_key": {
 		"one": "Only one pluralization found.",
 		"other": "Wow, you have %s pluralizations!",
-		"zero": "You have no pluralization."
+		"zero": "You have no pluralization unfortunately."
 	},
 	"icuKey": "{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}"
 }
