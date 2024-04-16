@@ -1,0 +1,13 @@
+{
+	"first_Key":"Este es mi texto que necesito revisar.",
+	"second_Key":"Este es algún otro texto. ¿La clave está segmentada o no?",
+	"third_Key":"Afuera hace sol, me sentaré junto a ese árbol.",
+	"fourth_Key":"Este es un marcador de posición %%abc%%. Comprueba cómo se ve en el editor. {{Martina}} es el nombre que necesita ser localizado ",
+	"fifth_Key":"En {1, time,::jmm} en {1, date,::dMMMM}, había {2} en el planeta{0, number,integer}.",
+	"pluralized_key": {
+		"one": "Sólo se encontró una pluralización.",
+		"other": "¡Vaya, tienes %s pluralizaciones!",
+		"zero": "No tienes pluralización."
+	},
+	"icuKey": "{numPersons, plural, =0 {ninguna persona} =1 {una persona} one {# personas} many {# personas} other {# personas}}"
+}
