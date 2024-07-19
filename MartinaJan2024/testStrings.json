@@ -1,0 +1,8 @@
+{
+	"first_Key":"This is my text that I need to review",
+	"second_Key":"This is some other text. Is the key segmented or not?",
+	"third_Key":"It's sunny outside, I will sit next to that tree EDITED key.",
+	"fourth_Key":"This is a placeholder %%abc%%. Check how it looks like in the editor.{{Martina}} is the name that needs to be localized ",
+	"fifth_Key":"At {1,time,::jmm} on {1,date,::dMMMM}, there was {2} on planet{0,number,integer}.",
+	"sixth":"Hello, I updated the source file"
+}

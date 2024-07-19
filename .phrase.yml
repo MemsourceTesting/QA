@@ -1,27 +1,23 @@
-phrase:
-  access_token: d3f31c5732d55a42d3098d185800a6ede9d27e75debd27a563f715d5a1d98644
-  project_id: 32b61ddb971dc55f15a10417384bb51f
+  access_token: f5d95ac3d7230d85d259cd0fb524a7fd7af4ccbe02eb1a96ca20793fd2f3a15b #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
+  file_format: nested_json 
+  project_id: 67e139ae0a2c627f0d72af657cd65c6e
   push:
     sources:
-    - file: ./111.json
+    - file: ./files/*.json #Provide the path to the file(s) you want to push here, starting from the location of the configuration file. You can use the placeholders <locale_name>, <locale_code> and <tags> in the path or file-name
       params:
-        file_format: simple_json
-        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        update_translations: true #Indicates whether existing translations should be updated with the file content.
-    - file: ./222.json
-      params:
-        file_format: simple_json
-        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        update_translations: true #Indicates whether existing translations should be updated with the file content.
+        file_format: i18next_4 #See above. Only required if you deviate from the default format set in the header
+        locale_id: de #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true
+        autotranslate: true
+          
   pull:
     targets:
-    - file: ./111.json
+    - file: ./files/target/fr/fr_nested.json
       params:
-        file_format: simple_json
-        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
-    - file: ./222.json
+        locale_id: fr
+        include_empty_translations: true
+        exclude_empty_zero_forms: true
+    - file: ./files/target/fr/fr.xml
       params:
-        file_format: simple_json
-        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-#        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
+        file_format: xml #See above. Only required if you deviate from the default format set in the header
+        locale_id: fr #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
