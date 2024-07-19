@@ -1,0 +1,574 @@
+{
+  "answers": {
+    "adhered_to_non_pharmacological_recommendations": null,
+    "adhered_to_non_pharmacological_strategies": null,
+    "adhered_to_pharmacologic_recommendations": null,
+    "adhered_to_pharmacological_recommendations": null,
+    "any_questions_or_concerns": null,
+    "assess_for_new_atypical_and_red_flag_symptoms": {
+      "none": null
+    },
+    "BC_PE": {
+      "unable_to_confirm_patient_self_diagnosis": null
+    },
+    "BC": {
+      "unable_to_confirm_patient_self_diagnosis": null
+    },
+    "condition_has_improved": null,
+    "condition_has_not_improved": null,
+    "condition_has_resolved": null,
+    "condition_has_worsened": null,
+    "covid19_vaccine": null,
+    "did_not_adhere_to_non_pharmacological_strategies": null,
+    "did_not_adhere_to_pharmacologic_recommendations": null,
+    "email": null,
+    "emergency_department": null,
+    "fax": null,
+    "follow_prescribed_regimen": null,
+    "follow_up_to_occur_via": {
+      "in_person": null
+    },
+    "goals_of_therapy": null,
+    "heavy_alcohol_consumption": null,
+    "heavy_smoker": null,
+    "HPV_vaccine": null,
+    "in_person": null,
+    "influenza_vaccine": null,
+    "intolerable_nonserious_side_effects_occur": null,
+    "light_intensity": null,
+    "light_smoker": null,
+    "medication_review": null,
+    "moderate_alcohol_consumption": null,
+    "moderate_smoker": null,
+    "moderate_to_vigorous_intensity": null,
+    "no": null,
+    "no_adherence_to_recommendations": null,
+    "no_adverse_effects_occurred": null,
+    "no_alcohol": null,
+    "no_physical_activity": null,
+    "none": null,
+    "nonserious_adverse_effects_occurred": null,
+    "nonserious_side_effects": null,
+    "nonserious_symptoms_develop": null,
+    "not_smoker": null,
+    "ON": {
+      "medication_review": null,
+      "questions_about_medication": null,
+      "smoking_cessation": null
+    },
+    "one_month": null,
+    "other": null,
+    "other_adverse_effects_occurred": null,
+    "partially": null,
+    "partially_adhered_to_non_pharmacological_recommendations": null,
+    "partially_adhered_to_non_pharmacological_strategies": null,
+    "partially_adhered_to_pharmacologic_recommendations": null,
+    "partially_adhered_to_pharmacological_recommendations": null,
+    "phone": null,
+    "prescriptionTexts": {
+      "covid19_vaccine": null,
+      "HPV_vaccine": null,
+      "influenza_vaccine": null,
+      "shingles_vaccine": null
+    },
+    "primary_care_provider": null,
+    "questions_about_medication": null,
+    "red_flag_signs_and_symptoms": {
+      "none": null
+    },
+    "regular_physical_activity": null,
+    "regularly_track_symptoms": null,
+    "reportInfo": {
+      "advised_patient_to_monitor_new_symptoms_or_red_flags": {
+        "yes": null
+      },
+      "assess_for_new_atypical_and_red_flag_symptoms": {
+        "none": null
+      },
+      "red_flag_signs_and_symptoms": {
+        "none": null
+      },
+      "rule_out_other_conditions": {
+        "none": null
+      },
+      "therapies_tried_in_the_past": {
+        "none": null
+      }
+    },
+    "reportTexts": {
+      "adhered_to_non_pharmacological_strategies": null,
+      "adhered_to_pharmacologic_recommendations": null,
+      "clinical_presentation": {
+        "none": null,
+        "other": null
+      },
+      "did_not_adhere_to_non_pharmacological_strategies": null,
+      "did_not_adhere_to_pharmacologic_recommendations": null,
+      "has_a_primary_care_provider": {
+        "no": null,
+        "yes": null
+      },
+      "partially_adhered_to_non_pharmacological_strategies": null,
+      "partially_adhered_to_pharmacologic_recommendations": null,
+      "previous_therapy_effective": {
+        "no": null,
+        "partially": null,
+        "yes": null
+      },
+      "previous_therapy_well_tolerated": {
+        "no": null,
+        "partially": null,
+        "yes": null
+      },
+      "received_medical_advice_since_initial_consultation": {
+        "emergency_department": null,
+        "no": null,
+        "primary_care_provider": null,
+        "specialist": null,
+        "urgent_care": null
+      },
+      "received_medical_diagnose_for_this_ailment": {
+        "yes": null
+      },
+      "when_to_speak_to_pharmacist": {
+        "any_questions_or_concerns": null
+      }
+    },
+    "rule_out_other_conditions": {
+      "none": null
+    },
+    "serious_adverse_effects_occurred": null,
+    "serious_side_effects": null,
+    "shingles_vaccine": null,
+    "smoking_cessation": null,
+    "specialist": null,
+    "subtexts": {
+      "alcohol_consumption": {
+        "heavy_alcohol_consumption": null,
+        "moderate_alcohol_consumption": null
+      },
+      "other_recommended_services": {
+        "medication_review": null
+      },
+      "recommended_vaccinations": {
+        "covid19_vaccine": null,
+        "HPV_vaccine": null,
+        "influenza_vaccine": null,
+        "shingles_vaccine": null
+      },
+      "smoking_status": {
+        "heavy_smoker": null,
+        "light_smoker": null,
+        "moderate_smoker": null,
+        "not_smoker": null
+      }
+    },
+    "symptoms_worsen_at_any_point": null,
+    "three_months": null,
+    "tooltips": {
+      "adhered_to_pharmacologic_recommendations": null,
+      "alcohol_consumption": {
+        "heavy_alcohol_consumption": null,
+        "moderate_alcohol_consumption": null
+      },
+      "assess_effectiveness_of_care_plan": {
+        "condition_has_not_improved": null,
+        "condition_has_worsened": null
+      },
+      "assess_safety_of_care_plan": {
+        "serious_adverse_effects_occurred": null
+      },
+      "classification_of_condition": {
+        "unable_to_confirm_patient_self_diagnosis": null
+      },
+      "clinical_presentation": {
+        "none": null
+      },
+      "did_not_adhere_to_pharmacologic_recommendations": null,
+      "physical_activity": {
+        "light_intensity": null,
+        "moderate_to_vigorous_intensity": null
+      },
+      "received_medical_diagnose_for_this_ailment": {
+        "BC_PE": {
+          "yes": null
+        },
+        "yes": null
+      },
+      "rule_out_other_conditions": {
+        "none": null
+      }
+    },
+    "two_months": null,
+    "unable_to_confirm_patient_self_diagnosis": null,
+    "unsure": null,
+    "urgent_care": null,
+    "virtual": null,
+    "yes": null,
+    "yes_and_recommended_duration": null,
+    "yes_but_not_recommended_duration": null
+  },
+  "dosage_form": {
+    "aerosol_foam": null,
+    "caplet": null,
+    "capsule": null,
+    "cream": null,
+    "gel": null,
+    "liqui_gel": null,
+    "liquid": null,
+    "lotion": null,
+    "mini_gel": null,
+    "nasal_spray": null,
+    "ointment": null,
+    "powder_for_solution": null,
+    "pump_and_aerosol": null,
+    "scalp_lotion": null,
+    "suppository": null,
+    "suspension": null,
+    "tablet": null,
+    "topical_oil": null
+  },
+  "efficacy": {
+    "no": null,
+    "partially": null,
+    "unsure": null,
+    "yes": null
+  },
+  "fifth_Key": null,
+  "first_Key": null,
+  "fourth_Key": null,
+  "frequency": {
+    "BID": null,
+    "BID_to_QID": null,
+    "BID_to_TID": null,
+    "five_times_daily": null,
+    "once": null,
+    "once_daily": null,
+    "once_to_twice_daily": null,
+    "q12h": null,
+    "q2_3h": null,
+    "q2h": null,
+    "q3_4h": null,
+    "q4_6h": null,
+    "q4h": null,
+    "q6_8h": null,
+    "q8_12h": null,
+    "qAM": null,
+    "qHS": null,
+    "QID": null,
+    "six_times_daily": null,
+    "TID": null,
+    "TID_to_QID": null
+  },
+  "icuKey": null,
+  "metaData": {
+    "dosage_form": null,
+    "dose": null,
+    "duration": null,
+    "efficacy": null,
+    "frequency": null,
+    "notes": null,
+    "quantity": null,
+    "refills": null,
+    "safety": null,
+    "side_effects": null,
+    "sig": null,
+    "strength": null,
+    "tooltips": {
+      "notes": null
+    }
+  },
+  "pages": {
+    "clinical_presentation": {
+      "title": null
+    },
+    "confirm_approach_to_condition": {
+      "title": null,
+      "tooltip": null
+    },
+    "confirm_patient_self_diagnosis": {
+      "BC_PE": {
+        "title": null,
+        "tooltip": null
+      },
+      "title": null,
+      "tooltip": null
+    },
+    "confirm_previous_therapy": {
+      "title": null,
+      "tooltip": null
+    },
+    "counselling_points_on_ailment": {
+      "title": null,
+      "tooltip": null
+    },
+    "counselling_points_on_therapeutic_plan": {
+      "title": null,
+      "tooltip": null
+    },
+    "follow_up_evaluate_outcomes_of_care": {
+      "title": null,
+      "tooltip": null
+    },
+    "follow_up_monitoring_and_plan": {
+      "title": null,
+      "tooltip": null
+    },
+    "follow_up_notification": {
+      "title": null
+    },
+    "health_history": {
+      "title": null
+    },
+    "non_pharmacological_strategies": {
+      "title": null
+    },
+    "non_prescription_therapies": {
+      "title": null
+    },
+    "other_pharmacologic_therapy": {
+      "BC": {
+        "tooltip": null
+      },
+      "ON": {
+        "tooltip": null
+      },
+      "title": null,
+      "tooltip": null
+    },
+    "other_services": {
+      "title": null,
+      "tooltip": null
+    },
+    "pharmacologic_therapy_adjunctive": {
+      "title": null
+    },
+    "pharmacologic_therapy": {
+      "title": null
+    },
+    "red_flag_signs_and_symptoms": {
+      "title": null
+    },
+    "rule_out_other_conditions": {
+      "title": null
+    },
+    "sexual_history": {
+      "title": null
+    },
+    "social_history": {
+      "title": null
+    }
+  },
+  "pluralized_key": {
+    "one": null,
+    "other": null,
+    "zero": null
+  },
+  "questions": {
+    "advise_patient_to_monitor_effectiveness_of_care_plan": null,
+    "advise_patient_to_monitor_safety_of_care_plan": null,
+    "advised_patient_to_monitor_new_symptoms_or_red_flags": null,
+    "alcohol_consumption": null,
+    "allergy_history": null,
+    "assess_effectiveness_of_care_plan": null,
+    "assess_for_new_atypical_and_red_flag_symptoms": null,
+    "assess_safety_of_care_plan": null,
+    "assess_symptoms_characteristics": null,
+    "BC_PE": {
+      "received_medical_diagnose_for_this_ailment": null
+    },
+    "classification_of_condition": null,
+    "clinical_presentation": null,
+    "counselling_on_additional_side_effects": null,
+    "counselling_points_on_ailment": null,
+    "counselling_points_on_non_pharmacologic_plan": null,
+    "counselling_points_on_side_effects": null,
+    "counselling_points_on_side_effects_management": null,
+    "counselling_points_on_therapeutic_plan": null,
+    "date_of_primary_care_provider_notification": null,
+    "follow_up_date": null,
+    "follow_up_to_occur_via": null,
+    "has_a_primary_care_provider": null,
+    "individual_assigned_to_follow_up": null,
+    "medical_history": null,
+    "medication_history": null,
+    "method_of_primary_care_provider_notification": null,
+    "name_of_primary_care_provider": null,
+    "non_pharmacological_strategies": null,
+    "optimal_dose_and_regimen_followed": null,
+    "other_adverse_effects": null,
+    "other_comments": null,
+    "other_non_pin_rx_agents": null,
+    "other_pin_rx_agents": null,
+    "other_recommended_services": null,
+    "other_signs_and_symptoms": null,
+    "pain_severity": null,
+    "patient_followed_non_pharmacologic_recommendations_provided": null,
+    "patient_followed_pharmacologic_recommendations_provided": null,
+    "patient_followed_recommendation_provided": null,
+    "patientTitles": {
+      "received_medical_advice_for_this_episode": null
+    },
+    "physical_activity": null,
+    "previous_therapy_effective": null,
+    "previous_therapy_well_tolerated": null,
+    "primary_care_provider": {
+      "one": null,
+      "other": null,
+      "zero": null
+    },
+    "primary_care_provider_email": null,
+    "primary_care_provider_fax": null,
+    "primary_care_provider_phone": null,
+    "product_name_dose_and_regimen_tried": null,
+    "received_medical_advice_for_this_episode": null,
+    "received_medical_advice_since_initial_consultation": null,
+    "received_medical_diagnose_for_this_ailment": null,
+    "recommended_vaccinations": null,
+    "red_flag_signs_and_symptoms": null,
+    "reportTitles": {
+      "advise_patient_to_monitor_effectiveness_of_care_plan": null,
+      "advise_patient_to_monitor_safety_of_care_plan": null,
+      "advised_patient_to_monitor_new_symptoms_or_red_flags": null,
+      "alcohol_consumption": null,
+      "allergy_history": null,
+      "assess_effectiveness_of_care_plan": null,
+      "assess_for_new_atypical_and_red_flag_symptoms": null,
+      "assess_safety_of_care_plan": null,
+      "classification_of_condition": null,
+      "clinical_presentation": null,
+      "counselling_on_additional_side_effects": null,
+      "counselling_points_on_ailment": null,
+      "counselling_points_on_non_pharmacologic_plan": null,
+      "counselling_points_on_side_effects": null,
+      "counselling_points_on_side_effects_management": null,
+      "counselling_points_on_therapeutic_plan": null,
+      "date_of_primary_care_provider_notification": null,
+      "follow_up_date": null,
+      "follow_up_to_occur_via": null,
+      "has_a_primary_care_provider": null,
+      "individual_assigned_to_follow_up": null,
+      "medical_history": null,
+      "medication_history": null,
+      "method_of_primary_care_provider_notification": null,
+      "name_of_primary_care_provider": null,
+      "non_pharmacological_strategies": null,
+      "optimal_dose_and_regimen_followed": null,
+      "other_adverse_effects": null,
+      "other_non_pin_rx_agents": null,
+      "other_pin_rx_agents": null,
+      "other_recommended_services": null,
+      "other_signs_and_symptoms": null,
+      "pain_severity": null,
+      "patient_followed_non_pharmacologic_recommendations_provided": null,
+      "patient_followed_pharmacologic_recommendations_provided": null,
+      "patient_followed_recommendation_provided": null,
+      "physical_activity": null,
+      "previous_therapy_effective": null,
+      "previous_therapy_well_tolerated": null,
+      "primary_care_provider": {
+        "one": null,
+        "other": null,
+        "zero": null
+      },
+      "primary_care_provider_email": null,
+      "primary_care_provider_fax": null,
+      "primary_care_provider_phone": null,
+      "product_name_dose_and_regimen_tried": null,
+      "received_medical_advice_for_this_episode": null,
+      "received_medical_advice_since_initial_consultation": null,
+      "received_medical_diagnose_for_this_ailment": null,
+      "recommended_vaccinations": null,
+      "red_flag_signs_and_symptoms": null,
+      "rule_out_other_conditions": null,
+      "smoking_status": null,
+      "social_history_comments": null,
+      "therapies_tried_in_the_past": null,
+      "when_to_seek_medical_attention": null,
+      "when_to_speak_to_pharmacist": null
+    },
+    "rule_out_other_conditions": null,
+    "smoking_status": null,
+    "social_history_comments": null,
+    "subtitles": {
+      "BC": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      },
+      "ON": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      }
+    },
+    "therapies_tried_in_the_past": null,
+    "tooltips": {
+      "AB": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      },
+      "advise_patient_to_monitor_safety_of_care_plan": null,
+      "allergy_history": null,
+      "assess_for_new_atypical_and_red_flag_symptoms": null,
+      "assess_safety_of_care_plan": null,
+      "BC_PE": {
+        "received_medical_diagnose_for_this_ailment": null
+      },
+      "BC": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      },
+      "classification_of_condition": null,
+      "counselling_on_additional_side_effects": null,
+      "health_history_comments": null,
+      "individual_assigned_to_follow_up": null,
+      "method_of_primary_care_provider_notification": {
+        "other": null
+      },
+      "name_of_primary_care_provider": null,
+      "NB": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      },
+      "NS": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      },
+      "ON": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      },
+      "other_adverse_effects": null,
+      "other_non_pin_rx_agents": null,
+      "other_pin_rx_agents": null,
+      "other_recommended_services": null,
+      "other_signs_and_symptoms": null,
+      "patient_followed_pharmacologic_recommendations_provided": null,
+      "patient_followed_recommendation_provided": null,
+      "PE": {
+        "other_non_pin_rx_agents": null,
+        "other_pin_rx_agents": null
+      },
+      "physical_activity": null,
+      "previous_therapy_effective": null,
+      "previous_therapy_well_tolerated": null,
+      "product_name_dose_and_regimen_tried": null,
+      "received_medical_advice_for_this_episode": null,
+      "received_medical_diagnose_for_this_ailment": null,
+      "recommended_vaccinations": null,
+      "rule_out_other_conditions": null,
+      "smoking_status": null,
+      "social_history_comments": null,
+      "therapies_tried_in_the_past": null
+    },
+    "when_to_seek_medical_attention": null,
+    "when_to_speak_to_pharmacist": null
+  },
+  "safety": {
+    "no": null,
+    "partially": null,
+    "unsure": null,
+    "yes": null
+  },
+  "second_Key": null,
+  "third_Key": null
+}
