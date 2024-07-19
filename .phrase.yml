@@ -1,9 +1,7 @@
 phrase:
   access_token: f5d95ac3d7230d85d259cd0fb524a7fd7af4ccbe02eb1a96ca20793fd2f3a15b #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
   file_format: nested_json 
-  encoding: UTF-8
-  include_empty_translations: true
-  exclude_empty_zero_forms: true
+  project_id: 67e139ae0a2c627f0d72af657cd65c6e
   push:
     sources:
     - file: ./files/*.json #Provide the path to the file(s) you want to push here, starting from the location of the configuration file. You can use the placeholders <locale_name>, <locale_code> and <tags> in the path or file-name
@@ -15,13 +13,13 @@ phrase:
           
   pull:
     targets:
-    - file: ./files/target/fr/fr_i18next.json
-      project_id: 67e139ae0a2c627f0d72af657cd65c6e
-      locale_id: fr
+    - file: ./files/target/fr/fr_nested.json
       params:
+        locale_id: fr
         include_empty_translations: true
         exclude_empty_zero_forms: true
     - file: ./files/target/fr/fr.xml
       params:
         file_format: xml #See above. Only required if you deviate from the default format set in the header
         locale_id: fr #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+
