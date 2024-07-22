@@ -1,5 +1,5 @@
+phrase:
   access_token: f5d95ac3d7230d85d259cd0fb524a7fd7af4ccbe02eb1a96ca20793fd2f3a15b #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
-  file_format: nested_json 
   project_id: 67e139ae0a2c627f0d72af657cd65c6e
   push:
     sources:
@@ -12,12 +12,18 @@
           
   pull:
     targets:
-    - file: ./files/target/fr/fr_nested.json
+    - file: ./files/target/en/en_android.xml
       params:
-        locale_id: fr
+        file_format: xml
+        locale_id: en
         include_empty_translations: true
         exclude_empty_zero_forms: true
-    - file: ./files/target/fr/fr.xml
+        format_options:
+            convert_placeholder: true
+    - file: ./files/target/en/en_localizable.strings
       params:
-        file_format: xml #See above. Only required if you deviate from the default format set in the header
-        locale_id: fr #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        file_format: strings #See above. Only required if you deviate from the default format set in the header
+        locale_id: en 
+        include_empty_translations: true
+        exclude_empty_zero_forms: true
+        format_options: {convert_placeholder: true} #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
