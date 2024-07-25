@@ -3,3 +3,4 @@ And some changes
 And yet another changes
 There goes another one
 Another check
+New check
