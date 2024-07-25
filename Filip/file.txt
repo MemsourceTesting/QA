@@ -6,3 +6,4 @@ Another check
 New check
 Commit first
 Commit second
+Commit third
