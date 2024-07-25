@@ -7,3 +7,4 @@ New check
 Commit first
 Commit second
 Commit third
+Now the issue occurs
