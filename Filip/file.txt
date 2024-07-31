@@ -8,3 +8,4 @@ Commit first
 Commit second
 Commit third
 Now the issue occurs
+Bah bah
