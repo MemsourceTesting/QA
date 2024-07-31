@@ -2,3 +2,4 @@ Some regular check
 File modified
 And again
 Once more
+New change
