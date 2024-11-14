@@ -1,12 +1,13 @@
 {
    "root":[
       {
-         "title":"new text for translation 1",
+         "title":"newest text for translation 1",
          "note":"note for text 1",
          "length":13
       },
       {
          "description":"new text for translation 2, black&white",
+         "descrp":"this is a new segment",
          "note":"note for text 2",
          "length":16
       },
