@@ -12,7 +12,7 @@
     <unit id="meps.assignmentweb.app:src:localization:translations.xlf:ngb.carousel.slide-number">
       <notes>
         <note category="location">node_modules/src/carousel/carousel.ts:152,158</note>
-        <note category="description">Currently selected slide number read by screen reader</note>
+        <note category="description">Currently selected slide number</note>
       </notes>
       <segment>
         <source> Slide <ph id="0" equiv="INTERPOLATION" disp=");
@@ -72,7 +72,7 @@
         <note category="location">node_modules/src/datepicker/datepicker-navigation.ts:103</note>
       </notes>
       <segment>
-        <source>Next month</source>
+        <source>Next year</source>
       </segment>
     </unit>
     <unit id="meps.assignmentweb.app:src:localization:translations.xlf:ngb.pagination.first">
