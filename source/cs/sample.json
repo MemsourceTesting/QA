@@ -1,0 +1,19 @@
+{
+   "root":[
+      {
+         "title":"aktualizovaný text k překladu 1",
+         "length":13
+      },
+      {
+         "description":"text k překladu 2, černobílý",
+         "note":"poznámka k textu 2",
+         "new segment":"Tohle je nový segment, můj příteli",
+         "length":16
+      },
+      {
+         "description":"text k překladu 3, černobíle",
+         "note":"poznámka k textu 3",
+         "length":17
+      }
+   ]
+}
