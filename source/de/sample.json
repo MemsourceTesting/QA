@@ -5,14 +5,14 @@
          "length":13
       },
       {
-         "description":"Übersetzungstext 2, schwarzweiß",
-         "note":"Hinweis zu Text 2",
-         "new segment":"das ist ein neues Segment, mein Freund",
+         "description":"Text für Übersetzung 2, schwarz/weiß",
+         "note":"Anmerkung zu Text 2",
+         "new segment":"dies ist ein neues Segment, mein Freund",
          "length":16
       },
       {
-         "description":"Text zur Übersetzung 3, schwarzweiß",
-         "note":"Hinweis zu Text 3",
+         "description":"Text für Übersetzung 3, schwarz-weiß",
+         "note":"Anmerkung zu Text 3",
          "length":17
       }
    ]
