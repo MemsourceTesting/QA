@@ -1,0 +1,3570 @@
+{
+  "agencies": {
+    "title": {
+      "id": "agencies.title",
+      "value": "Meine Unternehmen"
+    }
+  },
+  "agency": {
+    "create_sub_agency": {
+      "id": "agency.create_sub_agency",
+      "value": "Unterunternehmen erstellen"
+    },
+    "create_sub_agency_in": {
+      "id": "agency.create_sub_agency_in",
+      "value": "Erstellen einer Unterfirma für {agencyName}"
+    },
+    "delete_member": {
+      "id": "agency.delete_member",
+      "value": "Benutzer entfernen"
+    },
+    "edit": {
+      "success": {
+        "id": "agency.edit.success",
+        "value": "Ihr Unternehmen wurde erfolgreich aktualisiert"
+      },
+      "title": {
+        "id": "agency.edit.title",
+        "value": "Mein Unternehmen ändern"
+      }
+    },
+    "edit_member": {
+      "success": {
+        "id": "agency.edit_member.success",
+        "value": "Benutzer erfolgreich aktualisiert!"
+      },
+      "title": {
+        "id": "agency.edit_member.title",
+        "value": "Benutzer bearbeiten"
+      }
+    },
+    "filter": {
+      "id": "Agency.filter",
+      "value": "Unternehmen"
+    },
+    "information": {
+      "title": {
+        "id": "agency.information.title",
+        "value": "Firmeninformationen"
+      }
+    },
+    "invoiced_on_parent": {
+      "id": "agency.invoiced_on_parent",
+      "value": "Belastung der Muttergesellschaft"
+    },
+    "invoiced_on_this": {
+      "id": "agency.invoiced_on_this",
+      "value": "Laden Sie diese Firma"
+    },
+    "member": {
+      "add": {
+        "success": {
+          "id": "agency.member.add.success",
+          "value": "Neuer Benutzer hinzugefügt!"
+        }
+      },
+      "edit": {
+        "success": {
+          "id": "agency.member.edit.success",
+          "value": "Benutzer erfolgreich aktualisiert!"
+        }
+      },
+      "form": {
+        "add": {
+          "rights": {
+            "id": "Agency.member.form.add.rights",
+            "value": "Zuweisung von Rechten"
+          }
+        }
+      }
+    },
+    "members": {
+      "search": {
+        "placeholder": {
+          "id": "agency.members.search.placeholder",
+          "value": "Suche nach Name, E-Mail, Telefonnummer"
+        }
+      }
+    },
+    "numberOfMember": {
+      "id": "agency.numberOfMember",
+      "value": "Kein Benutzer | {n} Benutzer | {n} Benutzer"
+    },
+    "numberOfSubAgency": {
+      "id": "agency.numberOfSubAgency",
+      "value": "Keine Firma | {n} | {n}"
+    },
+    "pack": {
+      "expiration": {
+        "id": "agency.pack.expiration",
+        "value": "Ablaufen"
+      },
+      "expired": {
+        "id": "Agency.pack.expired",
+        "value": "Abgelaufen am"
+      },
+      "status": {
+        "consumed": {
+          "id": "agency.pack.status.consumed",
+          "value": "Verpackung verbraucht"
+        },
+        "expired": {
+          "id": "agency.pack.status.expired",
+          "value": "Datum überschritten"
+        },
+        "stopped": {
+          "id": "agency.pack.status.stopped",
+          "value": "Paket gestoppt"
+        }
+      },
+      "subscription": {
+        "intercom_message": {
+          "id": "agency.pack.subscription.intercom_message",
+          "value": "Hallo, ich bin daran interessiert, ein Paket zu abonnieren."
+        },
+        "modal": {
+          "title": {
+            "id": "agency.pack.subscription.modal.title",
+            "value": "Pack abonnieren"
+          }
+        }
+      },
+      "wish_to_subscribe": {
+        "id": "agency.pack.wish_to_subscribe",
+        "value": "Möchten Sie ein Paket abonnieren?"
+      }
+    },
+    "packs": {
+      "current": {
+        "id": "agency.packs.current",
+        "value": "Aktivpaket(e)"
+      },
+      "empty": {
+        "current": {
+          "id": "agency.packs.empty.current",
+          "value": "Sie haben kein aktives Paket!"
+        },
+        "expired": {
+          "id": "agency.packs.empty.expired",
+          "value": "Sie haben kein abgelaufenes Paket!"
+        }
+      },
+      "expired": {
+        "id": "Agency.packs.expired",
+        "value": "Paket(e) abgelaufen"
+      },
+      "remaining": {
+        "shootings": {
+          "id": "agency.packs.remaining.shootings",
+          "value": "{restliche Triebe der {Gesamtsumme}"
+        }
+      }
+    },
+    "parent": {
+      "id": "Agency.parent",
+      "value": "Muttergesellschaft"
+    },
+    "search": {
+      "placeholder": {
+        "id": "agency.search.placeholder",
+        "value": "Suche nach Name, E-Mail, Telefonnummer"
+      }
+    },
+    "team": {
+      "add_member": {
+        "id": "agency.team.add_member",
+        "value": "Benutzer hinzufügen"
+      },
+      "member": {
+        "id": "agency.team.member",
+        "value": "Gesellschaftsmitglied(e)"
+      }
+    },
+    "unsubscribe_member": {
+      "confirm": {
+        "id": "agency.unsubscribe_member.confirm",
+        "value": "Möchten Sie {Name} wirklich entfernen?"
+      },
+      "success": {
+        "id": "agency.unsubscribe_member.success",
+        "value": "Benutzer erfolgreich gelöscht!"
+      }
+    }
+  },
+  "album": {
+    "additional": {
+      "id": "album.additional",
+      "value": "{n} zusätzlich | {n} zusätzlich"
+    },
+    "blocked": {
+      "debt_recovery": {
+        "id": "album.blocked.debt_recovery",
+        "value": "Um den Download freizuschalten, muss die Firma {agencyName} die Kostendeckung abschließen."
+      },
+      "processing": {
+        "id": "album.blocked.processing",
+        "value": "Ihr Download wird gerade vorbereitet"
+      },
+      "validate_medias": {
+        "id": "album.blocked.validate_medias",
+        "value": "Visuals bestätigen"
+      },
+      "validation_needed": {
+        "id": "album.blocked.validation_needed",
+        "value": "Bestätigen Sie das Herunterladen"
+      }
+    },
+    "checkout_quotation": {
+      "billed_items": {
+        "id": "album.checkout_quotation.billed_items",
+        "value": "Rechnungsposten"
+      }
+    },
+    "debt_alert": {
+      "id": "album.debt_alert",
+      "value": "Achtung: Sie haben unbezahlte Rechnungen"
+    },
+    "deselect_all": {
+      "id": "album.deselect_all",
+      "value": "Alle abwählen"
+    },
+    "download": {
+      "id": "album.download",
+      "value": "Download ohne Wasserzeichen"
+    },
+    "downloadAll": {
+      "id": "album.downloadAll",
+      "value": "Beide herunterladen"
+    },
+    "downloadWatermark": {
+      "id": "album.downloadWatermark",
+      "value": "Download mit Wasserzeichen"
+    },
+    "download_album": {
+      "id": "album.download_album",
+      "value": "Das Album herunterladen"
+    },
+    "in_preparation": {
+      "id": "album.in_preparation",
+      "value": "Datei wird vorbereitet..."
+    },
+    "media": {
+      "select": {
+        "id": "album.media.select",
+        "value": "Auswählen"
+      },
+      "selected": {
+        "id": "album.media.selected",
+        "value": "Ausgewählt"
+      }
+    },
+    "media_limit": {
+      "id": "album.media_limit",
+      "value": "Sie haben die Grenze ausgewählter Medien auf diesem Album erreicht"
+    },
+    "selected": {
+      "id": "album.selected",
+      "value": "{n} | {n}"
+    },
+    "select_all": {
+      "id": "album.select_all",
+      "value": "Alle auswählen"
+    },
+    "shoot_detail": {
+      "id": "album.shoot_detail",
+      "value": "Drehdetail anzeigen"
+    },
+    "status": {
+      "downloadable": {
+        "id": "album.status.downloadable",
+        "value": "Bereit zum Download"
+      },
+      "in_preparation": {
+        "id": "album.status.in_preparation",
+        "value": "Vorbereitet sein"
+      }
+    },
+    "tab": {
+      "all": {
+        "id": "album.tab.all",
+        "value": "Alle"
+      },
+      "downloadable": {
+        "id": "album.tab.downloadable",
+        "value": "Bereit zum Download"
+      },
+      "selectable": {
+        "id": "album.tab.selectable",
+        "value": "So wählen Sie"
+      }
+    }
+  },
+  "albums": {
+    "no_album_from_search": {
+      "id": "albums.no_album_from_search",
+      "value": "Es gibt keine Alben, die Ihren Kriterien entsprechen."
+    },
+    "search": {
+      "placeholder": {
+        "id": "albums.search.placeholder",
+        "value": "Suche nach ID, Referenz.."
+      }
+    },
+    "vr_tooltip": {
+      "id": "albums.vr_tooltip",
+      "value": "Alle Ihre {Typenmedien sind an einem Ort verfügbar"
+    }
+  },
+  "archives": {
+    "pending": {
+      "id": "Archive.pending",
+      "value": "Ihr Archiv wird vorbereitet. Es kann dauern."
+    },
+    "stale": {
+      "id": "archives.stale",
+      "value": "Es ist eine Weile her! Regenerieren Sie das Archiv, um Ihr Album zu erhalten."
+    },
+    "stale_cta": {
+      "id": "archives.stale_cta",
+      "value": "Mein Archiv regenerieren"
+    }
+  },
+  "cart": {
+    "additional_price": {
+      "id": "cart.additional_price",
+      "value": "Zusatzpreis / Zuschläge"
+    },
+    "amount_to_pay": {
+      "id": "cart.amount_to_pay",
+      "value": "Gesamtzahlungsbetrag"
+    },
+    "amount_to_pay_at": {
+      "id": "cart.amount_to_pay_at",
+      "value": "Gesamtzahlungsbetrag (inkl. MwSt.)"
+    },
+    "amount_to_pay_bt": {
+      "id": "cart.amount_to_pay_bt",
+      "value": "Gesamtzahlungsbetrag (exkl. MwSt.)"
+    },
+    "confirm_pay": {
+      "id": "cart.confirm_pay",
+      "value": "Bestätigen und bezahlen"
+    },
+    "deselect_all": {
+      "id": "cart.deselect_all",
+      "value": "Alle abwählen"
+    },
+    "shooting_price": {
+      "id": "cart.shooting_price",
+      "value": "Schießpreis"
+    },
+    "validate_selection": {
+      "id": "cart.validate_selection",
+      "value": "Meine Auswahl bestätigen"
+    },
+    "vat": {
+      "id": "cart.vat",
+      "value": "VAT"
+    }
+  },
+  "checkout": {
+    "delivery": {
+      "action": {
+        "id": "checkout.delivery.action",
+        "value": "Zurück zu meinen Alben"
+      },
+      "baseline": {
+        "id": "checkout.delivery.baseline",
+        "value": "Der Download wird im Album verfügbar sein, sobald das Archiv fertig ist"
+      },
+      "title": {
+        "id": "checkout.delivery.title",
+        "value": "Surfen Sie weiter, Ihre Bilder werden bald zugänglich sein"
+      }
+    },
+    "notation": {
+      "baseline": {
+        "id": "checkout.notation.baseline",
+        "value": "Bewerten Sie den Fotografen, um auf Ihre Downloads zuzugreifen"
+      },
+      "title": {
+        "id": "checkout.notation.title",
+        "value": "Wie war dein Shooting-Erlebnis mit {Vorname}?"
+      }
+    }
+  },
+  "checkout_quotation": {
+    "bill_info": {
+      "id": "checkout_quotation.bill_info",
+      "value": "Dieser Betrag berücksichtigt die bereits für dieses Shooting in Rechnung gestellten Posten sowie eventuell anfallende Überzahlungen. Weitere Informationen finden Sie unter Abrechnung."
+    },
+    "designation": {
+      "id": "checkout_quotation.designation",
+      "value": "Bezeichnung"
+    },
+    "monthly_notice": {
+      "id": "checkout_quotation.monthly_notice",
+      "value": "Dieser Betrag wird Ihrer monatlichen Zahlung hinzugefügt"
+    },
+    "monthly_payment_info": {
+      "id": "checkout_quotation.monthly_payment_info",
+      "value": "Durch die Bestätigung werden die ausgewählten Medien validiert und Ihrer monatlichen Abrechnung hinzugefügt."
+    },
+    "no_additional_fee": {
+      "id": "checkout_quotation.no_additional_fee",
+      "value": "Für diese Auswahl fallen keine zusätzlichen Gebühren an"
+    },
+    "quantity": {
+      "id": "checkout_quotation.quantity",
+      "value": "Menge"
+    },
+    "totalprice": {
+      "id": "checkout_quotation.totalprice",
+      "value": "Gesamtpreis (ohne Steuern)"
+    },
+    "total_amount": {
+      "id": "checkout_quotation.total_amount",
+      "value": "Rechnungsbetrag (einschließlich Steuern)"
+    },
+    "unitprice": {
+      "id": "checkout_quotation.unitprice",
+      "value": "Stückpreis (ohne Steuern)"
+    }
+  },
+  "compatibility": {
+    "text": {
+      "id": "compatibility.text",
+      "value": "Bitte wechseln Sie den Browser oder laden Sie die neueste Version Ihres Browsers herunter. Wenn Sie ein Problem haben, kontaktieren Sie uns bitte."
+    },
+    "title": {
+      "id": "compatibility.title",
+      "value": "Ups! Ihr Browser wird nicht unterstützt."
+    }
+  },
+  "contact_us": {
+    "id": "contact_us",
+    "value": "Kontaktieren Sie uns"
+  },
+  "customer_qualification": {
+    "easylike": {
+      "id": "customer_qualification.easylike",
+      "value": "(so einfach wie fotografieren!)"
+    },
+    "helpus": {
+      "id": "customer_qualification.helpus",
+      "value": "Können Sie uns helfen, unseren Service anzupassen?"
+    },
+    "order_shoot_now": {
+      "id": "customer_qualification.order_shoot_now",
+      "value": "Jetzt Shooting bestellen"
+    },
+    "ready_to_shoot": {
+      "id": "customer_qualification.ready_to_shoot",
+      "value": "Bereit für den ersten Dreh?"
+    },
+    "sector": {
+      "id": "customer_qualification.sector",
+      "value": "Was ist Ihre Branche?"
+    }
+  },
+  "funnel": {
+    "address": {
+      "address_not_found": {
+        "id": "funnel.address.address_not_found",
+        "value": "Wir erkennen Ihre Adresse nicht..."
+      },
+      "address_proximity": {
+        "id": "funnel.address.address_proximity",
+        "value": "Um Ihre Adresse zu finden, geben Sie uns bitte weitere Informationen"
+      },
+      "agency": {
+        "blocked": {
+          "id": "funnel.address.agency.blocked",
+          "value": "Es scheint, dass es einige Probleme mit Zahlungen des Firmennamens gibt. Bitte erkundigen Sie sich beim Firmenchef oder Meero Support-Teams, um uns zu helfen, dies zu beheben."
+        },
+        "choose": {
+          "id": "funnel.address.agency.choose",
+          "value": "Für welche Firma bestellen Sie?"
+        }
+      },
+      "carry_address": {
+        "id": "funnel.address.carry_address",
+        "value": "Wenn die Adressadresse korrekt ist, fahren Sie fort."
+      },
+      "carry_with_address": {
+        "id": "funnel.address.carry_with_address",
+        "value": "Mit dieser Adresse fortfahren"
+      },
+      "change_address": {
+        "id": "funnel.address.change_address",
+        "value": "Adresse ändern"
+      },
+      "change_or_contact": {
+        "id": "funnel.address.change_or_contact",
+        "value": "Sie können die Kategorien ändern oder uns kontaktieren, um eine personalisierte Anfrage zu stellen."
+      },
+      "city_error": {
+        "id": "funnel.address.city_error",
+        "value": "Stadt nicht anerkannt"
+      },
+      "confirm": {
+        "id": "funnel.address.confirm",
+        "value": "Ich bestätige diesen Standort"
+      },
+      "continue_address": {
+        "id": "funnel.address.continue_address",
+        "value": "Mit dieser Adresse fortfahren"
+      },
+      "current_marker_address": {
+        "id": "funnel.address.current_marker_address",
+        "value": "Aktuell gepinnte Adresse:"
+      },
+      "custom_request": {
+        "id": "funnel.address.custom_request",
+        "value": "Fragen Sie nach einer personalisierten Anfrage"
+      },
+      "digicode_label": {
+        "id": "funnel.address.digicode_label",
+        "value": "Zugang zum Gebäude, Eingangscode, Gegensprechanlage, Etage, etc. "
+      },
+      "digicode_label_food": {
+        "id": "funnel.address.digicode_label_food",
+        "value": "Teilen Sie dem Fotografen mit, an wen er sich vor Ort wenden soll"
+      },
+      "helper": {
+        "id": "funnel.address.helper",
+        "value": "Bitte geben Sie eine vollständige und gültige Adresse (Straße, Ort, Postleitzahl) an."
+      },
+      "marker_proximity": {
+        "id": "funnel.address.marker_proximity",
+        "value": "Verschieben Sie die Karte, um den tatsächlichen Drehort zu finden"
+      },
+      "me": {
+        "id": "funnel.address.me",
+        "value": "Me"
+      },
+      "no_product_yet": {
+        "id": "funnel.address.no_product_yet",
+        "value": "Leider gibt es kein Angebot unter der {Adresse}"
+      },
+      "order_other_product": {
+        "id": "funnel.address.order_other_product",
+        "value": "Ein anderes Produkt bestellen"
+      },
+      "placeholder": {
+        "id": "funnel.address.placeholder",
+        "value": "Geben Sie die Adresse des Shootings ein"
+      },
+      "placename_label": {
+        "food": {
+          "id": "funnel.address.placename_label.food",
+          "value": "Restaurantname"
+        }
+      },
+      "product_unavailable": {
+        "id": "funnel.address.product_unavailable",
+        "value": "Dieses Produkt ist für diese Adresse nicht verfügbar"
+      },
+      "search_city": {
+        "id": "funnel.address.search_city",
+        "value": "Suche nach einer Stadt"
+      },
+      "select_valid_address": {
+        "id": "funnel.address.select_valid_address",
+        "value": "Bitte wählen Sie eine vollständige und gültige Adresse (Straße, Ort, Postleitzahl)."
+      },
+      "shooting_address_label": {
+        "id": "funnel.address.shooting_address_label",
+        "value": "Eine vollständige Adresse angeben"
+      },
+      "shooting_address_placeholder": {
+        "id": "funnel.address.shooting_address_placeholder",
+        "value": "Geben Sie eine vollständige Adresse (Straße, Ort, Postleitzahl)"
+      },
+      "someone_else": {
+        "id": "funnel.address.someone_else",
+        "value": "Jemand anderes"
+      },
+      "title": {
+        "id": "funnel.address.title",
+        "value": "Wo wird der Dreh stattfinden?"
+      },
+      "unrecognized": {
+        "id": "funnel.address.unrecognized",
+        "value": "Ihre Adresse ist unvollständig oder wir haben sie nicht erkannt.{space} Bitte bewegen Sie den Pin, um den Ort Ihres Shootings anzugeben."
+      },
+      "where": {
+        "id": "funnel.address.where",
+        "value": "Wo sollen wir uns treffen?"
+      },
+      "who": {
+        "id": "funnel.address.who",
+        "value": "Wer wird vor Ort sein?"
+      },
+      "who_helper": {
+        "id": "funnel.address.who_helper",
+        "value": "Wir sorgen dafür, dass diese Person an Datum und Uhrzeit des Drehs erinnert wird."
+      }
+    },
+    "agency": {
+      "helper": {
+        "id": "funnel.agency.helper",
+        "value": "Für welches Unternehmen möchten Sie bestellen?"
+      },
+      "text": {
+        "id": "funnel.agency.text",
+        "value": "Bitte wählen Sie das Unternehmen aus, bei dem Sie bestellen möchten."
+      },
+      "title": {
+        "id": "funnel.agency.title",
+        "value": "Wählen Sie ein Unternehmen"
+      }
+    },
+    "blocked": {
+      "text": {
+        "id": "funnel.blocked.text",
+        "value": "Sie können keine <span>Namensbestellung vornehmen.</span> Bitte wenden Sie sich an einen Buchhalter, um die Situation zu lösen."
+      },
+      "title": {
+        "id": "funnel.blocked.title",
+        "value": "Oh nein! Sie wurden gesperrt"
+      }
+    },
+    "category": {
+      "none_cta": {
+        "id": "funnel.category.none_cta",
+        "value": "Wählen Sie ein anderes Unternehmen"
+      },
+      "none_message": {
+        "id": "funnel.category.none_message",
+        "value": "Leider sind keine Produkte verfügbar für {Agentur}"
+      },
+      "title": {
+        "id": "funnel.category.title",
+        "value": "Wähle eine Kategorie"
+      }
+    },
+    "confirm": {
+      "card": {
+        "address": {
+          "id": "funnel.confirm.card.address",
+          "value": "Adresse"
+        },
+        "date": {
+          "id": "funnel.confirm.card.date",
+          "value": "Datum und Uhrzeit"
+        },
+        "info": {
+          "id": "funnel.confirm.card.info",
+          "value": "Zusätzliche Informationen"
+        },
+        "product": {
+          "id": "funnel.confirm.card.product",
+          "value": "Produkt"
+        }
+      },
+      "close": {
+        "id": "funnel.confirm.close",
+        "value": "Details ausblenden"
+      },
+      "open": {
+        "id": "funnel.confirm.open",
+        "value": "Details anzeigen"
+      },
+      "promocode": {
+        "id": "funnel.confirm.promocode",
+        "value": "Produktcode: {promocode}"
+      },
+      "quote_credit": {
+        "id": "funnel.confirm.quote_credit",
+        "value": "Abzug der Überzahlung"
+      },
+      "quote_price": {
+        "id": "funnel.confirm.quote_price",
+        "value": "Betrag (ohne Steuern)"
+      },
+      "quote_totalVat": {
+        "id": "funnel.confirm.quote_totalVat",
+        "value": "Zu zahlender Gesamtbetrag (inkl. Steuern)"
+      },
+      "quote_vat": {
+        "id": "funnel.confirm.quote_vat",
+        "value": "MwSt. ({MwSt.}%)"
+      },
+      "reference": {
+        "id": "funnel.confirm.reference",
+        "value": "Kundenreferenz"
+      },
+      "term": {
+        "id": "funnel.confirm.term",
+        "value": "Durch Klicken akzeptieren Sie den {Link}"
+      },
+      "term_link": {
+        "id": "funnel.confirm.term_link",
+        "value": "Nutzungsbedingungen"
+      },
+      "term_url": {
+        "id": "funnel.confirm.term_url",
+        "value": "https://www.meero.com/en/terms-and-conditions"
+      },
+      "title": {
+        "id": "funnel.confirm.title",
+        "value": "Zusammenfassung Ihres Shootings"
+      }
+    },
+    "contact": {
+      "area": {
+        "id": "funnel.contact.area",
+        "value": "Bitte beschreiben Sie Ihre Anfrage und Meero wird Sie kontaktieren"
+      },
+      "title": {
+        "id": "funnel.contact.title",
+        "value": "Kundenwunsch"
+      },
+      "valid": {
+        "id": "funnel.contact.valid",
+        "value": "Ihre Nachricht wurde gesendet."
+      }
+    },
+    "create": {
+      "text": {
+        "id": "funnel.create.text",
+        "value": "Ihre Zahlung wird bearbeitet, bitte aktualisieren Sie die Seite nicht."
+      },
+      "title": {
+        "id": "funnel.create.title",
+        "value": "Zahlung wird bearbeitet"
+      }
+    },
+    "date": {
+      "title": {
+        "id": "funnel.date.title",
+        "value": "Wann findet der Dreh statt?"
+      },
+      "wrongtime": {
+        "id": "funnel.date.wrongtime",
+        "value": "Die gewählte Zeit ist ungültig"
+      }
+    },
+    "day": {
+      "title": {
+        "id": "funnel.day.title",
+        "value": "Wähle ein Datum"
+      }
+    },
+    "done": {
+      "back_home": {
+        "id": "funnel.done.back_home",
+        "value": "Zurück zur Startseite"
+      },
+      "modal_title": {
+        "id": "funnel.done.modal_title",
+        "value": "Neue Ordnung"
+      },
+      "new_product": {
+        "id": "funnel.done.new_product",
+        "value": "Neue Ordnung"
+      },
+      "reference_link": {
+        "id": "funnel.done.reference_link",
+        "value": "Klicken Sie hier, um den Link mit den Firmeninformationen zu kopieren"
+      },
+      "same_product": {
+        "id": "funnel.done.same_product",
+        "value": "Das gleiche Produkt bestellen"
+      },
+      "text": {
+        "id": "funnel.done.text",
+        "value": "Es wurde eine Bestätigungsmail an Sie gesendet. Wir informieren Sie, sobald wir einen Fotografen gefunden haben."
+      },
+      "title": {
+        "id": "funnel.done.title",
+        "value": "Ihre Bestellung wurde bestätigt!"
+      }
+    },
+    "error": {
+      "checkProduct": {
+        "id": "funnel.error.checkProduct",
+        "value": "Wir konnten die Produkte nicht laden. Bitte versuchen Sie es erneut"
+      },
+      "createOrder": {
+        "id": "funnel.error.createOrder",
+        "value": "Wir waren nicht in der Lage, das Shooting zu schaffen. Bitte versuchen Sie es erneut."
+      },
+      "loadAgency": {
+        "id": "funnel.error.loadAgency",
+        "value": "Wir haben es versäumt, die Firma zu beladen. Bitte versuchen Sie es erneut."
+      },
+      "loadCategories": {
+        "id": "funnel.error.loadCategories",
+        "value": "Wir haben die Kategorie nicht geladen. Bitte versuchen Sie es erneut."
+      },
+      "loadCollections": {
+        "id": "funnel.error.loadCollections",
+        "value": "Wir konnten die Produkte nicht laden. Bitte versuchen Sie es erneut"
+      },
+      "loadQuotation": {
+        "id": "funnel.error.loadQuotation",
+        "value": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "loadSartData": {
+        "id": "funnel.error.loadSartData",
+        "value": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "loadTypes": {
+        "id": "funnel.error.loadTypes",
+        "value": "Wir haben es versäumt, die Medien zu laden. Bitte versuchen Sie es erneut."
+      },
+      "platform": {
+        "checkProduct": {
+          "id": "funnel.error.platform.checkProduct",
+          "value": "Wir konnten die Produkte nicht laden. Bitte versuchen Sie es erneut."
+        },
+        "createOrder": {
+          "id": "funnel.error.platform.createOrder",
+          "value": "Wir konnten das Shooting nicht realisieren. Bitte versuchen Sie es erneut."
+        },
+        "generic": {
+          "id": "funnel.error.platform.generic",
+          "value": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+        },
+        "loadAgency": {
+          "id": "funnel.error.platform.loadAgency",
+          "value": "Wir konnten die Firma nicht belasten. Bitte versuchen Sie es erneut."
+        },
+        "loadCategories": {
+          "id": "funnel.error.platform.loadCategories",
+          "value": "Wir konnten die Kategorie nicht laden. Bitte versuchen Sie es erneut."
+        },
+        "loadCollections": {
+          "id": "funnel.error.platform.loadCollections",
+          "value": "Wir konnten die Produkte nicht laden. Bitte versuchen Sie es erneut."
+        },
+        "loadQuotation": {
+          "id": "funnel.error.platform.loadQuotation",
+          "value": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+        },
+        "loadStartData": {
+          "id": "funnel.error.platform.loadStartData",
+          "value": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+        },
+        "loadTypes": {
+          "id": "funnel.error.platform.loadTypes",
+          "value": "Wir konnten die Medien nicht laden. Bitte versuchen Sie es erneut."
+        }
+      }
+    },
+    "error_validation": {
+      "date_must_be_in_future": {
+        "id": "funnel.error_validation.date_must_be_in_future",
+        "value": "Der Drehtermin kann nicht in der Vergangenheit liegen. Bitte versuchen Sie es erneut."
+      },
+      "missing_shooting_host": {
+        "id": "funnel.error_validation.missing_shooting_host",
+        "value": "Die Angaben zur Person vor Ort sind erforderlich. Bitte versuchen Sie es erneut."
+      },
+      "shooting_date": {
+        "date_error": {
+          "id": "funnel.error_validation.shooting_date.date_error",
+          "value": "Wir hatten ein Problem mit dem Datum des Drehs. Bitte versuchen Sie es erneut."
+        },
+        "date_error_format": {
+          "id": "funnel.error_validation.shooting_date.date_error_format",
+          "value": "Wir hatten ein Problem mit dem Datum des Drehs. Bitte versuchen Sie es erneut."
+        }
+      },
+      "shooting_date_invalid_time": {
+        "id": "funnel.error_validation.shooting_date_invalid_time",
+        "value": "Bei der Aufnahmezeit ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "shooting_date_out_of_range": {
+        "id": "funnel.error_validation.shooting_date_out_of_range",
+        "value": "Der Drehtermin liegt außerhalb der erlaubten Zeiten. Bitte versuchen Sie es erneut."
+      },
+      "shooting_product_unavailable_for_address": {
+        "id": "funnel.error_validation.shooting_product_unavailable_for_address",
+        "value": "Leider ist das ausgewählte Produkt für diese Adresse nicht verfügbar. Bitte versuchen Sie es erneut."
+      },
+      "shooting_reference_must_match_agency_pattern": {
+        "id": "funnel.error_validation.shooting_reference_must_match_agency_pattern",
+        "value": "Die Referenz entspricht nicht dem gewünschten Format. Bitte versuchen Sie es erneut"
+      },
+      "shooting_reference_required": {
+        "id": "funnel.error_validation.shooting_reference_required",
+        "value": "Eine Referenz ist notwendig, um den Dreh zu erstellen. Bitte versuchen Sie es erneut."
+      },
+      "unavailable_shooting_product": {
+        "id": "funnel.error_validation.unavailable_shooting_product",
+        "value": "Leider ist das ausgewählte Produkt nicht verfügbar. Bitte versuchen Sie es erneut."
+      }
+    },
+    "general_title": {
+      "id": "funnel.general_title",
+      "value": "Allgemeine Informationen"
+    },
+    "global": {
+      "leave_message": {
+        "id": "funnel.global.leave_message",
+        "value": "Möchten Sie diese Seite wirklich verlassen? Die von Ihnen eingegebenen Informationen werden nicht gespeichert."
+      },
+      "leave_title": {
+        "id": "funnel.global.leave_title",
+        "value": "Beenden Sie die Bestellung"
+      },
+      "particular_need": {
+        "id": "funnel.global.particular_need",
+        "value": "Ein besonderes Bedürfnis?"
+      },
+      "range_why": {
+        "id": "funnel.global.range_why",
+        "value": "Warum {range} wählen?"
+      }
+    },
+    "gtc": {
+      "id": "funnel.gtc",
+      "value": "Durch Ankreuzen dieses Kästchens akzeptiere ich die Allgemeinen Geschäftsbedingungen."
+    },
+    "more": {
+      "comment_helper": {
+        "id": "funnel.more.comment_helper",
+        "value": "Bitte geben Sie besondere Details an. Wir werden es weitergeben."
+      },
+      "date": {
+        "id": "funnel.more.date",
+        "value": "Dreh für {dateTime} geplant"
+      },
+      "duration": {
+        "id": "funnel.more.duration",
+        "value": "Dauer des Shootings: {Dauer}"
+      },
+      "email_helper": {
+        "id": "funnel.more.email_helper",
+        "value": "Diese Person erhält eine E-Mail mit den endgültigen Medien."
+      },
+      "label_comment": {
+        "id": "funnel.more.label_comment",
+        "value": "Details zum Shooting"
+      },
+      "label_email": {
+        "id": "funnel.more.label_email",
+        "value": "Erhalten Sie Visuals auf dieser E-Mail"
+      },
+      "label_reference": {
+        "id": "funnel.more.label_reference",
+        "value": "Kundenreferenz"
+      },
+      "reference_helper": {
+        "id": "funnel.more.reference_helper",
+        "value": "Wenn Sie einen internen Referenzcode/Nummern haben, können Sie diesen hier hinzufügen."
+      },
+      "title": {
+        "id": "funnel.more.title",
+        "value": "Zusätzliche Informationen"
+      }
+    },
+    "need_more": {
+      "id": "funnel.need_more",
+      "value": "Möchten Sie eine andere Art von Medien? Eine andere Menge? Kontaktieren Sie uns!"
+    },
+    "order": {
+      "confirmation_title": {
+        "id": "funnel.order.confirmation_title",
+        "value": "Ihre Bestellung #{id} ist validiert!"
+      }
+    },
+    "payment": {
+      "title": {
+        "id": "funnel.payment.title",
+        "value": "Wählen Sie eine Zahlungsmethode"
+      }
+    },
+    "product": {
+      "comparison": {
+        "choose": {
+          "id": "funnel.product.comparison.choose",
+          "value": "Wählen Sie dieses Produkt"
+        },
+        "duration": {
+          "id": "funnel.product.comparison.duration",
+          "value": "Aufnahmedauer"
+        },
+        "media_number": {
+          "id": "funnel.product.comparison.media_number",
+          "value": "Anzahl der Bilder:"
+        },
+        "price": {
+          "id": "funnel.product.comparison.price",
+          "value": "Preis"
+        },
+        "title": {
+          "id": "funnel.product.comparison.title",
+          "value": "Haben Sie dieses Produkt in Betracht gezogen?"
+        }
+      },
+      "custom_request": {
+        "cta": {
+          "id": "funnel.product.custom_request.cta",
+          "value": "Personalisierte Anfrage"
+        },
+        "message": {
+          "id": "funnel.product.custom_request.message",
+          "value": "Erklären Sie uns Ihre Bedürfnisse und unser Team wird Sie kontaktieren!"
+        },
+        "title": {
+          "id": "funnel.product.custom_request.title",
+          "value": "Nicht gefunden, wonach Sie suchen ?"
+        }
+      },
+      "filters": {
+        "id": "funnel.product.filters",
+        "value": "Filter"
+      },
+      "none_message": {
+        "id": "funnel.product.none_message",
+        "value": "Kontaktieren Sie uns über unsere Website oder wenden Sie sich an Ihren Meero-Vertriebsmitarbeiter, um mehr über unsere Dienstleistungen in diesem Bereich zu erfahren."
+      },
+      "no_product_found": {
+        "id": "funnel.product.no_product_found",
+        "value": "Kein Produkt gefunden, Sie können die Filter für bessere Ergebnisse zurücksetzen."
+      },
+      "pack_shootings_left": {
+        "id": "funnel.product.pack_shootings_left",
+        "value": "Restliche {n} | Restliche {n} | Restliche {n}"
+      },
+      "reset_filters": {
+        "id": "funnel.product.reset_filters",
+        "value": "Filter zurücksetzen"
+      },
+      "title": {
+        "id": "funnel.product.title",
+        "value": "Wählen Sie ein Produkt"
+      }
+    },
+    "rangenotice": {
+      "custom": {
+        "id": "funnel.rangenotice.custom",
+        "value": "Unsere Custom-Produkte umfassen Funktionen, die vollständig auf Ihre Bedürfnisse zugeschnitten sind."
+      },
+      "premium": {
+        "id": "funnel.rangenotice.premium",
+        "value": "Unsere Premium-Produkte bieten eine größere Bandbreite an technischen Fähigkeiten und fortschrittlichere Ausrüstung."
+      },
+      "professional": {
+        "id": "funnel.rangenotice.professional",
+        "value": "Unsere Professional-Produkte sind auf Kunden zugeschnitten, die Qualität anstreben, aber ein begrenztes Budget haben."
+      }
+    },
+    "specific_title": {
+      "id": "funnel.specific_title",
+      "value": "Besondere Infos"
+    },
+    "time": {
+      "title": {
+        "id": "funnel.time.title",
+        "value": "Wähle einen Zeitpunkt"
+      }
+    },
+    "title": {
+      "address": {
+        "id": "funnel.title.address",
+        "value": "Adresse"
+      },
+      "complete": {
+        "id": "funnel.title.complete",
+        "value": "Bestellung abgeschlossen"
+      },
+      "date": {
+        "id": "funnel.title.date",
+        "value": "Datum"
+      },
+      "failed": {
+        "id": "funnel.title.failed",
+        "value": "Fehler"
+      },
+      "informations": {
+        "id": "funnel.title.informations",
+        "value": "Informationen"
+      },
+      "product": {
+        "id": "funnel.title.product",
+        "value": "Produkt"
+      },
+      "validation": {
+        "id": "funnel.title.validation",
+        "value": "Validierung"
+      }
+    },
+    "types": {
+      "helper": {
+        "id": "funnel.types.helper",
+        "value": "Bitte wählen Sie aus, welche Medien Sie bestellen möchten und wir bringen es in Gang."
+      },
+      "title": {
+        "id": "funnel.types.title",
+        "value": "Wählen Sie eine oder mehrere Arten von Visuals"
+      }
+    },
+    "unavailable": {
+      "show_products": {
+        "id": "funnel.unavailable.show_products",
+        "value": "Zu den verfügbaren Produkten"
+      }
+    },
+    "copy_information": {
+      "id": "funnel.copy_information",
+      "value": "Buchungsinformationen kopieren"
+    },
+    "gtcInfo": {
+      "id": "funnel.gtcInfo",
+      "value": "Durch Ankreuzen dieses Kästchens akzeptieren Sie den {gtcLink}, wo zutreffend, und Sie stimmen zu, die {bestPractices} einzuhalten und an die {covidCovenants} gebunden zu sein."
+    },
+    "gtcLink": {
+      "id": "funnel.gtcLink",
+      "value": "Allgemeine Geschäftsbedingungen"
+    },
+    "gtcBest_practices": {
+      "id": "funnel.gtcBest_practices",
+      "value": "Meero Best Practices"
+    },
+    "gtcCovid_covenants": {
+      "id": "funnel.gtcCovid_covenants",
+      "value": "Weitere Covid-19-Bündnisse"
+    },
+    "prospect_appearance": {
+      "id": "funnel.prospect_appearance",
+      "value": "Ihre Buchung wird in ein paar Minuten in Ihrer Liste erscheinen."
+    },
+    "prospect_back": {
+      "id": "funnel.prospect_back",
+      "value": "Zurück zu den Buchungen"
+    },
+    "prospect_created": {
+      "id": "funnel.prospect_created",
+      "value": "Buchung erfolgreich erstellt."
+    },
+    "prospect_info": {
+      "id": "funnel.prospect_info",
+      "value": "Danke für die Info, wir kümmern uns gleich darum."
+    }
+  },
+  "global": {
+    "account_activated": {
+      "id": "global.account_activated",
+      "value": "Ihre Konto-E-Mail wurde aktiviert!"
+    },
+    "add": {
+      "id": "global.add",
+      "value": "Hinzufügen"
+    },
+    "address": {
+      "id": "global.address",
+      "value": "Adresse"
+    },
+    "agency": {
+      "label": {
+        "id": "global.agency.label",
+        "value": "Unternehmen"
+      },
+      "no_member": {
+        "id": "global.agency.no_member",
+        "value": "Kein Mitglied in diesem Unternehmen"
+      }
+    },
+    "agency_type": {
+      "id": "global.agency_type",
+      "value": "Unternehmenstyp"
+    },
+    "albums": {
+      "id": "global.albums",
+      "value": "Album | Alben"
+    },
+    "albumsTitle": {
+      "id": "global.albumsTitle",
+      "value": "Albums"
+    },
+    "all": {
+      "id": "global.all",
+      "value": "Alle"
+    },
+    "all_reasons": {
+      "id": "global.all_reasons",
+      "value": "Alle Gründe"
+    },
+    "approve": {
+      "id": "global.approve",
+      "value": "Genehmigen"
+    },
+    "authenticate": {
+      "id": "global.authenticate",
+      "value": "Anmelden"
+    },
+    "back": {
+      "id": "global.back",
+      "value": "Zurück"
+    },
+    "browse": {
+      "id": "global.browse",
+      "value": "Durchsuchen"
+    },
+    "browser_outdated_video": {
+      "id": "global.browser_outdated_video",
+      "value": "Ihr Browser ist veraltet und kann dieses Video nicht anzeigen"
+    },
+    "btn_authenticate": {
+      "id": "global.btn_authenticate",
+      "value": "Login"
+    },
+    "btn_back": {
+      "id": "global.btn_back",
+      "value": "Zurück"
+    },
+    "btn_back_to_home": {
+      "id": "global.btn_back_to_home",
+      "value": "Zurück zur Startseite"
+    },
+    "btn_login": {
+      "id": "global.btn_login",
+      "value": "Anmelden"
+    },
+    "btn_new_payment_methods": {
+      "id": "global.btn_new_payment_methods",
+      "value": "Zahlungsmethode hinzufügen"
+    },
+    "btn_order": {
+      "id": "global.btn_order",
+      "value": "Order"
+    },
+    "btn_pay": {
+      "id": "global.btn_pay",
+      "value": "Pay"
+    },
+    "btn_reload": {
+      "id": "global.btn_reload",
+      "value": "Aktualisieren"
+    },
+    "btn_seefaq": {
+      "id": "global.btn_seefaq",
+      "value": "FAQs"
+    },
+    "btn_understood": {
+      "id": "global.btn_understood",
+      "value": "Ich hab's!"
+    },
+    "cancel": {
+      "id": "global.cancel",
+      "value": "Stornieren"
+    },
+    "cancel_reason": {
+      "id": "global.cancel_reason",
+      "value": "Kündigungs-/Änderungsgrund"
+    },
+    "cancel_responsible": {
+      "id": "global.cancel_responsible",
+      "value": "Verantwortlicher für Stornierung / Änderung"
+    },
+    "category": {
+      "id": "global.category",
+      "value": "Kategorie | Kategorien"
+    },
+    "choose": {
+      "id": "global.choose",
+      "value": "Wählen"
+    },
+    "city": {
+      "id": "global.city",
+      "value": "City"
+    },
+    "close": {
+      "id": "global.close",
+      "value": "Schließen"
+    },
+    "comment": {
+      "add": {
+        "id": "global.comment.add",
+        "value": "Kommentar hinzufügen"
+      }
+    },
+    "confirm": {
+      "id": "global.confirm",
+      "value": "Bestätigen"
+    },
+    "contact": {
+      "call_or_by_form": {
+        "id": "global.contact.call_or_by_form",
+        "value": "Kontaktieren Sie uns über das Kontaktformular."
+      }
+    },
+    "contact_us": {
+      "id": "global.contact_us",
+      "value": "Kontaktieren Sie uns"
+    },
+    "copied": {
+      "id": {
+        "id": "global.copied.id",
+        "value": "Benutzername kopiert!"
+      },
+      "reference": {
+        "id": "global.copied.reference",
+        "value": "Referenz kopiert!"
+      }
+    },
+    "copyDone": {
+      "id": "global.copyDone",
+      "value": "Verstanden!"
+    },
+    "country": {
+      "id": "global.country",
+      "value": "Land"
+    },
+    "create": {
+      "id": "global.create",
+      "value": "Erstellen"
+    },
+    "createdFrom": {
+      "id": "global.createdFrom",
+      "value": "Erstellungsdatum (ab)"
+    },
+    "createdTo": {
+      "id": "global.createdTo",
+      "value": "Datum hinzugefügt (zu)"
+    },
+    "credit_card": {
+      "id": "global.credit_card",
+      "value": "Kreditkarte"
+    },
+    "date": {
+      "id": "global.date",
+      "value": "Datum"
+    },
+    "dateend": {
+      "id": "global.dateend",
+      "value": "Enddatum"
+    },
+    "dateFrom": {
+      "id": "global.dateFrom",
+      "value": "Datum (ab)"
+    },
+    "datestart": {
+      "id": "global.datestart",
+      "value": "Startdatum"
+    },
+    "dateTo": {
+      "id": "global.dateTo",
+      "value": "Datum (zu)"
+    },
+    "delivered": {
+      "id": "global.delivered",
+      "value": "Heruntergeladen"
+    },
+    "demo": {
+      "id": "global.demo",
+      "value": "Demo"
+    },
+    "denomination": {
+      "id": "global.denomination",
+      "value": "Firmenname"
+    },
+    "disabled": {
+      "id": "global.disabled",
+      "value": "Status deaktiviert"
+    },
+    "done": {
+      "id": "global.done",
+      "value": "Fertig"
+    },
+    "dontsave": {
+      "id": "global.dontsave",
+      "value": "Nicht sparen"
+    },
+    "download": {
+      "id": "global.download",
+      "value": "Download"
+    },
+    "downloadable": {
+      "id": "global.downloadable",
+      "value": "Bereit zum Download"
+    },
+    "downloaded": {
+      "id": "global.downloaded",
+      "value": "Heruntergeladen"
+    },
+    "duration": {
+      "id": "global.duration",
+      "value": "{Stunden{Minute}"
+    },
+    "edit": {
+      "id": "global.edit",
+      "value": "Bearbeiten"
+    },
+    "email": {
+      "id": "global.email",
+      "value": "E-Mail"
+    },
+    "en": {
+      "id": "global.en",
+      "value": "Englisch"
+    },
+    "enabled": {
+      "id": "global.enabled",
+      "value": "Aktiviert"
+    },
+    "error": {
+      "400": {
+        "subtitle": {
+          "id": "global.error.400.subtitle",
+          "value": "Unautorisierte, falsche oder unvollständige Anfrage."
+        }
+      },
+      "401": {
+        "subtitle": {
+          "id": "global.error.401.subtitle",
+          "value": "Du bist nicht mehr verbunden!"
+        },
+        "title": {
+          "id": "global.error.401.title",
+          "value": "Sitzung beendet"
+        }
+      },
+      "403": {
+        "subtitle": {
+          "id": "global.error.403.subtitle",
+          "value": "Sie dürfen diese Seite nicht durchsuchen."
+        }
+      },
+      "404": {
+        "subtitle": {
+          "id": "global.error.404.subtitle",
+          "value": "Die angeforderte Seite existiert leider nicht."
+        },
+        "tip": {
+          "id": "global.error.404.tip",
+          "value": "Überprüfen Sie die eingegebene Adresse"
+        }
+      },
+      "408": {
+        "subtitle": {
+          "id": "global.error.408.subtitle",
+          "value": "Der Server hat zu lange gedauert."
+        }
+      },
+      "500": {
+        "subtitle": {
+          "id": "global.error.500.subtitle",
+          "value": "Diese Website ist vorübergehend nicht erreichbar. Wir tun unser Bestes, um den Zugang wiederherzustellen."
+        }
+      },
+      "504": {
+        "subtitle": {
+          "id": "global.error.504.subtitle",
+          "value": "Der Server hat zu lange gedauert."
+        }
+      }
+    },
+    "error_code": {
+      "id": "global.error_code",
+      "value": "Fehler {errorCode}"
+    },
+    "es": {
+      "id": "global.es",
+      "value": "Spanisch"
+    },
+    "exit": {
+      "id": "global.exit",
+      "value": "Ausgang"
+    },
+    "export": {
+      "id": "global.export",
+      "value": "Export"
+    },
+    "export_error": {
+      "id": "global.export_error",
+      "value": "Ups, ein Fehler ist aufgetreten."
+    },
+    "export_gotit": {
+      "id": "global.export_gotit",
+      "value": "Verstanden"
+    },
+    "export_message": {
+      "id": "global.export_message",
+      "value": "Der Export wird erstellt, Sie erhalten ihn per E-Mail, wenn er abgeschlossen ist."
+    },
+    "firstname": {
+      "id": "global.firstname",
+      "value": "Vorname"
+    },
+    "form": {
+      "error": {
+        "address": {
+          "invalid": {
+            "id": "global.form.error.address.invalid",
+            "value": "Ihre Adresse ist ungültig"
+          }
+        },
+        "email": {
+          "id": "global.form.error.email",
+          "value": "Dieses Feld muss eine gültige E-Mail enthalten"
+        },
+        "max_length": {
+          "id": "global.form.error.max_length",
+          "value": "{count} Zeichen maximal"
+        },
+        "new_password": {
+          "identical": {
+            "id": "global.form.error.new_password.identical",
+            "value": "Das eingegebene Passwort ist identisch"
+          }
+        },
+        "password": {
+          "confirmed": {
+            "id": "global.form.error.password.confirmed",
+            "value": "Die Passwörter stimmen nicht überein"
+          },
+          "regex": {
+            "id": "global.form.error.password.regex",
+            "value": "Ihr Passwort muss mindestens 8 Zeichen mit einem Kleinbuchstaben, einem Großbuchstaben und einer Zahl enthalten"
+          }
+        },
+        "required": {
+          "id": "global.form.error.required",
+          "value": "Dieses Feld ist Pflichtfeld"
+        },
+        "value_already_used": {
+          "email": {
+            "id": "global.form.error.value_already_used.email",
+            "value": "Diese E-Mail wird bereits verwendet"
+          }
+        }
+      },
+      "validation": {
+        "error": {
+          "id": "global.form.validation.error",
+          "value": "Es ist ein Fehler aufgetreten."
+        },
+        "success": {
+          "id": "global.form.validation.success",
+          "value": "Ihre Daten wurden aktualisiert"
+        },
+        "unsave": {
+          "id": "global.form.validation.unsave",
+          "value": "Ihre Änderungen wurden nicht gespeichert"
+        },
+        "wrong": {
+          "id": "global.form.validation.wrong",
+          "value": "Ihre Angaben sind nicht korrekt, bitte überprüfen Sie sie erneut."
+        }
+      }
+    },
+    "fr": {
+      "id": "global.fr",
+      "value": "Französisch"
+    },
+    "help": {
+      "id": "global.help",
+      "value": "Hilfe-Center"
+    },
+    "hi": {
+      "id": "global.hi",
+      "value": "Hindi"
+    },
+    "ht": {
+      "id": "global.ht",
+      "value": "Vor Steuern"
+    },
+    "iban": {
+      "id": "global.iban",
+      "value": "IBAN"
+    },
+    "impossibleAction": {
+      "id": "global.impossibleAction",
+      "value": "Aktion unmöglich"
+    },
+    "input_address": {
+      "id": "global.input_address",
+      "value": "Adresse eingeben"
+    },
+    "invoicing": {
+      "id": "global.invoicing",
+      "value": "Rechnungsstellung"
+    },
+    "in_preparation": {
+      "id": "global.in_preparation",
+      "value": "So wählen Sie"
+    },
+    "ja": {
+      "id": "global.ja",
+      "value": "Japanisch"
+    },
+    "language": {
+      "id": "global.language",
+      "value": "Sprache"
+    },
+    "lastname": {
+      "id": "global.lastname",
+      "value": "Nachname"
+    },
+    "loading": {
+      "id": "global.loading",
+      "value": "Es wird geladen..."
+    },
+    "logout": {
+      "id": "global.logout",
+      "value": "Abmelden"
+    },
+    "manager": {
+      "id": "global.manager",
+      "value": "Verantwortlich"
+    },
+    "media": {
+      "id": "global.media",
+      "value": "Visuals"
+    },
+    "media_type": {
+      "id": "global.media_type",
+      "value": "Typ"
+    },
+    "menu": {
+      "about": {
+        "id": "global.menu.about",
+        "value": "Über"
+      },
+      "agencies": {
+        "id": "global.menu.agencies",
+        "value": "Meine Unternehmen"
+      },
+      "agency": {
+        "id": "global.menu.agency",
+        "value": "Mein Unternehmen"
+      },
+      "albums": {
+        "id": "global.menu.albums",
+        "value": "Albums"
+      },
+      "general": {
+        "id": "global.menu.general",
+        "value": "Allgemein"
+      },
+      "home": {
+        "id": "global.menu.home",
+        "value": "Home"
+      },
+      "invoice": {
+        "id": "global.menu.invoice",
+        "value": "Meine Rechnungen"
+      },
+      "invoicing": {
+        "id": "global.menu.invoicing",
+        "value": "Rechnungsstellung"
+      },
+      "monitoring": {
+        "id": "global.menu.monitoring",
+        "value": "Berichterstattung"
+      },
+      "my_sub_agencies": {
+        "id": "global.menu.my_sub_agencies",
+        "value": "Teilunternehmen"
+      },
+      "packs": {
+        "id": "global.menu.packs",
+        "value": "Meine Pakete"
+      },
+      "products": {
+        "id": "global.menu.products",
+        "value": "Meine Produkte"
+      },
+      "profile": {
+        "id": "global.menu.profile",
+        "value": "Mein Profil"
+      },
+      "prospects": {
+        "id": "global.menu.prospects",
+        "value": "Buchungen"
+      },
+      "see_profile": {
+        "id": "global.menu.see_profile",
+        "value": "Mein Profil ansehen"
+      },
+      "shootings": {
+        "id": "global.menu.shootings",
+        "value": "Schießen"
+      }
+    },
+    "message": {
+      "id": "global.message",
+      "value": "Nachricht"
+    },
+    "modify": {
+      "id": "global.modify",
+      "value": "Bearbeiten"
+    },
+    "myAlbumsTitle": {
+      "id": "global.myAlbumsTitle",
+      "value": "Meine Alben"
+    },
+    "newPassword": {
+      "id": "global.newPassword",
+      "value": "Neues Passwort"
+    },
+    "next": {
+      "id": "global.next",
+      "value": "Next"
+    },
+    "not_provided": {
+      "id": "global.not_provided",
+      "value": "Nicht offengelegt"
+    },
+    "numberOfMedia": {
+      "id": "global.numberOfMedia",
+      "value": "{n} visual|{n} visual|{n} visuals"
+    },
+    "n_shootings": {
+      "id": "global.n_shootings",
+      "value": "{n} shoot|{n} shoot|{n} shoots"
+    },
+    "ok": {
+      "id": "global.ok",
+      "value": "OK"
+    },
+    "on_going": {
+      "id": "global.on_going",
+      "value": "Strom"
+    },
+    "orderedby": {
+      "id": "global.orderedby",
+      "value": "Bestellt nach"
+    },
+    "password": {
+      "id": "global.password",
+      "value": "Passwort"
+    },
+    "phone": {
+      "id": "global.phone",
+      "value": "Telefon"
+    },
+    "photographer": {
+      "id": "global.photographer",
+      "value": "Fotograf"
+    },
+    "placeholder_email": {
+      "id": "global.placeholder_email",
+      "value": "E-Mail"
+    },
+    "placeholder_firstname": {
+      "id": "global.placeholder_firstname",
+      "value": "Vorname"
+    },
+    "placeholder_lastname": {
+      "id": "global.placeholder_lastname",
+      "value": "Name"
+    },
+    "placename": {
+      "id": "global.placename",
+      "value": "Ortsname"
+    },
+    "previous": {
+      "id": "global.previous",
+      "value": "Zurück"
+    },
+    "product": {
+      "id": "global.product",
+      "value": "Produkt"
+    },
+    "prospects": {
+      "id": "global.prospects",
+      "value": "Buchung | Buchungen"
+    },
+    "prospects_title": {
+      "id": "global.prospects_title",
+      "value": "Buchungen"
+    },
+    "pt": {
+      "id": "global.pt",
+      "value": "Portugiesisch"
+    },
+    "quick_order": {
+      "id": "global.quick_order",
+      "value": "Wählen Sie ein Produkt"
+    },
+    "range": {
+      "custom": {
+        "id": "global.range.custom",
+        "value": "Custom"
+      },
+      "premium": {
+        "id": "global.range.premium",
+        "value": "Premium"
+      },
+      "professional": {
+        "id": "global.range.professional",
+        "value": "Pro"
+      }
+    },
+    "reason": {
+      "id": "global.reason",
+      "value": "Grund"
+    },
+    "record": {
+      "id": "global.record",
+      "value": "Speichern"
+    },
+    "reference": {
+      "id": "global.reference",
+      "value": "Referenz"
+    },
+    "reject": {
+      "id": "global.reject",
+      "value": "Abgelehnt"
+    },
+    "remove": {
+      "id": "global.remove",
+      "value": "Löschen"
+    },
+    "repeatNewPassword": {
+      "id": "global.repeatNewPassword",
+      "value": "Bestätigen Sie das neue Passwort"
+    },
+    "reset": {
+      "id": "global.reset",
+      "value": "Zurücksetzen"
+    },
+    "restart": {
+      "id": "global.restart",
+      "value": "Neustart"
+    },
+    "results": {
+      "id": "global.results",
+      "value": "{n}|{n} Ergebnis|{n} Ergebnisse"
+    },
+    "right": {
+      "agency": {
+        "id": "global.right.agency",
+        "value": "Unternehmen"
+      },
+      "agency_message": {
+        "id": "global.right.agency_message",
+        "value": "Erlauben Sie dem Benutzer, Mitglieder hinzuzufügen und Unterunternehmen zu erstellen"
+      },
+      "invoice": {
+        "id": "global.right.invoice",
+        "value": "Rechnung"
+      },
+      "invoice_message": {
+        "id": "global.right.invoice_message",
+        "value": "Erlauben Sie dem Benutzer, Rechnungen zu sehen und zu bezahlen"
+      },
+      "shooting": {
+        "id": "global.right.shooting",
+        "value": "Schießen"
+      },
+      "shooting_message": {
+        "id": "global.right.shooting_message",
+        "value": "Erlauben Sie dem Benutzer, Aufnahmen zu bestellen und zu bearbeiten"
+      }
+    },
+    "save": {
+      "id": "global.save",
+      "value": "Speichern"
+    },
+    "save_edit": {
+      "id": "global.save_edit",
+      "value": "Bearbeitungen speichern"
+    },
+    "search": {
+      "id": "global.search",
+      "value": "Suche"
+    },
+    "searching": {
+      "id": "global.searching",
+      "value": "Suche"
+    },
+    "search_results_empty": {
+      "id": "global.search_results_empty",
+      "value": "Leider wurden keine Ergebnisse für Ihre Suche gefunden"
+    },
+    "see_less": {
+      "id": "global.see_less",
+      "value": "Weniger anzeigen"
+    },
+    "see_more": {
+      "id": "global.see_more",
+      "value": "Mehr anzeigen"
+    },
+    "send": {
+      "id": "global.send",
+      "value": "Senden"
+    },
+    "sepa": {
+      "id": "global.sepa",
+      "value": "SEPA-Mandat"
+    },
+    "shooting": {
+      "id": "global.shooting",
+      "value": "Schießen"
+    },
+    "shootingTitle": {
+      "id": "global.shootingTitle",
+      "value": "Schießen | Schießen"
+    },
+    "show_album": {
+      "id": "global.show_album",
+      "value": "Zum Album"
+    },
+    "show_all": {
+      "id": "global.show_all",
+      "value": "Alle anzeigen"
+    },
+    "show_details": {
+      "id": "global.show_details",
+      "value": "Details anzeigen"
+    },
+    "siret": {
+      "id": "global.siret",
+      "value": "Firmenregistrierungsnummer"
+    },
+    "something_wrong": {
+      "id": "global.something_wrong",
+      "value": "Ups... ein Fehler ist aufgetreten! Bitte versuchen Sie es später noch einmal."
+    },
+    "statuses": {
+      "id": "global.statuses",
+      "value": "Status"
+    },
+    "stop_schizophrenia": {
+      "id": "global.stop_schizophrenia",
+      "value": "Hör auf mit dem Geistermodus!"
+    },
+    "subscribe": {
+      "id": "global.subscribe",
+      "value": "Kontaktieren Sie uns"
+    },
+    "text_copied": {
+      "id": "global.text_copied",
+      "value": "Text kopiert"
+    },
+    "thankyou_username": {
+      "id": "global.thankyou_username",
+      "value": "Danke {Name}!"
+    },
+    "today": {
+      "id": "global.today",
+      "value": "Heute"
+    },
+    "tomorrow": {
+      "id": "global.tomorrow",
+      "value": "Tomorrow"
+    },
+    "ttc": {
+      "id": "global.ttc",
+      "value": "Steuern inbegriffen"
+    },
+    "type-sepa": {
+      "id": "global.type-sepa",
+      "value": "SEPA-Überweisung (SCT)"
+    },
+    "unsubscribe": {
+      "id": "global.unsubscribe",
+      "value": "Abmelden"
+    },
+    "update": {
+      "id": "global.update",
+      "value": "Update"
+    },
+    "username": {
+      "id": "global.username",
+      "value": "Benutzername"
+    },
+    "validate": {
+      "id": "",
+      "value": ""
+    },
+    "validated": {
+      "id": "",
+      "value": ""
+    },
+    "vat": {
+      "id": "",
+      "value": ""
+    },
+    "vat_number": {
+      "id": "",
+      "value": ""
+    },
+    "welcome_username": {
+      "id": "",
+      "value": ""
+    },
+    "yesterday": {
+      "id": "",
+      "value": ""
+    },
+    "zh": {
+      "id": "",
+      "value": ""
+    },
+    "zip_code": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "home": {
+    "all_agencies": {
+      "id": "",
+      "value": ""
+    },
+    "emptystate": {
+      "shooting_place": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "last_albums": {
+      "id": "",
+      "value": ""
+    },
+    "shootings": {
+      "tocome": {
+        "id": "",
+        "value": ""
+      },
+      "todeliver": {
+        "id": "",
+        "value": ""
+      },
+      "toplan": {
+        "id": "",
+        "value": ""
+      }
+    }
+  },
+  "home_empty": {
+    "choose_product": {
+      "id": "",
+      "value": ""
+    },
+    "order_first_shoot": {
+      "id": "",
+      "value": ""
+    },
+    "create_first_booking": {
+      "id": "",
+      "value": ""
+    },
+    "receive_visuals": {
+      "id": "",
+      "value": " "
+    },
+    "organize_shoot": {
+      "id": "",
+      "value": " "
+    },
+    "select_date_hour": {
+      "id": "",
+      "value": ""
+    },
+    "else_to_know": {
+      "id": "",
+      "value": ""
+    },
+    "shooting_place": {
+      "id": "",
+      "value": ""
+    },
+    "subtitle": {
+      "id": "",
+      "value": " "
+    }
+  },
+  "invoice": {
+    "card": {
+      "default": {
+        "id": "",
+        "value": ""
+      },
+      "save": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "monthlyPaymentOff": {
+      "id": "",
+      "value": ""
+    },
+    "monthlyPaymentOn": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "invoices": {
+    "additionalPhotoCount": {
+      "id": "",
+      "value": ""
+    },
+    "billing_mails": {
+      "id": "",
+      "value": ""
+    },
+    "charge_to": {
+      "id": "",
+      "value": ""
+    },
+    "creditcard": {
+      "cvc": {
+        "id": "",
+        "value": ""
+      },
+      "expirationDate": {
+        "id": "",
+        "value": ""
+      },
+      "number": {
+        "id": "",
+        "value": ""
+      },
+      "owner": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "debt_alert": {
+      "id": "",
+      "value": ""
+    },
+    "debt_alert_agency": {
+      "id": "",
+      "value": ""
+    },
+    "deduct_on": {
+      "id": "",
+      "value": ""
+    },
+    "deduct_on_ongoing": {
+      "id": "",
+      "value": ""
+    },
+    "form": {
+      "edit": {
+        "email": {
+          "id": "",
+          "value": ""
+        }
+      }
+    },
+    "go_invoicing": {
+      "id": "",
+      "value": ""
+    },
+    "informations": {
+      "p1": {
+        "id": "",
+        "value": ""
+      },
+      "p2": {
+        "id": "",
+        "value": " "
+      },
+      "p3": {
+        "id": "",
+        "value": ""
+      },
+      "title": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "invoiceinformations": {
+      "id": "",
+      "value": ""
+    },
+    "invoicing": {
+      "id": "",
+      "value": ""
+    },
+    "invoicing_address": {
+      "id": "",
+      "value": ""
+    },
+    "left_to_pay": {
+      "id": "",
+      "value": ""
+    },
+    "monthlyPayment": {
+      "id": "",
+      "value": ""
+    },
+    "myongoinginvoice": {
+      "id": "",
+      "value": ""
+    },
+    "noPaymentMethods": {
+      "id": "",
+      "value": ""
+    },
+    "ongoing": {
+      "additional": {
+        "id": "",
+        "value": ""
+      },
+      "shootings": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "ongoingAmount": {
+      "id": "",
+      "value": ""
+    },
+    "ongoinginvoice": {
+      "id": "",
+      "value": ""
+    },
+    "paid_amount": {
+      "id": "",
+      "value": ""
+    },
+    "payment": {
+      "p1": {
+        "id": "",
+        "value": ""
+      },
+      "p2": {
+        "id": "",
+        "value": ""
+      },
+      "p3": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "paymentlistways": {
+      "id": "",
+      "value": ""
+    },
+    "paymentMethods": {
+      "id": "",
+      "value": ""
+    },
+    "search": {
+      "placeholder": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "shootingCount": {
+      "id": "",
+      "value": ""
+    },
+    "siret": {
+      "id": "",
+      "value": ""
+    },
+    "status": {
+      "paid": {
+        "id": "",
+        "value": ""
+      },
+      "pending": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "tabs": {
+      "credit": {
+        "id": "",
+        "value": ""
+      },
+      "deposit": {
+        "id": "",
+        "value": ""
+      },
+      "invoice": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "title": {
+      "id": "",
+      "value": ""
+    },
+    "total_amount": {
+      "id": "",
+      "value": ""
+    },
+    "vat": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "monitoring": {
+    "agency_select": {
+      "id": "",
+      "value": ""
+    },
+    "your_agency": {
+      "id": "",
+      "value": " "
+    },
+    "last_data_update": {
+      "id": "",
+      "value": ""
+    },
+    "hours_ago": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "notation": {
+    "punctuality": {
+      "id": "",
+      "value": ""
+    },
+    "quality": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "nps": {
+    "finalstep": {
+      "detractors": {
+        "p1": {
+          "id": "",
+          "value": ""
+        },
+        "p2": {
+          "id": "",
+          "value": ""
+        },
+        "title": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "passives": {
+        "p1": {
+          "id": "",
+          "value": " "
+        },
+        "p2": {
+          "id": "",
+          "value": ""
+        },
+        "title": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "promoters": {
+        "p1": {
+          "id": "",
+          "value": " "
+        },
+        "p2": {
+          "id": "",
+          "value": ""
+        },
+        "title": {
+          "id": "",
+          "value": ""
+        }
+      }
+    },
+    "firststep": {
+      "likely": {
+        "id": "",
+        "value": ""
+      },
+      "notlikely": {
+        "id": "",
+        "value": ""
+      },
+      "question": {
+        "id": "",
+        "value": ""
+      },
+      "title": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "secondstep": {
+      "give_details": {
+        "id": "",
+        "value": ""
+      },
+      "interface_usability": {
+        "id": "",
+        "value": ""
+      },
+      "other": {
+        "id": "",
+        "value": ""
+      },
+      "prices": {
+        "id": "",
+        "value": ""
+      },
+      "quality_of_media": {
+        "id": "",
+        "value": ""
+      },
+      "send": {
+        "id": "",
+        "value": ""
+      },
+      "speed_of_delivery": {
+        "id": "",
+        "value": ""
+      },
+      "support_team_reactivity": {
+        "id": "",
+        "value": ""
+      },
+      "title": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "giveusfeedback": {
+      "id": "",
+      "value": ""
+    },
+    "onlytakeminute": {
+      "id": "",
+      "value": ""
+    },
+    "notnow": {
+      "id": "",
+      "value": ""
+    },
+    "letsgo": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "payment": {
+    "debt": {
+      "titleWithAgency": {
+        "id": "",
+        "value": ""
+      },
+      "titleWithoutAgency": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "error_message": {
+      "id": "",
+      "value": ""
+    },
+    "noRightToPay": {
+      "id": "",
+      "value": ""
+    },
+    "payYouBill": {
+      "id": "",
+      "value": ""
+    },
+    "payYouDeposit": {
+      "id": "",
+      "value": ""
+    },
+    "success_message": {
+      "id": "",
+      "value": ""
+    },
+    "totalAmountToPayNoVat": {
+      "id": "",
+      "value": ""
+    },
+    "totalAmountToPayWithVat": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "paymentway": {
+    "noregister": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "paymentways": {
+    "active-payment": {
+      "id": "",
+      "value": ""
+    },
+    "agency_paymentways": {
+      "id": "",
+      "value": ""
+    },
+    "auto": {
+      "id": "",
+      "value": ""
+    },
+    "automatic": {
+      "id": "",
+      "value": ""
+    },
+    "automatic_b2b": {
+      "id": "",
+      "value": ""
+    },
+    "automatic_b2c": {
+      "id": "",
+      "value": ""
+    },
+    "card": {
+      "id": "",
+      "value": ""
+    },
+    "ConfirmDeletePaymentway": {
+      "id": "",
+      "value": ""
+    },
+    "creditcard": {
+      "helper": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "deletePaymentWay": {
+      "id": "",
+      "value": ""
+    },
+    "expirydate": {
+      "id": "",
+      "value": ""
+    },
+    "Invalidpaymentmethod": {
+      "id": "",
+      "value": ""
+    },
+    "monthlyPaymentLocked": {
+      "id": "",
+      "value": ""
+    },
+    "monthlyPayment_info": {
+      "id": "",
+      "value": ""
+    },
+    "monthly_message": {
+      "id": "",
+      "value": ""
+    },
+    "my_paymentways": {
+      "id": "",
+      "value": ""
+    },
+    "noDeleteActivePaymentway": {
+      "id": "",
+      "value": ""
+    },
+    "noDeleteLastPaymentway": {
+      "id": "",
+      "value": ""
+    },
+    "owner": {
+      "id": "",
+      "value": ""
+    },
+    "paymentwayDeleted": {
+      "id": "",
+      "value": ""
+    },
+    "payment_ways": {
+      "id": "",
+      "value": ""
+    },
+    "saveError": {
+      "id": "",
+      "value": " "
+    },
+    "sepa": {
+      "id": "",
+      "value": ""
+    },
+    "sepa_info": {
+      "id": "",
+      "value": ""
+    },
+    "sepa_message": {
+      "id": "",
+      "value": "   "
+    },
+    "your-mandate": {
+      "id": "",
+      "value": ""
+    },
+    "yourautomaticpaymentway": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "product": {
+    "default_name": {
+      "id": "",
+      "value": ""
+    },
+    "pack": {
+      "id": "",
+      "value": ""
+    },
+    "products_count": {
+      "id": "",
+      "value": ""
+    },
+    "promocode": {
+      "id": "",
+      "value": ""
+    },
+    "promocodeError": {
+      "id": "",
+      "value": ""
+    },
+    "promocode_helper": {
+      "id": "",
+      "value": " "
+    }
+  },
+  "products": {
+    "categories": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "profile": {
+    "agency_title": {
+      "id": "",
+      "value": ""
+    },
+    "avatar": {
+      "error": {
+        "id": "",
+        "value": ""
+      },
+      "success": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "delete_confirm": {
+      "id": "",
+      "value": ""
+    },
+    "general_title": {
+      "id": "",
+      "value": ""
+    },
+    "password": {
+      "success": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "put_photo_here": {
+      "id": "",
+      "value": ""
+    },
+    "requestedEmailModification": {
+      "id": "",
+      "value": " "
+    },
+    "unsubscribe": {
+      "id": "",
+      "value": ""
+    },
+    "unsubscribe_content": {
+      "id": "",
+      "value": ""
+    },
+    "unsubscribe_resume": {
+      "id": "",
+      "value": " "
+    },
+    "unsubscribe_warning": {
+      "id": "",
+      "value": ""
+    },
+    "upload_avatar": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "prospect": {
+    "button": {
+      "show_shooting": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "export_all": {
+      "id": "",
+      "value": ""
+    },
+    "export_filtered": {
+      "id": "",
+      "value": ""
+    },
+    "label": {
+      "add_date": {
+        "id": "",
+        "value": ""
+      },
+      "call_fails": {
+        "id": "",
+        "value": ""
+      },
+      "comment": {
+        "id": "",
+        "value": ""
+      },
+      "first_call": {
+        "id": "",
+        "value": ""
+      },
+      "host": {
+        "id": "",
+        "value": ""
+      },
+      "next_call": {
+        "id": "",
+        "value": ""
+      },
+      "product": {
+        "id": "",
+        "value": ""
+      },
+      "reason": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "no_prospect": {
+      "id": "",
+      "value": ""
+    },
+    "no_prospect_from_search": {
+      "id": "",
+      "value": ""
+    },
+    "search": {
+      "placeholder": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "status": {
+      "duplicate": {
+        "id": "",
+        "value": ""
+      },
+      "need_to_call": {
+        "id": "",
+        "value": ""
+      },
+      "not_interested": {
+        "id": "",
+        "value": ""
+      },
+      "not_reachable": {
+        "id": "",
+        "value": ""
+      },
+      "shooting_created": {
+        "id": "",
+        "value": ""
+      },
+      "to_call_back": {
+        "id": "",
+        "value": ""
+      },
+      "wrong_number": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "tab": {
+      "all": {
+        "id": "",
+        "value": ""
+      },
+      "duplicate": {
+        "id": "",
+        "value": ""
+      },
+      "need_to_call": {
+        "id": "",
+        "value": ""
+      },
+      "not_interested": {
+        "id": "",
+        "value": ""
+      },
+      "not_reachable": {
+        "id": "",
+        "value": ""
+      },
+      "shooting_created": {
+        "id": "",
+        "value": ""
+      },
+      "to_call_back": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "text": {
+      "call_fails": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "edit": {
+      "title": {
+        "id": "",
+        "value": ""
+      },
+      "form": {
+        "place_details": {
+          "id": "",
+          "value": ""
+        },
+        "host": {
+          "id": "",
+          "value": ""
+        },
+        "additional_infos": {
+          "id": "",
+          "value": ""
+        },
+        "delete_shoot": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "modal": {
+        "save": {
+          "title": {
+            "id": "",
+            "value": ""
+          },
+          "reminder_changes": {
+            "id": "",
+            "value": ""
+          },
+          "reminder_leave": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "delete": {
+          "title": {
+            "id": "",
+            "value": ""
+          },
+          "content": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "address": {
+          "title": {
+            "id": "",
+            "value": ""
+          },
+          "content": {
+            "id": "",
+            "value": ""
+          },
+          "button": {
+            "id": "",
+            "value": ""
+          }
+        }
+      }
+    },
+    "create_prospect_shoot": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "shooting": {
+    "action": {
+      "cancelled": {
+        "id": "",
+        "value": ""
+      },
+      "reported": {
+        "id": "",
+        "value": ""
+      },
+      "waiting": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "additional": {
+      "id": "",
+      "value": ""
+    },
+    "album-explain": {
+      "id": "",
+      "value": ""
+    },
+    "album": {
+      "recovery-message": {
+        "id": "",
+        "value": " "
+      }
+    },
+    "albumId": {
+      "id": "",
+      "value": ""
+    },
+    "available": {
+      "id": "",
+      "value": ""
+    },
+    "button": {
+      "withAndWithoutWatermark": {
+        "id": "",
+        "value": ""
+      },
+      "withoutWatermark": {
+        "id": "",
+        "value": ""
+      },
+      "withWatermark": {
+        "id": "",
+        "value": ""
+      },
+      "try_again": {
+        "id": "",
+        "value": "",
+        "note": "",
+        "length": ""
+      }
+    },
+    "clientcomment": {
+      "id": "",
+      "value": ""
+    },
+    "copy-to-Clipboard": {
+      "id": "",
+      "value": ""
+    },
+    "display": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-1": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-10": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-2": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-3": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-4": {
+      "id": "",
+      "value": " "
+    },
+    "download-msg-5": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-6": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-7": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-8": {
+      "id": "",
+      "value": " "
+    },
+    "download-msg-9": {
+      "id": "",
+      "value": " "
+    },
+    "download-msg-vr": {
+      "id": "",
+      "value": ""
+    },
+    "edit": {
+      "access": {
+        "palceholder": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "address": {
+        "id": "",
+        "value": ""
+      },
+      "date": {
+        "toplan": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "details": {
+        "id": "",
+        "value": ""
+      },
+      "form": {
+        "valid": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "global_infos": {
+        "id": "",
+        "value": ""
+      },
+      "guidelines": {
+        "id": "",
+        "value": ""
+      },
+      "host_absence": {
+        "id": "",
+        "value": ""
+      },
+      "host_present": {
+        "id": "",
+        "value": ""
+      },
+      "info": {
+        "alert": {
+          "id": "",
+          "value": ""
+        },
+        "edited": {
+          "id": "",
+          "value": ""
+        },
+        "unsaved": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "label": {
+        "adddate": {
+          "id": "",
+          "value": ""
+        },
+        "changedate": {
+          "id": "",
+          "value": ""
+        },
+        "duration": {
+          "id": "",
+          "value": ""
+        },
+        "missing": {
+          "comment": {
+            "id": "",
+            "value": ""
+          },
+          "date": {
+            "id": "",
+            "value": ""
+          },
+          "digicode": {
+            "id": "",
+            "value": ""
+          },
+          "host": {
+            "id": "",
+            "value": ""
+          },
+          "hours": {
+            "id": "",
+            "value": ""
+          },
+          "placename": {
+            "id": "",
+            "value": ""
+          },
+          "reference": {
+            "id": "",
+            "value": ""
+          },
+          "waiting": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "removedate": {
+          "id": "",
+          "value": ""
+        },
+        "removeshooting": {
+          "id": "",
+          "value": ""
+        },
+        "rescheduleshooting": {
+          "id": "",
+          "value": ""
+        },
+        "waitshooting": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "placename": {
+        "id": "",
+        "value": ""
+      },
+      "precisions": {
+        "id": "",
+        "value": ""
+      },
+      "reference": {
+        "id": "",
+        "value": ""
+      },
+      "title": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "error": {
+      "format": {
+        "reference": {
+          "id": "",
+          "value": ""
+        }
+      }
+    },
+    "export_all": {
+      "id": "",
+      "value": ""
+    },
+    "export_filtered": {
+      "id": "",
+      "value": ""
+    },
+    "guideline": {
+      "id": "",
+      "value": ""
+    },
+    "host": {
+      "id": "",
+      "value": ""
+    },
+    "media-recovery": {
+      "id": "",
+      "value": ""
+    },
+    "mobile": {
+      "shooting-date": {
+        "id": "",
+        "value": ""
+      },
+      "shooting-more": {
+        "id": "",
+        "value": ""
+      },
+      "shooting-place": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "modal": {
+      "cancel": {
+        "billHT": {
+          "id": "",
+          "value": ""
+        },
+        "billTTC": {
+          "id": "",
+          "value": ""
+        },
+        "header": {
+          "id": "",
+          "value": ""
+        },
+        "reason": {
+          "label": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "reminder24": {
+          "id": "",
+          "value": " \n"
+        },
+        "reminder48": {
+          "id": "",
+          "value": "  \n"
+        },
+        "reminderCovid": {
+          "id": "",
+          "value": "  "
+        }
+      },
+      "report": {
+        "header": {
+          "id": "",
+          "value": ""
+        },
+        "reminderCovid": {
+          "id": "",
+          "value": "  "
+        }
+      },
+      "waiting": {
+        "header": {
+          "id": "",
+          "value": ""
+        },
+        "reminder24": {
+          "id": "",
+          "value": ""
+        },
+        "reminder48": {
+          "id": "",
+          "value": "  "
+        }
+      }
+    },
+    "needapproval": {
+      "id": "",
+      "value": ""
+    },
+    "new_shooting": {
+      "id": "",
+      "value": ""
+    },
+    "payment_status": {
+      "payment_failed": {
+        "id": "",
+        "value": ""
+      },
+      "payment_pending": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "place": {
+      "label": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "previous_date": {
+      "id": "",
+      "value": ""
+    },
+    "ref": {
+      "label": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "responsible": {
+      "api": {
+        "id": "",
+        "value": ""
+      },
+      "client": {
+        "id": "",
+        "value": ""
+      },
+      "host": {
+        "id": "",
+        "value": ""
+      },
+      "meero": {
+        "id": "",
+        "value": ""
+      },
+      "photographer": {
+        "id": "",
+        "value": ""
+      },
+      "photographerBooking": {
+        "id": "",
+        "value": ""
+      },
+      "unknown": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "search": {
+      "placeholder": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "see_new_shooting": {
+      "id": "",
+      "value": ""
+    },
+    "select": {
+      "id": "",
+      "value": ""
+    },
+    "selected": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-date": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-more": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-place": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-time": {
+      "id": "",
+      "value": ""
+    },
+    "showmap": {
+      "id": "",
+      "value": ""
+    },
+    "status": {
+      "canceled": {
+        "id": "",
+        "value": ""
+      },
+      "confirmed": {
+        "id": "",
+        "value": ""
+      },
+      "doagain": {
+        "id": "",
+        "value": ""
+      },
+      "ready": {
+        "id": "",
+        "value": ""
+      },
+      "reported": {
+        "id": "",
+        "value": ""
+      },
+      "searching": {
+        "id": "",
+        "value": ""
+      },
+      "toapprove": {
+        "id": "",
+        "value": ""
+      },
+      "todeliver": {
+        "id": "",
+        "value": ""
+      },
+      "todownload": {
+        "id": "",
+        "value": ""
+      },
+      "waiting": {
+        "id": "",
+        "value": ""
+      },
+      "waiting_for_payment": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "validate": {
+      "id": "",
+      "value": ""
+    },
+    "what-is-an-album": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "shootings": {
+    "list": {
+      "tab": {
+        "all": {
+          "id": "",
+          "value": ""
+        },
+        "available": {
+          "id": "",
+          "value": ""
+        },
+        "canceled": {
+          "id": "",
+          "value": ""
+        },
+        "sevendays": {
+          "id": "",
+          "value": ""
+        },
+        "tocome": {
+          "id": "",
+          "value": ""
+        },
+        "todeliver": {
+          "id": "",
+          "value": ""
+        },
+        "toplan": {
+          "id": "",
+          "value": ""
+        },
+        "toselect": {
+          "id": "",
+          "value": ""
+        }
+      }
+    },
+    "no_shooting_available": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_canceled": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_order": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_this_week": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_come": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_deliver": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_plan": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_select": {
+      "id": "",
+      "value": ""
+    },
+    "search": {
+      "placeholder": {
+        "id": "",
+        "value": ""
+      }
+    }
+  },
+  "shopping": {
+    "iframeLink": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "footer": {
+    "legal_notices": {
+      "id": "",
+      "value": ""
+    },
+    "links": {
+      "about": {
+        "id": "",
+        "value": ""
+      },
+      "cgv": {
+        "id": "",
+        "value": ""
+      },
+      "contact": {
+        "id": "",
+        "value": ""
+      },
+      "e_commerce": {
+        "id": "",
+        "value": ""
+      },
+      "food": {
+        "id": "",
+        "value": ""
+      },
+      "for_businesses": {
+        "id": "",
+        "value": ""
+      },
+      "for_photographers": {
+        "id": "",
+        "value": ""
+      },
+      "gallery": {
+        "id": "",
+        "value": ""
+      },
+      "jobs": {
+        "id": "",
+        "value": ""
+      },
+      "legacy": {
+        "id": "",
+        "value": ""
+      },
+      "legal": {
+        "id": "",
+        "value": ""
+      },
+      "lifestyle": {
+        "id": "",
+        "value": ""
+      },
+      "newsroom": {
+        "id": "",
+        "value": ""
+      },
+      "publications": {
+        "id": "",
+        "value": ""
+      },
+      "real_estate": {
+        "id": "",
+        "value": ""
+      },
+      "retail": {
+        "id": "",
+        "value": ""
+      },
+      "sectors": {
+        "id": "",
+        "value": ""
+      },
+      "technology": {
+        "id": "",
+        "value": ""
+      },
+      "who_are_we": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "privacy_policy": {
+      "id": "",
+      "value": ""
+    },
+    "support": {
+      "id": "",
+      "value": ""
+    }
+  }
+}
