@@ -1,0 +1,3570 @@
+{
+  "agencies": {
+    "title": {
+      "id": "agencies.title",
+      "value": "Moje firmy"
+    }
+  },
+  "agency": {
+    "create_sub_agency": {
+      "id": "agency.create_sub_agency",
+      "value": "Vytvoření dílčí společnosti"
+    },
+    "create_sub_agency_in": {
+      "id": "agency.create_sub_agency_in",
+      "value": "Vytvoření podspolečnosti pro {agencyName}"
+    },
+    "delete_member": {
+      "id": "agency.delete_member",
+      "value": "Odebrání uživatele"
+    },
+    "edit": {
+      "success": {
+        "id": "agency.edit.success",
+        "value": "Vaše společnost byla úspěšně aktualizována"
+      },
+      "title": {
+        "id": "agentura.edit.title",
+        "value": "Upravit mou společnost"
+      }
+    },
+    "edit_member": {
+      "success": {
+        "id": "agency.edit_member. úspěch",
+        "value": "Uživatel byl úspěšně aktualizován!"
+      },
+      "title": {
+        "id": "agency.edit_member.title",
+        "value": "Úprava uživatele"
+      }
+    },
+    "filter": {
+      "id": "agentura.filter",
+      "value": "Společnost"
+    },
+    "information": {
+      "title": {
+        "id": "agentura.information.title",
+        "value": "Informace o společnosti"
+      }
+    },
+    "invoiced_on_parent": {
+      "id": "agency.invoiced_on_parent",
+      "value": "Účtovat mateřské společnosti"
+    },
+    "invoiced_on_this": {
+      "id": "agency.invoiced_on_this",
+      "value": "Účtovat této společnosti"
+    },
+    "member": {
+      "add": {
+        "success": {
+          "id": "agentura.člen.add.success",
+          "value": "Přidán nový uživatel!"
+        }
+      },
+      "edit": {
+        "success": {
+          "id": "agency.member.edit.success",
+          "value": "Uživatel byl úspěšně aktualizován!"
+        }
+      },
+      "form": {
+        "add": {
+          "rights": {
+            "id": "agency.member.form.add.rights",
+            "value": "Přidělení práv"
+          }
+        }
+      }
+    },
+    "members": {
+      "search": {
+        "placeholder": {
+          "id": "agency.members.search.placeholder",
+          "value": "Vyhledávání podle jména, e-mailu, telefonního čísla"
+        }
+      }
+    },
+    "numberOfMember": {
+      "id": "agency.numberOfMember",
+      "value": "Žádný uživatel | {n} uživatel | {n} uživatelů"
+    },
+    "numberOfSubAgency": {
+      "id": "agency.numberOfSubAgency",
+      "value": "Žádná společnost | {n} společnost | {n} Společnosti"
+    },
+    "pack": {
+      "expiration": {
+        "id": "agency.pack.expiration",
+        "value": "Vyprší dne"
+      },
+      "expired": {
+        "id": "agency.pack.expired",
+        "value": "Platnost vypršela dne"
+      },
+      "status": {
+        "consumed": {
+          "id": "agency.pack.status.consumed",
+          "value": "Spotřebovaný balíček"
+        },
+        "expired": {
+          "id": "agency.pack.status.expired",
+          "value": "Datum překročení"
+        },
+        "stopped": {
+          "id": "agency.pack.status.stopped",
+          "value": "Balíček zastaven"
+        }
+      },
+      "subscription": {
+        "intercom_message": {
+          "id": "agency.pack.subscription.intercom_message",
+          "value": "Dobrý den, měl bych zájem o přihlášení k odběru balíčku."
+        },
+        "modal": {
+          "title": {
+            "id": "agency.pack.subscription.modal.title",
+            "value": "Přihlásit se k odběru balíčku"
+          }
+        }
+      },
+      "wish_to_subscribe": {
+        "id": "agency.pack.wish_to_subscribe",
+        "value": "Chcete si předplatit balíček?"
+      }
+    },
+    "packs": {
+      "current": {
+        "id": "agency.packs.current",
+        "value": "Aktivní balíček(y)"
+      },
+      "empty": {
+        "current": {
+          "id": "agency.packs.empty.current",
+          "value": "Nemáte žádný aktivní balíček!"
+        },
+        "expired": {
+          "id": "agency.packs.empty.expired",
+          "value": "Nemáte žádný balíček, jehož platnost vypršela!"
+        }
+      },
+      "expired": {
+        "id": "agency.packs.expired",
+        "value": "Platnost balíčků vypršela"
+      },
+      "remaining": {
+        "shootings": {
+          "id": "agency.packs.remaining.shootings",
+          "value": "{zbývající} výhonků z {celkem} celkem"
+        }
+      }
+    },
+    "parent": {
+      "id": "agency.parent",
+      "value": "Mateřská společnost"
+    },
+    "search": {
+      "placeholder": {
+        "id": "agency.search.placeholder",
+        "value": "Vyhledávání podle jména, e-mailu, telefonního čísla"
+      }
+    },
+    "team": {
+      "add_member": {
+        "id": "agency.team.add_member",
+        "value": "Přidání uživatele"
+      },
+      "member": {
+        "id": "agentura.team.member",
+        "value": "Člen (členové) společnosti"
+      }
+    },
+    "unsubscribe_member": {
+      "confirm": {
+        "id": "agency.unsubscribe_member.confirm",
+        "value": "Opravdu chcete odebrat {name}?"
+      },
+      "success": {
+        "id": "agency.unsubscribe_member.success",
+        "value": "Uživatel byl úspěšně smazán!"
+      }
+    }
+  },
+  "album": {
+    "additional": {
+      "id": "album.additional",
+      "value": "{n} další | {n} další"
+    },
+    "blocked": {
+      "debt_recovery": {
+        "id": "album.blocked.debt_recovery",
+        "value": "Aby bylo možné stahování odemknout, musí společnost {agencyName} dokončit úhradu nákladů."
+      },
+      "processing": {
+        "id": "album.blocked.processing",
+        "value": "Připravuje se stahování"
+      },
+      "validate_medias": {
+        "id": "album.blocked.validate_medias",
+        "value": "Potvrzení vizuálů"
+      },
+      "validation_needed": {
+        "id": "album.blocked.validation_needed",
+        "value": "Potvrzení vizuálů ke stažení"
+      }
+    },
+    "checkout_quotation": {
+      "billed_items": {
+        "id": "album.checkout_quotation.billed_items",
+        "value": "Účtované položky"
+      }
+    },
+    "debt_alert": {
+      "id": "album.debt_alert",
+      "value": "Upozornění: máte neuhrazené faktury"
+    },
+    "deselect_all": {
+      "id": "album.deselect_all",
+      "value": "Zrušit výběr všech"
+    },
+    "download": {
+      "id": "album.download",
+      "value": "Stáhnout bez vodoznaku"
+    },
+    "downloadAll": {
+      "id": "album.downloadAll",
+      "value": "Stáhnout obojí"
+    },
+    "downloadWatermark": {
+      "id": "album.downloadWatermark",
+      "value": "Stáhnout s vodoznakem"
+    },
+    "download_album": {
+      "id": "album.download_album",
+      "value": "Stáhnout album"
+    },
+    "in_preparation": {
+      "id": "album.in_preparation",
+      "value": "Soubor se připravuje..."
+    },
+    "media": {
+      "select": {
+        "id": "album.media.select",
+        "value": "Vybrat"
+      },
+      "selected": {
+        "id": "album.media.selected",
+        "value": "Vybraný"
+      }
+    },
+    "media_limit": {
+      "id": "album.media_limit",
+      "value": "Dosáhli jste limitu vybraných médií na tomto albu"
+    },
+    "selected": {
+      "id": "album.selected",
+      "value": "{n} | {n}"
+    },
+    "select_all": {
+      "id": "album.select_all",
+      "value": "Vybrat vše"
+    },
+    "shoot_detail": {
+      "id": "album.shoot_detail",
+      "value": "Zobrazit detail focení"
+    },
+    "status": {
+      "downloadable": {
+        "id": "album.status.downloadable",
+        "value": "Připraveno ke stažení"
+      },
+      "in_preparation": {
+        "id": "album.status.in_preparation",
+        "value": "Připravujeme se"
+      }
+    },
+    "tab": {
+      "all": {
+        "id": "album.tab.all",
+        "value": "Všichni"
+      },
+      "downloadable": {
+        "id": "album.tab.downloadable",
+        "value": "Připraveno ke stažení"
+      },
+      "selectable": {
+        "id": "album.tab.selectable",
+        "value": "Vybrat"
+      }
+    }
+  },
+  "albums": {
+    "no_album_from_search": {
+      "id": "albums.no_album_from_search",
+      "value": "Vašim kritériím neodpovídají žádná alba."
+    },
+    "search": {
+      "placeholder": {
+        "id": "albums.search.placeholder",
+        "value": "Vyhledávání podle ID, reference.."
+      }
+    },
+    "vr_tooltip": {
+      "id": "albums.vr_tooltip",
+      "value": "Všechna vaše média {type} jsou k dispozici na jednom místě"
+    }
+  },
+  "archives": {
+    "pending": {
+      "id": "archives.pending",
+      "value": "Váš archiv se připravuje. Může to nějakou dobu trvat."
+    },
+    "stale": {
+      "id": "archives.stale",
+      "value": "Už je to dlouho! Znovu vygenerujte archiv a získejte své album."
+    },
+    "stale_cta": {
+      "id": "archives.stale_cta",
+      "value": "Znovu vygenerovat můj archiv"
+    }
+  },
+  "cart": {
+    "additional_price": {
+      "id": "cart.additional_price",
+      "value": "Doplňková cena / příplatky"
+    },
+    "amount_to_pay": {
+      "id": "cart.amount_to_pay",
+      "value": "Celková částka platby"
+    },
+    "amount_to_pay_at": {
+      "id": "cart.amount_to_pay_at",
+      "value": "Celková částka platby (včetně DPH)"
+    },
+    "amount_to_pay_bt": {
+      "id": "cart.amount_to_pay_bt",
+      "value": "Celková částka platby (bez DPH)"
+    },
+    "confirm_pay": {
+      "id": "cart.confirm_pay",
+      "value": "Potvrďte a zaplaťte"
+    },
+    "deselect_all": {
+      "id": "cart.deselect_all",
+      "value": "Zrušit výběr všech"
+    },
+    "shooting_price": {
+      "id": "cart.shooting_price",
+      "value": "Cena focení"
+    },
+    "validate_selection": {
+      "id": "cart.validate_selection",
+      "value": "Potvrdit můj výběr"
+    },
+    "vat": {
+      "id": "cart.vat",
+      "value": "DPH"
+    }
+  },
+  "checkout": {
+    "delivery": {
+      "action": {
+        "id": "checkout.delivery.action",
+        "value": "Zpět na moje alba"
+      },
+      "baseline": {
+        "id": "checkout.delivery.baseline",
+        "value": "Stažení bude v albu k dispozici, jakmile bude archiv připraven"
+      },
+      "title": {
+        "id": "checkout.delivery.title",
+        "value": "Pokračujte v prohlížení, vaše obrázky budou brzy přístupné"
+      }
+    },
+    "notation": {
+      "baseline": {
+        "id": "checkout.notation.baseline",
+        "value": "Ohodnoťte fotografa pro přístup ke svým staženým souborům"
+      },
+      "title": {
+        "id": "checkout.notation.title",
+        "value": "Jaké byly vaše zkušenosti s focením s {firstname}?"
+      }
+    }
+  },
+  "checkout_quotation": {
+    "bill_info": {
+      "id": "checkout_quotation.bill_info",
+      "value": "Tato částka zohledňuje již vyúčtované položky za toto focení a také případné přeplatky, které se na ně vztahují. Další informace naleznete v tématu Fakturace."
+    },
+    "designation": {
+      "id": "checkout_quotation.designation",
+      "value": "Označení"
+    },
+    "monthly_notice": {
+      "id": "checkout_quotation.monthly_notice",
+      "value": "Tato částka bude přičtena k vaší měsíční platbě"
+    },
+    "monthly_payment_info": {
+      "id": "checkout_quotation.monthly_payment_info",
+      "value": "Po potvrzení budou vybraná média ověřena a přidána do vašeho měsíčního vyúčtování."
+    },
+    "no_additional_fee": {
+      "id": "checkout_quotation.no_additional_fee",
+      "value": "Za tento výběr nebudou účtovány žádné další poplatky"
+    },
+    "quantity": {
+      "id": "checkout_quotation.quantity",
+      "value": "Množství"
+    },
+    "totalprice": {
+      "id": "checkout_quotation.totalprice",
+      "value": "Celková cena (bez daní)"
+    },
+    "total_amount": {
+      "id": "checkout_quotation.total_amount",
+      "value": "Fakturovaná částka (včetně daní)"
+    },
+    "unitprice": {
+      "id": "checkout_quotation.unitprice",
+      "value": "Jednotková cena (bez daní)"
+    }
+  },
+  "compatibility": {
+    "text": {
+      "id": "compatibility.text",
+      "value": "Chcete-li získat přístup k Meero, přepněte prohlížeč nebo si stáhněte nejnovější verzi prohlížeče. Pokud narazíte na problém, kontaktujte nás."
+    },
+    "title": {
+      "id": "kompatibilita.title",
+      "value": "Jejda! Váš prohlížeč není podporován."
+    }
+  },
+  "contact_us": {
+    "id": "contact_us",
+    "value": "Kontaktujte nás"
+  },
+  "customer_qualification": {
+    "easylike": {
+      "id": "customer_qualification.easylike",
+      "value": "(Stejně snadné jako vyfotit!)"
+    },
+    "helpus": {
+      "id": "customer_qualification.helpus",
+      "value": "Můžete nám pomoci přizpůsobit naše služby?"
+    },
+    "order_shoot_now": {
+      "id": "customer_qualification.order_shoot_now",
+      "value": "Objednat focení hned teď"
+    },
+    "ready_to_shoot": {
+      "id": "customer_qualification.ready_to_shoot",
+      "value": "Jste připraveni na své první focení?"
+    },
+    "sector": {
+      "id": "customer_qualification.sector",
+      "value": "Jaký je váš obor podnikání?"
+    }
+  },
+  "funnel": {
+    "address": {
+      "address_not_found": {
+        "id": "funnel.address.address_not_found",
+        "value": "Nepoznáváme vaši adresu..."
+      },
+      "address_proximity": {
+        "id": "funnel.address.address_proximity",
+        "value": "Chcete-li nám pomoci najít vaši adresu, poskytněte nám prosím více informací"
+      },
+      "agency": {
+        "blocked": {
+          "id": "funnel.address.agency.blocked",
+          "value": "Zdá se, že existují nějaké problémy s platbami společnosti {name}. Obraťte se prosím na manažera společnosti nebo týmy podpory Meero, které nám pomohou tento problém vyřešit."
+        },
+        "choose": {
+          "id": "funnel.address.agency.choose",
+          "value": "Pro kterou společnost objednáváte?"
+        }
+      },
+      "carry_address": {
+        "id": "funnel.address.carry_address",
+        "value": "Pokud je adresa {adresa} správná, pokračujte."
+      },
+      "carry_with_address": {
+        "id": "funnel.address.carry_with_address",
+        "value": "Pokračovat s touto adresou"
+      },
+      "change_address": {
+        "id": "funnel.address.change_address",
+        "value": "Změnit adresu"
+      },
+      "change_or_contact": {
+        "id": "funnel.address.change_or_contact",
+        "value": "Můžete změnit kategorie nebo nás kontaktovat a podat personalizovanou žádost."
+      },
+      "city_error": {
+        "id": "funnel.address.city_error",
+        "value": "Město nebylo uznáno"
+      },
+      "confirm": {
+        "id": "funnel.address.confirm",
+        "value": "Potvrzuji tuto polohu"
+      },
+      "continue_address": {
+        "id": "funnel.address.continue_address",
+        "value": "Pokračovat s touto adresou"
+      },
+      "current_marker_address": {
+        "id": "funnel.address.current_marker_address",
+        "value": "Aktuálně připnutá adresa:"
+      },
+      "custom_request": {
+        "id": "funnel.address.custom_request",
+        "value": "Požádejte o personalizovanou žádost"
+      },
+      "digicode_label": {
+        "id": "funnel.address.digicode_label",
+        "value": "Přístup do budovy, vstupní kód, interkom, patro atd. "
+      },
+      "digicode_label_food": {
+        "id": "funnel.address.digicode_label_food",
+        "value": "Sdělte fotografovi, na koho se má obrátit na místě"
+      },
+      "helper": {
+        "id": "funnel.address.helper",
+        "value": "Uveďte prosím úplnou a platnou adresu (ulice, město, PSČ)."
+      },
+      "marker_proximity": {
+        "id": "funnel.address.marker_proximity",
+        "value": "Posunutím mapy vyhledejte skutečné místo natáčení"
+      },
+      "me": {
+        "id": "funnel.address.me",
+        "value": "Mě"
+      },
+      "no_product_yet": {
+        "id": "funnel.address.no_product_yet",
+        "value": "Na adrese {address} bohužel není k dispozici žádná nabídka."
+      },
+      "order_other_product": {
+        "id": "funnel.address.order_other_product",
+        "value": "Objednat jiný produkt"
+      },
+      "placeholder": {
+        "id": "funnel.address.placeholder",
+        "value": "Zadejte adresu focení"
+      },
+      "placename_label": {
+        "food": {
+          "id": "funnel.address.placename_label.food",
+          "value": "Název restaurace"
+        }
+      },
+      "product_unavailable": {
+        "id": "funnel.address.product_unavailable",
+        "value": "Tento produkt není pro tuto adresu k dispozici"
+      },
+      "search_city": {
+        "id": "funnel.address.search_city",
+        "value": "Vyhledat město"
+      },
+      "select_valid_address": {
+        "id": "funnel.address.select_valid_address",
+        "value": "Vyberte prosím úplnou a platnou adresu (ulice, město, PSČ)."
+      },
+      "shooting_address_label": {
+        "id": "funnel.address.shooting_address_label",
+        "value": "Uveďte úplnou adresu"
+      },
+      "shooting_address_placeholder": {
+        "id": "funnel.address.shooting_address_placeholder",
+        "value": "Uveďte úplnou adresu (ulice, město, PSČ)"
+      },
+      "someone_else": {
+        "id": "funnel.address.someone_else",
+        "value": "Někdo jiný"
+      },
+      "title": {
+        "id": "funnel.address.title",
+        "value": "Kde bude focení probíhat?"
+      },
+      "unrecognized": {
+        "id": "funnel.address.unrecognized",
+        "value": "Vaše adresa je neúplná nebo jsme ji nepoznali. {mezera} Posunutím špendlíku určete místo focení."
+      },
+      "where": {
+        "id": "funnel.address.where",
+        "value": "Kde bychom se měli potkat?"
+      },
+      "who": {
+        "id": "funnel.address.who",
+        "value": "Kdo bude na místě?"
+      },
+      "who_helper": {
+        "id": "funnel.address.who_helper",
+        "value": "Postaráme se o to, aby tato osoba byla upozorněna na datum a čas focení."
+      }
+    },
+    "agency": {
+      "helper": {
+        "id": "funnel.agency.helper",
+        "value": "Pro kterou firmu si chcete objednat?"
+      },
+      "text": {
+        "id": "funnel.agency.text",
+        "value": "Vyberte prosím společnost, u které chcete objednávat."
+      },
+      "title": {
+        "id": "funnel.agency.title",
+        "value": "Vyberte si firmu"
+      }
+    },
+    "blocked": {
+      "text": {
+        "id": "funnel.blocked.text",
+        "value": "Nemůžete si objednat {name}, protože <span>Společnost je zablokována.</span> Pro odblokování situace se prosím obraťte na účetní."
+      },
+      "title": {
+        "id": "funnel.blocked.title",
+        "value": "Ale ne! Byli jste zablokováni"
+      }
+    },
+    "category": {
+      "none_cta": {
+        "id": "funnel.category.none_cta",
+        "value": "Vyberte si jinou firmu"
+      },
+      "none_message": {
+        "id": "funnel.category.none_message",
+        "value": "Pro {agency} bohužel nejsou k dispozici žádné produkty"
+      },
+      "title": {
+        "id": "funnel.category.title",
+        "value": "Vyberte kategorii"
+      }
+    },
+    "confirm": {
+      "card": {
+        "address": {
+          "id": "funnel.confirm.card.address",
+          "value": "Adresa"
+        },
+        "date": {
+          "id": "funnel.confirm.card.date",
+          "value": "Datum a čas"
+        },
+        "info": {
+          "id": "funnel.confirm.card.info",
+          "value": "Další informace"
+        },
+        "product": {
+          "id": "funnel.confirm.card.product",
+          "value": "Výrobek"
+        }
+      },
+      "close": {
+        "id": "funnel.confirm.close",
+        "value": "Skrýt podrobnosti"
+      },
+      "open": {
+        "id": "funnel.confirm.open",
+        "value": "Zobrazit podrobnosti"
+      },
+      "promocode": {
+        "id": "trychtýř.confirm.promocode",
+        "value": "Kód produktu: {promocode}"
+      },
+      "quote_credit": {
+        "id": "funnel.confirm.quote_credit",
+        "value": "Odpočet přeplatku"
+      },
+      "quote_price": {
+        "id": "funnel.confirm.quote_price",
+        "value": "Částka (bez DPH)"
+      },
+      "quote_totalVat": {
+        "id": "funnel.confirm.quote_totalVat",
+        "value": "Celková částka k úhradě (včetně daně)"
+      },
+      "quote_vat": {
+        "id": "funnel.confirm.quote_vat",
+        "value": "DPH ({vat}%)"
+      },
+      "reference": {
+        "id": "funnel.confirm.reference",
+        "value": "Reference klienta"
+      },
+      "term": {
+        "id": "funnel.confirm.term",
+        "value": "Kliknutím souhlasíte s odkazem {link}"
+      },
+      "term_link": {
+        "id": "funnel.confirm.term_link",
+        "value": "Podmínky používání"
+      },
+      "term_url": {
+        "id": "funnel.confirm.term_url",
+        "value": "https://www.meero.com/en/terms-and-conditions"
+      },
+      "title": {
+        "id": "funnel.confirm.title",
+        "value": "Shrnutí vašeho focení"
+      }
+    },
+    "contact": {
+      "area": {
+        "id": "funnel.contact.area",
+        "value": "Popište prosím svůj požadavek a Meero vás bude kontaktovat"
+      },
+      "title": {
+        "id": "funnel.contact.title",
+        "value": "Vlastní požadavek"
+      },
+      "valid": {
+        "id": "funnel.contact.valid",
+        "value": "Vaše zpráva byla odeslána."
+      }
+    },
+    "create": {
+      "text": {
+        "id": "funnel.create.text",
+        "value": "Vaše platba se zpracovává, neobnovujte prosím stránku."
+      },
+      "title": {
+        "id": "funnel.create.title",
+        "value": "Platba se zpracovává"
+      }
+    },
+    "date": {
+      "title": {
+        "id": "funnel.date.title",
+        "value": "Kdy bude focení probíhat?"
+      },
+      "wrongtime": {
+        "id": "funnel.date.wrongtime",
+        "value": "Zvolený čas je neplatný"
+      }
+    },
+    "day": {
+      "title": {
+        "id": "funnel.day.title",
+        "value": "Vyberte si datum"
+      }
+    },
+    "done": {
+      "back_home": {
+        "id": "funnel.done.back_home",
+        "value": "Zpět na hlavní stranu"
+      },
+      "modal_title": {
+        "id": "funnel.done.modal_title",
+        "value": "Nová objednávka"
+      },
+      "new_product": {
+        "id": "funnel.done.new_product",
+        "value": "Nová objednávka"
+      },
+      "reference_link": {
+        "id": "funnel.done.reference_link",
+        "value": "Kliknutím sem zkopírujete odkaz s informacemi o společnosti"
+      },
+      "same_product": {
+        "id": "funnel.done.same_product",
+        "value": "Objednat stejný produkt"
+      },
+      "text": {
+        "id": "funnel.done.text",
+        "value": "Byl vám zaslán potvrzovací e-mail. Jakmile najdeme fotografa, budeme vás informovat."
+      },
+      "title": {
+        "id": "funnel.done.title",
+        "value": "Vaše objednávka byla ověřena!"
+      }
+    },
+    "error": {
+      "checkProduct": {
+        "id": "funnel.error.checkProduct",
+        "value": "Nepodařilo se nám načíst produkty. Zkuste to prosím znovu"
+      },
+      "createOrder": {
+        "id": "funnel.error.createOrder",
+        "value": "Nebyli jsme schopni vytvořit natáčení. Zkuste to prosím znovu."
+      },
+      "loadAgency": {
+        "id": "funnel.error.loadAgency",
+        "value": "Nepodařilo se nám načíst společnost. Zkuste to prosím znovu."
+      },
+      "loadCategories": {
+        "id": "funnel.error.loadCategories",
+        "value": "Nepodařilo se načíst kategorii. Zkuste to prosím znovu."
+      },
+      "loadCollections": {
+        "id": "funnel.error.loadCollections",
+        "value": "Nepodařilo se nám načíst produkty. Zkuste to prosím znovu"
+      },
+      "loadQuotation": {
+        "id": "funnel.error.loadQuotation",
+        "value": "Došlo k chybě. Zkuste to prosím znovu."
+      },
+      "loadSartData": {
+        "id": "funnel.error.loadSartData",
+        "value": "Došlo k chybě. Zkuste to prosím znovu."
+      },
+      "loadTypes": {
+        "id": "funnel.error.loadTypes",
+        "value": "Nepodařilo se nám načíst média. Zkuste to prosím znovu."
+      },
+      "platform": {
+        "checkProduct": {
+          "id": "funnel.error.platform.checkProduct",
+          "value": "Nepodařilo se nám načíst produkty. Zkuste to prosím znovu."
+        },
+        "createOrder": {
+          "id": "funnel.error.platform.createOrder",
+          "value": "Nebyli jsme schopni vytvořit záběr. Zkuste to prosím znovu."
+        },
+        "generic": {
+          "id": "funnel.error.platform.generic",
+          "value": "Došlo k chybě. Zkuste to prosím znovu."
+        },
+        "loadAgency": {
+          "id": "funnel.error.platform.loadAgency",
+          "value": "Společnosti jsme nebyli schopni účtovat poplatky. Zkuste to prosím znovu."
+        },
+        "loadCategories": {
+          "id": "funnel.error.platform.loadCategories",
+          "value": "Kategorii se nám nepodařilo načíst. Zkuste to prosím znovu."
+        },
+        "loadCollections": {
+          "id": "funnel.error.platform.loadCollections",
+          "value": "Nepodařilo se nám načíst produkty. Zkuste to prosím znovu."
+        },
+        "loadQuotation": {
+          "id": "funnel.error.platform.loadQuotation",
+          "value": "Došlo k chybě. Zkuste to prosím znovu."
+        },
+        "loadStartData": {
+          "id": "funnel.error.platform.loadStartData",
+          "value": "Došlo k chybě. Zkuste to prosím znovu."
+        },
+        "loadTypes": {
+          "id": "funnel.error.platform.loadTypes",
+          "value": "Nepodařilo se nám načíst média. Zkuste to prosím znovu."
+        }
+      }
+    },
+    "error_validation": {
+      "date_must_be_in_future": {
+        "id": "funnel.error_validation.date_must_be_in_future",
+        "value": "Datum natáčení nemůže být v minulosti. Zkuste to prosím znovu."
+      },
+      "missing_shooting_host": {
+        "id": "funnel.error_validation.missing_shooting_host",
+        "value": "Jsou vyžadovány údaje o osobě na místě. Zkuste to prosím znovu."
+      },
+      "shooting_date": {
+        "date_error": {
+          "id": "funnel.error_validation.shooting_date.date_error",
+          "value": "Měli jsme problém s termínem focení. Zkuste to prosím znovu."
+        },
+        "date_error_format": {
+          "id": "funnel.error_validation.shooting_date.date_error_format",
+          "value": "Měli jsme problém s termínem focení. Zkuste to prosím znovu."
+        }
+      },
+      "shooting_date_invalid_time": {
+        "id": "funnel.error_validation.shooting_date_invalid_time",
+        "value": "Došlo k chybě s dobou focení. Zkuste to prosím znovu."
+      },
+      "shooting_date_out_of_range": {
+        "id": "funnel.error_validation.shooting_date_out_of_range",
+        "value": "Termín focení je mimo povolenou dobu. Zkuste to prosím znovu."
+      },
+      "shooting_product_unavailable_for_address": {
+        "id": "funnel.error_validation.shooting_product_unavailable_for_address",
+        "value": "Vybraný produkt bohužel pro tuto adresu není k dispozici. Zkuste to prosím znovu."
+      },
+      "shooting_reference_must_match_agency_pattern": {
+        "id": "funnel.error_validation.shooting_reference_must_match_agency_pattern",
+        "value": "Odkaz neodpovídá požadovanému formátu. Zkuste to prosím znovu"
+      },
+      "shooting_reference_required": {
+        "id": "funnel.error_validation.shooting_reference_required",
+        "value": "K vytvoření snímku je nutná reference. Zkuste to prosím znovu."
+      },
+      "unavailable_shooting_product": {
+        "id": "funnel.error_validation.unavailable_shooting_product",
+        "value": "Vybraný produkt bohužel není k dispozici. Zkuste to prosím znovu."
+      }
+    },
+    "general_title": {
+      "id": "funnel.general_title",
+      "value": "Obecné informace"
+    },
+    "global": {
+      "leave_message": {
+        "id": "funnel.global.leave_message",
+        "value": "Opravdu chcete opustit tuto stránku? Vámi zadané informace nebudou uloženy."
+      },
+      "leave_title": {
+        "id": "funnel.global.leave_title",
+        "value": "Opustit objednávku"
+      },
+      "particular_need": {
+        "id": "funnel.global.particular_need",
+        "value": "Zvláštní potřeba?"
+      },
+      "range_why": {
+        "id": "funnel.global.range_why",
+        "value": "Proč zvolit {range}?"
+      }
+    },
+    "gtc": {
+      "id": "funnel.gtc",
+      "value": "Zaškrtnutím tohoto políčka souhlasím s Obchodními podmínkami."
+    },
+    "more": {
+      "comment_helper": {
+        "id": "funnel.more.comment_helper",
+        "value": "Uveďte prosím jakékoli zvláštní podrobnosti. Předáme to dál."
+      },
+      "date": {
+        "id": "funnel.more.date",
+        "value": "Natáčení naplánováno na {dateTime}"
+      },
+      "duration": {
+        "id": "funnel.more.duration",
+        "value": "Délka focení: {duration}"
+      },
+      "email_helper": {
+        "id": "funnel.more.email_helper",
+        "value": "Tato osoba obdrží e-mail s finálním médiem."
+      },
+      "label_comment": {
+        "id": "funnel.more.label_comment",
+        "value": "Podrobnosti o focení"
+      },
+      "label_email": {
+        "id": "funnel.more.label_email",
+        "value": "Dostávat vizuály na tento e-mail"
+      },
+      "label_reference": {
+        "id": "funnel.more.label_reference",
+        "value": "Reference klienta"
+      },
+      "reference_helper": {
+        "id": "funnel.more.reference_helper",
+        "value": "Pokud máte jeden interní referenční kód/čísla, můžete jej přidat zde."
+      },
+      "title": {
+        "id": "funnel.more.title",
+        "value": "Další informace"
+      }
+    },
+    "need_more": {
+      "id": "funnel.need_more",
+      "value": "Chtěli byste jiný typ média? Jiné množství? Kontaktujte nás!"
+    },
+    "order": {
+      "confirmation_title": {
+        "id": "funnel.order.confirmation_title",
+        "value": "Vaše objednávka #{id} je ověřena!"
+      }
+    },
+    "payment": {
+      "title": {
+        "id": "funnel.payment.title",
+        "value": "Vyberte si způsob platby"
+      }
+    },
+    "product": {
+      "comparison": {
+        "choose": {
+          "id": "funnel.product.comparison.choose",
+          "value": "Vybrat tento produkt"
+        },
+        "duration": {
+          "id": "funnel.product.comparison.duration",
+          "value": "Doba trvání fotografování"
+        },
+        "media_number": {
+          "id": "funnel.product.comparison.media_number",
+          "value": "Počet vizuálů:"
+        },
+        "price": {
+          "id": "funnel.product.comparison.price",
+          "value": "Cena"
+        },
+        "title": {
+          "id": "funnel.product.comparison.title",
+          "value": "Uvažovali jste o tomto produktu?"
+        }
+      },
+      "custom_request": {
+        "cta": {
+          "id": "funnel.product.custom_request.cta",
+          "value": "Personalizovaná žádost"
+        },
+        "message": {
+          "id": "funnel.product.custom_request.message",
+          "value": "Vysvětlete své potřeby a náš tým vás bude kontaktovat!"
+        },
+        "title": {
+          "id": "funnel.product.custom_request.title",
+          "value": "Nemůžete najít to, co hledáte?"
+        }
+      },
+      "filters": {
+        "id": "funnel.product.filters",
+        "value": "Filtruje"
+      },
+      "none_message": {
+        "id": "funnel.product.none_message",
+        "value": "Kontaktujte nás prostřednictvím našich webových stránek nebo se obraťte na svého obchodního zástupce Meero, abyste se dozvěděli více o našich službách v této oblasti."
+      },
+      "no_product_found": {
+        "id": "funnel.product.no_product_found",
+        "value": "Nebyl nalezen žádný produkt, pro lepší výsledky můžete filtry resetovat."
+      },
+      "pack_shootings_left": {
+        "id": "funnel.product.pack_shootings_left",
+        "value": "{n} zbývá | {n} zbývá | Zbývá {n}"
+      },
+      "reset_filters": {
+        "id": "funnel.product.reset_filters",
+        "value": "Resetovat filtry"
+      },
+      "title": {
+        "id": "funnel.product.title",
+        "value": "Vyberte si produkt"
+      }
+    },
+    "rangenotice": {
+      "custom": {
+        "id": "funnel.rangenotice.custom",
+        "value": "Naše produkty na zakázku obsahují funkce, které jsou plně přizpůsobeny vašim potřebám."
+      },
+      "premium": {
+        "id": "funnel.rangenotice.premium",
+        "value": "Naše prémiové produkty nabízejí širší škálu technických dovedností a pokročilejší vybavení."
+      },
+      "professional": {
+        "id": "funnel.rangenotice.professional",
+        "value": "Naše profesionální produkty jsou šité na míru klientům, kteří se zaměřují na kvalitu, ale mají omezený rozpočet."
+      }
+    },
+    "specific_title": {
+      "id": "funnel.specific_title",
+      "value": "Speciální informace"
+    },
+    "time": {
+      "title": {
+        "id": "funnel.time.title",
+        "value": "Vyberte si čas"
+      }
+    },
+    "title": {
+      "address": {
+        "id": "funnel.title.address",
+        "value": "Adresa"
+      },
+      "complete": {
+        "id": "funnel.title.complete",
+        "value": "Objednávka dokončena"
+      },
+      "date": {
+        "id": "funnel.title.date",
+        "value": "Rande"
+      },
+      "failed": {
+        "id": "funnel.title.failed",
+        "value": "Chyba"
+      },
+      "informations": {
+        "id": "funnel.title.informations",
+        "value": "Informace"
+      },
+      "product": {
+        "id": "funnel.title.product",
+        "value": "Výrobek"
+      },
+      "validation": {
+        "id": "funnel.title.validation",
+        "value": "Validace"
+      }
+    },
+    "types": {
+      "helper": {
+        "id": "funnel.types.helper",
+        "value": "Vyberte si, které médium si chcete objednat, a my vše spustíme."
+      },
+      "title": {
+        "id": "funnel.types.title",
+        "value": "Výběr jednoho nebo více typů vizuálů"
+      }
+    },
+    "unavailable": {
+      "show_products": {
+        "id": "funnel.unavailable.show_products",
+        "value": "Podívejte se na dostupné produkty"
+      }
+    },
+    "copy_information": {
+      "id": "funnel.copy_information",
+      "value": "Kopie informací o rezervaci"
+    },
+    "gtcInfo": {
+      "id": "funnel.gtcInfo",
+      "value": "Zaškrtnutím tohoto políčka přijímáte {gtcLink}, pokud je to relevantní, a souhlasíte s tím, že budete dodržovat {bestPractices} a budete vázáni {covidCovenants}."
+    },
+    "gtcLink": {
+      "id": "funnel.gtcLink",
+      "value": "Obchodní podmínky"
+    },
+    "gtcBest_practices": {
+      "id": "funnel.gtcBest_practices",
+      "value": "Osvědčené postupy Meero"
+    },
+    "gtcCovid_covenants": {
+      "id": "funnel.gtcCovid_covenants",
+      "value": "Další smlouvy týkající se Covid-19"
+    },
+    "prospect_appearance": {
+      "id": "funnel.prospect_appearance",
+      "value": "Vaše rezervace se objeví ve vašem seznamu během několika minut."
+    },
+    "prospect_back": {
+      "id": "funnel.prospect_back",
+      "value": "Zpět na rezervace"
+    },
+    "prospect_created": {
+      "id": "funnel.prospect_created",
+      "value": "Rezervace byla úspěšně vytvořena."
+    },
+    "prospect_info": {
+      "id": "funnel.prospect_info",
+      "value": "Díky za info, hned se do toho pustíme."
+    }
+  },
+  "global": {
+    "account_activated": {
+      "id": "global.account_activated",
+      "value": "Váš účet {email} byl aktivován!"
+    },
+    "add": {
+      "id": "global.add",
+      "value": "Přidat"
+    },
+    "address": {
+      "id": "global.address",
+      "value": "Adresa"
+    },
+    "agency": {
+      "label": {
+        "id": "global.agency.label",
+        "value": "Společnost"
+      },
+      "no_member": {
+        "id": "global.agency.no_member",
+        "value": "Žádný člen této společnosti"
+      }
+    },
+    "agency_type": {
+      "id": "global.agency_type",
+      "value": "Typ společnosti"
+    },
+    "albums": {
+      "id": "global.albums",
+      "value": "Album | Alba"
+    },
+    "albumsTitle": {
+      "id": "global.albumsTitle",
+      "value": "Albums"
+    },
+    "all": {
+      "id": "global.all",
+      "value": "Všichni"
+    },
+    "all_reasons": {
+      "id": "global.all_reasons",
+      "value": "Všechny důvody"
+    },
+    "approve": {
+      "id": "global.approve",
+      "value": "Schválit"
+    },
+    "authenticate": {
+      "id": "global.authenticate",
+      "value": "Přihlásit se"
+    },
+    "back": {
+      "id": "global.back",
+      "value": "Hřbet"
+    },
+    "browse": {
+      "id": "global.browse",
+      "value": "Pást se"
+    },
+    "browser_outdated_video": {
+      "id": "global.browser_outdated_video",
+      "value": "Váš prohlížeč je zastaralý a toto video nelze zobrazit"
+    },
+    "btn_authenticate": {
+      "id": "global.btn_authenticate",
+      "value": "Přihlášení do systému"
+    },
+    "btn_back": {
+      "id": "global.btn_back",
+      "value": "Hřbet"
+    },
+    "btn_back_to_home": {
+      "id": "global.btn_back_to_home",
+      "value": "Zpět na hlavní stranu"
+    },
+    "btn_login": {
+      "id": "global.btn_login",
+      "value": "Přihlásit se"
+    },
+    "btn_new_payment_methods": {
+      "id": "global.btn_new_payment_methods",
+      "value": "Přidání způsobu platby"
+    },
+    "btn_order": {
+      "id": "global.btn_order",
+      "value": "Objednávka"
+    },
+    "btn_pay": {
+      "id": "global.btn_pay",
+      "value": "Platit"
+    },
+    "btn_reload": {
+      "id": "global.btn_reload",
+      "value": "Osvěžit"
+    },
+    "btn_seefaq": {
+      "id": "global.btn_seefaq",
+      "value": "Časté dotazy"
+    },
+    "btn_understood": {
+      "id": "global.btn_understood",
+      "value": "Mám to!"
+    },
+    "cancel": {
+      "id": "global.cancel",
+      "value": "Zrušit"
+    },
+    "cancel_reason": {
+      "id": "global.cancel_reason",
+      "value": "Důvod zrušení/změny"
+    },
+    "cancel_responsible": {
+      "id": "global.cancel_responsible",
+      "value": "Osoba odpovědná za zrušení / změnu"
+    },
+    "category": {
+      "id": "global.category",
+      "value": "Kategorie | Kategorie"
+    },
+    "choose": {
+      "id": "global.choose",
+      "value": "Zvolit"
+    },
+    "city": {
+      "id": "global.city",
+      "value": "Město"
+    },
+    "close": {
+      "id": "global.close",
+      "value": "Zavřít"
+    },
+    "comment": {
+      "add": {
+        "id": "global.comment.add",
+        "value": "Přidat komentář"
+      }
+    },
+    "confirm": {
+      "id": "global.confirm",
+      "value": "Potvrdit"
+    },
+    "contact": {
+      "call_or_by_form": {
+        "id": "global.contact.call_or_by_form",
+        "value": "Kontaktujte nás pomocí kontaktního formuláře."
+      }
+    },
+    "contact_us": {
+      "id": "global.contact_us",
+      "value": "Kontaktujte nás"
+    },
+    "copied": {
+      "id": {
+        "id": "global.copied.id",
+        "value": "Uživatelské jméno zkopírováno!"
+      },
+      "reference": {
+        "id": "global.copied.reference",
+        "value": "Odkaz zkopírován!"
+      }
+    },
+    "copyDone": {
+      "id": "global.copyDone",
+      "value": "Zkopírovaný!"
+    },
+    "country": {
+      "id": "global.country",
+      "value": "Země"
+    },
+    "create": {
+      "id": "global.create",
+      "value": "Vytvářet"
+    },
+    "createdFrom": {
+      "id": "global.createdFrom",
+      "value": "Datum vytvoření (od)"
+    },
+    "createdTo": {
+      "id": "global.createdTo",
+      "value": "Datum přidání (do)"
+    },
+    "credit_card": {
+      "id": "global.credit_card",
+      "value": "Kreditní karta"
+    },
+    "date": {
+      "id": "global.date",
+      "value": "Rande"
+    },
+    "dateend": {
+      "id": "global.dateend",
+      "value": "Datum ukončení"
+    },
+    "dateFrom": {
+      "id": "global.dateFrom",
+      "value": "Datum (od)"
+    },
+    "datestart": {
+      "id": "global.datestart",
+      "value": "Datum zahájení"
+    },
+    "dateTo": {
+      "id": "global.dateTo",
+      "value": "Datum (do)"
+    },
+    "delivered": {
+      "id": "global.delivered",
+      "value": "Stažený"
+    },
+    "demo": {
+      "id": "global.demo",
+      "value": "Demoverze"
+    },
+    "denomination": {
+      "id": "global.denomination",
+      "value": "Název společnosti"
+    },
+    "disabled": {
+      "id": "global.disabled",
+      "value": "Stav zakázáno"
+    },
+    "done": {
+      "id": "global.done",
+      "value": "Hotový"
+    },
+    "dontsave": {
+      "id": "global.dontsave",
+      "value": "Neukládejte"
+    },
+    "download": {
+      "id": "global.download",
+      "value": "Stáhnout"
+    },
+    "downloadable": {
+      "id": "global.downloadable",
+      "value": "Připraveno ke stažení"
+    },
+    "downloaded": {
+      "id": "global.downloaded",
+      "value": "Stažený"
+    },
+    "duration": {
+      "id": "global.duration",
+      "value": "{hodin}h{minut}"
+    },
+    "edit": {
+      "id": "global.edit",
+      "value": "Upravit"
+    },
+    "email": {
+      "id": "global.email",
+      "value": "E-mail"
+    },
+    "en": {
+      "id": "global.en",
+      "value": "Angličtina"
+    },
+    "enabled": {
+      "id": "global.enabled",
+      "value": "Zpřístupněný"
+    },
+    "error": {
+      "400": {
+        "subtitle": {
+          "id": "global.error.400.subtitle",
+          "value": "Neoprávněný, chybný nebo neúplný požadavek."
+        }
+      },
+      "401": {
+        "subtitle": {
+          "id": "global.error.401.subtitle",
+          "value": "Již nejste připojeni!"
+        },
+        "title": {
+          "id": "global.error.401.title",
+          "value": "Vypršel časový limit relace"
+        }
+      },
+      "403": {
+        "subtitle": {
+          "id": "global.error.403.subtitle",
+          "value": "Tuto stránku nesmíte prohlížet."
+        }
+      },
+      "404": {
+        "subtitle": {
+          "id": "global.error.404.subtitle",
+          "value": "Je nám líto, ale požadovaná stránka neexistuje."
+        },
+        "tip": {
+          "id": "global.error.404.tip",
+          "value": "Ověřte zadanou adresu"
+        }
+      },
+      "408": {
+        "subtitle": {
+          "id": "global.error.408.subtitle",
+          "value": "Odpověď serveru trvala příliš dlouho."
+        }
+      },
+      "500": {
+        "subtitle": {
+          "id": "global.error.500.subtitle",
+          "value": "Meero je dočasně nedostupné... Děláme vše pro obnovení přístupu."
+        }
+      },
+      "504": {
+        "subtitle": {
+          "id": "global.error.504.subtitle",
+          "value": "Odpověď serveru trvala příliš dlouho."
+        }
+      }
+    },
+    "error_code": {
+      "id": "global.error_code",
+      "value": "Chyba {errorCode}"
+    },
+    "es": {
+      "id": "global.es",
+      "value": "Španělština"
+    },
+    "exit": {
+      "id": "global.exit",
+      "value": "Východ"
+    },
+    "export": {
+      "id": "global.export",
+      "value": "Vývoz"
+    },
+    "export_error": {
+      "id": "global.export_error",
+      "value": "Jejda, došlo k chybě, zkuste to prosím znovu"
+    },
+    "export_gotit": {
+      "id": "global.export_gotit",
+      "value": "Jasně"
+    },
+    "export_message": {
+      "id": "global.export_message",
+      "value": "Export se vytváří, po dokončení jej obdržíte e-mailem."
+    },
+    "firstname": {
+      "id": "global.firstname",
+      "value": "Křestní jméno"
+    },
+    "form": {
+      "error": {
+        "address": {
+          "invalid": {
+            "id": "global.form.error.address.invalid",
+            "value": "Vaše adresa není platná"
+          }
+        },
+        "email": {
+          "id": "global.form.error.email",
+          "value": "Toto pole musí obsahovat platný e-mail"
+        },
+        "max_length": {
+          "id": "global.form.error.max_length",
+          "value": "{počet} znaků maximálně"
+        },
+        "new_password": {
+          "identical": {
+            "id": "global.form.error.new_password.identical",
+            "value": "Zadané heslo je totožné"
+          }
+        },
+        "password": {
+          "confirmed": {
+            "id": "global.form.error.password.confirmed",
+            "value": "Hesla se neshodují"
+          },
+          "regex": {
+            "id": "global.form.error.password.regex",
+            "value": "Vaše heslo musí obsahovat alespoň 8 znaků s malým písmenem, velkým písmenem a jednou číslicí"
+          }
+        },
+        "required": {
+          "id": "global.form.error.required",
+          "value": "Toto pole je povinné"
+        },
+        "value_already_used": {
+          "email": {
+            "id": "global.form.error.value_already_used.email",
+            "value": "Tento e-mail se již používá"
+          }
+        }
+      },
+      "validation": {
+        "error": {
+          "id": "global.form.validation.error",
+          "value": "Došlo k chybě, zkuste to prosím znovu."
+        },
+        "success": {
+          "id": "global.form.validation.success",
+          "value": "Vaše údaje byly aktualizovány"
+        },
+        "unsave": {
+          "id": "global.form.validation.unsave",
+          "value": "Vaše změny nebyly uloženy"
+        },
+        "wrong": {
+          "id": "global.form.validation.wrong",
+          "value": "Vaše informace nejsou správné, zkontrolujte to prosím znovu."
+        }
+      }
+    },
+    "fr": {
+      "id": "global.fr",
+      "value": "Francouzština"
+    },
+    "help": {
+      "id": "global.help",
+      "value": "Centrum nápovědy"
+    },
+    "hi": {
+      "id": "global.hi",
+      "value": "Hindi"
+    },
+    "ht": {
+      "id": "global.ht",
+      "value": "Před zdaněním"
+    },
+    "iban": {
+      "id": "global.iban",
+      "value": "IBAN"
+    },
+    "impossibleAction": {
+      "id": "global.impossibleAction",
+      "value": "Akce nemožná"
+    },
+    "input_address": {
+      "id": "global.input_address",
+      "value": "Zadejte adresu"
+    },
+    "invoicing": {
+      "id": "global.invoicing",
+      "value": "Fakturace"
+    },
+    "in_preparation": {
+      "id": "global.in_preparation",
+      "value": "Vybrat"
+    },
+    "ja": {
+      "id": "global.ja",
+      "value": "Japonština"
+    },
+    "language": {
+      "id": "global.language",
+      "value": "Jazyk"
+    },
+    "lastname": {
+      "id": "global.lastname",
+      "value": "Příjmení"
+    },
+    "loading": {
+      "id": "global.loading",
+      "value": "Nakládka..."
+    },
+    "logout": {
+      "id": "global.logout",
+      "value": "Odhlásit se"
+    },
+    "manager": {
+      "id": "global.manager",
+      "value": "Zodpovědný"
+    },
+    "media": {
+      "id": "global.media",
+      "value": "Vizuální"
+    },
+    "media_type": {
+      "id": "global.media_type",
+      "value": "Typ"
+    },
+    "menu": {
+      "about": {
+        "id": "global.menu.about",
+        "value": "Asi"
+      },
+      "agencies": {
+        "id": "global.menu.agencies",
+        "value": "Moje firmy"
+      },
+      "agency": {
+        "id": "global.menu.agency",
+        "value": "Moje společnost"
+      },
+      "albums": {
+        "id": "global.menu.albums",
+        "value": "Albums"
+      },
+      "general": {
+        "id": "global.menu.general",
+        "value": "Obecné"
+      },
+      "home": {
+        "id": "global.menu.home",
+        "value": "Domov"
+      },
+      "invoice": {
+        "id": "global.menu.invoice",
+        "value": "Moje faktury"
+      },
+      "invoicing": {
+        "id": "global.menu.invoicing",
+        "value": "Fakturace"
+      },
+      "monitoring": {
+        "id": "global.menu.monitoring",
+        "value": "Hlášení"
+      },
+      "my_sub_agencies": {
+        "id": "global.menu.my_sub_agencies",
+        "value": "Podspolečnosti"
+      },
+      "packs": {
+        "id": "global.menu.packs",
+        "value": "Moje balíčky"
+      },
+      "products": {
+        "id": "global.menu.products",
+        "value": "Moje produkty"
+      },
+      "profile": {
+        "id": "global.menu.profile",
+        "value": "Můj profil"
+      },
+      "prospects": {
+        "id": "global.menu.prospects",
+        "value": "Rezervace letů"
+      },
+      "see_profile": {
+        "id": "global.menu.see_profile",
+        "value": "Zobrazit můj profil"
+      },
+      "shootings": {
+        "id": "global.menu.shootings",
+        "value": "Výhonky"
+      }
+    },
+    "message": {
+      "id": "global.message",
+      "value": "Zpráva"
+    },
+    "modify": {
+      "id": "global.modify",
+      "value": "Upravit"
+    },
+    "myAlbumsTitle": {
+      "id": "global.myAlbumsTitle",
+      "value": "Moje alba"
+    },
+    "newPassword": {
+      "id": "global.newPassword",
+      "value": "Nové heslo"
+    },
+    "next": {
+      "id": "global.next",
+      "value": "Další"
+    },
+    "not_provided": {
+      "id": "global.not_provided",
+      "value": "Nezveřejněno"
+    },
+    "numberOfMedia": {
+      "id": "global.numberOfMedia",
+      "value": "{n} vizuální|{n} vizuální|{n} vizuály"
+    },
+    "n_shootings": {
+      "id": "global.n_shootings",
+      "value": "{n} střílet|{n} střílet|{n} výhonků"
+    },
+    "ok": {
+      "id": "global.ok",
+      "value": "OK"
+    },
+    "on_going": {
+      "id": "global.on_going",
+      "value": "současný"
+    },
+    "orderedby": {
+      "id": "global.orderedby",
+      "value": "Objednal"
+    },
+    "password": {
+      "id": "global.password",
+      "value": "Heslo"
+    },
+    "phone": {
+      "id": "global.phone",
+      "value": "Telefon"
+    },
+    "photographer": {
+      "id": "global.photographer",
+      "value": "Fotograf"
+    },
+    "placeholder_email": {
+      "id": "global.placeholder_email",
+      "value": "E-mail"
+    },
+    "placeholder_firstname": {
+      "id": "global.placeholder_firstname",
+      "value": "Křestní jméno"
+    },
+    "placeholder_lastname": {
+      "id": "global.placeholder_lastname",
+      "value": "Jméno"
+    },
+    "placename": {
+      "id": "global.placename",
+      "value": "Místní jméno"
+    },
+    "previous": {
+      "id": "global.previous",
+      "value": "Předchozí"
+    },
+    "product": {
+      "id": "global.product",
+      "value": "Výrobek"
+    },
+    "prospects": {
+      "id": "global.prospects",
+      "value": "Rezervace | Rezervace letů"
+    },
+    "prospects_title": {
+      "id": "global.prospects_title",
+      "value": "Rezervace letů"
+    },
+    "pt": {
+      "id": "global.pt",
+      "value": "Portugalština"
+    },
+    "quick_order": {
+      "id": "global.quick_order",
+      "value": "Vybrat produkt"
+    },
+    "range": {
+      "custom": {
+        "id": "global.range.custom",
+        "value": "Zvyk"
+      },
+      "premium": {
+        "id": "global.range.premium",
+        "value": "Premium"
+      },
+      "professional": {
+        "id": "global.range.professional",
+        "value": "Pro"
+      }
+    },
+    "reason": {
+      "id": "global.reason",
+      "value": "Důvod"
+    },
+    "record": {
+      "id": "global.record",
+      "value": "Uložit"
+    },
+    "reference": {
+      "id": "global.reference",
+      "value": "Reference"
+    },
+    "reject": {
+      "id": "global.reject",
+      "value": "Odmítnutý"
+    },
+    "remove": {
+      "id": "global.remove",
+      "value": "Vymazat"
+    },
+    "repeatNewPassword": {
+      "id": "global.repeatNewPassword",
+      "value": "Potvrďte nové heslo"
+    },
+    "reset": {
+      "id": "global.reset",
+      "value": "Resetovat"
+    },
+    "restart": {
+      "id": "global.restart",
+      "value": "Restartovat"
+    },
+    "results": {
+      "id": "global.results",
+      "value": "{n} výsledek|{n} výsledek|{n} výsledků"
+    },
+    "right": {
+      "agency": {
+        "id": "global.right.agency",
+        "value": "Společnost"
+      },
+      "agency_message": {
+        "id": "global.right.agency_message",
+        "value": "Povolit uživateli přidávat členy a vytvářet podspolečnosti"
+      },
+      "invoice": {
+        "id": "global.right.invoice",
+        "value": "Faktura"
+      },
+      "invoice_message": {
+        "id": "global.right.invoice_message",
+        "value": "Umožnit uživateli prohlížet a platit faktury"
+      },
+      "shooting": {
+        "id": "global.right.shooting",
+        "value": "Střelit"
+      },
+      "shooting_message": {
+        "id": "global.right.shooting_message",
+        "value": "Umožněte uživateli objednávat a upravovat focení"
+      }
+    },
+    "save": {
+      "id": "global.save",
+      "value": "Uložit"
+    },
+    "save_edit": {
+      "id": "global.save_edit",
+      "value": "Uložení úprav"
+    },
+    "search": {
+      "id": "global.search",
+      "value": "Hledání"
+    },
+    "searching": {
+      "id": "global.searching",
+      "value": "Hledání"
+    },
+    "search_results_empty": {
+      "id": "global.search_results_empty",
+      "value": "Omlouváme se, ale pro vaše vyhledávání nebyly nalezeny žádné výsledky"
+    },
+    "see_less": {
+      "id": "global.see_less",
+      "value": "Zobrazit méně"
+    },
+    "see_more": {
+      "id": "global.see_more",
+      "value": "Zobrazit více"
+    },
+    "send": {
+      "id": "global.send",
+      "value": "Poslat"
+    },
+    "sepa": {
+      "id": "global.sepa",
+      "value": "Mandát SEPA"
+    },
+    "shooting": {
+      "id": "global.shooting",
+      "value": "Střelit"
+    },
+    "shootingTitle": {
+      "id": "global.shootingTitle",
+      "value": "Fotografovat | Výhonky"
+    },
+    "show_album": {
+      "id": "global.show_album",
+      "value": "Zobrazit album"
+    },
+    "show_all": {
+      "id": "global.show_all",
+      "value": "Zobrazit vše"
+    },
+    "show_details": {
+      "id": "global.show_details",
+      "value": "Zobrazit podrobnosti"
+    },
+    "siret": {
+      "id": "global.siret",
+      "value": "Registrační číslo společnosti"
+    },
+    "something_wrong": {
+      "id": "global.something_wrong",
+      "value": "Jejda... Došlo k chybě! Zkuste to prosím znovu později."
+    },
+    "statuses": {
+      "id": "global.statuses",
+      "value": "Stav"
+    },
+    "stop_schizophrenia": {
+      "id": "global.stop_schizophrenia",
+      "value": "Zastavte režim duchů!"
+    },
+    "subscribe": {
+      "id": "global.subscribe",
+      "value": "Kontaktujte nás"
+    },
+    "text_copied": {
+      "id": "global.text_copied",
+      "value": "Text zkopírován"
+    },
+    "thankyou_username": {
+      "id": "global.thankyou_username",
+      "value": "Děkujeme {name}!"
+    },
+    "today": {
+      "id": "global.today",
+      "value": "Dnes"
+    },
+    "tomorrow": {
+      "id": "global.tomorrow",
+      "value": "Zítra"
+    },
+    "ttc": {
+      "id": "global.ttc",
+      "value": "Včetně daní"
+    },
+    "type-sepa": {
+      "id": "global.type-sepa",
+      "value": "Převod kreditu SEPA (SCT)"
+    },
+    "unsubscribe": {
+      "id": "global.unsubscribe",
+      "value": "Odhlásit se"
+    },
+    "update": {
+      "id": "global.update",
+      "value": "Aktualizace"
+    },
+    "username": {
+      "id": "global.username",
+      "value": "Uživatelské jméno"
+    },
+    "validate": {
+      "id": "global.validate",
+      "value": "Ověřit"
+    },
+    "validated": {
+      "id": "global.validated",
+      "value": "Potvrzený"
+    },
+    "vat": {
+      "id": "global.vat",
+      "value": "DPH"
+    },
+    "vat_number": {
+      "id": "global.vat_number",
+      "value": "DIČ"
+    },
+    "welcome_username": {
+      "id": "global.welcome_username",
+      "value": "Dobrý den: {jméno}"
+    },
+    "yesterday": {
+      "id": "global.yesterday",
+      "value": "Včera"
+    },
+    "zh": {
+      "id": "global.zh",
+      "value": "Čínština"
+    },
+    "zip_code": {
+      "id": "global.zip_code",
+      "value": "PSČ"
+    }
+  },
+  "home": {
+    "all_agencies": {
+      "id": "home.all_agencies",
+      "value": "Všechny společnosti"
+    },
+    "emptystate": {
+      "shooting_place": {
+        "id": "home.emptystate.shooting_place",
+        "value": "Definujte místo natáčení"
+      }
+    },
+    "last_albums": {
+      "id": "home.last_albums",
+      "value": "Nejnovější alba"
+    },
+    "shootings": {
+      "tocome": {
+        "id": "home.shootings.tocome",
+        "value": "Výhonky přijdou"
+      },
+      "todeliver": {
+        "id": "home.shootings.todeliver",
+        "value": "Čekání na doručení"
+      },
+      "toplan": {
+        "id": "home.shootings.toplan",
+        "value": "Datum, které má být definováno"
+      }
+    }
+  },
+  "home_empty": {
+    "choose_product": {
+      "id": "home_empty.choose_product",
+      "value": "Co chcete fotit?"
+    },
+    "order_first_shoot": {
+      "id": "home_empty.order_first_shoot",
+      "value": "Objednat první focení"
+    },
+    "create_first_booking": {
+      "id": "home_empty.create_first_booking",
+      "value": "Vytvořit svou první rezervaci"
+    },
+    "receive_visuals": {
+      "id": "home_empty.receive_visuals",
+      "value": "Stačí odpovědět na tyto tři otázky a my se tím budeme zabývat! Kompletně upravenou fotografii obdržíte 24 hodin po pořízení fotografie nebo videa."
+    },
+    "organize_shoot": {
+      "id": "home_empty.organize_shoot",
+      "value": "Stačí odpovědět na tyto otázky a my se tím budeme zabývat! Zorganizujeme pro vás focení v čase a termínu, který vyhovuje osobě na místě, a o několik hodin později obdržíte své plně upravené fotografie."
+    },
+    "select_date_hour": {
+      "id": "home_empty.select_date_hour",
+      "value": "Kdy potřebujete fotit?"
+    },
+    "else_to_know": {
+      "id": "home_empty.else_to_know",
+      "value": "Co dalšího byste chtěli, abychom věděli, než si zarezervujeme focení?"
+    },
+    "shooting_place": {
+      "id": "home_empty.shooting_place",
+      "value": "Kde plánujete fotit?"
+    },
+    "subtitle": {
+      "id": "home_empty.subtitle",
+      "value": "Jste připraveni objednat si první focení? Pojďme na to!"
+    }
+  },
+  "invoice": {
+    "card": {
+      "default": {
+        "id": "faktura.card.default",
+        "value": "Nastavit jako výchozí způsob platby (vyžadováno pro měsíční platby)"
+      },
+      "save": {
+        "id": "invoice.card.save",
+        "value": "Uložit mou kartu"
+      }
+    },
+    "monthlyPaymentOff": {
+      "id": "invoice.monthlyPaymentOff",
+      "value": "Měsíční platba zakázána"
+    },
+    "monthlyPaymentOn": {
+      "id": "invoice.monthlyPaymentOn",
+      "value": "Měsíční platba aktivována"
+    }
+  },
+  "invoices": {
+    "additionalPhotoCount": {
+      "id": "invoices.additionalPhotoCount",
+      "value": "žádný vizuální | {počet} vizuální | {count} vizuály"
+    },
+    "billing_mails": {
+      "id": "invoices.billing_mails",
+      "value": "E-maily s fakturami"
+    },
+    "charge_to": {
+      "id": "invoices.charge_to",
+      "value": "Fakturováno do"
+    },
+    "creditcard": {
+      "cvc": {
+        "id": "invoices.creditcard.cvc",
+        "value": "CVC"
+      },
+      "expirationDate": {
+        "id": "invoices.creditcard.expirationDate",
+        "value": "Datum vypršení"
+      },
+      "number": {
+        "id": "invoices.creditcard.number",
+        "value": "Číslo karty"
+      },
+      "owner": {
+        "id": "invoices.creditcard.owner",
+        "value": "Držitel"
+      }
+    },
+    "debt_alert": {
+      "id": "invoices.debt_alert",
+      "value": "Pozor, dlužíte {amount}"
+    },
+    "debt_alert_agency": {
+      "id": "invoices.debt_alert_agency",
+      "value": "Pozor, společnost {agentura} je dlužníkem ve výši {amount}"
+    },
+    "deduct_on": {
+      "id": "invoices.deduct_on",
+      "value": "Odečteno dne {ref}"
+    },
+    "deduct_on_ongoing": {
+      "id": "invoices.deduct_on_ongoing",
+      "value": "Odečítáno z průběžných faktur"
+    },
+    "form": {
+      "edit": {
+        "email": {
+          "id": "invoices.form.edit.email",
+          "value": "E-mail s fakturou (email@example.com; email@example.com...)"
+        }
+      }
+    },
+    "go_invoicing": {
+      "id": "invoices.go_invoicing",
+      "value": "Viz fakturace"
+    },
+    "informations": {
+      "p1": {
+        "id": "invoices.informations.p1",
+        "value": "Všechna vaše focení - objednaná a dodaná - se objeví v měsíčním souhrnu, který je k dispozici ve vašem profilu pod názvem \"Probíhá\"."
+      },
+      "p2": {
+        "id": "invoices.informations.p2",
+        "value": "Třetí den každého měsíce vám bude vystavena faktura za předchozí měsíc (příklad: Dne 3. února Vám bude vystavena faktura za měsíc leden)."
+      },
+      "p3": {
+        "id": "invoices.informations.p3",
+        "value": "V případě jakýchkoli dotazů se podívejte na naše FAQ"
+      },
+      "title": {
+        "id": "invoices.informations.title",
+        "value": "Fakturační údaje Meero"
+      }
+    },
+    "invoiceinformations": {
+      "id": "invoices.invoiceinformations",
+      "value": "Moje fakturační údaje"
+    },
+    "invoicing": {
+      "id": "faktury.fakturace",
+      "value": "Fakturace"
+    },
+    "invoicing_address": {
+      "id": "invoices.invoicing_address",
+      "value": "Fakturační adresa"
+    },
+    "left_to_pay": {
+      "id": "invoices.left_to_pay",
+      "value": "Nedoplatek:"
+    },
+    "monthlyPayment": {
+      "id": "invoices.monthlyPayment",
+      "value": "Měsíční platba"
+    },
+    "myongoinginvoice": {
+      "id": "invoices.myongoinginvoice",
+      "value": "Moje průběžná faktura"
+    },
+    "noPaymentMethods": {
+      "id": "invoices.noPaymentMethods",
+      "value": "Nemáte zaregistrovaný žádný způsob platby."
+    },
+    "ongoing": {
+      "additional": {
+        "id": "invoices.ongoing.additional",
+        "value": "přídavný"
+      },
+      "shootings": {
+        "id": "invoices.ongoing.shootings",
+        "value": "výhonky"
+      }
+    },
+    "ongoingAmount": {
+      "id": "invoices.ongoingAmount",
+      "value": "Částka v průběhu:"
+    },
+    "ongoinginvoice": {
+      "id": "invoices.ongoinginvoice",
+      "value": "Pokračující"
+    },
+    "paid_amount": {
+      "id": "invoices.paid_amount",
+      "value": "Vyplacená částka:"
+    },
+    "payment": {
+      "p1": {
+        "id": "faktury.platba.p1",
+        "value": "Můžete si vybrat platbu měsíčním inkasem."
+      },
+      "p2": {
+        "id": "invoices.payment.p2",
+        "value": "Pokud zvolíte tuto možnost, bude vám na konci měsíce z vašeho účtu stržena částka za všechna objednaná focení."
+      },
+      "p3": {
+        "id": "faktury.platba.p3",
+        "value": "Za tímto účelem přidejte automatický způsob platby* (bankovní kartu nebo SEPA)."
+      }
+    },
+    "paymentlistways": {
+      "id": "invoices.paymentlistways",
+      "value": "Moje platební metody"
+    },
+    "paymentMethods": {
+      "id": "invoices.paymentMethods",
+      "value": "Platební metoda(y)"
+    },
+    "search": {
+      "placeholder": {
+        "id": "invoices.search.placeholder",
+        "value": "Reference, ID..."
+      }
+    },
+    "shootingCount": {
+      "id": "invoices.shootingCount",
+      "value": "žádný výstřel | {počet} střílet | {count} výhonků"
+    },
+    "siret": {
+      "id": "invoices.siret",
+      "value": "Registrační číslo společnosti"
+    },
+    "status": {
+      "paid": {
+        "id": "invoices.status.paid",
+        "value": "Placený"
+      },
+      "pending": {
+        "id": "invoices.status.pending",
+        "value": "Zahájený"
+      }
+    },
+    "tabs": {
+      "credit": {
+        "id": "invoices.tabs.credit",
+        "value": "Dobropisů"
+      },
+      "deposit": {
+        "id": "invoices.tabs.deposit",
+        "value": "Akontace"
+      },
+      "invoice": {
+        "id": "invoices.tabs.invoice",
+        "value": "Faktury"
+      }
+    },
+    "title": {
+      "id": "invoices.title",
+      "value": "Fakturace"
+    },
+    "total_amount": {
+      "id": "invoices.total_amount",
+      "value": "Celková částka:"
+    },
+    "vat": {
+      "id": "faktury.vat",
+      "value": "DPH"
+    }
+  },
+  "monitoring": {
+    "agency_select": {
+      "id": "monitoring.agency_select",
+      "value": "Vyberte prosím společnost"
+    },
+    "your_agency": {
+      "id": "monitoring.your_agency",
+      "value": "Vaše společnost "
+    },
+    "last_data_update": {
+      "id": "monitoring.last_data_update",
+      "value": "Poslední aktualizace dat"
+    },
+    "hours_ago": {
+      "id": "monitoring.hours_ago",
+      "value": ""
+    }
+  },
+  "notation": {
+    "punctuality": {
+      "id": "",
+      "value": ""
+    },
+    "quality": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "nps": {
+    "finalstep": {
+      "detractors": {
+        "p1": {
+          "id": "",
+          "value": ""
+        },
+        "p2": {
+          "id": "",
+          "value": ""
+        },
+        "title": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "passives": {
+        "p1": {
+          "id": "",
+          "value": " "
+        },
+        "p2": {
+          "id": "",
+          "value": ""
+        },
+        "title": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "promoters": {
+        "p1": {
+          "id": "",
+          "value": " "
+        },
+        "p2": {
+          "id": "",
+          "value": ""
+        },
+        "title": {
+          "id": "",
+          "value": ""
+        }
+      }
+    },
+    "firststep": {
+      "likely": {
+        "id": "",
+        "value": ""
+      },
+      "notlikely": {
+        "id": "",
+        "value": ""
+      },
+      "question": {
+        "id": "",
+        "value": ""
+      },
+      "title": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "secondstep": {
+      "give_details": {
+        "id": "",
+        "value": ""
+      },
+      "interface_usability": {
+        "id": "",
+        "value": ""
+      },
+      "other": {
+        "id": "",
+        "value": ""
+      },
+      "prices": {
+        "id": "",
+        "value": ""
+      },
+      "quality_of_media": {
+        "id": "",
+        "value": ""
+      },
+      "send": {
+        "id": "",
+        "value": ""
+      },
+      "speed_of_delivery": {
+        "id": "",
+        "value": ""
+      },
+      "support_team_reactivity": {
+        "id": "",
+        "value": ""
+      },
+      "title": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "giveusfeedback": {
+      "id": "",
+      "value": ""
+    },
+    "onlytakeminute": {
+      "id": "",
+      "value": ""
+    },
+    "notnow": {
+      "id": "",
+      "value": ""
+    },
+    "letsgo": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "payment": {
+    "debt": {
+      "titleWithAgency": {
+        "id": "",
+        "value": ""
+      },
+      "titleWithoutAgency": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "error_message": {
+      "id": "",
+      "value": ""
+    },
+    "noRightToPay": {
+      "id": "",
+      "value": ""
+    },
+    "payYouBill": {
+      "id": "",
+      "value": ""
+    },
+    "payYouDeposit": {
+      "id": "",
+      "value": ""
+    },
+    "success_message": {
+      "id": "",
+      "value": ""
+    },
+    "totalAmountToPayNoVat": {
+      "id": "",
+      "value": ""
+    },
+    "totalAmountToPayWithVat": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "paymentway": {
+    "noregister": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "paymentways": {
+    "active-payment": {
+      "id": "",
+      "value": ""
+    },
+    "agency_paymentways": {
+      "id": "",
+      "value": ""
+    },
+    "auto": {
+      "id": "",
+      "value": ""
+    },
+    "automatic": {
+      "id": "",
+      "value": ""
+    },
+    "automatic_b2b": {
+      "id": "",
+      "value": ""
+    },
+    "automatic_b2c": {
+      "id": "",
+      "value": ""
+    },
+    "card": {
+      "id": "",
+      "value": ""
+    },
+    "ConfirmDeletePaymentway": {
+      "id": "",
+      "value": ""
+    },
+    "creditcard": {
+      "helper": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "deletePaymentWay": {
+      "id": "",
+      "value": ""
+    },
+    "expirydate": {
+      "id": "",
+      "value": ""
+    },
+    "Invalidpaymentmethod": {
+      "id": "",
+      "value": ""
+    },
+    "monthlyPaymentLocked": {
+      "id": "",
+      "value": ""
+    },
+    "monthlyPayment_info": {
+      "id": "",
+      "value": ""
+    },
+    "monthly_message": {
+      "id": "",
+      "value": ""
+    },
+    "my_paymentways": {
+      "id": "",
+      "value": ""
+    },
+    "noDeleteActivePaymentway": {
+      "id": "",
+      "value": ""
+    },
+    "noDeleteLastPaymentway": {
+      "id": "",
+      "value": ""
+    },
+    "owner": {
+      "id": "",
+      "value": ""
+    },
+    "paymentwayDeleted": {
+      "id": "",
+      "value": ""
+    },
+    "payment_ways": {
+      "id": "",
+      "value": ""
+    },
+    "saveError": {
+      "id": "",
+      "value": " "
+    },
+    "sepa": {
+      "id": "",
+      "value": ""
+    },
+    "sepa_info": {
+      "id": "",
+      "value": ""
+    },
+    "sepa_message": {
+      "id": "",
+      "value": "   "
+    },
+    "your-mandate": {
+      "id": "",
+      "value": ""
+    },
+    "yourautomaticpaymentway": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "product": {
+    "default_name": {
+      "id": "",
+      "value": ""
+    },
+    "pack": {
+      "id": "",
+      "value": ""
+    },
+    "products_count": {
+      "id": "",
+      "value": ""
+    },
+    "promocode": {
+      "id": "",
+      "value": ""
+    },
+    "promocodeError": {
+      "id": "",
+      "value": ""
+    },
+    "promocode_helper": {
+      "id": "",
+      "value": " "
+    }
+  },
+  "products": {
+    "categories": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "profile": {
+    "agency_title": {
+      "id": "",
+      "value": ""
+    },
+    "avatar": {
+      "error": {
+        "id": "",
+        "value": ""
+      },
+      "success": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "delete_confirm": {
+      "id": "",
+      "value": ""
+    },
+    "general_title": {
+      "id": "",
+      "value": ""
+    },
+    "password": {
+      "success": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "put_photo_here": {
+      "id": "",
+      "value": ""
+    },
+    "requestedEmailModification": {
+      "id": "",
+      "value": " "
+    },
+    "unsubscribe": {
+      "id": "",
+      "value": ""
+    },
+    "unsubscribe_content": {
+      "id": "",
+      "value": ""
+    },
+    "unsubscribe_resume": {
+      "id": "",
+      "value": " "
+    },
+    "unsubscribe_warning": {
+      "id": "",
+      "value": ""
+    },
+    "upload_avatar": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "prospect": {
+    "button": {
+      "show_shooting": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "export_all": {
+      "id": "",
+      "value": ""
+    },
+    "export_filtered": {
+      "id": "",
+      "value": ""
+    },
+    "label": {
+      "add_date": {
+        "id": "",
+        "value": ""
+      },
+      "call_fails": {
+        "id": "",
+        "value": ""
+      },
+      "comment": {
+        "id": "",
+        "value": ""
+      },
+      "first_call": {
+        "id": "",
+        "value": ""
+      },
+      "host": {
+        "id": "",
+        "value": ""
+      },
+      "next_call": {
+        "id": "",
+        "value": ""
+      },
+      "product": {
+        "id": "",
+        "value": ""
+      },
+      "reason": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "no_prospect": {
+      "id": "",
+      "value": ""
+    },
+    "no_prospect_from_search": {
+      "id": "",
+      "value": ""
+    },
+    "search": {
+      "placeholder": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "status": {
+      "duplicate": {
+        "id": "",
+        "value": ""
+      },
+      "need_to_call": {
+        "id": "",
+        "value": ""
+      },
+      "not_interested": {
+        "id": "",
+        "value": ""
+      },
+      "not_reachable": {
+        "id": "",
+        "value": ""
+      },
+      "shooting_created": {
+        "id": "",
+        "value": ""
+      },
+      "to_call_back": {
+        "id": "",
+        "value": ""
+      },
+      "wrong_number": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "tab": {
+      "all": {
+        "id": "",
+        "value": ""
+      },
+      "duplicate": {
+        "id": "",
+        "value": ""
+      },
+      "need_to_call": {
+        "id": "",
+        "value": ""
+      },
+      "not_interested": {
+        "id": "",
+        "value": ""
+      },
+      "not_reachable": {
+        "id": "",
+        "value": ""
+      },
+      "shooting_created": {
+        "id": "",
+        "value": ""
+      },
+      "to_call_back": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "text": {
+      "call_fails": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "edit": {
+      "title": {
+        "id": "",
+        "value": ""
+      },
+      "form": {
+        "place_details": {
+          "id": "",
+          "value": ""
+        },
+        "host": {
+          "id": "",
+          "value": ""
+        },
+        "additional_infos": {
+          "id": "",
+          "value": ""
+        },
+        "delete_shoot": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "modal": {
+        "save": {
+          "title": {
+            "id": "",
+            "value": ""
+          },
+          "reminder_changes": {
+            "id": "",
+            "value": ""
+          },
+          "reminder_leave": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "delete": {
+          "title": {
+            "id": "",
+            "value": ""
+          },
+          "content": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "address": {
+          "title": {
+            "id": "",
+            "value": ""
+          },
+          "content": {
+            "id": "",
+            "value": ""
+          },
+          "button": {
+            "id": "",
+            "value": ""
+          }
+        }
+      }
+    },
+    "create_prospect_shoot": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "shooting": {
+    "action": {
+      "cancelled": {
+        "id": "",
+        "value": ""
+      },
+      "reported": {
+        "id": "",
+        "value": ""
+      },
+      "waiting": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "additional": {
+      "id": "",
+      "value": ""
+    },
+    "album-explain": {
+      "id": "",
+      "value": ""
+    },
+    "album": {
+      "recovery-message": {
+        "id": "",
+        "value": " "
+      }
+    },
+    "albumId": {
+      "id": "",
+      "value": ""
+    },
+    "available": {
+      "id": "",
+      "value": ""
+    },
+    "button": {
+      "withAndWithoutWatermark": {
+        "id": "",
+        "value": ""
+      },
+      "withoutWatermark": {
+        "id": "",
+        "value": ""
+      },
+      "withWatermark": {
+        "id": "",
+        "value": ""
+      },
+      "try_again": {
+        "id": "",
+        "value": "",
+        "note": "",
+        "length": ""
+      }
+    },
+    "clientcomment": {
+      "id": "",
+      "value": ""
+    },
+    "copy-to-Clipboard": {
+      "id": "",
+      "value": ""
+    },
+    "display": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-1": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-10": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-2": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-3": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-4": {
+      "id": "",
+      "value": " "
+    },
+    "download-msg-5": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-6": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-7": {
+      "id": "",
+      "value": ""
+    },
+    "download-msg-8": {
+      "id": "",
+      "value": " "
+    },
+    "download-msg-9": {
+      "id": "",
+      "value": " "
+    },
+    "download-msg-vr": {
+      "id": "",
+      "value": ""
+    },
+    "edit": {
+      "access": {
+        "palceholder": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "address": {
+        "id": "",
+        "value": ""
+      },
+      "date": {
+        "toplan": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "details": {
+        "id": "",
+        "value": ""
+      },
+      "form": {
+        "valid": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "global_infos": {
+        "id": "",
+        "value": ""
+      },
+      "guidelines": {
+        "id": "",
+        "value": ""
+      },
+      "host_absence": {
+        "id": "",
+        "value": ""
+      },
+      "host_present": {
+        "id": "",
+        "value": ""
+      },
+      "info": {
+        "alert": {
+          "id": "",
+          "value": ""
+        },
+        "edited": {
+          "id": "",
+          "value": ""
+        },
+        "unsaved": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "label": {
+        "adddate": {
+          "id": "",
+          "value": ""
+        },
+        "changedate": {
+          "id": "",
+          "value": ""
+        },
+        "duration": {
+          "id": "",
+          "value": ""
+        },
+        "missing": {
+          "comment": {
+            "id": "",
+            "value": ""
+          },
+          "date": {
+            "id": "",
+            "value": ""
+          },
+          "digicode": {
+            "id": "",
+            "value": ""
+          },
+          "host": {
+            "id": "",
+            "value": ""
+          },
+          "hours": {
+            "id": "",
+            "value": ""
+          },
+          "placename": {
+            "id": "",
+            "value": ""
+          },
+          "reference": {
+            "id": "",
+            "value": ""
+          },
+          "waiting": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "removedate": {
+          "id": "",
+          "value": ""
+        },
+        "removeshooting": {
+          "id": "",
+          "value": ""
+        },
+        "rescheduleshooting": {
+          "id": "",
+          "value": ""
+        },
+        "waitshooting": {
+          "id": "",
+          "value": ""
+        }
+      },
+      "placename": {
+        "id": "",
+        "value": ""
+      },
+      "precisions": {
+        "id": "",
+        "value": ""
+      },
+      "reference": {
+        "id": "",
+        "value": ""
+      },
+      "title": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "error": {
+      "format": {
+        "reference": {
+          "id": "",
+          "value": ""
+        }
+      }
+    },
+    "export_all": {
+      "id": "",
+      "value": ""
+    },
+    "export_filtered": {
+      "id": "",
+      "value": ""
+    },
+    "guideline": {
+      "id": "",
+      "value": ""
+    },
+    "host": {
+      "id": "",
+      "value": ""
+    },
+    "media-recovery": {
+      "id": "",
+      "value": ""
+    },
+    "mobile": {
+      "shooting-date": {
+        "id": "",
+        "value": ""
+      },
+      "shooting-more": {
+        "id": "",
+        "value": ""
+      },
+      "shooting-place": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "modal": {
+      "cancel": {
+        "billHT": {
+          "id": "",
+          "value": ""
+        },
+        "billTTC": {
+          "id": "",
+          "value": ""
+        },
+        "header": {
+          "id": "",
+          "value": ""
+        },
+        "reason": {
+          "label": {
+            "id": "",
+            "value": ""
+          }
+        },
+        "reminder24": {
+          "id": "",
+          "value": " \n"
+        },
+        "reminder48": {
+          "id": "",
+          "value": "  \n"
+        },
+        "reminderCovid": {
+          "id": "",
+          "value": "  "
+        }
+      },
+      "report": {
+        "header": {
+          "id": "",
+          "value": ""
+        },
+        "reminderCovid": {
+          "id": "",
+          "value": "  "
+        }
+      },
+      "waiting": {
+        "header": {
+          "id": "",
+          "value": ""
+        },
+        "reminder24": {
+          "id": "",
+          "value": ""
+        },
+        "reminder48": {
+          "id": "",
+          "value": "  "
+        }
+      }
+    },
+    "needapproval": {
+      "id": "",
+      "value": ""
+    },
+    "new_shooting": {
+      "id": "",
+      "value": ""
+    },
+    "payment_status": {
+      "payment_failed": {
+        "id": "",
+        "value": ""
+      },
+      "payment_pending": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "place": {
+      "label": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "previous_date": {
+      "id": "",
+      "value": ""
+    },
+    "ref": {
+      "label": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "responsible": {
+      "api": {
+        "id": "",
+        "value": ""
+      },
+      "client": {
+        "id": "",
+        "value": ""
+      },
+      "host": {
+        "id": "",
+        "value": ""
+      },
+      "meero": {
+        "id": "",
+        "value": ""
+      },
+      "photographer": {
+        "id": "",
+        "value": ""
+      },
+      "photographerBooking": {
+        "id": "",
+        "value": ""
+      },
+      "unknown": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "search": {
+      "placeholder": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "see_new_shooting": {
+      "id": "",
+      "value": ""
+    },
+    "select": {
+      "id": "",
+      "value": ""
+    },
+    "selected": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-date": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-more": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-place": {
+      "id": "",
+      "value": ""
+    },
+    "shooting-time": {
+      "id": "",
+      "value": ""
+    },
+    "showmap": {
+      "id": "",
+      "value": ""
+    },
+    "status": {
+      "canceled": {
+        "id": "",
+        "value": ""
+      },
+      "confirmed": {
+        "id": "",
+        "value": ""
+      },
+      "doagain": {
+        "id": "",
+        "value": ""
+      },
+      "ready": {
+        "id": "",
+        "value": ""
+      },
+      "reported": {
+        "id": "",
+        "value": ""
+      },
+      "searching": {
+        "id": "",
+        "value": ""
+      },
+      "toapprove": {
+        "id": "",
+        "value": ""
+      },
+      "todeliver": {
+        "id": "",
+        "value": ""
+      },
+      "todownload": {
+        "id": "",
+        "value": ""
+      },
+      "waiting": {
+        "id": "",
+        "value": ""
+      },
+      "waiting_for_payment": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "validate": {
+      "id": "",
+      "value": ""
+    },
+    "what-is-an-album": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "shootings": {
+    "list": {
+      "tab": {
+        "all": {
+          "id": "",
+          "value": ""
+        },
+        "available": {
+          "id": "",
+          "value": ""
+        },
+        "canceled": {
+          "id": "",
+          "value": ""
+        },
+        "sevendays": {
+          "id": "",
+          "value": ""
+        },
+        "tocome": {
+          "id": "",
+          "value": ""
+        },
+        "todeliver": {
+          "id": "",
+          "value": ""
+        },
+        "toplan": {
+          "id": "",
+          "value": ""
+        },
+        "toselect": {
+          "id": "",
+          "value": ""
+        }
+      }
+    },
+    "no_shooting_available": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_canceled": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_order": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_this_week": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_come": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_deliver": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_plan": {
+      "id": "",
+      "value": ""
+    },
+    "no_shooting_to_select": {
+      "id": "",
+      "value": ""
+    },
+    "search": {
+      "placeholder": {
+        "id": "",
+        "value": ""
+      }
+    }
+  },
+  "shopping": {
+    "iframeLink": {
+      "id": "",
+      "value": ""
+    }
+  },
+  "footer": {
+    "legal_notices": {
+      "id": "",
+      "value": ""
+    },
+    "links": {
+      "about": {
+        "id": "",
+        "value": ""
+      },
+      "cgv": {
+        "id": "",
+        "value": ""
+      },
+      "contact": {
+        "id": "",
+        "value": ""
+      },
+      "e_commerce": {
+        "id": "",
+        "value": ""
+      },
+      "food": {
+        "id": "",
+        "value": ""
+      },
+      "for_businesses": {
+        "id": "",
+        "value": ""
+      },
+      "for_photographers": {
+        "id": "",
+        "value": ""
+      },
+      "gallery": {
+        "id": "",
+        "value": ""
+      },
+      "jobs": {
+        "id": "",
+        "value": ""
+      },
+      "legacy": {
+        "id": "",
+        "value": ""
+      },
+      "legal": {
+        "id": "",
+        "value": ""
+      },
+      "lifestyle": {
+        "id": "",
+        "value": ""
+      },
+      "newsroom": {
+        "id": "",
+        "value": ""
+      },
+      "publications": {
+        "id": "",
+        "value": ""
+      },
+      "real_estate": {
+        "id": "",
+        "value": ""
+      },
+      "retail": {
+        "id": "",
+        "value": ""
+      },
+      "sectors": {
+        "id": "",
+        "value": ""
+      },
+      "technology": {
+        "id": "",
+        "value": ""
+      },
+      "who_are_we": {
+        "id": "",
+        "value": ""
+      }
+    },
+    "privacy_policy": {
+      "id": "",
+      "value": ""
+    },
+    "support": {
+      "id": "",
+      "value": ""
+    }
+  }
+}
