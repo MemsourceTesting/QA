@@ -1,18 +1,18 @@
 {
    "root":[
       {
-         "title":"Texto actualizado para traducción 1",
+         "title":"texto actualizado para la traducción 1",
          "length":13
       },
       {
-         "description":"Texto para traducción 2, blanco y negro",
-         "note":"Nota para el texto 2",
-         "new segment":"Este es un nuevo segmento amigo mío",
+         "description":"texto para traducción 2, blanco y negro",
+         "note":"nota para el texto 2",
+         "new segment":"este es un nuevo segmento, amigo mío",
          "length":16
       },
       {
-         "description":"Texto para traducción 3, blanco y negro",
-         "note":"Nota para el texto 3",
+         "description":"texto para traducción 3, blanco y negro",
+         "note":"nota para el texto 3",
          "length":17
       }
    ]
