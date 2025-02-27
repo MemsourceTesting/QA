@@ -1,0 +1,19 @@
+{
+   "root":[
+      {
+         "title":"Quelle &amp; Inhalt ist <number> 1",
+         "note":"Hier kommt die Notiz",
+         "length":13
+      },
+      {
+         "description":"Hier kommt die Beschreibung",
+         "note":"Hier kommt das Note 2",
+         "length":16
+      },
+      {
+         "description":"Hier kommt eine weitere Beschreibung",
+         "note":"Abschnitt \"Hinweis\"",
+         "length":17
+      }
+   ]
+}
