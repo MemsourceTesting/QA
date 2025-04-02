@@ -1,12 +1,12 @@
 {
-  "key_with_description": "Check it out! This key has a description! (At least in some formats)",
-  "key_with_line-break": "This translations contains a line-break.",
+  "key_with_description": "Check it out! This updated key has a description! (At least in some formats)",
+  "key_with_line-break": "This updated translations contains a line-break.",
   "nested.deeply.key": "Wow, this key is nested even deeper.",
   "nested.key": "This key is nested inside a namespace.",
   "pluralized_key": {
     "one": "Only one pluralization found.",
     "other": "Wow, you have %s pluralizations!",
-    "zero": "You have no pluralization."
+    "zero": "You have no uůdated pluralization."
   },
   "sample_collection": [
     "first item",
