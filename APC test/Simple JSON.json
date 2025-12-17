@@ -1,8 +1,6 @@
 {
- 
- 
   "key_with_description": "Check this updated translation for forced import purposes solely! This completely new updated brand, new badass key has a description! (At least in some formats)",
   "key_with_line-break": "This awesome translations contains\na line-break.",
   "nested.deeply.key": "Wow, this newest key is nested even deeper.",
-  "nested.key": "This key is nested inside a completey new updated namespace, forced by import.",
+  "nested.key": "This key is nested inside a completey new updated namespace, forced by import."
 }
