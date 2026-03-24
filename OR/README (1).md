@@ -1,6 +1,6 @@
 # HTML2DOC
 
-A quick solution to convert HTML documents to DOC for Cision file handling. Adding some text for translation.
+CHANGE !!!  -- A quick solution to convert HTML documents to DOC for Cision file handling. Adding some text for translation.
 
 ## Getting Started
 
