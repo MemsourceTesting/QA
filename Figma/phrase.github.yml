@@ -1,0 +1,25 @@
+phrase:
+  access_token: 5dc711de132d4192eec8088b6d8ed46f8454b06dbc13fb75694915364340cda5
+  project_id: d0a7e7df9c88198a2e7138b29b063dc1
+  file_format: yml
+  
+  push:
+    sources:
+    - file: ./qa/figma/en.yml
+      params:
+        file_format: yml
+        locale_id: en
+        autotranslate: true
+        update_translations: true
+  pull:
+    targets:
+    - file: es.yml
+      params:
+        file_format: simple_json
+        locale_id: es
+        include_empty_translations: true
+    - file: es.yml
+      params:
+        file_format: simple_json
+        locale_id: es
+        include_empty_translations: true
