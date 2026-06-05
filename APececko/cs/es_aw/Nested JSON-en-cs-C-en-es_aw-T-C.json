@@ -1,0 +1,25 @@
+{
+  "boolean_key": "--- s$k$u$t$\n",
+  "empty_string_translation": "",
+  "key_with_description": "K$o$u$k$n$i$  T$e$n$t$o$ k$l$í$č$  (A$l$e$s$p$o$ň$ v$ n$ě$k$t$e$r$",
+  "key_with_line-break": "T$e$n$t$o$ p$ř$e$k$l$a$d$ o$b$s$a$h$u$",
+  "nested": {
+    "deeply": {
+      "key": "P$á$n$i$, t$e$n$t$o$ k$l$í$č$ j$e$ v$n$o$ř"
+    },
+    "key": "T$e$n$t$o$ k$l$í$č$ j$e$ v$n$o$ř$e$n$ "
+  },
+  "null_translation": null,
+  "pluralized_key": {
+    "one": "B$y$l$a$ n$a$l$e$z$e$n$a$ p$o$u$z$e$ j",
+    "other": "P$á$n$i$, m$á$t$e$ %s$ p$l",
+    "zero": "N$e$m$á$t$e$ ž$á$d$n$é$ p"
+  },
+  "sample_collection": [
+    "p$r$v$n$í$ p$",
+    "d$r$u$h$á$ p$",
+    "t$ř$e$t$í$ p$"
+  ],
+  "simple_key": "P$r$o$s$t$ě$ j$e$d$n$o$d$u$c$h$ý$ k$l$í$č$ s$",
+  "unverified_key": "T$e$n$t$o$ p$ř$e$k$l$a$d$ j$e$š$t$ě$ n$e$n$í$ ú$p$l$ (V$ n$ě$k$t$e$r$ý$c$h$ f$o$r$m$á$t$e$c$h$ t$e$n$t$o"
+}
