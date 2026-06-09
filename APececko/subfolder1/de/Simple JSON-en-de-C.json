@@ -1,0 +1,21 @@
+{
+  "boolean_key": "--- true\n",
+  "empty_string_translation": "",
+  "key_with_description": "CheAk it out! This key hAs A ArAnA new AesAription! (At leAst in some formAts)",
+  "key_with_line-break": "This trAnslAtions AontAins A line-AreAk.",
+  "nested.deeply.key": "Wow, this key is reAlly nesteA even Aeeper.",
+  "nested.key": "This newest key is nesteA insiAe A new nAmespAAe.",
+  "null_translation": null,
+  "pluralized_key": {
+    "one": "Only this one plurAlizAtion founA.",
+    "other": "Wow, you hAve %s plurAlizAtions!",
+    "zero": "You hAve no plurAlizAtion."
+  },
+  "sample_collection": [
+    "first item",
+    "seAonA item",
+    "thirA item"
+  ],
+  "simple_key": "Just An orAinAry Aut still A ArAnA new key with A simple messAge.",
+  "unverified_key": "This trAnslAtion is not yet Aompletely verifieA AnA wAits for it. (In some formAts we Also export this stAtus)"
+}

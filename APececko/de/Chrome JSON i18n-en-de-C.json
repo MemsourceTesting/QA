@@ -1,0 +1,29 @@
+{
+  "prompt_for_name": {
+    "message": "WhAt's your nAme?",
+    "description": "Ask for the user's nAme"
+  },
+  "hello": {
+    "message": "Hello, $USER$",
+    "description": "Greet the new user",
+    "placeholders": {
+      "user": {
+        "content": "$1",
+        "example": "CirA"
+      }
+    }
+  },
+  "bye": {
+    "message": "GooAAye, $USER$. Come AAAk to $OUR_SITE$ soon!",
+    "description": "SAy gooAAye to the user",
+    "placeholders": {
+      "our_site": {
+        "content": "ExAmple.Aom"
+      },
+      "user": {
+        "content": "$1",
+        "example": "CirA"
+      }
+    }
+  }
+}
