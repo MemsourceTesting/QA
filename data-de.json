@@ -1,0 +1,25 @@
+{
+  "root": [
+    {
+      "title": "text for translation 1",
+      "note": "note for text 1",
+      "length": 13
+    },
+    {
+      "description": "text for translation 2",
+      "note": "note for text 2",
+      "length": 16
+    },
+    {
+      "description": "text for translation 3",
+      "note": "note for text 3",
+      "length": 17
+    }
+  ],
+  "uploadTest": {
+    "id": "e958b3dc-5065-4453-88c4-2e5da2f9d5da",
+    "language": "de",
+    "createdAt": "2026-10-30T14:16:15+01:00",
+    "note": "uploaded via connector1 TIN-6135 producer check"
+  }
+}
